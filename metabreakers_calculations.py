@@ -8,13 +8,12 @@ def load_scores():
 		spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
 		for row in spamreader:
 			if len(row) > 0:
-				if "2019" in row[2] or "2020" in row[2]:
-					name = row[0]
+				name = row[0]
+				
+				if name not in scores:
+					scores[name] = []
 					
-					if name not in scores:
-						scores[name] = []
-						
-					scores[name].append(row[1:])
+				scores[name].append(row[1:])
 	return scores
 
 def average_faction_points(scores):
@@ -131,12 +130,14 @@ if __name__ == '__main__':
 	print()
 	print()
 	
-	# o = get_faction_deltas(scores)
+	o = get_faction_deltas(scores)
 	
 	for e in o:
 		print("{:35} {:.1f}".format(e,o[e]))
 		
-			
+	#########################
+	## output player data
+	#########################
 	player_deltas = get_player_deltas(scores)
 	csv_file = open("metabreaker_rankings.csv", "w")
 	rank = 0
@@ -148,27 +149,13 @@ if __name__ == '__main__':
 		
 		csv_file.write('{},{},{},{}{:.1f}\n'.format(rank, f, faction, delta, player_deltas[f]))
 	csv_file.close()
-			
-
-# print()	
-# print("Faction Deltas")
-# print()
-
-# for f in faction_deltas:
-		# faction_deltas[f] /= faction_cts[f]
 	
-# ordered = {k: v for k, v in sorted(faction_deltas.items(), key=lambda item: item[1], reverse=True)}
-
-# for f in ordered:
-	# if faction_cts[f] > 5:
-		# print('{:15s}'.format(f), '\t\t', int(ordered[f]))	
-		
-# print()	
-# print("Player Deltas")
-# print()
-
-# for f in player_deltas:
-	# player_deltas[f] /= player_cts[f]
-	
-# player_deltas = {k: v for k, v in sorted(player_deltas.items(), key=lambda item: item[1], reverse=True)}
-
+	#########################
+	## output faction data
+	#########################
+	faction_points = average_faction_points(scores)
+	faction_deltas = get_faction_deltas(scores)
+	csv_file = open("faction_data.csv", "w")
+	for f in faction_deltas:
+		csv_file.write('{},{:.1f},{:.1f}\n'.format(f, faction_points[f], faction_deltas[f]))
+	csv_file.close()

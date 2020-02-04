@@ -22,8 +22,7 @@ def get_gaussian_scores_for_event(event):
 	
 	return scores
 
-
-if __name__ == '__main__':
+def load_events_data():
 	events = []
 
 	with open('events.csv') as csvfile:
@@ -43,14 +42,15 @@ if __name__ == '__main__':
 			else:
 				events[-1]["ladder"].append([row[0],row[1]])
 				
+	return events
+
+if __name__ == '__main__':
+	events = load_events_data()
+				
 	rankings = {}
 	event_idx = 0
-	event_cap = 80
 
 	for event in events:
-		if event_idx > event_cap:
-			break
-		
 		event_idx += 1
 		scores = get_gaussian_scores_for_event(event)
 			
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 			
 			event["ladder"][i].append(pts)
 			rankings[name].append(pts)
-		print(f'processing event {event_idx} out of {event_cap}', end='\r')
+		print(f'processing event {event_idx} out of {len(events)}', end='\r')
 			
 	for name in rankings:
 		rankings[name] = sum(sorted(rankings[name], reverse=True)[:4])
@@ -81,6 +81,6 @@ if __name__ == '__main__':
 	with open('gaussian_events.csv', mode='w') as events_file:
 		writer = csv.writer(events_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-		for e in events[:event_cap]:
+		for e in events:
 			for p in e["ladder"]:
 				events_file.write(f'{p[0]},{p[1]},{e["date"]},{p[2]}\n')
