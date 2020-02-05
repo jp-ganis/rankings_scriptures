@@ -1,27 +1,53 @@
-NEW_EVENT_TAG,Aether Wars,02-02-2020,0
-Andrew Buckley,Ossiarch Bonereapers,0/0/0
-Ben Cochrane,Fyreslayers,0/0/0
-Chris Archibald,Kharadron Overlords,0/0/0
-Chris Caves Jnr,Disciples Of Tzeentch,0/0/0
-Chris Nellis,Fyreslayers,0/0/0
-Colin Cochrane,Daughters Of Khaine,0/0/0
-Craig Morrow,Disciples Of Tzeentch,0/0/0
-David Kane,Kharadron Overlords,0/0/0
-David Neagle,Ossiarch Bonereapers,0/0/0
-David Robinson,Disciples Of Tzeentch,0/0/0
-Jay Kinsella,Blades of Khorne,0/0/0
-John Dorian,Skaven,0/0/0
-Kevin Harrington,Ossiarch Bonereapers,0/0/0
-Laura MacNeill,Flesh Eater Courts,0/0/0
-Michael Brough,Beasts of Chaos,0/0/0
-Michael Wendel,Ogor Mawtribes,0/0/0
-Nathan Sandison,Ossiarch Bonereapers,0/0/0
-Neil Montgomery,Idoneth Deepkin,0/0/0
-Paul Rea,Flesh Eater Courts,0/0/0
-Rik Eddon,Orruks,0/0/0
-Robby Wright,Idoneth Deepkin,0/0/0
-Sam Green,Skaven,0/0/0
-Sean Murray,Stormcast Eternals,0/0/0
-Solomon Morrow,Ossiarch Bonereapers,0/0/0
-Stephen Mitchell,Seraphon,0/0/0
-Tom Cothier,Fyreslayers,0/0/0
+NEW_EVENT_TAG,Aether Wars,02-02-2020,3
+David Kane,Kharadron Overlords,3/0/0
+Robby Wright,Idoneth Deepkin,3/0/0
+Chris Caves Jnr,Disciples Of Tzeentch,3/0/0
+Jay Kinsella,Blades of Khorne,2/0/1
+Stephen Mitchell,Seraphon,2/0/1
+Colin Cochrane,Daughters Of Khaine,2/0/1
+Neil Montgomery,Idoneth Deepkin,2/0/1
+David Robinson,Disciples Of Tzeentch,2/0/1
+Ben Cochrane,Fyreslayers,2/0/1
+Laura MacNeill,Flesh Eater Courts,2/0/1
+Michael Wendel,Ogor Mawtribes,2/0/1
+Craig Morrow,Disciples Of Tzeentch,2/0/1
+Solomon Morrow,Ossiarch Bonereapers,2/0/1
+Chris Nellis,Fyreslayers,1/0/2
+Nathan Sandison,Ossiarch Bonereapers,1/0/2
+Sean Murray,Stormcast Eternals,1/0/2
+John Dorian,Skaven,1/0/2
+Rik Eddon,Orruks,1/0/2
+Tom Cothier,Fyreslayers,1/0/2
+Michael Brough,Beasts of Chaos,1/0/2
+Will O’Siorain,Idoneth Deepkin,1/0/2
+Chris Archibald,Kharadron Overlords,1/0/2
+Andrew Buckley,Ossiarch Bonereapers,1/0/2
+Sam Green,Skaven,0/0/3
+Paul Rea,Flesh Eater Courts,0/0/3
+David Neagle,Ossiarch Bonereapers,0/0/3
+David Kane,Colin Cochrane,David Kane,David Robinson,David Kane,Chris Nellis
+Robby Wright,Solomon Morrow,Robby Wright,Chris Archibald,Robby Wright,Neil Montgomery
+Chris Caves Jnr,Michael Wendel,Chris Caves Jnr,Craig Morrow,Chris Caves Jnr,Stephen Mitchell
+Jay Kinsella,Rik Eddon,Jay Kinsella,Sean Murray,Michael Wendel,Jay Kinsella
+Stephen Mitchell,Andrew Buckley,Stephen Mitchell,Will O’Siorain,Chris Caves Jnr,Stephen Mitchell
+David Kane,Colin Cochrane,Colin Cochrane,Tom Cothier,Colin Cochrane,David Neagle
+Neil Montgomery,Tom Cothier,Neil Montgomery,Chris Nellis,Robby Wright,Neil Montgomery
+David Robinson,John Dorian,David Kane,David Robinson,David Robinson,Paul Rea
+Ben Cochrane,Nathan Sandison,Ben Cochrane,Paul Rea,Craig Morrow,Ben Cochrane
+Laura MacNeill,Michael Brough,Laura MacNeill,David Neagle,John Dorian,Laura MacNeill
+Chris Caves Jnr,Michael Wendel,Michael Wendel,John Dorian,Michael Wendel,Jay Kinsella
+Craig Morrow,Chris Archibald,Chris Caves Jnr,Craig Morrow,Craig Morrow,Ben Cochrane
+Robby Wright,Solomon Morrow,Solomon Morrow,Michael Brough,Solomon Morrow,Sean Murray
+Chris Nellis,Sam Green,Neil Montgomery,Chris Nellis,David Kane,Chris Nellis
+Ben Cochrane,Nathan Sandison,Nathan Sandison,Sam Green,Tom Cothier,Nathan Sandison
+Sean Murray,Paul Rea,Jay Kinsella,Sean Murray,Solomon Morrow,Sean Murray
+David Robinson,John Dorian,Michael Wendel,John Dorian,John Dorian,Laura MacNeill
+Jay Kinsella,Rik Eddon,Rik Eddon,Andrew Buckley,Michael Brough,Rik Eddon
+Neil Montgomery,Tom Cothier,Colin Cochrane,Tom Cothier,Tom Cothier,Nathan Sandison
+Laura MacNeill,Michael Brough,Solomon Morrow,Michael Brough,Michael Brough,Rik Eddon
+Will O’Siorain,David Neagle,Stephen Mitchell,Will O’Siorain,Chris Archibald,Will O
+Craig Morrow,Chris Archibald,Robby Wright,Chris Archibald,Chris Archibald,Will O
+Stephen Mitchell,Andrew Buckley,Rik Eddon,Andrew Buckley,Andrew Buckley,Sam Green
+Chris Nellis,Sam Green,Nathan Sandison,Sam Green,Andrew Buckley,Sam Green
+Sean Murray,Paul Rea,Ben Cochrane,Paul Rea,David Robinson,Paul Rea
+Will O’Siorain,David Neagle,Laura MacNeill,David Neagle,Colin Cochrane,David Neagle

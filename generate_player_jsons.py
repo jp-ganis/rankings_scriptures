@@ -26,6 +26,7 @@ def get_best_metabreakers_faction_for_player(player_data, player_name, mbc_score
 	
 	faction_scores = {}
 	faction_rankings = {}
+	metabreakers_scores = {}
 	
 	for event in data['events']:
 		faction = event["faction"]
@@ -41,11 +42,12 @@ def get_best_metabreakers_faction_for_player(player_data, player_name, mbc_score
 			faction_rankings[faction] = 0
 			
 		faction_scores[faction].append(pts - faction_average)
+		metabreakers_scores[event["event_name"]] = pts - faction_average
 	
 	for faction in faction_scores:
 		faction_rankings[faction] = sum(sorted(faction_scores[faction],reverse=True)[:3])
 		
-	return max(faction_rankings.items(), key=operator.itemgetter(1))[0]
+	return max(faction_rankings.items(), key=operator.itemgetter(1))[0], metabreakers_scores
 	
 
 def get_best_scoring_faction_for_player(player_data, player_name):
@@ -149,10 +151,17 @@ if __name__ == '__main__':
 		player_data[player]["meta_adjusted_rankings_score"], player_data[player]["meta_adjusted_rankings_rank"] = meta_adjusted_ordered[player], idx
 		player_data[player]["metabreakers_rankings_score"], player_data[player]["metabreakers_rankings_rank"] = get_metabreakers_score_for_player(player)
 		player_data[player]["best_scoring_faction"] = get_best_scoring_faction_for_player(player_data, player)
-		player_data[player]["best_metabreakers_faction"] = get_best_metabreakers_faction_for_player(player_data, player, mbc_scores)
+		player_data[player]["best_metabreakers_faction"], mbrs_event_scores = get_best_metabreakers_faction_for_player(player_data, player, mbc_scores)
+		
+		for e in player_data[player]["events"]:
+			e["metabreaker_score"] = mbrs_event_scores[e["event_name"]]
+
 
 	for d in player_data["James Ganis"]:
 		print(d, player_data["James Ganis"][d])
 	
 	with open('data_files/player_data.json', 'w') as json_file:
+		json.dump(player_data, json_file)
+		
+	with open('metabreakers/data/player_data.json', 'w') as json_file:
 		json.dump(player_data, json_file)

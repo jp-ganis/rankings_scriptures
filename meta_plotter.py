@@ -11,14 +11,22 @@ if __name__ == '__main__':
 	m2 = []
 	y2 = []
 	y3 = []
-	faction = "Kharadron"
+	
+	scores = []
+	counts = []
+	
+	faction = "Ironjawz"
 	with open('data_files/meta_history.csv') as csvfile:
 		readCSV = csv.reader(csvfile, delimiter=',')
 		for row in readCSV:
 			if faction in row[1]:
 				m2.append(row[0].replace('20',''))
-				y2.append(float(row[2]))
-				y3.append(float(row[3])+30)
+				
+				scores.append(float(row[2]))
+				counts.append(float(row[3])+30)
+				
+				y2.append(float(sum(scores)/len(scores)))
+				y3.append(float(sum(counts)/len(counts)))
 					
 	y3.reverse()
 	
@@ -27,7 +35,9 @@ if __name__ == '__main__':
 	
 	plt.plot(m2,y2)
 	plt.plot(m2,y3)
-
+	
+	axes = plt.gca()
+	# axes.set_ylim([0,100])
 
 	plt.xlabel('date') 
 	plt.ylabel('average event score') 
