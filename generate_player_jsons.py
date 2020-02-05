@@ -6,14 +6,14 @@ import re
 
 
 def get_gaussian_rankings_score_for_player(player_name):
-	with open('gaussian_rankings.csv', newline='') as csvfile:
+	with open('output/gaussian_rankings.csv', newline='') as csvfile:
 		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 		for row in reader:
 			if row[1] == player_name:
 				return row[2], row[0]
 	
 def get_metabreakers_score_for_player(player_name):
-	with open('metabreaker_rankings.csv', newline='') as csvfile:
+	with open('output/metabreaker_rankings.csv', newline='') as csvfile:
 		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 		for row in reader:
 			if row[1] == player_name:
@@ -27,8 +27,8 @@ def get_best_metabreakers_faction_for_player(player_data, player_name, mbc_score
 	faction_rankings = {}
 	
 	for event in data['events']:
-		faction = event[1]
-		pts = event[2]
+		faction = event["faction"]
+		pts = event["points"]
 		
 		faction_average = mbc.get_player_independent_faction_average(player_name, faction, mbc_scores)
 		
@@ -54,8 +54,8 @@ def get_best_scoring_faction_for_player(player_data, player_name):
 	faction_rankings = {}
 	
 	for event in data['events']:
-		faction = event[1]
-		pts = event[2]
+		faction = event["faction"]
+		pts = event["points"]
 		
 		if faction not in faction_scores:
 			faction_scores[faction] = []
@@ -67,7 +67,24 @@ def get_best_scoring_faction_for_player(player_data, player_name):
 		faction_rankings[faction] = sum(sorted(faction_scores[faction],reverse=True)[:3])
 		
 	return max(faction_rankings.items(), key=operator.itemgetter(1))[0]
-			
+		
+
+def get_meta_adjusted_ranking_for_player(player_data, player_name, faction_deltas):
+	data = player_data[player_name]
+	
+	top_x = sorted(data["events"], key=lambda e: e["points"], reverse=True)[:4]
+	
+	adjusted_score = sum([e["points"] for e in top_x])
+	original_score = adjusted_score
+	
+	for event in top_x:
+		faction = event["faction"]
+		if faction in faction_deltas:
+			faction_delta = faction_deltas[faction]
+			adjusted_score += faction_delta
+		
+	return adjusted_score
+
 		
 
 '''
@@ -96,24 +113,39 @@ if __name__ == '__main__':
 				player_data[name] = {}
 				player_data[name]["events"] = []
 				
-			player_data[name]["events"].append([event["name"], faction, pts, i+1, len(event["ladder"])])
-	print()
-	print()
-	
+				
+			event_json = {"event_name": event["name"], "faction": faction, "points": pts, "placing":i+1, "num_players":len(event["ladder"])}
+			player_data[name]["events"].append(event_json)
+
 	
 	faction_data = {}
-	with open('faction_data.csv', newline='') as csvfile:
+	with open('output/faction_data.csv', newline='') as csvfile:
 		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 		for row in reader:
 			faction_data[row[0]] = [row[1], row[2]]
 	
+	
 	mbc_scores = mbc.load_scores()
+	faction_deltas, _ = mbc.get_faction_deltas(mbc_scores)
+	
+	print()
+	print()
+	
+	meta_adjusted = {}
 	for player in player_data:
+		meta_adjusted[player] = get_meta_adjusted_ranking_for_player(player_data, player, faction_deltas)
+		
+	meta_adjusted_ordered = {k: v for k, v in sorted(meta_adjusted.items(), key=lambda item: item[1], reverse=True)}	
+	
+	idx = 0
+	for player in meta_adjusted_ordered:
+		idx += 1
+	
 		player_data[player]["most_played_faction"] = mbc.get_player_most_played_faction(mbc_scores, player)
 		player_data[player]["player_name"] = player
 		player_data[player]["rankings_score"], player_data[player]["rankings_rank"] = get_gaussian_rankings_score_for_player(player)
 		player_data[player]["badges"] = []
-		player_data[player]["meta_adjusted_rankings_score"], player_data[player]["meta_adjusted_rankings_rank"] = 0, 0
+		player_data[player]["meta_adjusted_rankings_score"], player_data[player]["meta_adjusted_rankings_rank"] = meta_adjusted_ordered[player], idx
 		player_data[player]["metabreakers_rankings_score"], player_data[player]["metabreakers_rankings_rank"] = get_metabreakers_score_for_player(player)
 		player_data[player]["best_scoring_faction"] = get_best_scoring_faction_for_player(player_data, player)
 		player_data[player]["best_metabreakers_faction"] = get_best_metabreakers_faction_for_player(player_data, player, mbc_scores)
