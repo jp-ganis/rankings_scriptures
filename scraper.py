@@ -4,7 +4,7 @@ import requests
 import csv
 import re
 
-events_file = open('events.csv', 'w')
+events_file = open('data_files/events.csv', 'w')
 
 base_url = "http://www.rankings.baddice.co.uk"
 page = requests.get(base_url+"/tournaments/region=3&game=6&season=1")

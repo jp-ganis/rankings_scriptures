@@ -12,7 +12,7 @@ if __name__ == '__main__':
 	y2 = []
 	y3 = []
 	faction = "Kharadron"
-	with open('meta_history.csv') as csvfile:
+	with open('data_files/meta_history.csv') as csvfile:
 		readCSV = csv.reader(csvfile, delimiter=',')
 		for row in readCSV:
 			if faction in row[1]:

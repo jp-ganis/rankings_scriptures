@@ -25,13 +25,15 @@ def get_gaussian_scores_for_event(event):
 def load_events_data():
 	events = []
 
-	with open('events.csv') as csvfile:
+	with open('data_files/events.csv') as csvfile:
 		readCSV = csv.reader(csvfile, delimiter=',')
 		for row in readCSV:
 			if row[0] == "NEW_EVENT_TAG":
 				event_name = row[1]
 				event_date = row[2]
 				event_rounds = row[3]
+				
+				if "2019" not in event_date and "2020" not in event_date: break
 				
 				events.append({})
 				events[-1]["name"] = event_name
@@ -70,7 +72,7 @@ if __name__ == '__main__':
 
 	rankings = {k: v for k, v in sorted(rankings.items(), key=lambda item: item[1], reverse=True)}
 
-	with open('gaussian_rankings.csv', mode='w') as rankings_file:
+	with open('data_files/gaussian_rankings.csv', mode='w') as rankings_file:
 		writer = csv.writer(rankings_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
 		i = 0
@@ -78,7 +80,7 @@ if __name__ == '__main__':
 			i+=1
 			rankings_file.write(f'{i},{f},{int(rankings[f])}\n')
 			
-	with open('gaussian_events.csv', mode='w') as events_file:
+	with open('data_files/gaussian_events.csv', mode='w') as events_file:
 		writer = csv.writer(events_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
 		for e in events:

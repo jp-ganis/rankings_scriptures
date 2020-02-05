@@ -4,7 +4,7 @@ import csv
 def load_scores():
 	scores = {}
 
-	with open('gaussian_events.csv', newline='') as csvfile:
+	with open('data_files/gaussian_events.csv', newline='') as csvfile:
 		spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
 		for row in spamreader:
 			if len(row) > 0:
@@ -81,7 +81,7 @@ def get_faction_deltas(scores):
 		faction_deltas[f] /= faction_cts[f]
 		
 	ordered = {k: v for k, v in sorted(faction_deltas.items(), key=lambda item: item[1], reverse=True)}	
-	return ordered
+	return ordered, faction_cts
 	
 def get_player_deltas(scores):
 	player_deltas = {}
@@ -139,7 +139,7 @@ if __name__ == '__main__':
 	## output player data
 	#########################
 	player_deltas = get_player_deltas(scores)
-	csv_file = open("metabreaker_rankings.csv", "w")
+	csv_file = open("data_files/metabreaker_rankings.csv", "w")
 	rank = 0
 	for f in player_deltas:
 		rank += 1
@@ -155,7 +155,7 @@ if __name__ == '__main__':
 	#########################
 	faction_points = average_faction_points(scores)
 	faction_deltas = get_faction_deltas(scores)
-	csv_file = open("faction_data.csv", "w")
+	csv_file = open("data_files/faction_data.csv", "w")
 	for f in faction_deltas:
 		csv_file.write('{},{:.1f},{:.1f}\n'.format(f, faction_points[f], faction_deltas[f]))
 	csv_file.close()

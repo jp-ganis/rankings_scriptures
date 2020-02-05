@@ -72,7 +72,7 @@ for link in player_links:
 	print(player_idx, end='\r')
 print()
 		
-with open('filth3.csv', mode='w') as filth_file:
+with open('data_files/bad_dice_top500.csv', mode='w') as filth_file:
 	writer = csv.writer(filth_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
 	for e in entries:

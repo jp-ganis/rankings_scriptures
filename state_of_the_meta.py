@@ -6,7 +6,7 @@ import csv
 
 def load_events():
 	events = []
-	with open('events.csv') as csvfile:
+	with open('data_files/events.csv') as csvfile:
 		readCSV = csv.reader(csvfile, delimiter=',')
 		for row in readCSV:
 			if row[0] == "NEW_EVENT_TAG":
@@ -50,7 +50,7 @@ if __name__ == '__main__':
 	print()
 	print()
 		
-	with open('meta_history.csv', mode='w', newline='') as rankings_file:
+	with open('data_files/meta_history.csv', mode='w', newline='') as rankings_file:
 		writer = csv.writer(rankings_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
 		for m in months:

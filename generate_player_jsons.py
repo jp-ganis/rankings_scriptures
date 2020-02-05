@@ -1,19 +1,20 @@
 import gaussian_calculations
 import metabreakers_calculations as mbc
 import operator
+import json
 import csv
 import re
 
 
 def get_gaussian_rankings_score_for_player(player_name):
-	with open('output/gaussian_rankings.csv', newline='') as csvfile:
+	with open('data_files/gaussian_rankings.csv', newline='') as csvfile:
 		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 		for row in reader:
 			if row[1] == player_name:
 				return row[2], row[0]
 	
 def get_metabreakers_score_for_player(player_name):
-	with open('output/metabreaker_rankings.csv', newline='') as csvfile:
+	with open('data_files/metabreaker_rankings.csv', newline='') as csvfile:
 		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 		for row in reader:
 			if row[1] == player_name:
@@ -119,7 +120,7 @@ if __name__ == '__main__':
 
 	
 	faction_data = {}
-	with open('output/faction_data.csv', newline='') as csvfile:
+	with open('data_files/faction_data.csv', newline='') as csvfile:
 		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 		for row in reader:
 			faction_data[row[0]] = [row[1], row[2]]
@@ -150,6 +151,8 @@ if __name__ == '__main__':
 		player_data[player]["best_scoring_faction"] = get_best_scoring_faction_for_player(player_data, player)
 		player_data[player]["best_metabreakers_faction"] = get_best_metabreakers_faction_for_player(player_data, player, mbc_scores)
 
+	for d in player_data["James Ganis"]:
+		print(d, player_data["James Ganis"][d])
 	
-	
-	print(player_data["James Ganis"])
+	with open('data_files/player_data.json', 'w') as json_file:
+		json.dump(player_data, json_file)
