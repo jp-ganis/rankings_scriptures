@@ -1,14 +1,25 @@
+from datetime import datetime
 import operator
 import csv
 
-def load_scores():
+## cutoff_date is furthest back in time we go, reverse_cutoff means its the further into the future we go
+def load_scores(cutoff_date_string=None, reverse_cutoff=False):
 	scores = {}
 
 	with open('data_files/gaussian_events.csv', newline='') as csvfile:
-		spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
-		for row in spamreader:
+		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+		for row in reader:
 			if len(row) > 0:
+				if cutoff_date_string != None:
+					date_string = row[2]
+					date = datetime.strptime(date_string, '%d %b %Y')
+					cutoff_date = datetime.strptime(cutoff_date_string, '%d %b %Y')
+
+					if reverse_cutoff and date > cutoff_date: continue
+					elif not reverse_cutoff and date < cutoff_date: continue
+					
 				name = row[0]
+				
 				
 				if name not in scores:
 					scores[name] = []
@@ -130,7 +141,7 @@ if __name__ == '__main__':
 	print()
 	print()
 	
-	o = get_faction_deltas(scores)
+	o, _= get_faction_deltas(scores)
 	
 	for e in o:
 		print("{:35} {:.1f}".format(e,o[e]))
@@ -154,7 +165,7 @@ if __name__ == '__main__':
 	## output faction data
 	#########################
 	faction_points = average_faction_points(scores)
-	faction_deltas = get_faction_deltas(scores)
+	faction_deltas, faction_cts = get_faction_deltas(scores)
 	csv_file = open("data_files/faction_data.csv", "w")
 	for f in faction_deltas:
 		csv_file.write('{},{:.1f},{:.1f}\n'.format(f, faction_points[f], faction_deltas[f]))

@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt 
+import metabreakers_calculations as mbc
 import gaussian_calculations
 import numpy as np
 import statistics
@@ -29,6 +30,7 @@ if __name__ == '__main__':
 	events = load_events()
 
 	months = {}
+	
 	for event in events:
 		print(events.index(event), len(events), end='\r')
 		month = event["date"].split(" ")
@@ -38,6 +40,12 @@ if __name__ == '__main__':
 			months[month] = {}
 		
 		scores = gaussian_calculations.get_gaussian_scores_for_event(event)
+		mbc_scores = mbc.load_scores(event["date"], True)
+		
+		deltas, cts = mbc.get_faction_deltas(mbc_scores)
+		
+		months[month]["deltas"] = deltas
+		
 		for i in range(len(event["ladder"])):
 			faction = event["ladder"][i][1]
 			score = scores[i]
@@ -46,7 +54,6 @@ if __name__ == '__main__':
 				months[month][faction] = []
 				
 			months[month][faction].append(score)
-			
 	print()
 	print()
 		
@@ -55,7 +62,13 @@ if __name__ == '__main__':
 
 		for m in months:
 			for faction in months[m]:
-				writer.writerow([m, faction, statistics.median(months[m][faction]), len(months[m][faction])])
+				if faction == "deltas": continue
+				
+				faction_delta = 0
+				if faction in months[m]["deltas"]:
+					faction_delta = months[m]["deltas"][faction]
+					
+				writer.writerow([m, faction, statistics.median(months[m][faction]), len(months[m][faction]), faction_delta])
 
 			
 			
