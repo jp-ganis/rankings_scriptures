@@ -1,436 +1,1153 @@
-1,Terry Pike,Maggotkin of Nurgle,+50.0
-2,Gary Percival,Kharadron Overlords,+48.1
-3,Ritchie McAlley,Gloomspite Gitz,+47.3
-4,Tom Parry,Stormcast Eternals,+47.2
-5,Darren Watson,Maggotkin of Nurgle,+46.4
-6,Ric Myhill,Beasts of Chaos,+46.0
-7,Martin Morrin,Blades of Khorne,+45.8
-8,Mark Wildman,Blades of Khorne,+45.2
-9,Leo Rautomen,Ironjawz,+45.0
-10,Chris Caves Jr,Disciples of Tzeentch,+43.7
-11,Will Rose,Tomb Kings,+42.8
-12,Dave Robinson,Flesh Eater Courts,+40.6
-13,Sam Loving,Stormcast Eternals,+39.6
-14,Ellis Priestley,Fyreslayers,+39.4
-15,Giannis Sourtzis,Seraphon,+39.2
-16,Andy Brown,Nighthaunt,+39.0
-17,Liam Jordan,Nighthaunt,+39.0
-18,James Ganis,Flesh Eater Courts,+38.5
-19,Chris Myhill,Order,+38.1
-20,James Chalmers,Gloomspite Gitz,+38.1
-21,John Bayliss,Blades of Khorne,+37.7
-22,Mike Callaghan,Stormcast Eternals,+36.5
-23,Richard Arnolds,UNKNOWN_ARMY,+36.4
-24,Benjamin Savva,Bonesplitterz,+36.4
-25,Tom Mawdsley,Skaventide,+35.5
-26,George Newbould,Gloomspite Gitz,+34.6
-27,Joe Clark,Flesh Eater Courts,+34.1
-28,James Tinsdale,Idoneth Deepkin,+33.1
-29,Sam Saunders,Maggotkin of Nurgle,+32.9
-30,Alex Bruce,Order,+32.2
-31,Richard Buckler,Blades of Khorne,+31.8
-32,Leigh Martin,Hedonites of Slaanesh,+31.5
-33,Mike Newman,Kharadron Overlords,+31.5
-34,Liam Cook,Idoneth Deepkin,+31.3
-35,Ben Johnson,Gloomspite Gitz,+31.2
-36,George Moudatsos,Beasts of Chaos,+31.2
-37,Michael Wendel,Mawtribes,+31.1
-38,Alex Kew,Stormcast Eternals,+31.1
-39,George Vathipoulias,Idoneth Deepkin,+30.8
-40,Ben Curry,Daughters of Khaine,+30.7
-41,Jack Armstrong,Daughters of Khaine,+30.6
-42,Matthew Feltham,Daughters of Khaine,+30.6
-43,Russ Veal,Blades of Khorne,+30.3
-44,Laurie H,Sylvaneth,+30.1
-45,John Craig,Maggotkin of Nurgle,+29.9
-46,Andy Hughes,Legion of Sacrement,+29.6
-47,Michael Stewart,Fyreslayers,+29.6
-48,Stephen Mitchell,Flesh Eater Courts,+29.5
-49,Matthew Gouldesbrough,Seraphon,+29.3
-50,Bryan Carmichael,Hedonites of Slaanesh,+29.3
-51,Daniel Ford,Skaventide,+29.0
-52,Byron Orde,Bonesplitterz,+28.6
-53,Michael Brough,Skaventide,+28.5
-54,Tony Moore,Flesh Eater Courts,+28.4
-55,Liam Watts,Hedonites of Slaanesh,+28.3
-56,Dan Mitchell,Seraphon,+28.2
-57,Toby Meadows,Skaven,+27.6
-58,Anthony Boulton,Hedonites of Slaanesh,+27.6
-59,David Kane,Kharadron Overlords,+27.6
-60,Karl Breakspear,Nighthaunt,+27.2
-61,Donal Taylor,Gloomspite Gitz,+27.2
-62,Ricky Mee,Skaven,+26.7
-63,Craig Namvar,Disciples of Tzeentch,+25.4
-64,James Boots,Blades of Khorne,+25.0
-65,Rob Symes,Legion of Azgorh,+24.5
-66,Steve Curtis,Flesh Eater Courts,+24.2
-67,John Burgess,Blades of Khorne,+24.2
-68,David Nemeth,Disciples of Tzeentch,+24.0
-69,Matt Tinsdale,Stormcast Eternals,+23.8
-70,Nathan Watson,Idoneth Deepkin,+23.7
-71,Gareth Holmes,Stormcast Eternals,+23.6
-72,Hugh Halligan,Free Peoples,+23.3
-73,Michael Cook,UNKNOWN_ARMY,+23.1
-74,Piotr Kurkowski,Daughters of Khaine,+23.0
-75,Marc Brookes,Skaven,+23.0
-76,Dan Bradshaw,Skaventide,+22.8
-77,Ben Murphy,Grand Host of Nagash,+22.6
-78,Ian Spink,Bonesplitterz,+22.5
-79,Les Martin,Stormcast Eternals,+22.4
-80,Daniil Osudin,Disciples of Tzeentch,+22.3
-81,Frank Straw,UNKNOWN_ARMY,+22.2
-82,Jj Cropley,Skaventide,+22.0
-83,Rob Hull,Flesh Eater Courts,+21.7
-84,Peter Humpage,Order Draconis,+21.5
-85,Paul Buckler,Seraphon,+21.4
-86,John Dale,Skaventide,+21.4
-87,Ciaran Smyth,Maggotkin of Nurgle,+21.3
-88,Stuart West,Sylvaneth,+21.3
-89,Vincent Chan,Blades of Khorne,+21.0
-90,David Jack,Stormcast Eternals,+20.9
-91,Ralph Hughes,Cities of Sigmar,+20.8
-92,Daniel Ryan,Skaventide,+20.4
-93,Andy Bryan,Skaventide,+20.3
-94,Rob Wright,Idoneth Deepkin,+20.3
-95,Tom Blaxall,Gloomspite Gitz,+20.0
-96,Martin Swaffield,Disciples of Tzeentch,+19.9
-97,Richard Hudspith,Skaven,+19.6
-98,Declan McKitrich,Blades of Khorne,+19.5
-99,Thomas Lemoine,Flesh Eater Courts,+19.3
-100,Eric Hoerger,Big Waaagh,+19.2
-101,Martin Clarke,Flesh Eater Courts,+19.2
-102,Max Barton,Idoneth Deepkin,+19.1
-103,JP Stevens,Hedonites of Slaanesh,+19.0
-104,Simon Eccles,Flesh Eater Courts,+19.0
-105,Ken Chambers,Flesh Eater Courts,+18.9
-106,Joe McGough,Legion of Sacrement,+18.9
-107,Louis Medows,Stormcast Eternals,+18.7
-108,Daniel Scott,Daughters of Khaine,+18.5
-109,Steve Dooley,Darkling Covens,+18.5
-110,Adam Mumford,Idoneth Deepkin,+18.3
-111,Colin Cochrane,Daughters of Khaine,+18.3
-112,Michael Wilson,Hedonites of Slaanesh,+18.2
-113,Phil McGuiness,Skaventide,+18.2
-114,Rob Nixon,Beasts of Chaos,+18.0
-115,James Hobbs,Seraphon,+18.0
-116,Darron Styles,Seraphon,+17.4
-117,Chris Banks,Skaven,+17.2
-118,Marc Wilson,Cities of Sigmar,+17.2
-119,Richard Flood,Hedonites of Slaanesh,+17.1
-120,Dave Glaysher,Ironjawz,+17.0
-121,Teck Loy,Idoneth Deepkin,+16.8
-122,Andy Currie,Kharadron Overlords,+16.5
-123,Ben Mardle,Hedonites of Slaanesh,+15.7
-124,Pete Wrench,Mawtribes,+15.7
-125,William Barton,Idoneth Deepkin,+15.5
-126,Aaron Wilson,Sylvaneth,+15.4
-127,Adam Sinclair,Ironjawz,+15.3
-128,James Grant,Stormcast Eternals,+15.3
-129,Alex Tooth,Skaven,+15.3
-130,Jack Mayland,Beasts of Chaos,+15.3
-131,Andy Talbot,Stormcast Eternals,+15.0
-132,Andrew Lewis,Grand Host of Nagash,+14.8
-133,Chris Tomlin,Order Draconis,+14.7
-134,Tom Bell,Ironjawz,+14.6
-135,Adam Cunis,Order Draconis,+14.6
-136,Nick Thompson,Skaventide,+14.4
-137,Matt Lyons,Flesh Eater Courts,+14.4
-138,Danny Biddle,Fyreslayers,+14.2
-139,Jay Kinsella,Blades of Khorne,+14.2
-140,Matt Robertson,Disciples of Tzeentch,+14.0
-141,Matthew Hinton,Maggotkin of Nurgle,+13.8
-142,Simon Cobb,Ironjawz,+13.4
-143,Matthew Pardoe,Slaves to Darkness,+13.4
-144,Andy Scott,Ironjawz,+13.2
-145,Matthew Croad,Stormcast Eternals,+13.1
-146,James Williams,Ironjawz,+13.0
-147,James Powell,Order,+12.9
-148,Rob Bradley,Skaventide,+12.9
-149,Dan George,Hosts of Slaanesh,+12.0
-150,Ross Joyce,Legion of Blood,+12.0
-151,James Wilson,Khorne Bloodbound,+11.8
-152,Paul Rea,Skaventide,+11.2
-153,Andy Lampkin,Gloomspite Gitz,+10.7
-154,Joel Smith,Maggotkin of Nurgle,+10.7
-155,Will O'Siorain,Idoneth Deepkin,+10.2
-156,Carl Bagnall,Skaven,+10.2
-157,Matt Rennie,Fyreslayers,+10.1
-158,Alex Jones,Skaventide,+10.0
-159,Daniel White,Skaventide,+9.8
-160,Kyle Brunskill,Order Draconis,+9.7
-161,Shane Ford,Beasts of Chaos,+9.7
-162,Andy Davies,Skaven,+9.4
-163,James Clark,Blades of Khorne,+9.3
-164,Balal Zafar,Wanderers,+9.3
-165,Joe Purcell,Hedonites of Slaanesh,+9.1
-166,Steven Phillips,Blades of Khorne,+9.1
-167,Adrian McWalter,Hedonites of Slaanesh,+8.9
-168,Mark Busby,Hedonites of Slaanesh,+8.8
-169,Lee Bromley,Flesh Eater Courts,+8.6
-170,Maxime Julian,Stormcast Eternals,+8.4
-171,Lindon Wedgewood,Gloomspite Gitz,+8.4
-172,Mark Curtis,Sylvaneth,+8.4
-173,Nathan Sandison,Ossiarch Bonereapers,+8.4
-174,Daniel Asensio,Fyreslayers,+8.2
-175,Ollie Fox,Maggotkin of Nurgle,+8.2
-176,Chris Francis,Sylvaneth,+8.1
-177,Micheal Bennett,Blades of Khorne,+8.0
-178,Chris Hibbins,Sylvaneth,+8.0
-179,Alan Witherden,UNKNOWN_ARMY,+7.8
-180,Jack Spencer,Flesh Eater Courts,+7.8
-181,Darryl Jones,Hedonites of Slaanesh,+7.7
-182,John Williams,Blades of Khorne,+7.6
-183,Callum Sinclair,Gloomspite Gitz,+7.4
-184,Anthony Lewis,Grand Host of Nagash,+7.3
-185,Lewis Swan,Blades of Khorne,+7.2
-186,Tom Fretwell,Flesh Eater Courts,+6.9
-187,Ceri Robson,Gloomspite Gitz,+6.9
-188,Heath Barnes,Blades of Khorne,+6.8
-189,Seb Donley,Idoneth Deepkin,+6.5
-190,Thomas Waller,Flesh Eater Courts,+6.4
-191,Craig Graham,Sylvaneth,+6.4
-192,Matthew Arnold,Stormcast Eternals,+6.3
-193,Owen Jackson,Sylvaneth,+5.9
-194,Tom Lees,Gloomspite Gitz,+5.5
-195,Mark Roberts,Seraphon,+5.4
-196,Neil Montgomery,Hedonites of Slaanesh,+5.4
-197,Mikey Gilson,Bonesplitterz,+5.4
-198,Christian Moore,Hedonites of Slaanesh,+5.2
-199,Ben Cronin,Flesh Eater Courts,+4.9
-200,Mark Storrar,Kharadron Overlords,+4.9
-201,Stuart Mann,Gloomspite Gitz,+4.7
-202,Matt Harrison,Hedonites of Slaanesh,+4.7
-203,Lee Kay,Dispossessed,+4.5
-204,Adam Hall,Hedonites of Slaanesh,+4.4
-205,Andrew Stephen,Beastclaw Raiders,+4.4
-206,Tim Holbrook,Gloomspite Gitz,+4.1
-207,Johnathon Pano Kyprianidis,Blades of Khorne,+4.0
-208,Paul Marshallsay,Idoneth Deepkin,+4.0
-209,Troy Hardy,Hedonites of Slaanesh,+3.8
-210,Kane Holloway,Blades of Khorne,+3.8
-211,Tim Unwin,Blades of Khorne,+3.7
-212,Tom Fildes,Kharadron Overlords,+3.7
-213,Joe Jackson,Sylvaneth,+3.6
-214,Jonathan Forde,Ironjawz,+3.4
-215,Kevin Grimes,Hedonites of Slaanesh,+3.1
-216,John Connelly,Skaventide,+2.8
-217,Dermot Lacey,Stormcast Eternals,+2.8
-218,Kieran Harper,Stormcast Eternals,+2.7
-219,Rob Kelly,Flesh Eater Courts,+2.5
-220,Aaron Vietch,Stormcast Eternals,+2.5
-221,Gabe Huddlestone,Legion of Blood,+2.4
-222,Richard Morley,Gloomspite Gitz,+2.1
-223,Daniel Arnold,Idoneth Deepkin,+2.0
-224,James Field,UNKNOWN_ARMY,+1.9
-225,Aaron Walters,Sylvaneth,+1.9
-226,Aaron Bailey,Destruction,+1.8
-227,Craig Morrow,Skaventide,+1.6
-228,Dean Lymath,Stormcast Eternals,+1.1
-229,Steve McCormick,Beastclaw Raiders,+1.0
-230,Mike Wilding,Hedonites of Slaanesh,+0.9
-231,Adam Hazelwood,Nighthaunt,+0.8
-232,Craig Chesters,Daughters of Khaine,+0.8
-233,David Smyth,Maggotkin of Nurgle,+0.8
-234,Finn Melton,Disciples of Tzeentch,+0.6
-235,Ben Raven,Blades of Khorne,+0.2
-236,Wayne Millaer,Stormcast Eternals,-0.0
-237,Aiden Clieve,Maggotkin of Nurgle,-0.1
-238,Jack Westaway,Disciples of Tzeentch,-0.2
-239,Charles Hollom,Beasts of Chaos,-0.4
-240,Paul Coram,Sylvaneth,-0.4
-241,Janos Szaniszlo,Ironjawz,-0.5
-242,Cain O'Siorain,Kharadron Overlords,-0.7
-243,Myles Mulkerrins,Big Waaagh,-0.7
-244,Sebastian Del Monte,Gloomspite Gitz,-0.8
-245,Chris Carroll,Skaven,-1.0
-246,Greg Shelton,Ossiarch Bonereapers,-1.4
-247,Chris Mills,Disciples of Tzeentch,-1.4
-248,Nicholas Ruesink,Fyreslayers,-1.6
-249,James Warth,Stormcast Eternals,-1.6
-250,Chris Caves Snr,Daughters of Khaine,-1.6
-251,Richard Elsdon,Stormcast Eternals,-1.7
-252,Lukas Madaj,Stormcast Eternals,-2.2
-253,James Box,Big Waaagh,-2.5
-254,Dan Hughes,Gloomspite Gitz,-2.6
-255,Forrest Wilhoite,Disciples of Tzeentch,-2.7
-256,Alasdair Hutchinson,Gloomspite Gitz,-3.0
-257,Danny Cashman,Kharadron Overlords,-3.1
-258,Adam Riley,Stormcast Eternals,-3.3
-259,Paul Haley,Daughters of Khaine,-3.5
-260,Matthew Sandiford,Cities of Sigmar,-3.6
-261,Sam Sendell,Legion of Blood,-3.7
-262,Kevin Low,Skaventide,-3.9
-263,Mathew Crowther,Blades of Khorne,-4.0
-264,Alex Ley,Fyreslayers,-4.3
-265,Tom Roberts,Blades of Khorne,-4.8
-266,John Harper,Disciples of Tzeentch,-4.9
-267,Jamie McHugh,Stormcast Eternals,-5.0
-268,Arran Folly,Ironjawz,-5.0
-269,Charles Nolan,Blades of Khorne,-5.0
-270,Darren Phipps,Flesh Eater Courts,-5.4
-271,Paul di Duca,Clan Skryre,-5.5
-272,Mike Thomas,Gutbusters,-5.5
-273,Will Spencer,Ironjawz,-5.6
-274,Adam Rawson,Skaven,-5.8
-275,Neil Samuels,Hosts of Slaanesh,-5.8
-276,Nick Featherstone,Idoneth Deepkin,-6.0
-277,Nigel Bartlett,Gutbusters,-6.1
-278,Andy Wood,Flesh Eater Courts,-6.1
-279,Simon Holmes,Flesh Eater Courts,-6.6
-280,James Pickup,Maggotkin of Nurgle,-6.7
-281,Sean McKechnie,Gloomspite Gitz,-6.8
-282,Joshua Jenkins,Grand Host of Nagash,-7.1
-283,Player,UNKNOWN_ARMY,-7.2
-284,Paul Berridge,Dispossessed,-7.4
-285,Grant Mudie,Ironjawz,-7.5
-286,William Philpott,Order,-7.5
-287,Chris Archibald,Idoneth Deepkin,-8.1
-288,Declan Waters,Gloomspite Gitz,-8.2
-289,Ben Smith,Stormcast Eternals,-8.3
-290,Ethan Leach,Idoneth Deepkin,-8.4
-291,Jake Powis,Sylvaneth,-8.4
-292,Conor McNama,Disciples of Tzeentch,-8.6
-293,Dave Carter,Nighthaunt,-8.8
-294,Luke Whitehead,Flesh Eater Courts,-8.9
-295,Stephen Smith,Gloomspite Gitz,-9.2
-296,Stuart Hodges,Gloomspite Gitz,-9.8
-297,Simon Partridge,Beasts of Chaos,-9.8
-298,James Houston,Skaven,-10.6
-299,Jon Cann,Mawtribes,-10.8
-300,Sam Watson,Legions of Nagash,-10.9
-301,Luke Evans,Legions of Nagash,-11.0
-302,Neil Peckett,Stormcast Eternals,-11.1
-303,Adam Martin,Hosts of Slaanesh,-11.7
-304,Shaun Lang,Legion of Night,-12.1
-305,Ben Gomm,Nighthaunt,-12.2
-306,Josh Cann,Maggotkin of Nurgle,-12.3
-307,Tim Martin,Blades of Khorne,-12.8
-308,Dave Busse,Ironjawz,-12.8
-309,Angus Brain,Stormcast Eternals,-13.5
-310,Wayne Rendell,Ironjawz,-13.7
-311,Martyn Furnival,Hedonites of Slaanesh,-13.8
-312,Matt Clarke,Idoneth Deepkin,-14.0
-313,John Dorrian,Blades of Khorne,-14.2
-314,Paul Whitehead,Beastclaw Raiders,-14.3
-315,Michael Browning,Flesh Eater Courts,-14.6
-316,Hamid Khabbazan,Free Peoples,-14.9
-317,Simon Froley,Daughters of Khaine,-15.0
-318,Obaid Bin,Stormcast Eternals,-15.1
-319,Ben Price,Seraphon,-15.4
-320,Jack McQuiggin,Seraphon,-15.4
-321,Anthony Poole,Sylvaneth,-15.5
-322,Andrew Hodges,Nighthaunt,-15.6
-323,Mark Mitzman,Gloomspite Gitz,-15.7
-324,Travis Kelly,Fyreslayers,-15.8
-325,Keirran Wilson,Flesh Eater Courts,-15.9
-326,Miles Hewitt,Skaventide,-15.9
-327,Dominic Hook,Skaventide,-16.2
-328,Daniel Elkington,Slaves to Darkness,-16.2
-329,Ade Thompson,Beasts of Chaos,-16.3
-330,Craig Carlton,Fyreslayers,-16.4
-331,William Morris,Gloomspite Gitz,-16.6
-332,Lewis Sloan,Sylvaneth,-16.9
-333,Jack Maiden,Gloomspite Gitz,-17.0
-334,Matt Willis,Ironjawz,-17.2
-335,John Greene,Sylvaneth,-17.5
-336,Tom Holmes,Gloomspite Gitz,-17.5
-337,Ross Howard,Gloomspite Gitz,-17.6
-338,Gary Pollock,Blades of Khorne,-17.7
-339,Luke Power,Sylvaneth,-18.0
-340,Duncan Woods,Bonesplitterz,-18.2
-341,Will Pollock,Skaven,-18.3
-342,Stuart Millar,Legion of Sacrement,-18.9
-343,Pete Bradley,Legion of Sacrement,-18.9
-344,Matthew Ward,Skaventide,-19.0
-345,Jason Hodgekinson,Ironjawz,-19.7
-346,Dave Roberts,Flesh Eater Courts,-20.1
-347,Ben Bailey,Daughters of Khaine,-20.2
-348,Adrian Downey,Legion of Grief,-20.3
-349,Bryn Roberts,Sylvaneth,-20.7
-350,Scott Smith,Flesh Eater Courts,-20.9
-351,Lee Whitely,Blades of Khorne,-20.9
-352,Tom Bridges,Stormcast Eternals,-21.1
-353,Johnny Armstrong,Skaventide,-21.1
-354,Thomas Blaxall,Gloomspite Gitz,-21.2
-355,Graham Shirley,Gloomspite Gitz,-21.6
-356,Jenny Lyons,Nighthaunt,-21.7
-357,Andy Mackay,Stormcast Eternals,-22.2
-358,James Eveleigh,Gloomspite Gitz,-22.5
-359,Keith Baggott,Wanderers,-22.6
-360,Alex McGee,Skaven,-22.7
-361,Alex Johnson,Gloomspite Gitz,-22.9
-362,Alessandro Leto,Stormcast Eternals,-23.0
-363,Tom Hewitt,Flesh Eater Courts,-23.0
-364,Jamie White,Cities of Sigmar,-23.1
-365,Tom Gilboy,Idoneth Deepkin,-23.6
-366,Matthew Walker,Hedonites of Slaanesh,-23.8
-367,Nigel Barham,Disciples of Tzeentch,-23.9
-368,Tom Bailey,Blades of Khorne,-23.9
-369,Evan White,Mawtribes,-24.3
-370,Reece West,Stormcast Eternals,-24.7
-371,Stevie Kilmister,Seraphon,-24.9
-372,David Thompson,Sylvaneth,-24.9
-373,Mark Pinnington,UNKNOWN_ARMY,-24.9
-374,Tim Bland,Disciples of Tzeentch,-25.5
-375,Glen Caldecott,Stormcast Eternals,-26.1
-376,Ian Tong,Nighthaunt,-26.3
-377,Gabriele Sosso,Legion of Blood,-26.9
-378,Jamie Muscroft,Kharadron Overlords,-27.0
-379,Chris Nellis,Daughters of Khaine,-27.2
-380,Matt Dawson,Hosts of Slaanesh,-27.6
-381,Ric Ellis,Stormcast Eternals,-27.8
-382,Stephen Ramage,Nighthaunt,-27.9
-383,Jack Davenport,Stormcast Eternals,-28.2
-384,Thomas Hamilton,Disciples of Tzeentch,-28.4
-385,Jane Slater,Seraphon,-28.4
-386,Tom Landy,Maggotkin of Nurgle,-28.5
-387,Ian Ralph,Hedonites of Slaanesh,-28.5
-388,Gareth Parfitt,Gloomspite Gitz,-28.6
-389,Callum Watson,Blades of Khorne,-28.7
-390,Chris Elliot,Skaventide,-28.8
-391,Carl Smith,Gloomspite Gitz,-29.0
-392,Lyndon Sinclair,Hosts of Slaanesh,-29.0
-393,David Fulbrook,Maggotkin of Nurgle,-30.1
-394,Rob Boyce,Ironjawz,-30.2
-395,Des Brennan,Big Waaagh,-30.4
-396,Tim Pearce,Stormcast Eternals,-30.5
-397,Dave Knatt,Gloomspite Gitz,-30.6
-398,Jack Carruthers,Slaves to Darkness,-30.6
-399,Wil Johnson,Blades of Khorne,-31.0
-400,Erik Bews,Slaves to Darkness,-31.1
-401,Matt Robinson,Maggotkin of Nurgle,-31.4
-402,Reuben Beard,Bonesplitterz,-31.9
-403,Steve Wren,Idoneth Deepkin,-32.0
-404,Barry White,Mawtribes,-32.0
-405,Lee Downes,Daughters of Khaine,-32.2
-406,Steven Lumsdale,Disciples of Tzeentch,-32.7
-407,Colin Mather,UNKNOWN_ARMY,-33.0
-408,Thomas Lawler,Maggotkin of Nurgle,-33.3
-409,Mike Parker,Stormcast Eternals,-33.3
-410,Phil Dodd,Stormcast Eternals,-33.4
-411,Iain Hunter,Beasts of Chaos,-34.0
-412,Grant Fraser,Flesh Eater Courts,-34.1
-413,Garry Marshall,Maggotkin of Nurgle,-34.2
-414,Graeme Davidson,Nighthaunt,-34.7
-415,Christine Coram,Ironjawz,-34.8
-416,Samuel Green,Skaventide,-35.2
-417,Gareth Ravenscroft,Flesh Eater Courts,-35.5
-418,Edward Hamon,Disciples of Tzeentch,-35.7
-419,Kyle Staton,Hedonites of Slaanesh,-36.2
-420,Shane Kingston,Disciples of Tzeentch,-36.9
-421,James Thompson,Sylvaneth,-37.0
-422,Matthew Austen,Seraphon,-37.9
-423,Dan Barwick,Fyreslayers,-38.0
-424,Phillip Jenkins,Ossiarch Bonereapers,-38.5
-425,Joshua Richards,Cities of Sigmar,-40.1
-426,James Beeden,Seraphon,-40.2
-427,Patrick O'Sullivan,Idoneth Deepkin,-41.0
-428,Katalin Fekete,Idoneth Deepkin,-41.1
-429,Keith Winquist,Grand Host of Nagash,-42.1
-430,Rob Wales,Big Waaagh,-42.2
-431,Gavin Dorrigan,Legions of Nagash,-42.3
-432,Keith Ball,Flesh Eater Courts,-43.5
-433,Sam Freeman,Grand Host of Nagash,-44.4
-434,Kev Harrington,Flesh Eater Courts,-45.2
-435,Alun Haines,Daughters of Khaine,-47.2
-436,Martin Laughlin,Skaven,-53.1
+1,John Craig,Maggotkin of Nurgle,+1.8
+2,Ric Myhill,Beasts of Chaos,+1.8
+3,Terry Pike,Maggotkin of Nurgle,+1.8
+4,Karl Breakspear,Nighthaunt,+1.8
+5,Leo Rautomen,Ironjawz,+1.7
+6,Ritchie McAlley,Gloomspite Gitz,+1.7
+7,Darren Watson,Maggotkin of Nurgle,+1.7
+8,Sam Loving,Stormcast Eternals,+1.7
+9,Gary Percival,Kharadron Overlords,+1.7
+10,Tom Mawdsley,Skaventide,+1.7
+11,Martin Morrin,Blades of Khorne,+1.7
+12,Benjamin Savva,Bonesplitterz,+1.7
+13,Mike Callaghan,Stormcast Eternals,+1.6
+14,Dan Bradshaw,Skaventide,+1.6
+15,Chris Caves Jr,Disciples of Tzeentch,+1.6
+16,Matthew Gouldesbrough,Seraphon,+1.6
+17,Laurie H,Sylvaneth,+1.6
+18,Sam Saunders,Maggotkin of Nurgle,+1.6
+19,Player,UNKNOWN_ARMY,+1.6
+20,Mark Wildman,Blades of Khorne,+1.6
+21,Donal Taylor,Gloomspite Gitz,+1.6
+22,James Tinsdale,Idoneth Deepkin,+1.6
+23,Alex Bruce,Order,+1.6
+24,Andy Hughes,Legion of Sacrement,+1.5
+25,Chris Myhill,Order,+1.5
+26,Daniil Osudin,Disciples of Tzeentch,+1.5
+27,Tony Moore,Flesh Eater Courts,+1.5
+28,James Chalmers,Gloomspite Gitz,+1.5
+29,Tom Bell,Ironjawz,+1.5
+30,Paul Buckler,Seraphon,+1.5
+31,Dan George,Hosts of Slaanesh,+1.5
+32,James Ganis,Flesh Eater Courts,+1.5
+33,Ian Spink,Bonesplitterz,+1.5
+34,Andy Bryan,Skaventide,+1.5
+35,Richard Arnolds,UNKNOWN_ARMY,+1.5
+36,Mike Newman,Kharadron Overlords,+1.5
+37,Ben Johnson,Gloomspite Gitz,+1.5
+38,Owen Jackson,Sylvaneth,+1.5
+39,Toby Meadows,Skaven,+1.5
+40,Craig Namvar,Disciples of Tzeentch,+1.5
+41,Max Barton,Idoneth Deepkin,+1.5
+42,Jack Armstrong,Daughters of Khaine,+1.5
+43,Les Martin,Stormcast Eternals,+1.5
+44,Balal Zafar,Wanderers,+1.5
+45,John Bayliss,Blades of Khorne,+1.5
+46,Martin Swaffield,Disciples of Tzeentch,+1.5
+47,John Burgess,Blades of Khorne,+1.4
+48,Jack Mayland,Beasts of Chaos,+1.4
+49,Byron Orde,Bonesplitterz,+1.4
+50,Daniel Ford,Skaventide,+1.4
+51,Chris Francis,Sylvaneth,+1.4
+52,Russ Veal,Blades of Khorne,+1.4
+53,Matt Lyons,Flesh Eater Courts,+1.4
+54,Marc Brookes,Skaven,+1.4
+55,Steve Curtis,Flesh Eater Courts,+1.4
+56,Maxime Julian,Stormcast Eternals,+1.4
+57,Liam Watts,Hedonites of Slaanesh,+1.4
+58,James Grant,Stormcast Eternals,+1.4
+59,Leigh Martin,Hedonites of Slaanesh,+1.4
+60,Hugh Halligan,Free Peoples,+1.4
+61,Alex Kew,Stormcast Eternals,+1.4
+62,David Jack,Stormcast Eternals,+1.4
+63,Vincent Chan,Blades of Khorne,+1.4
+64,Adam Cunis,Order Draconis,+1.4
+65,Daniel Ryan,Skaventide,+1.4
+66,Dan Mitchell,Seraphon,+1.4
+67,Bryan Carmichael,Hedonites of Slaanesh,+1.4
+68,Michael Stewart,Fyreslayers,+1.4
+69,Gabe Huddlestone,Legion of Blood,+1.4
+70,Ben Murphy,Grand Host of Nagash,+1.4
+71,Chris Tomlin,Order Draconis,+1.4
+72,Teck Loy,Idoneth Deepkin,+1.4
+73,David Nemeth,Disciples of Tzeentch,+1.4
+74,Rob Nixon,Beasts of Chaos,+1.4
+75,Nathan Watson,Idoneth Deepkin,+1.4
+76,Steven Phillips,Blades of Khorne,+1.3
+77,Ben Curry,Daughters of Khaine,+1.3
+78,Colin Cochrane,Daughters of Khaine,+1.3
+79,Mark Curtis,Sylvaneth,+1.3
+80,Michael Wilson,Hedonites of Slaanesh,+1.3
+81,Stephen Mitchell,Flesh Eater Courts,+1.3
+82,Louis Medows,Stormcast Eternals,+1.3
+83,JP Stevens,Hedonites of Slaanesh,+1.3
+84,Simon Eccles,Flesh Eater Courts,+1.3
+85,James Boots,Blades of Khorne,+1.3
+86,Nick Thompson,Skaventide,+1.3
+87,Chris Banks,Skaven,+1.3
+88,Anthony Boulton,Hedonites of Slaanesh,+1.3
+89,James Powell,Order,+1.3
+90,William Barton,Idoneth Deepkin,+1.3
+91,Christian Moore,Hedonites of Slaanesh,+1.3
+92,Rob Hull,Flesh Eater Courts,+1.3
+93,Daniel White,Skaventide,+1.3
+94,Stuart West,Sylvaneth,+1.3
+95,Andy Talbot,Stormcast Eternals,+1.3
+96,Craig Graham,Sylvaneth,+1.3
+97,Ceri Robson,Gloomspite Gitz,+1.3
+98,Phil McGuiness,Skaventide,+1.3
+99,Matthew Croad,Stormcast Eternals,+1.3
+100,Alex Jones,Skaventide,+1.3
+101,Andrew Stephen,Beastclaw Raiders,+1.3
+102,Thomas Waller,Flesh Eater Courts,+1.3
+103,Tom Lees,Gloomspite Gitz,+1.3
+104,Callum Sinclair,Gloomspite Gitz,+1.3
+105,Simon Cobb,Ironjawz,+1.3
+106,Chris Hibbins,Sylvaneth,+1.3
+107,Declan McKitrich,Blades of Khorne,+1.3
+108,Matt Rennie,Fyreslayers,+1.3
+109,Adam Sinclair,Ironjawz,+1.2
+110,Adrian McWalter,Hedonites of Slaanesh,+1.2
+111,Adam Mumford,Idoneth Deepkin,+1.2
+112,Sebastian Del Monte,Gloomspite Gitz,+1.2
+113,Joe McGough,Legion of Sacrement,+1.2
+114,Adam Hall,Hedonites of Slaanesh,+1.2
+115,Shane Ford,Beasts of Chaos,+1.2
+116,Darron Styles,Seraphon,+1.2
+117,James Hobbs,Seraphon,+1.2
+118,Daniel Arnold,Idoneth Deepkin,+1.2
+119,Neil Montgomery,Hedonites of Slaanesh,+1.2
+120,William Philpott,Order,+1.2
+121,Dave Carter,Nighthaunt,+1.2
+122,Tom Fretwell,Flesh Eater Courts,+1.2
+123,Thomas Lemoine,Flesh Eater Courts,+1.2
+124,Joe Purcell,Hedonites of Slaanesh,+1.2
+125,Marc Wilson,Cities of Sigmar,+1.2
+126,Tim Unwin,Blades of Khorne,+1.2
+127,Eric Hoerger,Big Waaagh,+1.2
+128,James Williams,Ironjawz,+1.2
+129,Will O'Siorain,Idoneth Deepkin,+1.2
+130,Joel Smith,Maggotkin of Nurgle,+1.2
+131,Ralph Hughes,Cities of Sigmar,+1.2
+132,Micheal Bennett,Blades of Khorne,+1.2
+133,Mark Roberts,Seraphon,+1.2
+134,Simon Froley,Daughters of Khaine,+1.2
+135,Michael Wendel,Mawtribes,+1.2
+136,Jay Kinsella,Blades of Khorne,+1.2
+137,Heath Barnes,Blades of Khorne,+1.2
+138,Rob Bradley,Skaventide,+1.2
+139,Ben Mardle,Hedonites of Slaanesh,+1.2
+140,Charles Hollom,Beasts of Chaos,+1.2
+141,Angus Brain,Stormcast Eternals,+1.1
+142,Aaron Walters,Sylvaneth,+1.1
+143,Nigel Bartlett,Gutbusters,+1.1
+144,Seb Donley,Idoneth Deepkin,+1.1
+145,Will Spencer,Ironjawz,+1.1
+146,Sam Watson,Legions of Nagash,+1.1
+147,Ben Cronin,Flesh Eater Courts,+1.1
+148,Steve Dooley,Darkling Covens,+1.1
+149,Nathan Sandison,Ossiarch Bonereapers,+1.1
+150,Neil Samuels,Hosts of Slaanesh,+1.1
+151,Will Rose,Tomb Kings,+1.1
+152,John Williams,Blades of Khorne,+1.1
+153,Matthew Feltham,Daughters of Khaine,+1.1
+154,Ollie Fox,Maggotkin of Nurgle,+1.1
+155,Aaron Bailey,Destruction,+1.1
+156,Richard Buckler,Blades of Khorne,+1.1
+157,Matthew Arnold,Stormcast Eternals,+1.1
+158,Andrew Lewis,Flesh Eater Courts,+1.1
+159,Chris Caves Snr,Daughters of Khaine,+1.1
+160,Mark Busby,Hedonites of Slaanesh,+1.1
+161,Adam Rawson,Skaven,+1.1
+162,Liam Cook,Idoneth Deepkin,+1.1
+163,Chris Carroll,Skaven,+1.1
+164,Mike Wilding,Hedonites of Slaanesh,+1.1
+165,Tim Holbrook,Gloomspite Gitz,+1.1
+166,Michael Brough,Skaventide,+1.1
+167,Richard Elsdon,Stormcast Eternals,+1.1
+168,Darren Phipps,Flesh Eater Courts,+1.1
+169,Sean McKechnie,Gloomspite Gitz,+1.0
+170,Kevin Low,Skaventide,+1.0
+171,Michael Browning,Flesh Eater Courts,+1.0
+172,Jonathan Forde,Ironjawz,+1.0
+173,Stuart Millar,Legion of Sacrement,+1.0
+174,Rob Kelly,Flesh Eater Courts,+1.0
+175,Ricky Mee,Skaven,+1.0
+176,Alasdair Hutchinson,Gloomspite Gitz,+1.0
+177,Paul Marshallsay,Idoneth Deepkin,+1.0
+178,Jj Cropley,Skaventide,+1.0
+179,Craig Chesters,Daughters of Khaine,+1.0
+180,Janos Szaniszlo,Ironjawz,+1.0
+181,Ciaran Smyth,Maggotkin of Nurgle,+1.0
+182,Myles Mulkerrins,Big Waaagh,+1.0
+183,Rob Wright,Idoneth Deepkin,+1.0
+184,Aiden Clieve,Maggotkin of Nurgle,+1.0
+185,Daniel Scott,Daughters of Khaine,+1.0
+186,Chris Mills,Disciples of Tzeentch,+1.0
+187,Andy Wood,Flesh Eater Courts,+1.0
+188,Richard Hudspith,Skaven,+1.0
+189,Ian Ralph,Hedonites of Slaanesh,+1.0
+190,Tom Parry,Stormcast Eternals,+1.0
+191,Chris Archibald,Idoneth Deepkin,+1.0
+192,Miles Hewitt,Skaventide,+1.0
+193,Adam Riley,Stormcast Eternals,+1.0
+194,Declan Waters,Gloomspite Gitz,+1.0
+195,Johnny Armstrong,Skaventide,+1.0
+196,Sam Sendell,Legion of Blood,+1.0
+197,James Warth,Stormcast Eternals,+1.0
+198,Paul Haley,Daughters of Khaine,+1.0
+199,Dave Glaysher,Ironjawz,+1.0
+200,Stuart Hodges,Gloomspite Gitz,+0.9
+201,Travis Kelly,Fyreslayers,+0.9
+202,Aaron Wilson,Sylvaneth,+0.9
+203,Greg Shelton,Ossiarch Bonereapers,+0.9
+204,Andy Brown,Nighthaunt,+0.9
+205,Andy Scott,Ironjawz,+0.9
+206,Alex Tooth,Skaven,+0.9
+207,Simon Holmes,Flesh Eater Courts,+0.9
+208,Wayne Rendell,Ironjawz,+0.9
+209,Luke Power,Sylvaneth,+0.9
+210,Jack McQuiggin,Seraphon,+0.9
+211,Liam Jordan,Nighthaunt,+0.9
+212,Matthew Pardoe,Slaves to Darkness,+0.9
+213,Forrest Wilhoite,Disciples of Tzeentch,+0.9
+214,Dave Robinson,Flesh Eater Courts,+0.9
+215,Obaid Bin,Stormcast Eternals,+0.9
+216,Ethan Leach,Idoneth Deepkin,+0.9
+217,Jake Powis,Sylvaneth,+0.9
+218,Giannis Sourtzis,Seraphon,+0.9
+219,Ellis Priestley,Fyreslayers,+0.9
+220,Ross Joyce,Legion of Blood,+0.9
+221,George Newbould,Gloomspite Gitz,+0.9
+222,Andy Davies,Skaven,+0.9
+223,Tom Gilboy,Idoneth Deepkin,+0.9
+224,Carl Bagnall,Skaven,+0.9
+225,Lee Bromley,Flesh Eater Courts,+0.9
+226,Conor McNama,Disciples of Tzeentch,+0.9
+227,Tom Hewitt,Flesh Eater Courts,+0.9
+228,Adam Martin,Hosts of Slaanesh,+0.9
+229,Lee Kay,Dispossessed,+0.9
+230,Jason Hodgekinson,Ironjawz,+0.9
+231,William Morris,Gloomspite Gitz,+0.9
+232,Anthony Lewis,Grand Host of Nagash,+0.9
+233,Matthew Walker,Hedonites of Slaanesh,+0.9
+234,Alan Witherden,UNKNOWN_ARMY,+0.9
+235,James Eveleigh,Gloomspite Gitz,+0.9
+236,Joe Jackson,Sylvaneth,+0.8
+237,Frank Straw,UNKNOWN_ARMY,+0.8
+238,John Connelly,Skaventide,+0.8
+239,Joe Clark,Flesh Eater Courts,+0.8
+240,Ben Gomm,Nighthaunt,+0.8
+241,Rob Symes,Legion of Azgorh,+0.8
+242,Kevin Grimes,Hedonites of Slaanesh,+0.8
+243,Kieran Harper,Stormcast Eternals,+0.8
+244,George Moudatsos,Beasts of Chaos,+0.8
+245,Steve McCormick,Beastclaw Raiders,+0.8
+246,Paul Coram,Sylvaneth,+0.8
+247,George Vathipoulias,Idoneth Deepkin,+0.8
+248,Craig Morrow,Skaventide,+0.8
+249,Ben Raven,Blades of Khorne,+0.8
+250,Jack Westaway,Disciples of Tzeentch,+0.8
+251,David Kane,Kharadron Overlords,+0.8
+252,Gareth Holmes,Stormcast Eternals,+0.8
+253,Scott Smith,Flesh Eater Courts,+0.8
+254,Michael Cook,UNKNOWN_ARMY,+0.8
+255,Nicholas Ruesink,Fyreslayers,+0.8
+256,Thomas Hamilton,Disciples of Tzeentch,+0.8
+257,Danny Cashman,Kharadron Overlords,+0.8
+258,Matt Tinsdale,Stormcast Eternals,+0.8
+259,Chris Nellis,Daughters of Khaine,+0.8
+260,Lee Whitely,Blades of Khorne,+0.8
+261,Paul di Duca,Clan Skryre,+0.8
+262,Lukas Madaj,Stormcast Eternals,+0.8
+263,Alex McGee,Skaven,+0.8
+264,Arran Folly,Ironjawz,+0.8
+265,Alex Ley,Fyreslayers,+0.8
+266,Piotr Kurkowski,Daughters of Khaine,+0.8
+267,Daniel Elkington,Slaves to Darkness,+0.8
+268,Peter Humpage,Order Draconis,+0.8
+269,Tom Blaxall,Gloomspite Gitz,+0.8
+270,Jamie McHugh,Stormcast Eternals,+0.7
+271,Nick Featherstone,Idoneth Deepkin,+0.7
+272,John Harper,Disciples of Tzeentch,+0.7
+273,Reece West,Stormcast Eternals,+0.7
+274,John Dale,Skaventide,+0.7
+275,Pete Bradley,Legion of Sacrement,+0.7
+276,Ken Chambers,Flesh Eater Courts,+0.7
+277,Tom Bailey,Blades of Khorne,+0.7
+278,Martin Clarke,Flesh Eater Courts,+0.7
+279,Luke Whitehead,Flesh Eater Courts,+0.7
+280,Adrian Downey,Legion of Grief,+0.7
+281,Andy Currie,Kharadron Overlords,+0.7
+282,Pete Wrench,Mawtribes,+0.7
+283,Jenny Lyons,Nighthaunt,+0.7
+284,Ben Smith,Stormcast Eternals,+0.7
+285,Josh Cann,Maggotkin of Nurgle,+0.7
+286,Nathan Prescott,Gloomspite Gitz,+0.7
+287,Richard Flood,Hedonites of Slaanesh,+0.7
+288,Danny Biddle,Fyreslayers,+0.7
+289,Luke Evans,Legions of Nagash,+0.7
+290,Matthew Hinton,Maggotkin of Nurgle,+0.7
+291,Matt Robertson,Disciples of Tzeentch,+0.7
+292,Matt Robinson,Maggotkin of Nurgle,+0.7
+293,Mike Thomas,Gutbusters,+0.7
+294,Lindon Wedgewood,Gloomspite Gitz,+0.7
+295,Alex Johnson,Gloomspite Gitz,+0.7
+296,Jane Slater,Seraphon,+0.7
+297,Paul Rea,Skaventide,+0.7
+298,Andy Lampkin,Gloomspite Gitz,+0.7
+299,James Wilson,Khorne Bloodbound,+0.7
+300,Paul Whitehead,Beastclaw Raiders,+0.7
+301,Wil Johnson,Blades of Khorne,+0.7
+302,Anthony Poole,Sylvaneth,+0.7
+303,Grant Fraser,Flesh Eater Courts,+0.7
+304,Shaun Lang,Legion of Night,+0.7
+305,James Clark,Blades of Khorne,+0.7
+306,Kyle Brunskill,Order Draconis,+0.7
+307,Andrew Hodges,Nighthaunt,+0.7
+308,Darryl Jones,Hedonites of Slaanesh,+0.7
+309,Hamid Khabbazan,Free Peoples,+0.6
+310,Stuart Mann,Gloomspite Gitz,+0.6
+311,Lewis Swan,Blades of Khorne,+0.6
+312,Richard Morley,Gloomspite Gitz,+0.6
+313,Adam Turner,Mawtribes,+0.6
+314,Jack Spencer,Flesh Eater Courts,+0.6
+315,Mark Storrar,Kharadron Overlords,+0.6
+316,Lewis Sloan,Sylvaneth,+0.6
+317,John Greene,Sylvaneth,+0.6
+318,Kevin Gillett,Maggotkin of Nurgle,+0.6
+319,Tom Fildes,Kharadron Overlords,+0.6
+320,Aaron Vietch,Stormcast Eternals,+0.6
+321,Johnathon Pano Kyprianidis,Blades of Khorne,+0.6
+322,Craig Carlton,Fyreslayers,+0.6
+323,Dermot Lacey,Stormcast Eternals,+0.6
+324,James Field,UNKNOWN_ARMY,+0.6
+325,Peter Pratt,Gloomspite Gitz,+0.6
+326,Ian O'Brien,Mawtribes,+0.6
+327,Jack Maiden,Gloomspite Gitz,+0.6
+328,Mikey Gilson,Bonesplitterz,+0.6
+329,Adam Hazelwood,Nighthaunt,+0.6
+330,Katalin Fekete,Idoneth Deepkin,+0.6
+331,Daniel Asensio,Fyreslayers,+0.6
+332,Kane Holloway,Blades of Khorne,+0.6
+333,Jamie Muscroft,Kharadron Overlords,+0.6
+334,Matt Willis,Ironjawz,+0.6
+335,Bryn Roberts,Sylvaneth,+0.6
+336,Andrew Hughes,UNKNOWN_ARMY,+0.6
+337,Troy Hardy,Hedonites of Slaanesh,+0.6
+338,Ross Howard,Gloomspite Gitz,+0.6
+339,Dave Roberts,Flesh Eater Courts,+0.6
+340,Christophe Salemi,Legion of Sacrement,+0.6
+341,Dean Lymath,Stormcast Eternals,+0.6
+342,Cain O'Siorain,Kharadron Overlords,+0.6
+343,Rob Boyce,Ironjawz,+0.6
+344,Ben Bailey,Daughters of Khaine,+0.6
+345,Erik Bews,Slaves to Darkness,+0.6
+346,Wayne Millaer,Stormcast Eternals,+0.6
+347,James Box,Big Waaagh,+0.6
+348,Finn Melton,Disciples of Tzeentch,+0.6
+349,Elliot Ireland,Ossiarch Bonereapers,+0.6
+350,Dan Hughes,Gloomspite Gitz,+0.6
+351,Phillip Jenkins,Ossiarch Bonereapers,+0.6
+352,Andy Farrell,Legion of Grief,+0.6
+353,Jes Bickham,Gloomspite Gitz,+0.6
+354,Thomas Lawler,Maggotkin of Nurgle,+0.6
+355,Tom Roberts,Blades of Khorne,+0.6
+356,Guillaume Garnier,Seraphon,+0.6
+357,David Smyth,Maggotkin of Nurgle,+0.6
+358,Tom Matthews,Cities of Sigmar,+0.6
+359,Dean McLaughlin,Skaventide,+0.6
+360,Charles Nolan,Blades of Khorne,+0.6
+361,Lyndon Sinclair,Hosts of Slaanesh,+0.6
+362,Martjin Zuidema,Ossiarch Bonereapers,+0.6
+363,Luke Morton,Idoneth Deepkin,+0.6
+364,Mathew Crowther,Blades of Khorne,+0.6
+365,Matthew Sandiford,Cities of Sigmar,+0.6
+366,Lars Hellwig,Beastclaw Raiders,+0.6
+367,Chris Elliot,Skaventide,+0.6
+368,James Pickup,Maggotkin of Nurgle,+0.6
+369,Joshua Jenkins,Grand Host of Nagash,+0.6
+370,Grant Mudie,Ironjawz,+0.6
+371,Patrick O'Sullivan,Idoneth Deepkin,+0.6
+372,Paul Berridge,Dispossessed,+0.6
+373,Gary Bullha,Maggotkin of Nurgle,+0.6
+374,Phil Walter,Flesh Eater Courts,+0.5
+375,Chris Smith,Gloomspite Gitz,+0.5
+376,Stu Wolf,Flesh Eater Courts,+0.5
+377,Stephen Smith,Gloomspite Gitz,+0.5
+378,James Houston,Skaven,+0.5
+379,Simon Partridge,Beasts of Chaos,+0.5
+380,Phillippe Peylet,Phoenix Temple,+0.5
+381,Ian Tong,Nighthaunt,+0.5
+382,Matthew Spears,Nighthaunt,+0.5
+383,Ian Veitch,Blades of Khorne,+0.5
+384,James Bedford,Stormcast Eternals,+0.5
+385,Carl Smith,Gloomspite Gitz,+0.5
+386,Trev Moffat,Seraphon,+0.5
+387,Ross Mason,Tamurkhans Horde,+0.5
+388,Neil Peckett,Stormcast Eternals,+0.5
+389,Jack Masters,Beastclaw Raiders,+0.5
+390,Jon Cann,Mawtribes,+0.5
+391,Marc Davies,Idoneth Deepkin,+0.5
+392,Owyn Abram,Legions of Nagash,+0.5
+393,Glen Caldecott,Stormcast Eternals,+0.5
+394,Martyn Furnival,Hedonites of Slaanesh,+0.5
+395,Bjorn Malmborg,Free Peoples,+0.5
+396,Ben Harper,Daughters of Khaine,+0.5
+397,Simon Weakley,Skaventide,+0.5
+398,Lee Downes,Daughters of Khaine,+0.5
+399,David Rolland,Daughters of Khaine,+0.5
+400,James Beeden,Seraphon,+0.5
+401,Matt Clarke,Idoneth Deepkin,+0.5
+402,Des Brennan,Big Waaagh,+0.5
+403,David Neagle,Grand Host of Nagash,+0.5
+404,John Dorrian,Blades of Khorne,+0.5
+405,Ben Crowe,UNKNOWN_ARMY,+0.5
+406,Tim Martin,Blades of Khorne,+0.5
+407,Dominic Hook,Skaventide,+0.5
+408,Eoin Lennon,Grand Host of Nagash,+0.5
+409,Jack Carruthers,Slaves to Darkness,+0.5
+410,Matt Roberts,UNKNOWN_ARMY,+0.5
+411,Dave Busse,Ironjawz,+0.5
+412,Padds Paddon,Mawtribes,+0.5
+413,Steve Wren,Idoneth Deepkin,+0.5
+414,Jonny Statham,Skaventide,+0.5
+415,Ade Thompson,Beasts of Chaos,+0.5
+416,Anthony Moylan,Gloomspite Gitz,+0.5
+417,Francois Mercier,Fyreslayers,+0.5
+418,Mathew Davies,Sylvaneth,+0.5
+419,Daniel Biddle,Fyreslayers,+0.5
+420,Matthew Ward,Skaventide,+0.5
+421,Chris McConville,Daughters of Khaine,+0.5
+422,Tom Patton,Cities of Sigmar,+0.5
+423,Keirran Wilson,Flesh Eater Courts,+0.5
+424,Colin Mather,UNKNOWN_ARMY,+0.5
+425,Ben Price,Seraphon,+0.5
+426,Adam Clark,Ironjawz,+0.5
+427,Matt Harrison,Hedonites of Slaanesh,+0.5
+428,Ross Edwards,Maggotkin of Nurgle,+0.5
+429,Tom Landy,Maggotkin of Nurgle,+0.5
+430,Steven Lumsdale,Disciples of Tzeentch,+0.5
+431,Gary Pollock,Blades of Khorne,+0.5
+432,Kevin Chandler,Sylvaneth,+0.5
+433,Jack Davenport,Stormcast Eternals,+0.5
+434,Stephen Ramage,Nighthaunt,+0.5
+435,Will Pollock,Skaven,+0.5
+436,Gareth Parfitt,Gloomspite Gitz,+0.5
+437,Andy Thornley,UNKNOWN_ARMY,+0.5
+438,Robert Sedgeman,Destruction,+0.5
+439,Tim Fisher,Gloomspite Gitz,+0.5
+440,Tom Holmes,Gloomspite Gitz,+0.5
+441,Duncan Woods,Bonesplitterz,+0.5
+442,Simon Fitzpatrick,Hosts of Slaanesh,+0.5
+443,Rhys Hallet,Nighthaunt,+0.5
+444,Julien Duvoux,Skaventide,+0.5
+445,Paul Bowden,Stormcast Eternals,+0.5
+446,Rhuairidh James,Blades of Khorne,+0.5
+447,Mark Mitzman,Gloomspite Gitz,+0.4
+448,Iain Hunter,Beasts of Chaos,+0.4
+449,Nigel Chorlton,Sylvaneth,+0.4
+450,Nigel Barham,Disciples of Tzeentch,+0.4
+451,Ben Clayton,Seraphon,+0.4
+452,Thomas Blaxall,Gloomspite Gitz,+0.4
+453,David Thompson,Sylvaneth,+0.4
+454,Alessandro Leto,Stormcast Eternals,+0.4
+455,Andy Mackay,Stormcast Eternals,+0.4
+456,Phil Shaw,Seraphon,+0.4
+457,Matt Dawson,Hosts of Slaanesh,+0.4
+458,Ben Cochrane,Fyreslayers,+0.4
+459,Mark Pinnington,UNKNOWN_ARMY,+0.4
+460,Dean McGunigall,Stormcast Eternals,+0.4
+461,Nathan Foster,Daughters of Khaine,+0.4
+462,Tom Bunnell,Ironjawz,+0.4
+463,Solomon Morrow,Legions of Nagash,+0.4
+464,Jamie White,Cities of Sigmar,+0.4
+465,Pete Scholey,Skaventide,+0.4
+466,Matthew Bennett,Flesh Eater Courts,+0.4
+467,Liam Hall,Ossiarch Bonereapers,+0.4
+468,Stevie Kilmister,Seraphon,+0.4
+469,Dan Buchanan,High Elves,+0.4
+470,Tom Bridges,Stormcast Eternals,+0.4
+471,Matt Hammond,Sylvaneth,+0.4
+472,Ben van Buul,Hosts of Slaanesh,+0.4
+473,Josh Stevenson,Fyreslayers,+0.4
+474,Rory Carter,Ironjawz,+0.4
+475,Liam Tommey,Skaventide,+0.4
+476,Liam Hartles,Bonesplitterz,+0.4
+477,Graham Shirley,Gloomspite Gitz,+0.4
+478,Shane Kingston,Disciples of Tzeentch,+0.4
+479,Patric Frowein,Fyreslayers,+0.4
+480,Callum Watson,Blades of Khorne,+0.4
+481,Ben Baugh,Stormcast Eternals,+0.4
+482,Paul Burrows,Sylvaneth,+0.4
+483,Tim Bland,Disciples of Tzeentch,+0.4
+484,Stephen Follows,Ironjawz,+0.4
+485,Graeme Davidson,Nighthaunt,+0.4
+486,Martin Scandling,Legions of Nagash,+0.4
+487,Chris Green,Flesh Eater Courts,+0.4
+488,Scott Harmon,Gutbusters,+0.4
+489,Jason Smith,Blades of Khorne,+0.4
+490,Evan White,Mawtribes,+0.4
+491,Michael Cooper,Gloomspite Gitz,+0.4
+492,Dave Knatt,Gloomspite Gitz,+0.4
+493,Mark Carrigher,Fyreslayers,+0.4
+494,Gabriele Sosso,Legion of Blood,+0.4
+495,Reuben Beard,Bonesplitterz,+0.4
+496,Samuel Green,Skaventide,+0.4
+497,Chris Hallam,Seraphon,+0.4
+498,Lee Hamilton,Flesh Eater Courts,+0.4
+499,Ric Ellis,Stormcast Eternals,+0.4
+500,Kyle Staton,Hedonites of Slaanesh,+0.4
+501,Matt Smith,Maggotkin of Nurgle,+0.4
+502,Will Ward,UNKNOWN_ARMY,+0.4
+503,Peter Del,Grand Host of Nagash,+0.4
+504,Steve Milford,UNKNOWN_ARMY,+0.4
+505,Brook Hirst,Big Waaagh,+0.4
+506,Dan Comeau,Blades of Khorne,+0.4
+507,Dave Fraser,Gloomspite Gitz,+0.4
+508,Matt Scarrott,Flesh Eater Courts,+0.4
+509,James Kavanagh,Beasts of Chaos,+0.4
+510,Andrew Burton,Nighthaunt,+0.4
+511,Matt Shepperson,Gutbusters,+0.4
+512,Michael Byrne,Seraphon,+0.4
+513,Richy Amphlett,UNKNOWN_ARMY,+0.4
+514,David Fulbrook,Maggotkin of Nurgle,+0.4
+515,Ben Diesel,Daughters of Khaine,+0.4
+516,Ray Standage,Seraphon,+0.4
+517,Stephen Rose,Ironjawz,+0.4
+518,Carl Hewson,Mawtribes,+0.4
+519,Peter Michaels,Idoneth Deepkin,+0.4
+520,Alex Cawthra,Stormcast Eternals,+0.4
+521,Collin Collar,UNKNOWN_ARMY,+0.4
+522,Ben Seymour,Kharadron Overlords,+0.4
+523,Sam Vaughan,Ironjawz,+0.4
+524,Keith Baggott,Wanderers,+0.4
+525,Allen Frank,Blades of Khorne,+0.4
+526,Tim Pearce,Stormcast Eternals,+0.4
+527,Andy Smilie,Stormcast Eternals,+0.4
+528,Daniel Parker,Gloomspite Gitz,+0.4
+529,Ian Hannam,Ironjawz,+0.4
+530,Nicky Martin,Mawtribes,+0.4
+531,Jay Finnegan,Blades of Khorne,+0.3
+532,Alun Haines,Daughters of Khaine,+0.3
+533,Damien Medhurst,Stormcast Eternals,+0.3
+534,Darran Palmer,Stormcast Eternals,+0.3
+535,Gareth Ravenscroft,Flesh Eater Courts,+0.3
+536,Barry White,Mawtribes,+0.3
+537,Chris Lewis,Hedonites of Slaanesh,+0.3
+538,Patrick Rance,Skaventide,+0.3
+539,Steve Hursell,Mawtribes,+0.3
+540,Craig Reead,Ironjawz,+0.3
+541,Spencer Talbot,Kharadron Overlords,+0.3
+542,Ritchie Sanisteben,Everchosen,+0.3
+543,Dan Barwick,Fyreslayers,+0.3
+544,Ryan Dell,UNKNOWN_ARMY,+0.3
+545,Sam Parish,Flesh Eater Courts,+0.3
+546,John McCarthy,Mawtribes,+0.3
+547,Tom Brown,Stormcast Eternals,+0.3
+548,Edward Hamon,Disciples of Tzeentch,+0.3
+549,Sam Bolton,UNKNOWN_ARMY,+0.3
+550,Richard Belfield,Flesh Eater Courts,+0.3
+551,Matthew Byrne,Stormcast Eternals,+0.3
+552,Mal Edge,Nighthaunt,+0.3
+553,Jordan,Kharadron Overlords,+0.3
+554,Josh Hardman,Beastclaw Raiders,+0.3
+555,Euan Hogg,UNKNOWN_ARMY,+0.3
+556,Kyle Edwards,Stormcast Eternals,+0.3
+557,Arron Hazell,Cities of Sigmar,+0.3
+558,Marc Murphy,Stormcast Eternals,+0.3
+559,Emyr Rice,Skaventide,+0.3
+560,Mikey Galvin,Flesh Eater Courts,+0.3
+561,Rob Wales,Big Waaagh,+0.3
+562,Sean Murray,Stormcast Eternals,+0.3
+563,Stuart Hastings,Mawtribes,+0.3
+564,Alex Piper,Gloomspite Gitz,+0.3
+565,Garry Marshall,Maggotkin of Nurgle,+0.3
+566,Gareth Wynn,Maggotkin of Nurgle,+0.3
+567,Greg Davis,Gloomspite Gitz,+0.3
+568,Luke Alford,Daughters of Khaine,+0.3
+569,Kim Dreamer,Sylvaneth,+0.3
+570,Luke Garside,UNKNOWN_ARMY,+0.3
+571,Samuel Pett,Skaven,+0.3
+572,Gaz Hughes,Blades of Khorne,+0.3
+573,Mike Parker,Stormcast Eternals,+0.3
+574,Phil Dodd,Stormcast Eternals,+0.3
+575,Paul Given,Disciples of Tzeentch,+0.3
+576,Jon Green,Stormcast Eternals,+0.3
+577,Hayden McMurray,Ironjawz,+0.3
+578,Lawrence Craven,Flesh Eater Courts,+0.3
+579,Josh Tetley,Legions of Nagash,+0.3
+580,Keith Ball,Flesh Eater Courts,+0.3
+581,Ian Marley,Beastclaw Raiders,+0.3
+582,Chris Ashworth,Hedonites of Slaanesh,+0.3
+583,JP Gains,Gloomspite Gitz,+0.3
+584,James Johnson,Maggotkin of Nurgle,+0.3
+585,Alex Clark,Legion of Blood,+0.3
+586,Ben Booker,Legions of Nagash,+0.3
+587,Francis Arthur,Cities of Sigmar,+0.3
+588,Jon Lee,Disciples of Tzeentch,+0.3
+589,Nick Pilgrim,Beasts of Chaos,+0.3
+590,Joseph Carr,Disciples of Tzeentch,+0.3
+591,Hugh Wilson,Seraphon,+0.3
+592,Matthew Austen,Seraphon,+0.3
+593,Michael Wills,Legions of Nagash,+0.3
+594,Adam Button,Seraphon,+0.3
+595,Christine Coram,Ironjawz,+0.3
+596,James Roberts,Stormcast Eternals,+0.3
+597,James Thompson,Sylvaneth,+0.3
+598,Tim Gibbs,Ironjawz,+0.3
+599,Simon McPolin,Stormcast Eternals,+0.3
+600,Shane Hurley,Ironjawz,+0.3
+601,Joshua Richards,Cities of Sigmar,+0.3
+602,Philipp Kartaev,Fyreslayers,+0.3
+603,Marius Helland Prestoy,Seraphon,+0.3
+604,Keith Winquist,Grand Host of Nagash,+0.3
+605,Sam Freeman,Grand Host of Nagash,+0.3
+606,Samuel Wakley,Stormcast Eternals,+0.3
+607,Pablo Plaza Fernandez,Ironjawz,+0.3
+608,George Theodosopoulos,Maggotkin of Nurgle,+0.3
+609,John Kiddell,Blades of Khorne,+0.3
+610,Henrik Reschreiter,Skaven,+0.3
+611,Richard Nutter,Mawtribes,+0.3
+612,Mark Saunders,Mawtribes,+0.3
+613,Dave King,Legions of Nagash,+0.3
+614,Ryan Pearson,Cities of Sigmar,+0.3
+615,Simon Dusing,Kharadron Overlords,+0.3
+616,Nick Hoen,Blades of Khorne,+0.3
+617,Charles Sealey,Blades of Khorne,+0.3
+618,David Ellis,Ironjawz,+0.3
+619,Owen Farmer,Disciples of Tzeentch,+0.3
+620,Nick Horth,Gloomspite Gitz,+0.3
+621,Chris Nielson,Grand Host of Nagash,+0.3
+622,John Lampe,UNKNOWN_ARMY,+0.3
+623,Andrew Hutchinson,Ironjawz,+0.3
+624,Erik Niemz,Gloomspite Gitz,+0.3
+625,Eddie Eccles,Idoneth Deepkin,+0.3
+626,Ayton Hilmi,Legion of Sacrement,+0.3
+627,Chris Vect,UNKNOWN_ARMY,+0.3
+628,Paul Petford,Sylvaneth,+0.3
+629,Clemens Arndt Lange,Skaventide,+0.3
+630,Liam Bushell,UNKNOWN_ARMY,+0.3
+631,Jon Kerr,Cities of Sigmar,+0.3
+632,Colin Ruddell,Sylvaneth,+0.3
+633,Gavin Dorrigan,Legions of Nagash,+0.3
+634,Jack Everitt,UNKNOWN_ARMY,+0.3
+635,Ross McGowan,Hedonites of Slaanesh,+0.3
+636,Konstantinos Tampakis,Beasts of Chaos,+0.3
+637,Sam Ryman,Skaven,+0.3
+638,Phil Andreev,Disciples of Tzeentch,+0.3
+639,Alan Salkilld,Seraphon,+0.3
+640,Andrew Johnson,Daughters of Khaine,+0.3
+641,Rory Searles,Beasts of Chaos,+0.3
+642,Anthony Kirby,Skaventide,+0.3
+643,Daniel Harston,Flesh Eater Courts,+0.3
+644,Rob Cousins,Grand Host of Nagash,+0.3
+645,Mat Wetton,Blades of Khorne,+0.3
+646,Adam Devonshire,Nighthaunt,+0.3
+647,Duncan Stacy,Nighthaunt,+0.3
+648,Ben Wood,Seraphon,+0.3
+649,Chris Young,Daughters of Khaine,+0.3
+650,Henry Poor,Beasts of Chaos,+0.3
+651,Shaun Clarke,Flesh Eater Courts,+0.3
+652,James Brown,Blades of Khorne,+0.3
+653,Dave Cooper,Grand Host of Nagash,+0.3
+654,Michael Husmann,Disciples of Tzeentch,+0.3
+655,Aaron Young,UNKNOWN_ARMY,+0.3
+656,Christian White,Stormcast Eternals,+0.3
+657,Len Buchanan,Blades of Khorne,+0.3
+658,James Allen,Flesh Eater Courts,+0.3
+659,Tom Fownes,Order,+0.3
+660,Andrew Newton,Nighthaunt,+0.3
+661,Kat Binley,Mawtribes,+0.3
+662,Jonathan Keighyley,UNKNOWN_ARMY,+0.3
+663,Simon Thmpson,UNKNOWN_ARMY,+0.3
+664,David Cook,Legions of Nagash,+0.3
+665,Jason Stanyer,Sylvaneth,+0.3
+666,Chris Naish,Ironjawz,+0.3
+667,Zak Russell,Gloomspite Gitz,+0.3
+668,Kev Harrington,Flesh Eater Courts,+0.3
+669,Clinton Liem,Ironjawz,+0.3
+670,Will Holley,UNKNOWN_ARMY,+0.3
+671,Brad Glover,Skaven,+0.3
+672,Omar Valero,Stormcast Eternals,+0.3
+673,Ed Illsley,Daughters of Khaine,+0.3
+674,Tom May,Ironjawz,+0.3
+675,Izaak Garner,Gloomspite Gitz,+0.3
+676,Brandon Watkins,Ironjawz,+0.3
+677,Dan Long,UNKNOWN_ARMY,+0.3
+678,Richard Strachan,Maggotkin of Nurgle,+0.3
+679,George Bearman,Stormcast Eternals,+0.3
+680,Samuel Sinclair,Free Peoples,+0.3
+681,Mike Austin,Hedonites of Slaanesh,+0.3
+682,Andreas Steckmeier,Nighthaunt,+0.3
+683,Luke Kelly,Dispossessed,+0.3
+684,Simon Finch,Stormcast Eternals,+0.3
+685,Scott Baker,Blades of Khorne,+0.3
+686,Rich Parkes,Legion of Blood,+0.3
+687,Nick Tolfree,Slaves to Darkness,+0.3
+688,Richard Taylor,Fyreslayers,+0.3
+689,Patrick Taylor,Idoneth Deepkin,+0.3
+690,Adam McColgan,Beastclaw Raiders,+0.3
+691,Matthew Brasier,Fyreslayers,+0.3
+692,Eilir Davies,Blades of Khorne,+0.2
+693,Dan Heelan,Sylvaneth,+0.2
+694,Sam Wheeler,Sylvaneth,+0.2
+695,Zac Rowe,Ossiarch Bonereapers,+0.2
+696,Dean Stinton,UNKNOWN_ARMY,+0.2
+697,Andy Green,Stormcast Eternals,+0.2
+698,Eddie Alcock,Disciples of Tzeentch,+0.2
+699,Damian Elvidge,Dispossessed,+0.2
+700,Pete Foley,Stormcast Eternals,+0.2
+701,Jamie Denny,Big Waaagh,+0.2
+702,Alex Hey,Sylvaneth,+0.2
+703,Jason Ashford,Legion of Sacrement,+0.2
+704,Dan Seymour,Nighthaunt,+0.2
+705,Gavin Watkins,Nighthaunt,+0.2
+706,Jon Askham,Legion of Azgorh,+0.2
+707,Zak Foote,UNKNOWN_ARMY,+0.2
+708,Luke Torr,Daughters of Khaine,+0.2
+709,David Jennings,Stormcast Eternals,+0.2
+710,Lewis Fitzgerald,Cities of Sigmar,+0.2
+711,James Critchley,Gloomspite Gitz,+0.2
+712,Simon Potter,Skaven,+0.2
+713,Thomas Freegard,Gloomspite Gitz,+0.2
+714,Mike McLean,Gloomspite Gitz,+0.2
+715,Graham Duffy,Gloomspite Gitz,+0.2
+716,Thomas Lambert,Grand Host of Nagash,+0.2
+717,Wayne Kemp,Skaventide,+0.2
+718,Colin Weinling,Beasts of Chaos,+0.2
+719,Martin Laughlin,Skaven,+0.2
+720,Max Gifford,Disciples of Tzeentch,+0.2
+721,Steven Johnston,Legions of Nagash,+0.2
+722,Adam Bell,Seraphon,+0.2
+723,Kyle Dunn,Blades of Khorne,+0.2
+724,Fraser McWhirter,Legions of Nagash,+0.2
+725,Stew Ca,Death,+0.2
+726,Ned Brown,UNKNOWN_ARMY,+0.2
+727,Daniel Pattenden,UNKNOWN_ARMY,+0.2
+728,Joshua Steele,Gloomspite Gitz,+0.2
+729,Chris Allison,Maggotkin of Nurgle,+0.2
+730,Toby Doyle,Cities of Sigmar,+0.2
+731,John Thompson,Sylvaneth,+0.2
+732,Bill Taylor,Dispossessed,+0.2
+733,Alastair Maxwell,Ossiarch Bonereapers,+0.2
+734,Adam Jones,Skaventide,+0.2
+735,Philipp Will,Ironjawz,+0.2
+736,Laura McNeill,Flesh Eater Courts,+0.2
+737,Melanie Pattenden,UNKNOWN_ARMY,+0.2
+738,Sam Pearson,Blades of Khorne,+0.2
+739,Dylan Usher,Hedonites of Slaanesh,+0.2
+740,Alan Hancox,Stormcast Eternals,+0.2
+741,Courtney Brightwell,Disciples of Tzeentch,+0.2
+742,Malachy McCrudden,Legions of Nagash,+0.2
+743,Mark Williams,Stormcast Eternals,+0.2
+744,Kevin Mossman,Legion of Blood,+0.2
+745,Andy Hall,Gloomspite Gitz,+0.2
+746,Nick Holden,Sylvaneth,+0.2
+747,Dean Morrison,Stormcast Eternals,+0.2
+748,Sherif Aziz,Stormcast Eternals,+0.2
+749,James Marsden,UNKNOWN_ARMY,+0.2
+750,Nick Peart,Seraphon,+0.2
+751,Matthew Ainge,Flesh Eater Courts,+0.2
+752,Sam Elgar,Legion of Grief,+0.2
+753,Konnor Wilson,Seraphon,+0.2
+754,Sam Finch,Ossiarch Bonereapers,+0.2
+755,Joe Hadfield,Daughters of Khaine,+0.2
+756,Ross Buchanan,Stormcast Eternals,+0.2
+757,Peter Orton,UNKNOWN_ARMY,+0.2
+758,Liam Worswick,UNKNOWN_ARMY,+0.2
+759,Russ Ward,Chaos,+0.2
+760,Chris Brine,Sylvaneth,+0.2
+761,Simon Bradbury,Skaventide,+0.2
+762,Tom Wainwright,UNKNOWN_ARMY,+0.2
+763,Simon Holdridge,Flesh Eater Courts,+0.2
+764,Ryan Mollen,Fyreslayers,+0.2
+765,Alan Anderson,Stormcast Eternals,+0.2
+766,Dean McKitrick,Legion of Blood,+0.2
+767,Ash Hale,Legion of Blood,+0.2
+768,Izzy Moore,Sylvaneth,+0.2
+769,James Farmer,Seraphon,+0.2
+770,Paul Corcoran,UNKNOWN_ARMY,+0.2
+771,Pierre,Flesh Eater Courts,+0.2
+772,Damien Kaukonen,Seraphon,+0.2
+773,Gary Fisher,Skaventide,+0.2
+774,Dave McGowan,Flesh Eater Courts,+0.2
+775,Jiwan Noah Singh,Skaventide,+0.2
+776,Gavin Gillies,UNKNOWN_ARMY,+0.2
+777,Michael McDonnell,Idoneth Deepkin,+0.2
+778,Joe Doherty,UNKNOWN_ARMY,+0.2
+779,Kieron Allender,Grand Host of Nagash,+0.2
+780,Mark Paddon,Beasts of Chaos,+0.2
+781,Harry Warmill,Big Waaagh,+0.2
+782,Luke Corcoran,UNKNOWN_ARMY,+0.2
+783,Tim Willoughby,Gloomspite Gitz,+0.2
+784,Mark Porter,Stormcast Eternals,+0.2
+785,Luke Salter,Fyreslayers,+0.2
+786,Alex Zwissler,Grand Host of Nagash,+0.2
+787,Robert Ayres,Blades of Khorne,+0.2
+788,Jonathan Cann,Mawtribes,+0.2
+789,Kyle Aspinall,Legion of Sacrement,+0.2
+790,Michael Crossley,Gloomspite Gitz,+0.2
+791,Joe Roxborough,Sylvaneth,+0.2
+792,Thomas Richardson,Stormcast Eternals,+0.2
+793,Ming Lee,Gloomspite Gitz,+0.2
+794,Ben Richards,Mawtribes,+0.2
+795,Steve Sanderson,Skaventide,+0.2
+796,James Andrews,Maggotkin of Nurgle,+0.2
+797,Matthias Mao,Bretonnians,+0.2
+798,Daniel Marshall,Brayherd,+0.2
+799,Cy Dudley,UNKNOWN_ARMY,+0.2
+800,Ben Gummer,Gloomspite Gitz,+0.2
+801,Karl Wadley,UNKNOWN_ARMY,+0.2
+802,Matt Sharp,Dispossessed,+0.2
+803,Arron  Hazell,Stormcast Eternals,+0.2
+804,Raja Brothwood,Cities of Sigmar,+0.2
+805,Kristian Hack,Gloomspite Gitz,+0.2
+806,Piotr Wlodarczyk,Gloomspite Gitz,+0.2
+807,Romain Eretz Bedault,Daughters of Khaine,+0.2
+808,Richard Scott,Stormcast Eternals,+0.2
+809,Alastair King,Skaven,+0.2
+810,Dave Perks,Sylvaneth,+0.2
+811,Gary Hennessey,Maggotkin of Nurgle,+0.2
+812,Adrian Thompson,Beasts of Chaos,+0.2
+813,Hugh Wyeth,Stormcast Eternals,+0.2
+814,Richard Eddon,Orruk Warclans,+0.2
+815,Chris White,UNKNOWN_ARMY,+0.2
+816,Alex Cable,Beasts of Chaos,+0.2
+817,Adam Aiden,UNKNOWN_ARMY,+0.2
+818,Alex Gilbank,Disciples of Tzeentch,+0.2
+819,William Clewer,Destruction,+0.2
+820,Greg Dann,Sylvaneth,+0.2
+821,Lewis Moorby,Ironjawz,+0.2
+822,Rachel Marsh,Seraphon,+0.2
+823,Thomas Challen,Nighthaunt,+0.2
+824,Robert Crouchley,Grand Host of Nagash,+0.2
+825,Charles Fryer,Idoneth Deepkin,+0.2
+826,Marcus Crawley,Legions of Nagash,+0.2
+827,Peter Taylor,Gloomspite Gitz,+0.2
+828,Adam Chidlow,Beasts of Chaos,+0.2
+829,Aaron Schofield,Fyreslayers,+0.2
+830,Rob Darbyshire,Skaventide,+0.2
+831,Sam Philips,Blades of Khorne,+0.2
+832,Alan Mandelson,Beasts of Chaos,+0.2
+833,Dietmar Zwissler,Hosts of Slaanesh,+0.2
+834,Jim Dixon,Stormcast Eternals,+0.2
+835,Tim Davis,Gloomspite Gitz,+0.2
+836,Will Mott,Beastclaw Raiders,+0.2
+837,Aiden McKenna,Mawtribes,+0.2
+838,Will Hardy,Idoneth Deepkin,+0.2
+839,Henrik Salomonsen,Stormcast Eternals,+0.2
+840,James Cassidy,Stormcast Eternals,+0.2
+841,Michael Thomas,Legion of Blood,+0.2
+842,Bob Frazier,Fyreslayers,+0.2
+843,Jack Burbidge,UNKNOWN_ARMY,+0.2
+844,Steve Norris,UNKNOWN_ARMY,+0.2
+845,Lucy Child,Flesh Eater Courts,+0.2
+846,Josh Richardson,Beasts of Chaos,+0.2
+847,Pete Lockwood,Bonesplitterz,+0.2
+848,Elliott Haugh,Ossiarch Bonereapers,+0.2
+849,Chris Cousens,Stormcast Eternals,+0.2
+850,Sean Farmery,Bonesplitterz,+0.2
+851,Jon Carroll,Blades of Khorne,+0.2
+852,Kieran McParland,Nighthaunt,+0.2
+853,James Woodward,Legions of Nagash,+0.2
+854,Dave Holohan,Legions of Nagash,+0.2
+855,John Twomey,Seraphon,+0.2
+856,Scott Pirie,Beasts of Chaos,+0.2
+857,Josh Wheeler,Skaven,+0.2
+858,Andy Burgess,Cities of Sigmar,+0.2
+859,Chris Coles,Gloomspite Gitz,+0.2
+860,Pete Allison,Grand Host of Nagash,+0.2
+861,Jacob Stojanovic,Hosts of Slaanesh,+0.2
+862,Bradley Walsh,Legion of Blood,+0.2
+863,Adrian Wilk,Nighthaunt,+0.2
+864,Sean Rickets,Beastclaw Raiders,+0.2
+865,Adam Connors,Legion of Grief,+0.2
+866,Matthew Reiling,Ironjawz,+0.2
+867,Sean Houghton,Beasts of Chaos,+0.2
+868,Glen Holeman,Order Draconis,+0.2
+869,Martin Brooke,Stormcast Eternals,+0.2
+870,David McMorrow,Blades of Khorne,+0.2
+871,Rich Partridge,Legions of Nagash,+0.2
+872,Wayne Holt,Skaventide,+0.2
+873,Bryan Hatchett,Stormcast Eternals,+0.2
+874,Dave Avery,Kharadron Overlords,+0.2
+875,Michael Hanns,Stormcast Eternals,+0.2
+876,Gene Coates,Blades of Khorne,+0.2
+877,Tim Bussell,Blades of Khorne,+0.2
+878,Chris Roberts,Blades of Khorne,+0.2
+879,Andrew Dorman,Nighthaunt,+0.2
+880,Jason Fagan,Nighthaunt,+0.2
+881,Jr Courtney,Stormcast Eternals,+0.2
+882,Dan Wright,Skaventide,+0.2
+883,Jeremie Dijan,Seraphon,+0.2
+884,Adam Hughes,Stormcast Eternals,+0.2
+885,Ian Gilmore,Ironjawz,+0.2
+886,Khaine Tully,Dispossessed,+0.2
+887,Leighton Krokoszynski,Big Waaagh,+0.2
+888,Matt Pardoe,Blades of Khorne,+0.2
+889,Rob Noyes,Stormcast Eternals,+0.2
+890,Grzegorz Zeweld,Gloomspite Gitz,+0.2
+891,James Harding,Ironjawz,+0.2
+892,Julian Kowalski,Ironjawz,+0.2
+893,Alex Cawthorne,Stormcast Eternals,+0.2
+894,Robert Dahm,Ossiarch Bonereapers,+0.2
+895,Gareth Hughes,Blades of Khorne,+0.2
+896,Donald Mccallum,Order,+0.2
+897,Rik Eiddon,Maggotkin of Nurgle,+0.2
+898,Luke Clarke,Flesh Eater Courts,+0.2
+899,Ben Biddess,Stormcast Eternals,+0.2
+900,Luke Taylor,Stormcast Eternals,+0.2
+901,John Laurie,Stormcast Eternals,+0.2
+902,John Perkins,Blades of Khorne,+0.2
+903,Elliot O'Neil,Disciples of Tzeentch,+0.2
+904,Magnus Nedfors,Maggotkin of Nurgle,+0.2
+905,Ivan Herrera,Cities of Sigmar,+0.2
+906,Barry Hall,Disciples of Tzeentch,+0.1
+907,Andy Campbell,Legions of Nagash,+0.1
+908,Daniel Grant,Hedonites of Slaanesh,+0.1
+909,Matt McDonnell,Legions of Nagash,+0.1
+910,Graeme Purcifer,UNKNOWN_ARMY,+0.1
+911,Michael Dijan,Sylvaneth,+0.1
+912,Matty Kane,Stormcast Eternals,+0.1
+913,Tuggy Kay,UNKNOWN_ARMY,+0.1
+914,Calum Todd,Disciples of Tzeentch,+0.1
+915,Carl Kennard,Stormcast Eternals,+0.1
+916,Chris Fereday,Daughters of Khaine,+0.1
+917,Ming Leu,Gloomspite Gitz,+0.1
+918,James Hanson,Fyreslayers,+0.1
+919,Paul Maloney,Gloomspite Gitz,+0.1
+920,Andrew Lonsdale,UNKNOWN_ARMY,+0.1
+921,Matt Ainge,Gloomspite Gitz,+0.1
+922,Hannah Haigh,Gloomspite Gitz,+0.1
+923,Wiktor Wadsten Mattisson,Blades of Khorne,+0.1
+924,Oliver Grimwood,Destruction,+0.1
+925,Pete Myhill,Idoneth Deepkin,+0.1
+926,Luce Follea,Maggotkin of Nurgle,+0.1
+927,Mark Chadwick,Stormcast Eternals,+0.1
+928,Chris Paton,Gutbusters,+0.1
+929,Steffano Coppola,Stormcast Eternals,+0.1
+930,David Lisle,Hedonites of Slaanesh,+0.1
+931,Damien Spirrell,Blades of Khorne,+0.1
+932,Simon Templeton,UNKNOWN_ARMY,+0.1
+933,Matt Rogers,Skaventide,+0.1
+934,Darren Powell,Blades of Khorne,+0.1
+935,Charles Shepherd,Maggotkin of Nurgle,+0.1
+936,Ross Pearson,Maggotkin of Nurgle,+0.1
+937,Pete Riordan,Stormcast Eternals,+0.1
+938,Steve Scribbins,Stormcast Eternals,+0.1
+939,Felix Andrews,Cities of Sigmar,+0.1
+940,James Hayday,Stormcast Eternals,+0.1
+941,Oskar Carlefred,Disciples of Tzeentch,+0.1
+942,Tom Courtier,Stormcast Eternals,+0.1
+943,Andrew Hartwell,Legions of Nagash,+0.1
+944,Grant Dearness,Gloomspite Gitz,+0.1
+945,Sean Ormerod,UNKNOWN_ARMY,+0.1
+946,Max Halford,Hosts of Slaanesh,+0.1
+947,Karol Koman,Soulblight,+0.1
+948,Graham Betteridge,Blades of Khorne,+0.1
+949,Michael Blatherwick,Stormcast Eternals,+0.1
+950,Oliver Lockwood,Blades of Khorne,+0.1
+951,Keith Price,UNKNOWN_ARMY,+0.1
+952,Carlos Estribio Gil,Wanderers,+0.1
+953,Thomas Maries,Seraphon,+0.1
+954,Michael O'Connor,Order Draconis,+0.1
+955,Graham Dane,Gloomspite Gitz,+0.1
+956,Sophie Williams,Hedonites of Slaanesh,+0.1
+957,Simon Blais,Beasts of Chaos,+0.1
+958,Jonathan  Delobelle,Grand Host of Nagash,+0.1
+959,Ashley Rowe,Legions of Nagash,+0.1
+960,Stu Orman,Slaves to Darkness,+0.1
+961,Jerry Elvin,Order,+0.1
+962,Phil Muscroft,Ironjawz,+0.1
+963,Robert Kelly,Gloomspite Gitz,+0.1
+964,Andrew Chapman,Gloomspite Gitz,+0.1
+965,Paul Richardson,Stormcast Eternals,+0.1
+966,Mark Tucker,Wanderers,+0.1
+967,Murray Gaisford,Blades of Khorne,+0.1
+968,Rick Nightingale,Blades of Khorne,+0.1
+969,Tom Field,Khorne Bloodbound,+0.1
+970,Lee Foo,Legions of Nagash,+0.1
+971,Clint Mallet,Legions of Nagash,+0.1
+972,Tyla Fearon,Legions of Nagash,+0.1
+973,Charlie Foyster,Ironjawz,+0.1
+974,Tom Healey,Flesh Eater Courts,+0.1
+975,Edward Folks,UNKNOWN_ARMY,+0.1
+976,John Stangel,Ironjawz,+0.1
+977,Jai Channa,Kharadron Overlords,+0.1
+978,Christian Poon,Stormcast Eternals,+0.1
+979,Kieran Parnell,Ironjawz,+0.1
+980,Joerg Freyaldenhoven,Kharadron Overlords,+0.1
+981,Chris Thursten,Disciples of Tzeentch,+0.1
+982,Andrew Davies,Blades of Khorne,+0.1
+983,Eric Song,Stormcast Eternals,+0.1
+984,James Mapson,Disciples of Tzeentch,+0.1
+985,John Rees,Hedonites of Slaanesh,+0.1
+986,Sebastian Sjostrom,Grand Host of Nagash,+0.1
+987,Simon Walker,Blades of Khorne,+0.1
+988,Kieran Searles,Free Peoples,+0.1
+989,Matthew Pridmore,Blades of Khorne,+0.1
+990,Andrew Thompson,Beastclaw Raiders,+0.1
+991,Conor Considine,Skaventide,+0.1
+992,Mark Bayliss,Beastclaw Raiders,+0.1
+993,Richard Chambers,UNKNOWN_ARMY,+0.1
+994,Liam Williams,Seraphon,+0.1
+995,Tom Newton,Cities of Sigmar,+0.1
+996,Chris Denmark,Mawtribes,+0.1
+997,Laura Bates,Fyreslayers,+0.1
+998,Dawid Grzesik,Order,+0.1
+999,Liam Prendergast,Skaventide,+0.1
+1000,Sebastian Hedberg,Hosts of Slaanesh,+0.1
+1001,Rob Thomas,Daughters of Khaine,+0.1
+1002,Sean O'Hara,Flesh Eater Courts,+0.1
+1003,Jay Norman,Sylvaneth,+0.1
+1004,Darren Kelso,Gloomspite Gitz,+0.1
+1005,Simon Winter,Daughters of Khaine,+0.1
+1006,Rhys Inglis,Hosts of Slaanesh,+0.1
+1007,John Harrison,Gutbusters,+0.1
+1008,Andrew Mullan,Stormcast Eternals,+0.1
+1009,Ant Ambrose,Dispossessed,+0.1
+1010,Phil Evans,Sylvaneth,+0.1
+1011,Tom Cunnell,Sylvaneth,+0.1
+1012,Adam Poolman,Tempests Eye,+0.1
+1013,Alexander Ford,Disciples of Tzeentch,+0.1
+1014,Havard Berre,Legion of Sacrement,+0.1
+1015,Sophie Smith,UNKNOWN_ARMY,+0.1
+1016,Chris Townshend,Gloomspite Gitz,+0.1
+1017,Joe Emberton,Grand Host of Nagash,+0.1
+1018,Ben Swainson,Stormcast Eternals,+0.1
+1019,Jerome Banyuls,Grand Host of Nagash,+0.1
+1020,Harry Sherwin,UNKNOWN_ARMY,+0.1
+1021,Ben Furse,Legion of Sacrement,+0.1
+1022,Chris Stokes,Hosts of Slaanesh,+0.1
+1023,Kevin Bour,Idoneth Deepkin,+0.1
+1024,Lee Palmer,Blades of Khorne,+0.1
+1025,Vitto Manetti,Idoneth Deepkin,+0.1
+1026,James Blair,Nighthaunt,+0.1
+1027,Buddy Lane,Seraphon,+0.1
+1028,Gareth Macey,Destruction,+0.1
+1029,Richard Cunningham,Gloomspite Gitz,+0.1
+1030,David Neri,Flesh Eater Courts,+0.1
+1031,Metin Sanders,Skaventide,+0.1
+1032,Martin Wilson,Fyreslayers,+0.1
+1033,Luke Thomson,Seraphon,+0.1
+1034,Becky Medeiros,UNKNOWN_ARMY,+0.1
+1035,Paul Rollason,Blades of Khorne,+0.1
+1036,Umar Ali,Legion of Blood,+0.1
+1037,Wayne Cooper,UNKNOWN_ARMY,+0.1
+1038,Kyle Salmond,Idoneth Deepkin,+0.1
+1039,George Evans,Maggotkin of Nurgle,+0.1
+1040,Sam Lowe,Nighthaunt,+0.1
+1041,Dylan Murray,Ironjawz,+0.1
+1042,Matt Guiver,UNKNOWN_ARMY,+0.1
+1043,Richard Hicks,Blades of Khorne,+0.1
+1044,Freddie Leggett,Beasts of Chaos,+0.1
+1045,Paul McElroy,Gloomspite Gitz,+0.1
+1046,Adam Wheeler,Flesh Eater Courts,+0.1
+1047,Josh Gates,Skaven,+0.1
+1048,Jake Harding,Skaven,+0.1
+1049,Greig Summers,Blades of Khorne,+0.1
+1050,Caitlin Moore,Maggotkin of Nurgle,+0.1
+1051,Scott Wall,Sylvaneth,+0.1
+1052,Ben Sollis,Kharadron Overlords,+0.1
+1053,Alexander Nygard,Hosts of Slaanesh,+0.1
+1054,Alex Fleet,UNKNOWN_ARMY,+0.1
+1055,Jonathan Gregory,Stormcast Eternals,+0.1
+1056,Gabe Andrew,Blades of Khorne,+0.1
+1057,Mike Porter,Disciples of Tzeentch,+0.1
+1058,Matt Trickett,Gloomspite Gitz,+0.1
+1059,Sarah McComish,Daughters of Khaine,+0.1
+1060,David Turner,Disciples of Tzeentch,+0.1
+1061,Michael Beevor,Flesh Eater Courts,+0.1
+1062,Daniel Elkinson,UNKNOWN_ARMY,+0.1
+1063,Russell Hodge,UNKNOWN_ARMY,+0.1
+1064,Richard Padget,Stormcast Eternals,+0.1
+1065,Phil Moorhouse,Maggotkin of Nurgle,+0.1
+1066,Sam Guy,Beastclaw Raiders,+0.1
+1067,Richard Bowker,Flesh Eater Courts,+0.1
+1068,Joel Middleton,UNKNOWN_ARMY,+0.1
+1069,Steve Constance,UNKNOWN_ARMY,+0.1
+1070,Adam Maiden,Skaven,+0.1
+1071,Josh N,Flesh Eater Courts,+0.1
+1072,Stephen Surgenor,Kharadron Overlords,+0.1
+1073,Rene Jellitsch,Sylvaneth,+0.1
+1074,Graham Wilson,Legions of Nagash,+0.1
+1075,Dave McGill,Blades of Khorne,+0.1
+1076,Liam Jarvis,UNKNOWN_ARMY,+0.1
+1077,Stephen Morrison,Beasts of Chaos,+0.1
+1078,Fraser Jenkings,Gloomspite Gitz,+0.1
+1079,Jon Redmond,Cities of Sigmar,+0.1
+1080,Charles Black,Skaventide,+0.1
+1081,Ryan Muza,Stormcast Eternals,+0.1
+1082,Mark Caseley,Grand Host of Nagash,+0.1
+1083,Ashley Bone,Bonesplitterz,+0.1
+1084,David Marsh,Stormcast Eternals,+0.1
+1085,Harry Sanderson,Ironjawz,+0.1
+1086,Liam Alford,Death,+0.1
+1087,Ben Carter,UNKNOWN_ARMY,+0.1
+1088,Reece Walters,Nighthaunt,+0.1
+1089,Harry Sutton,Beastclaw Raiders,+0.1
+1090,Mike Hanlon,Maggotkin of Nurgle,+0.1
+1091,Timmy Larkin,Idoneth Deepkin,+0.1
+1092,Patrick McComas,Cities of Sigmar,+0.1
+1093,Chris Snell,Idoneth Deepkin,+0.1
+1094,John Southgate,Kharadron Overlords,+0.1
+1095,Mark Logan,Blades of Khorne,+0.1
+1096,Nick Pratt,Beastclaw Raiders,+0.1
+1097,Michael Mimnagh,Sylvaneth,+0.1
+1098,Chris Rose,Cities of Sigmar,+0.1
+1099,Derrick Moutter,UNKNOWN_ARMY,+0.1
+1100,Andy Toben,Nighthaunt,+0.1
+1101,Aaron Drew,Fyreslayers,+0.1
+1102,Right Eddon,Fyreslayers,+0.1
+1103,Mark Kittle,Mawtribes,+0.1
+1104,Ian Howarth,Kharadron Overlords,+0.1
+1105,Ronnie Dodd,Maggotkin of Nurgle,+0.1
+1106,Craig Moore,Chaos,+0.1
+1107,Simon Coe,Disciples of Tzeentch,+0.1
+1108,Andrew Snow,UNKNOWN_ARMY,+0.1
+1109,Mark Rawcliffe,Fyreslayers,+0.1
+1110,Gareth Cosby,Blades of Khorne,+0.1
+1111,Jordan Bintcliffe,Blades of Khorne,+0.1
+1112,Julien Ginther,Stormcast Eternals,+0.1
+1113,Ciara Potter,Sylvaneth,+0.1
+1114,Jon Barwise,Blades of Khorne,+0.1
+1115,Murillo Titon De Souza,Disciples of Tzeentch,+0.1
+1116,David Arnold,Sylvaneth,+0.1
+1117,Matthew Haggett,Maggotkin of Nurgle,+0.1
+1118,James Henley,Skaventide,+0.1
+1119,Harry O'Meara,Skaven,+0.1
+1120,Liam Albert,Stormcast Eternals,+0.1
+1121,Rob Wilshaw,Ironjawz,+0.1
+1122,Eirik Lanes,Blades of Khorne,+0.1
+1123,Adam Fox,Maggotkin of Nurgle,+0.1
+1124,Lily Walsh,Maggotkin of Nurgle,+0.1
+1125,Chris Markou,Blades of Khorne,+0.1
+1126,Graeme Wallace,Sylvaneth,+0.1
+1127,Tommy Potter,Seraphon,+0.1
+1128,Dave Palmer,UNKNOWN_ARMY,+0.1
+1129,Andrew Walls,UNKNOWN_ARMY,+0.1
+1130,Paige Clare,Hosts of Slaanesh,+0.1
+1131,George Stone,Legion of Blood,+0.1
+1132,Claire Hawken,Daughters of Khaine,+0.1
+1133,David Harvey,Legions of Nagash,+0.1
+1134,Benjamin Woodcock,Ossiarch Bonereapers,+0.1
+1135,Ash Gavin,Disciples of Tzeentch,+0.1
+1136,Gary Stephen,Disciples of Tzeentch,+0.1
+1137,Michael Botterill,Blades of Khorne,+0.1
+1138,Matthew Malcolm,Blades of Khorne,+0.1
+1139,Jay Smith,Blades of Khorne,+0.1
+1140,Chris Webster,Blades of Khorne,+0.1
+1141,Stewart Callander,Grand Host of Nagash,+0.1
+1142,Rick Chambers,Legion of Sacrement,+0.1
+1143,David Norval,Legions of Nagash,+0.1
+1144,Adam Elford,Skaven,+0.1
+1145,Gerard Cassidy,Flesh Eater Courts,+0.1
+1146,Pete Kitson,Legion of Azgorh,+0.1
+1147,Dan Marriage,Hedonites of Slaanesh,+0.1
+1148,Tomasz Namielski,Fyreslayers,+0.1
+1149,Will Hopwood,Daughters of Khaine,+0.1
+1150,Keir Egginton,Daughters of Khaine,+0.1
+1151,Steven Knowles,Flesh Eater Courts,+0.1
+1152,James Marshall,Flesh Eater Courts,+0.1
+1153,Andrew Ramsey,Hedonites of Slaanesh,+0.1

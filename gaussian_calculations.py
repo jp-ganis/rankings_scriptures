@@ -1,4 +1,5 @@
 import scipy.stats
+import json
 import csv
 import re
 
@@ -71,6 +72,9 @@ if __name__ == '__main__':
 		rankings[name] = sum(sorted(rankings[name], reverse=True)[:4])
 
 	rankings = {k: v for k, v in sorted(rankings.items(), key=lambda item: item[1], reverse=True)}
+	
+	with open('data_files/gaussian_rankings.json', 'w') as json_file:
+		json.dump(rankings, json_file)
 
 	with open('data_files/gaussian_rankings.csv', mode='w') as rankings_file:
 		writer = csv.writer(rankings_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
