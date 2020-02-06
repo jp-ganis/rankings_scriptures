@@ -1,4 +1,54 @@
 TODO
 
-- fill out this todo file
-- other documentation
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<PRIORITY 1>>>>>>>>>>>>>>
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+- finish filling out per player pages
+	-- badges
+	-- titles
+	-- metabreakers badges for how much filth you played regardless of winrate
+
+- add per faction pages
+	-- graph of performance over time
+	-- graph of popularity over time
+	-- all relevant events
+	-- gaussian rankings
+	-- metabreakers rankings
+	
+- state of the meta page
+	-- pseudo winrate calculator
+	-- pseudo winrate over time
+	-- popularity over time
+	-- pie chart of the meta 
+	-- tier list automatically generated
+
+- finalize scoring algorithm to get points up to 100
+	
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<PRIORITY 2>>>>>>>>>>>>>>
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+	
+- faction badges
+- faction titles
+- add automatic update script for state of the meta from tabletop to
+- single event score calculator - for gaussian and metabreakers
+
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<PRIORITY 3>>>>>>>>>>>>>>
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+
+- meta normalized ladder
+- patch notes pages	
+- type in a name and a faction - see the impact player has on faction, and faction has on player
+- tickboxes on graphs to show/hide however many factions
+- fix unknown_army calculations
+- player velocity - track up and coming players and improvers
+
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<PRIORITY 4>>>>>>>>>>>>>>
+<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+
+- add an FAQ and a patch notes page
+- document which files do what
+- random fun badges
+- What Would Tinsdale Do - swap two players factions
