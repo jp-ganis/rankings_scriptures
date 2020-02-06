@@ -1,12 +1,12 @@
+import scipy.stats
 import operator
 import json
-import csv
 
 def load_scores():
 	scores = {}
 
 	with open('data_files/gaussian_events.csv', newline='') as csvfile:
-		spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+		data = json.load(csvfile, delimiter=',', quotechar='|')
 		for row in spamreader:
 			if len(row) > 0:
 				name = row[0]
@@ -91,6 +91,7 @@ def get_player_deltas(scores):
 		player_deltas[player_id]  = get_player_metabreaker_score(player_id, scores)
 		
 	ordered = {k: v for k, v in sorted(player_deltas.items(), key=lambda item: item[1], reverse=True)}	
+	
 	return ordered	
 	
 def get_player_metabreaker_score(player_id, scores):
@@ -107,11 +108,6 @@ def get_player_metabreaker_score(player_id, scores):
 			
 		metabreakers_scores.append(pts / faction_average)
 		
-			
-		if player_id == "Scott Smith":
-			print(faction, faction_average, pts, pts/faction_average)
-		
-	
 	top_x_events = 5	
 	return sum(sorted(metabreakers_scores,reverse=True)[:top_x_events]) / top_x_events
 	
@@ -129,21 +125,9 @@ def get_player_most_played_faction(scores, player_id):
 	return  max(faction_cts.items(), key=operator.itemgetter(1))[0]
 	
 			
-if __name__ == '__main__':
+def generate_data_files():
 	scores = load_scores()
-	
-	# o = average_faction_points(scores)
-	# for e in o:
-		# print("{:35} {}".format(e,o[e]))
-	
-	# print()
-	# print()
-	
-	# o, _= get_faction_deltas(scores)
-	
-	# for e in o:
-		# print("{:35} {:.1f}".format(e,o[e]))
-		
+
 	#########################
 	## output player data
 	#########################
@@ -151,32 +135,21 @@ if __name__ == '__main__':
 	
 	with open('data_files/metabreaker_rankings.json', 'w') as json_file:
 		json.dump(player_deltas, json_file)
-		
-	csv_file = open("data_files/metabreaker_rankings.csv", "w")
-	rank = 0
-	for f in player_deltas:
-		rank += 1
-		delta = "+"
-		if player_deltas[f] < 0: delta = ""
-		faction = get_player_most_played_faction(scores, f)
-		
-		csv_file.write('{},{},{},{}{:.1f}\n'.format(rank, f, faction, delta, player_deltas[f]))
-	csv_file.close()
-	
+
 	#########################
 	## output faction data
 	#########################
 	faction_points = average_faction_points(scores)
-	faction_deltas, _ = get_faction_deltas(scores)
-	csv_file = open("data_files/faction_data.csv", "w")
-	for f in faction_deltas:
-		csv_file.write('{},{:.1f},{:.1f}\n'.format(f, faction_points[f], faction_deltas[f]))
-	csv_file.close()
+	faction_deltas,faction_counts = get_faction_deltas(scores)
 	
 	faction_json = {}
 	
 	for f in faction_deltas:
-		faction_json[f] = {"deltas":faction_deltas[f], "scores":faction_points[f]}
+		faction_json[f] = {"deltas":faction_deltas[f], "scores":faction_points[f], "counts":faction_counts[f]}
 	
 	with open('data_files/metabreakers_faction_data.json', 'w') as json_file:
 		json.dump(faction_json, json_file)
+		
+		
+if __name__ == '__main__':
+	generate_data_files()

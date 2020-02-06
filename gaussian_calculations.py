@@ -47,7 +47,7 @@ def load_events_data():
 				
 	return events
 
-if __name__ == '__main__':
+def generate_data_files():
 	events = load_events_data()
 				
 	rankings = {}
@@ -75,18 +75,7 @@ if __name__ == '__main__':
 	
 	with open('data_files/gaussian_rankings.json', 'w') as json_file:
 		json.dump(rankings, json_file)
-
-	with open('data_files/gaussian_rankings.csv', mode='w') as rankings_file:
-		writer = csv.writer(rankings_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-		i = 0
-		for f in rankings:
-			i+=1
-			rankings_file.write(f'{i},{f},{int(rankings[f])}\n')
-			
-	with open('data_files/gaussian_events.csv', mode='w') as events_file:
-		writer = csv.writer(events_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-		for e in events:
-			for p in e["ladder"]:
-				events_file.write(f'{p[0]},{p[1]},{e["date"]},{p[2]}\n')
+		
+if __name__ == '__main__':
+	generate_data_files()
+	
