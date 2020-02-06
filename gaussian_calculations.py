@@ -34,7 +34,7 @@ def load_events_data():
 				event_date = row[2]
 				event_rounds = row[3]
 				
-				if "2019" not in event_date and "2020" not in event_date: break
+				# if "2019" not in event_date and "2020" not in event_date: break
 				
 				events.append({})
 				events[-1]["name"] = event_name
