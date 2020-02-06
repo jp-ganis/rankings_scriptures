@@ -7,18 +7,26 @@ import re
 
 
 def get_gaussian_rankings_score_for_player(player_name):
-	with open('data_files/gaussian_rankings.csv', newline='') as csvfile:
-		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-		for row in reader:
-			if row[1] == player_name:
-				return row[2], row[0]
+	with open('data_files/gaussian_rankings.json', newline='') as json_file:
+		data = json.load(json_file)
+		
+		ranked_names = {k: v for k, v in sorted(data.items(), key=lambda item: item[1], reverse=True)}
+		
+		ranked_names = list(ranked_names.keys())
+		
+		if player_name in data:
+			return data[player_name], ranked_names.index(player_name) + 1
 	
 def get_metabreakers_score_for_player(player_name):
-	with open('data_files/metabreaker_rankings.csv', newline='') as csvfile:
-		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-		for row in reader:
-			if row[1] == player_name:
-				return row[3], row[0]
+	with open('data_files/metabreaker_rankings.json', newline='') as json_file:
+		data = json.load(json_file)
+		
+		ranked_names = {k: v for k, v in sorted(data.items(), key=lambda item: item[1], reverse=True)}
+		
+		ranked_names = list(ranked_names.keys())
+		
+		if player_name in data:
+			return data[player_name], ranked_names.index(player_name) + 1
 	return 0, 0
 	
 def get_best_metabreakers_faction_for_player(player_data, player_name, mbc_scores):
@@ -88,8 +96,12 @@ def get_meta_adjusted_ranking_for_player(player_data, player_name, faction_delta
 		
 	return adjusted_score
 
+def recalculate_gaussian_data():
+	gaussian_calculations.generate_data_files()
+	
+def recalculate_metabreakers_data():
+	mbc.generate_data_files()
 		
-
 '''
 Player data is a json table with one entry per player, containing:
 
@@ -99,6 +111,9 @@ metabreakers_rankings_score, metabreakers_rankings_rank, {{all_event_games}}
 
 '''
 if __name__ == '__main__':
+	recalculate_gaussian_data()
+	recalculate_metabreakers_data()
+
 	events = gaussian_calculations.load_events_data()
 	player_data = {}
 	
@@ -120,14 +135,6 @@ if __name__ == '__main__':
 			event_json = {"event_name": event["name"], "faction": faction, "points": pts, "placing":i+1, "num_players":len(event["ladder"])}
 			player_data[name]["events"].append(event_json)
 
-	
-	faction_data = {}
-	with open('data_files/faction_data.csv', newline='') as csvfile:
-		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-		for row in reader:
-			faction_data[row[0]] = [row[1], row[2]]
-	
-	
 	mbc_scores = mbc.load_scores()
 	faction_deltas, _ = mbc.get_faction_deltas(mbc_scores)
 	
@@ -152,6 +159,8 @@ if __name__ == '__main__':
 		player_data[player]["metabreakers_rankings_score"], player_data[player]["metabreakers_rankings_rank"] = get_metabreakers_score_for_player(player)
 		player_data[player]["best_scoring_faction"] = get_best_scoring_faction_for_player(player_data, player)
 		player_data[player]["best_metabreakers_faction"], mbrs_event_scores = get_best_metabreakers_faction_for_player(player_data, player, mbc_scores)
+		
+		player_data[player]["metabreakers_rankings_score"] *= 100
 		
 		for e in player_data[player]["events"]:
 			e["metabreaker_score"] = mbrs_event_scores[e["event_name"]]

@@ -1,25 +1,15 @@
-from datetime import datetime
+import scipy.stats
 import operator
-import csv
+import json
 
-## cutoff_date is furthest back in time we go, reverse_cutoff means its the further into the future we go
-def load_scores(cutoff_date_string=None, reverse_cutoff=False):
+def load_scores():
 	scores = {}
 
 	with open('data_files/gaussian_events.csv', newline='') as csvfile:
-		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-		for row in reader:
+		data = json.load(csvfile, delimiter=',', quotechar='|')
+		for row in spamreader:
 			if len(row) > 0:
-				if cutoff_date_string != None:
-					date_string = row[2]
-					date = datetime.strptime(date_string, '%d %b %Y')
-					cutoff_date = datetime.strptime(cutoff_date_string, '%d %b %Y')
-
-					if reverse_cutoff and date > cutoff_date: continue
-					elif not reverse_cutoff and date < cutoff_date: continue
-					
 				name = row[0]
-				
 				
 				if name not in scores:
 					scores[name] = []
@@ -98,24 +88,28 @@ def get_player_deltas(scores):
 	player_deltas = {}
 	
 	for player_id in scores:
-		if len(scores[player_id]) < 3: continue
-		factions = [r[0] for r in scores[player_id]]
-		faction_sum = 0
+		player_deltas[player_id]  = get_player_metabreaker_score(player_id, scores)
 		
-		for f in factions:
-			f_mean = get_player_independent_faction_average(player_id, f, scores)
-			if f_mean != None:
-				faction_sum += f_mean
-		
-		faction_average = faction_sum / len(factions)
-		
-		player_average = sum([float(r[2]) for r in scores[player_id]])/len(scores[player_id])
-
-		player_deltas[player_id] = player_average - faction_average
-		
-	
 	ordered = {k: v for k, v in sorted(player_deltas.items(), key=lambda item: item[1], reverse=True)}	
+	
 	return ordered	
+	
+def get_player_metabreaker_score(player_id, scores):
+	metabreakers_scores = []
+	
+	for event in scores[player_id]:
+		faction = event[0]
+		pts = float(event[2])
+		
+		faction_average = get_player_independent_faction_average(player_id, faction, scores)
+		
+		if faction_average == None:
+			faction_average = pts
+			
+		metabreakers_scores.append(pts / faction_average)
+		
+	top_x_events = 5	
+	return sum(sorted(metabreakers_scores,reverse=True)[:top_x_events]) / top_x_events
 	
 def get_player_most_played_faction(scores, player_id):
 	faction_cts = {}
@@ -131,42 +125,31 @@ def get_player_most_played_faction(scores, player_id):
 	return  max(faction_cts.items(), key=operator.itemgetter(1))[0]
 	
 			
-if __name__ == '__main__':
+def generate_data_files():
 	scores = load_scores()
-	
-	o = average_faction_points(scores)
-	for e in o:
-		print("{:35} {}".format(e,o[e]))
-	
-	print()
-	print()
-	
-	o, _= get_faction_deltas(scores)
-	
-	for e in o:
-		print("{:35} {:.1f}".format(e,o[e]))
-		
+
 	#########################
 	## output player data
 	#########################
 	player_deltas = get_player_deltas(scores)
-	csv_file = open("data_files/metabreaker_rankings.csv", "w")
-	rank = 0
-	for f in player_deltas:
-		rank += 1
-		delta = "+"
-		if player_deltas[f] < 0: delta = ""
-		faction = get_player_most_played_faction(scores, f)
-		
-		csv_file.write('{},{},{},{}{:.1f}\n'.format(rank, f, faction, delta, player_deltas[f]))
-	csv_file.close()
 	
+	with open('data_files/metabreaker_rankings.json', 'w') as json_file:
+		json.dump(player_deltas, json_file)
+
 	#########################
 	## output faction data
 	#########################
 	faction_points = average_faction_points(scores)
-	faction_deltas, faction_cts = get_faction_deltas(scores)
-	csv_file = open("data_files/faction_data.csv", "w")
+	faction_deltas,faction_counts = get_faction_deltas(scores)
+	
+	faction_json = {}
+	
 	for f in faction_deltas:
-		csv_file.write('{},{:.1f},{:.1f}\n'.format(f, faction_points[f], faction_deltas[f]))
-	csv_file.close()
+		faction_json[f] = {"deltas":faction_deltas[f], "scores":faction_points[f], "counts":faction_counts[f]}
+	
+	with open('data_files/metabreakers_faction_data.json', 'w') as json_file:
+		json.dump(faction_json, json_file)
+		
+		
+if __name__ == '__main__':
+	generate_data_files()

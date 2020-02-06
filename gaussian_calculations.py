@@ -1,4 +1,5 @@
 import scipy.stats
+import json
 import csv
 import re
 
@@ -46,7 +47,7 @@ def load_events_data():
 				
 	return events
 
-if __name__ == '__main__':
+def generate_data_files():
 	events = load_events_data()
 				
 	rankings = {}
@@ -71,18 +72,10 @@ if __name__ == '__main__':
 		rankings[name] = sum(sorted(rankings[name], reverse=True)[:4])
 
 	rankings = {k: v for k, v in sorted(rankings.items(), key=lambda item: item[1], reverse=True)}
-
-	with open('data_files/gaussian_rankings.csv', mode='w') as rankings_file:
-		writer = csv.writer(rankings_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-		i = 0
-		for f in rankings:
-			i+=1
-			rankings_file.write(f'{i},{f},{int(rankings[f])}\n')
-			
-	with open('data_files/gaussian_events.csv', mode='w') as events_file:
-		writer = csv.writer(events_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-		for e in events:
-			for p in e["ladder"]:
-				events_file.write(f'{p[0]},{p[1]},{e["date"]},{p[2]}\n')
+	
+	with open('data_files/gaussian_rankings.json', 'w') as json_file:
+		json.dump(rankings, json_file)
+		
+if __name__ == '__main__':
+	generate_data_files()
+	
