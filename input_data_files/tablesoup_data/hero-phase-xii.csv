@@ -1,0 +1,37 @@
+NEW_EVENT_TAG,Hero Phase XII,11-01-2020,5
+Dean McLaughlin,-,5/0/0
+John Twomey,-,4/0/1
+Richard Flood,-,3/0/2
+Kevin Grimes,-,3/0/2
+Ken Chambers,-,3/0/2
+Rob Kelly,-,3/0/2
+Neil Montgomery,-,3/0/2
+Eoin Lennon,-,3/0/2
+Ritchie Santisteban,-,3/0/2
+Jay Kinsella,-,3/0/2
+Ciaran Smyth,-,2/0/3
+Jason passarelli,-,2/0/3
+Gavin Dorrigan,-,2/0/3
+Laura MacNeill,-,2/0/3
+John Stangel,-,1/0/4
+David Smyth,-,1/0/2
+Len Buchanan,-,0/0/3
+Bye Buster,-,0/0/5
+Dean McLaughlin,Richard Flood,Dean McLaughlin,Neil Montgomery,Dean McLaughlin,Ken Chambers,Dean McLaughlin,Laura MacNeill,Dean McLaughlin,Ciaran Smyth
+John Twomey,Neil Montgomery,John Twomey,Laura MacNeill,John Twomey,Rob Kelly,Ken Chambers,John Twomey,John Twomey,Len Buchanan
+Dean McLaughlin,Richard Flood,Richard Flood,Ken Chambers,Richard Flood,Ciaran Smyth,Richard Flood,Len Buchanan,Ritchie Santisteban,Richard Flood
+Kevin Grimes,Jason passarelli,Jay Kinsella,Kevin Grimes,Neil Montgomery,Kevin Grimes,Kevin Grimes,John Stangel,Kevin Grimes,Eoin Lennon
+Ken Chambers,Jay Kinsella,Richard Flood,Ken Chambers,Dean McLaughlin,Ken Chambers,Ken Chambers,John Twomey,Ken Chambers,David Smyth
+Rob Kelly,Gavin Dorrigan,Rob Kelly,Ritchie Santisteban,John Twomey,Rob Kelly,Rob Kelly,Eoin Lennon,John Stangel,Rob Kelly
+John Twomey,Neil Montgomery,Dean McLaughlin,Neil Montgomery,Neil Montgomery,Kevin Grimes,Neil Montgomery,Jason passarelli,Neil Montgomery,Jay Kinsella
+Eoin Lennon,Laura MacNeill,Eoin Lennon,Bye Buster,Eoin Lennon,Bye Buster,Rob Kelly,Eoin Lennon,Kevin Grimes,Eoin Lennon
+Ritchie Santisteban,John Stangel,Rob Kelly,Ritchie Santisteban,Ritchie Santisteban,David Smyth,Ciaran Smyth,Ritchie Santisteban,Ritchie Santisteban,Richard Flood
+Ken Chambers,Jay Kinsella,Jay Kinsella,Kevin Grimes,Jay Kinsella,Jason passarelli,Jay Kinsella,Bye Buster,Neil Montgomery,Jay Kinsella
+Ciaran Smyth,Bye Buster,Jason passarelli,Ciaran Smyth,Richard Flood,Ciaran Smyth,Ciaran Smyth,Ritchie Santisteban,Dean McLaughlin,Ciaran Smyth
+Kevin Grimes,Jason passarelli,Jason passarelli,Ciaran Smyth,Jay Kinsella,Jason passarelli,Neil Montgomery,Jason passarelli,Jason passarelli,Bye Buster
+Rob Kelly,Gavin Dorrigan,Gavin Dorrigan,John Stangel,Gavin Dorrigan,Len Buchanan,David Smyth,Gavin Dorrigan,Laura MacNeill,Gavin Dorrigan
+Eoin Lennon,Laura MacNeill,John Twomey,Laura MacNeill,Laura MacNeill,John Stangel,Dean McLaughlin,Laura MacNeill,Laura MacNeill,Gavin Dorrigan
+Ritchie Santisteban,John Stangel,Gavin Dorrigan,John Stangel,Laura MacNeill,John Stangel,Kevin Grimes,John Stangel,John Stangel,Rob Kelly
+Ritchie Santisteban,David Smyth,David Smyth,Gavin Dorrigan,Ken Chambers,David Smyth
+Gavin Dorrigan,Len Buchanan,Richard Flood,Len Buchanan,John Twomey,Len Buchanan
+Ciaran Smyth,Bye Buster,Eoin Lennon,Bye Buster,Eoin Lennon,Bye Buster,Jay Kinsella,Bye Buster,Jason passarelli,Bye Buster

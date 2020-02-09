@@ -1,0 +1,82 @@
+NEW_EVENT_TAG,War in the West,27-07-2019,5
+Corey Papinniemi,Skaven,5/0/0
+Carwyn Llewelyn,-,4/0/1
+Ryan Hooper,-,4/0/1
+David Lancaster,Skaven,4/0/1
+Tyler MacDonald,-,4/0/1
+Nick Cambridge,-,4/0/1
+Luke Gooley,-,3/0/2
+Luke McFadden,-,4/0/1
+Simon Hall,-,3/0/2
+Gabriel T Hanna,-,3/0/2
+Michael Creighton,-,3/0/2
+Denys Laurie,-,3/0/2
+Hayden Walker,-,3/0/2
+Christopher Stratford,-,3/0/2
+gavin woodrow,-,3/0/2
+Cal Scotland,-,3/0/2
+Keaghan Watson,-,2/0/3
+Jye Callanan,-,3/0/2
+Patrick Carter,-,2/0/2
+Michael Thomson,-,2/0/3
+Scott Kutzer,-,2/0/3
+James Maybury,-,3/0/2
+Clint Mallet,-,3/0/2
+Roger Birkett,-,2/0/3
+Jemma Shepherd,-,2/0/3
+Elizabeth Lockhart,-,3/0/2
+David Maidment,-,2/0/3
+Shaun Cassidy,-,2/0/3
+Stavros Kalaitzidis,-,2/0/3
+Nick Bentley,-,1/0/4
+Ben Roughan,-,2/0/3
+Anthony Whitlock,-,1/0/4
+Chris Willcox,-,1/0/4
+Bryce Woodley,-,1/0/4
+Nathan goodchild,-,1/0/3
+Robert Haseldine,-,1/0/4
+Cameron McCormack,-,0/1/4
+Brady Abberton,-,0/0/5
+David Keegan,-,0/1/0
+Jeremy O'Kell,-,0/0/1
+Dean Matthews,-,0/0/0
+David Kerr,-,0/0/0
+Corey Papinniemi,David Lancaster,Corey Papinniemi,Nick Cambridge,Corey Papinniemi,Keaghan Watson,Corey Papinniemi,Nick Bentley,Corey Papinniemi,Bryce Woodley
+Carwyn Llewelyn,Michael Creighton,Carwyn Llewelyn,Keaghan Watson,Nick Cambridge,Carwyn Llewelyn,Carwyn Llewelyn,Luke Gooley,Carwyn Llewelyn,Simon Hall
+Ryan Hooper,Luke McFadden,Ryan Hooper,Jye Callanan,Ryan Hooper,Simon Hall,Ryan Hooper,David Maidment,Tyler MacDonald,Ryan Hooper
+Corey Papinniemi,David Lancaster,David Lancaster,Patrick Carter,David Lancaster,Christopher Stratford,David Lancaster,Michael Thomson,David Lancaster,Scott Kutzer
+Tyler MacDonald,Keaghan Watson,Tyler MacDonald,Christopher Stratford,Tyler MacDonald,Roger Birkett,Tyler MacDonald,Ryan Hooper,Michael Creighton,Tyler MacDonald
+Nick Cambridge,Hayden Walker,Corey Papinniemi,Nick Cambridge,Nick Cambridge,Carwyn Llewelyn,Nick Cambridge,Michael Creighton,Nick Cambridge,Jye Callanan
+Luke Gooley,Scott Kutzer,Luke Gooley,Anthony Whitlock,Clint Mallet,Luke Gooley,Carwyn Llewelyn,Luke Gooley,Luke Gooley,Chris Willcox
+Ryan Hooper,Luke McFadden,Luke McFadden,Clint Mallet,Luke McFadden,gavin woodrow,Luke McFadden,Hayden Walker,Luke McFadden,Nathan goodchild
+Simon Hall,Clint Mallet,Simon Hall,Michael Thomson,Ryan Hooper,Simon Hall,Simon Hall,Scott Kutzer,Carwyn Llewelyn,Simon Hall
+Gabriel T Hanna,Elizabeth Lockhart,Michael Creighton,Gabriel T Hanna,Gabriel T Hanna,Cal Scotland,Gabriel T Hanna,Chris Willcox,Patrick Carter,Gabriel T Hanna
+Carwyn Llewelyn,Michael Creighton,Michael Creighton,Gabriel T Hanna,Michael Creighton,Michael Thomson,Nick Cambridge,Michael Creighton,Michael Creighton,Tyler MacDonald
+Denys Laurie,David Maidment,Denys Laurie,gavin woodrow,Jye Callanan,Denys Laurie,Denys Laurie,Brady Abberton,Michael Thomson,Denys Laurie
+Nick Cambridge,Hayden Walker,Hayden Walker,Jemma Shepherd,Hayden Walker,Ben Roughan,Luke McFadden,Hayden Walker,Hayden Walker,James Maybury
+Christopher Stratford,Anthony Whitlock,Tyler MacDonald,Christopher Stratford,David Lancaster,Christopher Stratford,Christopher Stratford,Patrick Carter,Christopher Stratford,Cal Scotland
+gavin woodrow,Ben Roughan,Denys Laurie,gavin woodrow,Luke McFadden,gavin woodrow,gavin woodrow,Anthony Whitlock,gavin woodrow,Stavros Kalaitzidis
+Cal Scotland,James Maybury,Cal Scotland,Stavros Kalaitzidis,Gabriel T Hanna,Cal Scotland,Cal Scotland,Robert Haseldine,Christopher Stratford,Cal Scotland
+Tyler MacDonald,Keaghan Watson,Carwyn Llewelyn,Keaghan Watson,Corey Papinniemi,Keaghan Watson,Keaghan Watson,David Maidment,Keaghan Watson,Robert Haseldine
+Jye Callanan,Jemma Shepherd,Ryan Hooper,Jye Callanan,Jye Callanan,Denys Laurie,Jye Callanan,Nathan goodchild,Nick Cambridge,Jye Callanan
+David Lancaster,Patrick Carter,Patrick Carter,Elizabeth Lockhart,Christopher Stratford,Patrick Carter,Patrick Carter,Gabriel T Hanna
+Michael Thomson,Nick Bentley,Simon Hall,Michael Thomson,Michael Creighton,Michael Thomson,David Lancaster,Michael Thomson,Michael Thomson,Denys Laurie
+Luke Gooley,Scott Kutzer,Scott Kutzer,Nathan goodchild,Scott Kutzer,Cameron McCormack,Simon Hall,Scott Kutzer,David Lancaster,Scott Kutzer
+James Maybury,Anthony Whitlock,Cal Scotland,James Maybury,James Maybury,Shaun Cassidy,James Maybury,Bryce Woodley,Hayden Walker,James Maybury
+Simon Hall,Clint Mallet,Luke McFadden,Clint Mallet,Clint Mallet,Luke Gooley,Clint Mallet,Cameron McCormack,Clint Mallet,Shaun Cassidy
+Roger Birkett,Bryce Woodley,David Maidment,Roger Birkett,Tyler MacDonald,Roger Birkett,Roger Birkett,Shaun Cassidy,Elizabeth Lockhart,Roger Birkett
+Jye Callanan,Jemma Shepherd,Hayden Walker,Jemma Shepherd,Jemma Shepherd,Nick Bentley,Elizabeth Lockhart,Jemma Shepherd,Jemma Shepherd,Brady Abberton
+Gabriel T Hanna,Elizabeth Lockhart,Elizabeth Lockhart,Nick Bentley,Patrick Carter,Elizabeth Lockhart,Elizabeth Lockhart,Jemma Shepherd,Elizabeth Lockhart,Roger Birkett
+Denys Laurie,David Maidment,David Maidment,Roger Birkett,David Maidment,Robert Haseldine,Ryan Hooper,David Maidment,Keaghan Watson,David Maidment
+Shaun Cassidy,Chris Willcox,James Maybury,Shaun Cassidy,Shaun Cassidy,Bryce Woodley,Roger Birkett,Shaun Cassidy,Clint Mallet,Shaun Cassidy
+Stavros Kalaitzidis,Cameron McCormack,Cal Scotland,Stavros Kalaitzidis,Stavros Kalaitzidis,Brady Abberton,Ben Roughan,Stavros Kalaitzidis,gavin woodrow,Stavros Kalaitzidis
+Michael Thomson,Nick Bentley,Elizabeth Lockhart,Nick Bentley,Jemma Shepherd,Nick Bentley,Corey Papinniemi,Nick Bentley,Nick Bentley,Ben Roughan
+gavin woodrow,Ben Roughan,Ben Roughan,Cameron McCormack,Hayden Walker,Ben Roughan,Ben Roughan,Stavros Kalaitzidis,Nick Bentley,Ben Roughan
+James Maybury,Anthony Whitlock,Christopher Stratford,Anthony Whitlock,Luke Gooley,Anthony Whitlock,gavin woodrow,Anthony Whitlock,Anthony Whitlock,Jeremy OKell
+Shaun Cassidy,Chris Willcox,Chris Willcox,Robert Haseldine,Nathan goodchild,Chris Willcox,Gabriel T Hanna,Chris Willcox,Luke Gooley,Chris Willcox
+Roger Birkett,Bryce Woodley,Bryce Woodley,Brady Abberton,Shaun Cassidy,Bryce Woodley,James Maybury,Bryce Woodley,Corey Papinniemi,Bryce Woodley
+Scott Kutzer,Nathan goodchild,Nathan goodchild,Chris Willcox,Jye Callanan,Nathan goodchild,Luke McFadden,Nathan goodchild
+Robert Haseldine,Brady Abberton,Chris Willcox,Robert Haseldine,David Maidment,Robert Haseldine,Cal Scotland,Robert Haseldine,Keaghan Watson,Robert Haseldine
+Stavros Kalaitzidis,Cameron McCormack,Ben Roughan,Cameron McCormack,Scott Kutzer,Cameron McCormack,Clint Mallet,Cameron McCormack
+Robert Haseldine,Brady Abberton,Bryce Woodley,Brady Abberton,Stavros Kalaitzidis,Brady Abberton,Denys Laurie,Brady Abberton,Jemma Shepherd,Brady Abberton
+Anthony Whitlock,Jeremy OKell

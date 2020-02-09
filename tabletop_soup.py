@@ -13,7 +13,9 @@ def get_event_data(event_link,output_folder="",custom_file_name=None):
 	date = soup.find('li', {"title" : "Event Date"}).getText().strip()
 
 	player_links = soup.find_all('a', {"class": "btn btn-link removespacing"})
-	army_links = soup.find_all('td', {"class":"text-center faction_column col-xs-4"})
+	
+	army_links = soup.find_all('td', {"class": "text-center faction_column col-xs-4"})
+	army_links += soup.find_all('td', {"class": "text-center faction_column col-xs-4 "})
 
 	rounds = 0
 
@@ -83,6 +85,8 @@ def get_all_ladders():
 	base_url = "https://tabletop.to/"
 	event_urls = get_aos_urls()
 	
+	# event_urls = ['warlordsrevenge']
+	
 	for event_url in event_urls:
 		if "/" in event_url: continue
 		
@@ -100,19 +104,13 @@ def get_all_ladders():
 				string = d.get('data-content').replace("'", "")
 				matchups += [x.group(1) for x in re.finditer(r'Round \d:(\s*((\w+\s*)+).*def\. ((\w+\s*)+))', string)]
 				
-		try:
-			event_file_name = get_event_data(url, "tablesoup_data", event_url)
-			with open(event_file_name, mode='a', newline='',encoding='utf-8') as outfile:
-				for m in matchups:
-					m = m.replace('\t', ' ')
-					first_split = re.compile("\(\d+\)|(def\.)|:|(tied with)").split(m)
-					names = [e.strip() for e in first_split if e != None and "Round" not in e and "def." not in e and "tied with" not in e and e.strip() != '']
-					outfile.write(','.join(names) + '\n')
-			
-			
-			
-		except Exception as e:
-			print(event_url, e)
+		event_file_name = get_event_data(url, "raw_event_data/tablesoup_data", event_url)
+		with open(event_file_name, mode='a', newline='',encoding='utf-8') as outfile:
+			for m in matchups:
+				m = m.replace('\t', ' ')
+				first_split = re.compile("\(\d+\)|(def\.)|:|(tied with)").split(m)
+				names = [e.strip() for e in first_split if e != None and "Round" not in e and "def." not in e and "tied with" not in e and e.strip() != '']
+				outfile.write(','.join(names) + '\n')
 			
 		print(len(matchups))
 		print()

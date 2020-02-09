@@ -3,6 +3,9 @@ TODO
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 <<<<<<<<<PRIORITY 1>>>>>>>>>>>>>>
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+
+- fix automated process for tabletop dear god
+
 - finish filling out per player pages
 	-- badges
 	-- titles
@@ -21,15 +24,18 @@ TODO
 	-- popularity over time
 	-- pie chart of the meta 
 	-- tier list automatically generated
+	
 
 - finalize scoring algorithm to get points up to 100
+
+- standardize event data format for tablesoup and bad dice files
 	
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 <<<<<<<<<PRIORITY 2>>>>>>>>>>>>>>
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 	
-- faction badges
-- faction titles
+- column for main scoring faction on northern rankings
+- stop tabletop_soup from redownloading events we already have ( check if they're empty on disk tho )
 - add automatic update script for state of the meta from tabletop to
 - single event score calculator - for gaussian and metabreakers
 
@@ -37,6 +43,9 @@ TODO
 <<<<<<<<<PRIORITY 3>>>>>>>>>>>>>>
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 
+- up/down arrows for when people move around in the rankings
+- faction badges
+- faction titles
 - meta normalized ladder
 - patch notes pages	
 - type in a name and a faction - see the impact player has on faction, and faction has on player
