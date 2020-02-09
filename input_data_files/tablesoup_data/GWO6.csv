@@ -1,0 +1,31 @@
+NEW_EVENT_TAG,GOW 6,02-03-2019,5
+Bubba,-,5/0/0
+Thomas Christiansen,-,4/0/1
+Fredrik Andersson,-,3/0/2
+Björn Malmborg,-,3/0/2
+Pontus Krontoft,-,3/0/2
+Robin Slätt,-,3/0/2
+Arvid snö ,-,3/0/2
+Lillen Svensson,-,2/0/3
+Martin Nygren,-,2/0/3
+Lars stålkäft Lindholm,-,2/0/3
+Douglas Tornqvist,-,2/0/3
+Jason D Fluffer,-,2/0/3
+Simon Andersson,-,1/0/4
+Anton Ullvin,-,0/0/5
+Martin Vestin,-,0/0/0
+Andreas Angermund,-,0/0/0
+Bubba,Fredrik Andersson,Bubba,Arvid snö,Bubba,Douglas Tornqvist,Bubba,Lars Lindholm,Bubba,Simon Andersson
+Thomas Christiansen,Arvid snö,Thomas Christiansen,Lillen Svensson,Thomas Christiansen,Jason D Fluffer,Thomas Christiansen,Simon Andersson,Lars Lindholm,Thomas Christiansen
+Bubba,Fredrik Andersson,Fredrik Andersson,Douglas Tornqvist,Fredrik Andersson,Lars Lindholm,Arvid snö,Fredrik Andersson,Fredrik Andersson,Martin Nygren
+Björn Malmborg,Simon Andersson,Robin Slätt,Björn Malmborg,Björn Malmborg,Martin Nygren,Lillen Svensson,Björn Malmborg,Björn Malmborg,Jason D Fluffer
+Pontus Krontoft,Douglas Tornqvist,Pontus Krontoft,Lars Lindholm,Pontus Krontoft,Anton Ullvin,Jason D Fluffer,Pontus Krontoft,Arvid snö,Pontus Krontoft
+Robin Slätt,Martin Nygren,Robin Slätt,Björn Malmborg,Robin Slätt,Simon Andersson,Douglas Tornqvist,Robin Slätt,Lillen Svensson,Robin Slätt
+Thomas Christiansen,Arvid snö,Bubba,Arvid snö,Arvid snö,Lillen Svensson,Arvid snö,Fredrik Andersson,Arvid snö,Pontus Krontoft
+Jason D Fluffer,Lillen Svensson,Thomas Christiansen,Lillen Svensson,Arvid snö,Lillen Svensson,Lillen Svensson,Björn Malmborg,Lillen Svensson,Robin Slätt
+Robin Slätt,Martin Nygren,Martin Nygren,Jason D Fluffer,Björn Malmborg,Martin Nygren,Martin Nygren,Anton Ullvin,Fredrik Andersson,Martin Nygren
+Lars Lindholm,Anton Ullvin,Pontus Krontoft,Lars Lindholm,Fredrik Andersson,Lars Lindholm,Bubba,Lars Lindholm,Lars Lindholm,Thomas Christiansen
+Pontus Krontoft,Douglas Tornqvist,Fredrik Andersson,Douglas Tornqvist,Bubba,Douglas Tornqvist,Douglas Tornqvist,Robin Slätt,Douglas Tornqvist,Anton Ullvin
+Jason D Fluffer,Lillen Svensson,Martin Nygren,Jason D Fluffer,Thomas Christiansen,Jason D Fluffer,Jason D Fluffer,Pontus Krontoft,Björn Malmborg,Jason D Fluffer
+Björn Malmborg,Simon Andersson,Simon Andersson,Anton Ullvin,Robin Slätt,Simon Andersson,Thomas Christiansen,Simon Andersson,Bubba,Simon Andersson
+Lars Lindholm,Anton Ullvin,Simon Andersson,Anton Ullvin,Pontus Krontoft,Anton Ullvin,Martin Nygren,Anton Ullvin,Douglas Tornqvist,Anton Ullvin

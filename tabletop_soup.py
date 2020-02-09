@@ -16,6 +16,7 @@ def get_event_data(event_link,output_folder="",custom_file_name=None):
 	
 	army_links = soup.find_all('td', {"class": "text-center faction_column col-xs-4"})
 	army_links += soup.find_all('td', {"class": "text-center faction_column col-xs-4 "})
+	army_links += soup.find_all('td', {"class": "text-center col-xs-4 faction_column "})
 
 	rounds = 0
 
@@ -25,13 +26,23 @@ def get_event_data(event_link,output_folder="",custom_file_name=None):
 	
 	for i in range(len(player_links)):
 		p = player_links[i]
-		a = army_links[i]
+		
+		if len(army_links) > 0:
+			a = army_links[i]
+			army_line = str(a.getText())
+			winrate = a.find_next('td').text.strip()
+		else:
+			print("No armies found for", event_link)
+			a = "UNKNOWN_ARMY"
+			army_line = "UNKNOWN_ARMY"
+			winrate = "0/0/0"
+			
 		player_line = str(p.getText())
-		army_line = str(a.getText())
-		winrate = a.find_next('td').text.strip()
 		
 		if i == 0:
-			rounds = sum([int(s) for s in winrate.split('/')])
+			rounds = sum([int(s) for s in winrate.split('/')])		
+			if winrate == "0/0/0":
+				rounds = 5
 		
 		if ": " in army_line:
 			idx = army_line.index(" ")
@@ -104,7 +115,7 @@ def get_all_ladders():
 				string = d.get('data-content').replace("'", "")
 				matchups += [x.group(1) for x in re.finditer(r'Round \d:(\s*((\w+\s*)+).*def\. ((\w+\s*)+))', string)]
 				
-		event_file_name = get_event_data(url, "raw_event_data/tablesoup_data", event_url)
+		event_file_name = get_event_data(url, "input_data_files/tablesoup_data", event_url)
 		with open(event_file_name, mode='a', newline='',encoding='utf-8') as outfile:
 			for m in matchups:
 				m = m.replace('\t', ' ')

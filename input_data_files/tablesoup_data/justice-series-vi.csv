@@ -1,0 +1,33 @@
+NEW_EVENT_TAG,Justice Series VI,11-02-2018,3
+Jack westaway,-,3/0/0
+Tony Moore,-,3/0/0
+Ritchie Mcalley,-,2/0/1
+Nigel Chorlton ,-,2/0/1
+Raja Brothwood,-,2/0/1
+Alex cockburn,-,2/0/1
+James Tinsdale,-,2/0/1
+Ric Ellis,-,2/0/1
+Craig Carlton,-,1/0/2
+Jack Maiden,-,1/0/2
+Nathan Foster,-,1/0/2
+Tom Lees,-,1/0/2
+Sam Watson,-,1/0/2
+Stephen Prescott ,-,1/0/2
+Tom Fildes,-,0/0/3
+Ronnie Dodd,-,0/0/3
+Jack westaway,Ritchie Mcalley,Jack westaway,Alex cockburn,Jack westaway,Ronnie Dodd
+Tony Moore,Raja Brothwood,Tony Moore,Ric Ellis,Tony Moore,Craig Carlton
+Jack westaway,Ritchie Mcalley,Ritchie Mcalley,Nigel Chorlton,Ritchie Mcalley,Nathan Foster
+Nigel Chorlton,Nathan Foster,Ritchie Mcalley,Nigel Chorlton,Nigel Chorlton,Tom Lees
+Tony Moore,Raja Brothwood,Raja Brothwood,Jack Maiden,Raja Brothwood,Stephen Prescott
+Alex cockburn,Tom Lees,Jack westaway,Alex cockburn,Alex cockburn,Sam Watson
+James Tinsdale,Craig Carlton,James Tinsdale,Ronnie Dodd,Ric Ellis,James Tinsdale
+Ric Ellis,Jack Maiden,Tony Moore,Ric Ellis,Ric Ellis,James Tinsdale
+James Tinsdale,Craig Carlton,Craig Carlton,Stephen Prescott,Tony Moore,Craig Carlton
+Ric Ellis,Jack Maiden,Raja Brothwood,Jack Maiden,Jack Maiden,Tom Fildes
+Nigel Chorlton,Nathan Foster,Nathan Foster,Sam Watson,Ritchie Mcalley,Nathan Foster
+Alex cockburn,Tom Lees,Tom Lees,Tom Fildes,Nigel Chorlton,Tom Lees
+Sam Watson,Tom Fildes,Nathan Foster,Sam Watson,Alex cockburn,Sam Watson
+Stephen Prescott,Ronnie Dodd,Craig Carlton,Stephen Prescott,Raja Brothwood,Stephen Prescott
+Sam Watson,Tom Fildes,Tom Lees,Tom Fildes,Jack Maiden,Tom Fildes
+Stephen Prescott,Ronnie Dodd,James Tinsdale,Ronnie Dodd,Jack westaway,Ronnie Dodd

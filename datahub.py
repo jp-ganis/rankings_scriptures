@@ -242,7 +242,6 @@ if __name__ == '__main__':
 		cutoff_date =  update_specs[rankings]["cutoff_date"]
 		
 		print(f'\nProcessing {rankings}...')
-		events = load_raw_events_data(input_folder, cutoff_date)
 		
 		print("\nLoading events data...")
 		events = load_raw_events_data(input_folder, cutoff_date)
@@ -284,4 +283,4 @@ if __name__ == '__main__':
 			file_locations[nf] = update_specs[rankings]["metabreakers_folder"]
 			
 		for file in file_locations:
-			print(shutil.copy(file, file_locations[file]))
+			shutil.copy(file, file_locations[file])

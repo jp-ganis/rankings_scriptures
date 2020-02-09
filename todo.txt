@@ -4,7 +4,7 @@ TODO
 <<<<<<<<<PRIORITY 1>>>>>>>>>>>>>>
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 
-- fix automated process for tabletop dear god
+- get events on player page in chronological order....
 
 - finish filling out per player pages
 	-- badges
@@ -14,9 +14,6 @@ TODO
 - add per faction pages
 	-- graph of performance over time
 	-- graph of popularity over time
-	-- all relevant events
-	-- gaussian rankings
-	-- metabreakers rankings
 	
 - state of the meta page
 	-- pseudo winrate calculator
@@ -29,11 +26,18 @@ TODO
 - finalize scoring algorithm to get points up to 100
 
 - standardize event data format for tablesoup and bad dice files
+
+- streamline and make a datahub equivalent for state of the meta stuff
+
+- state of the meta should read from events and from tablesoup, as much data as possible
 	
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 <<<<<<<<<PRIORITY 2>>>>>>>>>>>>>>
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
-	
+
+- search for players/factions/events
+- highlights and titles for faction pages
+- highlights for events that are contributing to your rank
 - column for main scoring faction on northern rankings
 - stop tabletop_soup from redownloading events we already have ( check if they're empty on disk tho )
 - add automatic update script for state of the meta from tabletop to
@@ -42,6 +46,7 @@ TODO
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 <<<<<<<<<PRIORITY 3>>>>>>>>>>>>>>
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+- cutoff date for tablesoup
 
 - up/down arrows for when people move around in the rankings
 - faction badges

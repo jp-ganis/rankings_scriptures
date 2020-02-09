@@ -7,8 +7,8 @@ import sys
 
 
 if __name__ == '__main__':
-	data_folder = "tablesoup_data"
-	output_file = "data_files/faction_matchups.json"
+	data_folder = "input_data_files/tablesoup_data"
+	output_file = "output_data_files/faction_data/faction_matchups.json"
 
 	files = glob.glob(f'{data_folder}/*')
 
@@ -41,8 +41,6 @@ if __name__ == '__main__':
 					
 					name = row[0].replace('\t', ' ')
 					player_factions[name] = row[1]
-					
-	
 	
 	l = {}
 	
@@ -60,5 +58,6 @@ if __name__ == '__main__':
 	
 	with open(output_file, 'w') as json_file:
 		json.dump(l, json_file)
-
 		
+	for army in l["Flesh Eater Courts"]["matchups"]:
+		print(army, l["Flesh Eater Courts"]["matchups"][army])

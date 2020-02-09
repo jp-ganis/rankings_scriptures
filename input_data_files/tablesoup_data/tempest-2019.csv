@@ -1,0 +1,81 @@
+NEW_EVENT_TAG,Tempest 2019,19-01-2019,5
+Liam Watt,-,5/0/0
+Leigh Martin,-,4/0/1
+John B,-,4/0/1
+Mike Callaghan,-,4/0/1
+Nathan Watson,-,4/0/1
+David Nemeth (Loke),-,4/0/1
+Craig Graham,-,4/0/1
+Dan Ryan,-,4/0/1
+Jp Ganis,-,3/0/2
+John Craig,-,3/0/2
+Paul Whitehead ,-,3/0/2
+Kevin Low,-,3/0/2
+Sam Pett,-,3/0/2
+Paul Di Duca ,-,3/0/2
+Mark Roberts,-,3/0/2
+Stephen Mccormick ,-,3/0/2
+Stu West,-,3/0/2
+MATTR,-,3/0/2
+John Harper,-,3/0/2
+Duffy,-,3/0/2
+Gary Pollock,-,2/0/3
+Adam Rawson,-,2/0/3
+Sean Mckechnie,-,2/0/3
+Mark Storrar,-,2/0/3
+Adam Martin,-,2/0/3
+Luke Whitehead,-,2/0/3
+Michael Hanns,-,2/0/3
+Dan Marshall,-,2/0/3
+Richard Strachan,-,2/0/3
+Grant Fraser,-,2/0/3
+Garry Marshall,-,2/0/3
+Rich Morley ,-,2/0/3
+Lyndon Sinclair,-,2/0/3
+Ross Joyce,-,1/0/4
+Will Pollock,-,1/0/4
+Kat Fekete,-,1/0/4
+Shane Kingston,-,1/0/4
+Graeme Davidson,-,1/0/4
+Erik Bews,-,0/0/5
+James Marshall,-,0/0/5
+Liam Watt,Sean Mckechnie,Liam Watt,John Bayliss,Liam Watt,Leigh Martin,Liam Watt,Nathan Watson,Liam Watt,John Craig
+Leigh Martin,Jp Ganis,Liam Watt,Leigh Martin,Leigh Martin,Adam Martin,Leigh Martin,Paul Di Duca,Leigh Martin,Craig Grahan
+Liam Watt,John Bayliss,John Bayliss,Mike Callaghan,John Bayliss,Mark Storrar,John Bayliss,Paul Whitehead,John Bayliss,MATTR
+Mike Callaghan,Dan Ryan,John Bayliss,Mike Callaghan,Mike Callaghan,David Nemeth (Loke),Mike Callaghan,Sam Pett,Mike Callaghan,Michael Hanns
+Nathan Watson,Paul Di Duca,Nathan Watson,Mark Storrar,Liam Watt,Nathan Watson,Nathan Watson,yarrickson,Nathan Watson,Stu West
+David Nemeth (Loke),John Craig,David Nemeth (Loke),yarrickson,Mike Callaghan,David Nemeth (Loke),David Nemeth (Loke),Luke Whitehead,David Nemeth (Loke),Shane Kingston
+Craig Grahan,Graham Duffy,Craig Grahan,Mark Roberts,Craig Grahan,Luke Whitehead,Craig Grahan,Ross Joyce,Leigh Martin,Craig Grahan
+Mike Callaghan,Dan Ryan,Dan Ryan,Sam Pett,Dan Ryan,Rich Morley,Dan Ryan,Jp Ganis,Dan Ryan,Erik Bews
+Leigh Martin,Jp Ganis,Jp Ganis,Paul Whitehead,Jp Ganis,Lyndon Sinclair,Dan Ryan,Jp Ganis,Jp Ganis,John Harper
+David Nemeth (Loke),John Craig,John Craig,MATTR,John Craig,Grant Fraser,John Craig,Richard Strachan,Liam Watt,John Craig
+Paul Whitehead,Adam Martin,Jp Ganis,Paul Whitehead,Paul Whitehead,John Harper,John Bayliss,Paul Whitehead,Paul Whitehead,Mark Roberts
+yarrickson,Sean Mckechnie,David Nemeth (Loke),yarrickson,yarrickson,Stephen Mccormick,Nathan Watson,yarrickson,yarrickson,Graeme Davidson
+Sam Pett,Richard Strachan,Dan Ryan,Sam Pett,Sam Pett,Daniel Marshall,Mike Callaghan,Sam Pett,Sam Pett,Gary Pollock
+Nathan Watson,Paul Di Duca,Paul Di Duca,Adam Martin,Paul Di Duca,Will Pollock,Leigh Martin,Paul Di Duca,Paul Di Duca,Ross Joyce
+Mark Roberts,Mark Storrar,Craig Grahan,Mark Roberts,Mark Roberts,Sean Mckechnie,Mark Roberts,Kat Fekete,Paul Whitehead,Mark Roberts
+Stephen Mccormick,Luke Whitehead,Stephen Mccormick,Grant Fraser,yarrickson,Stephen Mccormick,Adam Martin,Stephen Mccormick,Stephen Mccormick,Kat Fekete
+Stu West,Lyndon Sinclair,Stu West,Adam Rawson,Graham Duffy,Stu West,Stu West,James Marshall,Nathan Watson,Stu West
+MATTR,Gary Pollock,John Craig,MATTR,MATTR,Michael Hanns,MATTR,Garry Marshall,John Bayliss,MATTR
+John Harper,Rich Morley,John Harper,Kat Fekete,Paul Whitehead,John Harper,John Harper,Adam Rawson,Jp Ganis,John Harper
+Craig Grahan,Graham Duffy,Graham Duffy,Rich Morley,Graham Duffy,Stu West,Graham Duffy,Erik Bews,Lyndon Sinclair,Graham Duffy
+MATTR,Gary Pollock,Gary Pollock,Graeme Davidson,Gary Pollock,Garry Marshall,Will Pollock,Gary Pollock,Sam Pett,Gary Pollock
+Adam Rawson,Ross Joyce,Stu West,Adam Rawson,Adam Rawson,James Marshall,John Harper,Adam Rawson,Sean Mckechnie,Adam Rawson
+Liam Watt,Sean Mckechnie,yarrickson,Sean Mckechnie,Sean Mckechnie,Daniel Marshall,Mark Roberts,Sean Mckechnie,Sean Mckechnie,Adam Rawson
+Mark Roberts,Mark Storrar,Mark Storrar,Grant Fraser,Nathan Watson,Mark Storrar,John Bayliss,Mark Storrar,Mark Storrar,Daniel Marshall
+Paul Whitehead,Adam Martin,Paul Di Duca,Adam Martin,Leigh Martin,Adam Martin,Adam Martin,Stephen Mccormick,Adam Martin,Garry Marshall
+Stephen Mccormick,Luke Whitehead,Luke Whitehead,Michael Hanns,Craig Grahan,Luke Whitehead,David Nemeth (Loke),Luke Whitehead,Luke Whitehead,Will Pollock
+Michael Hanns,Graeme Davidson,Luke Whitehead,Michael Hanns,MATTR,Michael Hanns,Michael Hanns,Shane Kingston,Mike Callaghan,Michael Hanns
+Daniel Marshall,Will Pollock,Sean Mckechnie,Daniel Marshall,Sam Pett,Daniel Marshall,Mark Storrar,Daniel Marshall,Daniel Marshall,Richard Strachan
+Sam Pett,Richard Strachan,Richard Strachan,Will Pollock,Richard Strachan,Kat Fekete,John Craig,Richard Strachan,Daniel Marshall,Richard Strachan
+Mark Storrar,Grant Fraser,Stephen Mccormick,Grant Fraser,Grant Fraser,Shane Kingston,John Craig,Grant Fraser,Grant Fraser,Graeme Davidson
+Garry Marshall,James Marshall,Garry Marshall,Erik Bews,Gary Pollock,Garry Marshall,MATTR,Garry Marshall,Adam Martin,Garry Marshall
+John Harper,Rich Morley,Graham Duffy,Rich Morley,Dan Ryan,Rich Morley,Rich Morley,Lyndon Sinclair,Rich Morley,James Marshall
+Stu West,Lyndon Sinclair,Lyndon Sinclair,Ross Joyce,Jp Ganis,Lyndon Sinclair,Rich Morley,Lyndon Sinclair,Lyndon Sinclair,Graham Duffy
+Adam Rawson,Ross Joyce,Lyndon Sinclair,Ross Joyce,Ross Joyce,Erik Bews,Craig Grahan,Ross Joyce,Paul Di Duca,Ross Joyce
+Daniel Marshall,Will Pollock,Richard Strachan,Will Pollock,Paul Di Duca,Will Pollock,Will Pollock,Gary Pollock,Luke Whitehead,Will Pollock
+Kat Fekete,Erik Bews,John Harper,Kat Fekete,Richard Strachan,Kat Fekete,Mark Roberts,Kat Fekete,Stephen Mccormick,Kat Fekete
+Shane Kingston,James Marshall,Grant Fraser,Shane Kingston,Graeme Davidson,Shane Kingston,Michael Hanns,Shane Kingston,David Nemeth (Loke),Shane Kingston
+Michael Hanns,Graeme Davidson,Gary Pollock,Graeme Davidson,Graeme Davidson,Shane Kingston,Grant Fraser,Graeme Davidson,yarrickson,Graeme Davidson
+Kat Fekete,Erik Bews,Garry Marshall,Erik Bews,Ross Joyce,Erik Bews,Graham Duffy,Erik Bews,Dan Ryan,Erik Bews
+Garry Marshall,James Marshall,Shane Kingston,James Marshall,Adam Rawson,James Marshall,Stu West,James Marshall,Rich Morley,James Marshall
