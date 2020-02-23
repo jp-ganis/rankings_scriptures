@@ -59,5 +59,17 @@ if __name__ == '__main__':
 	with open(output_file, 'w') as json_file:
 		json.dump(l, json_file)
 		
-	for army in l["Flesh Eater Courts"]["matchups"]:
-		print(army, l["Flesh Eater Courts"]["matchups"][army])
+		
+	armies = ["Slaves To Darkness", "Cities of Sigmar", "Fyreslayers", "Idoneth Deepkin", "Disciples Of Tzeentch", "Ironjawz", "Ossiarch Bonereapers"]
+
+
+	for a in armies:
+		for b in armies:
+			if a==b: continue
+			try:
+				print('{:35} {:35} {}\t{}'.format(a,b,faction_matchups[(a,b)][0],faction_matchups[(a,b)][1]))
+			except:
+				pass
+		
+	# for army in l["Flesh Eater Courts"]["matchups"]:
+		# print(army, l["Flesh Eater Courts"]["matchups"][army])

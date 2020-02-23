@@ -53,7 +53,8 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 				
 				## Known Aliases
 				if row[0] == "James Ganis": row[0] = "Jp Ganis"
-				if row[0] == "Liam Watts": row[0] = "Liam Watt"
+				elif row[0] == "Liam Watts": row[0] = "Liam Watt"
+				elif row[0] == "Rich Hudspith": row[0] = "Richard Hudspith"
 				
 				row[1] = row[1].replace('Of', 'of')
 				##
