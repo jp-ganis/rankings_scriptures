@@ -180,7 +180,7 @@ def generate_player_data(events):
 			if player_name not in player_data:
 				player_data[player_name] = {"player_name":player_name, "events":[]}
 				
-			player_data[player_name]["events"].append({"event_name":event["name"], "faction":entry["faction"], "gaussian_score":entry["gaussian_score"], \
+			player_data[player_name]["events"].append({"event_name":event["name"], "date":event["date"], "faction":entry["faction"], "gaussian_score":entry["gaussian_score"], \
 			"metabreakers_score":entry["metabreakers_score"], "placing": rank, "num_players":len(event["ladder"])})
 	
 	''' scores '''
@@ -236,12 +236,17 @@ if __name__ == '__main__':
 	update_specs["northern_rankings"]["metabreakers_folder"] = "metabreakers/data/northern_events"
 	update_specs["uk_rankings"]["metabreakers_folder"] = "metabreakers/data/uk_events"
 	
+	update_specs["all_time_data"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/all_time_data", "cutoff_date": "1 Jan 2000" }
+	
+	
 	for rankings in update_specs:
 		input_folder = update_specs[rankings]["input_folder"]
 		output_folder = update_specs[rankings]["output_folder"]
 		cutoff_date =  update_specs[rankings]["cutoff_date"]
 		
+		print("--------------------------------------------------")
 		print(f'\nProcessing {rankings}...')
+		print("--------------------------------------------------")
 		
 		print("\nLoading events data...")
 		events = load_raw_events_data(input_folder, cutoff_date)
@@ -274,13 +279,14 @@ if __name__ == '__main__':
 			mbrs_sorted = {k: v for k, v in sorted(player_data.items(), key=lambda item: item[1]["metabreakers_score"], reverse=True)}	
 			json.dump(mbrs_sorted, json_file)
 			
-		print("\nUploading to metabreakers folder...")
-		files_to_move = glob.glob(f'{output_folder}/*')
-	
-		file_locations = {}
+		if "metabreakers_folder" in update_specs[rankings]:
+			print("\nUploading to metabreakers folder...")
+			files_to_move = glob.glob(f'{output_folder}/*')
 		
-		for nf in files_to_move:
-			file_locations[nf] = update_specs[rankings]["metabreakers_folder"]
+			file_locations = {}
 			
-		for file in file_locations:
-			shutil.copy(file, file_locations[file])
+			for nf in files_to_move:
+				file_locations[nf] = update_specs[rankings]["metabreakers_folder"]
+				
+			for file in file_locations:
+				shutil.copy(file, file_locations[file])

@@ -30,6 +30,8 @@ TODO
 - streamline and make a datahub equivalent for state of the meta stuff
 
 - state of the meta should read from events and from tablesoup, as much data as possible
+
+- grab international data from http://rankings.heraldsofwar.com/player/454&season=0
 	
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 <<<<<<<<<PRIORITY 2>>>>>>>>>>>>>>

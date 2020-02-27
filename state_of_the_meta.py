@@ -1,76 +1,89 @@
-import matplotlib.pyplot as plt 
-import metabreakers_calculations as mbc
-import gaussian_calculations
+import matplotlib.pyplot as plt
 import numpy as np
 import statistics
 import csv
+import json
+import datetime
+import gaussian_fitter
 
-def load_events():
-	events = []
-	with open('data_files/events.csv') as csvfile:
-		readCSV = csv.reader(csvfile, delimiter=',')
-		for row in readCSV:
-			if row[0] == "NEW_EVENT_TAG":
-				event_name = row[1]
-				event_date = row[2]
-				event_rounds = row[3]
-				
-				events.append({})
-				events[-1]["name"] = event_name
-				events[-1]["date"] = event_date
-				events[-1]["rounds"] = event_rounds
-				events[-1]["ladder"] = []
-				
-			else:
-				events[-1]["ladder"].append([row[0],row[1]])
-	return events
+if __name__ == '__main__':	
 
-
-if __name__ == '__main__':
-	events = load_events()
+	with open('output_data_files/all_time_data/datahub_event_data.json', newline='') as json_file:
+		events = json.load(json_file)
 
 	months = {}
+	delta_months = {}
+	
+	podiums = {}
+	faction_cts = {}
 	
 	for event in events:
 		print(events.index(event), len(events), end='\r')
 		month = event["date"].split(" ")
-		month = month[1]+month[2]
 		
+		if len(month) == 1:
+			month = datetime.datetime.strptime(month[0], '%d-%m-%Y').strftime('%b%Y')
+			month=str(month)
+		else:
+			month = month[1]+month[2]
+			
 		if month not in months:
 			months[month] = {}
-		
-		scores = gaussian_calculations.get_gaussian_scores_for_event(event)
-		mbc_scores = mbc.load_scores(event["date"], True)
-		
-		deltas, cts = mbc.get_faction_deltas(mbc_scores)
-		
-		months[month]["deltas"] = deltas
+			delta_months[month] = {}
 		
 		for i in range(len(event["ladder"])):
-			faction = event["ladder"][i][1]
-			score = scores[i]
+			faction = event["ladder"][i]["faction"]
+			
+			# if faction == "Flesh Eater Courts" and "Feb" in event["date"]:
+				# print(event["name"],event["ladder"][i]["player_name"],event["date"])
+				
+			if faction not in podiums:
+				podiums[faction] = []
+				faction_cts[faction] = 0
+				
+			faction_cts[faction] += 1
+				
+				
+			# if faction == "Flesh Eater Courts" and i <= 2 and "2019" in event["date"]:
+				# print("FEC",event["name"],event["ladder"][i]["player_name"],event["date"])
+				
+			# if "Slaanesh" in faction and "2018" in event["date"] and "Feb" in event["date"]:
+				# print("Slaanesh",event["name"],i,event["ladder"][i]["player_name"],event["date"])
+			
+			# score = gaussian_fitter.get_synthetic_wins(i, len(event["ladder"]), int(event["rounds"])) / 5 * 100
+			score = event["ladder"][i]["gaussian_score"]
+			# score = int(i < 3)
+			delta = event["ladder"][i]["metabreakers_score"]
+			
+			if "2019" in event["date"] or "2020" in event["date"]:
+				podiums[faction].append(score/float(event["rounds"]))
 			
 			if faction not in months[month]:
 				months[month][faction] = []
+				delta_months[month][faction] = []
 				
 			months[month][faction].append(score)
+			delta_months[month][faction].append(delta)
 	print()
 	print()
+	
+	for p in podiums:
+		if len(podiums[p]) > 3:
+			podiums[p] = statistics.mean(podiums[p])
+		else:
+			podiums[p] = 0
 		
-	with open('data_files/meta_history.csv', mode='w', newline='') as rankings_file:
+	podiums = {k:v for k,v in sorted(podiums.items(), key=lambda x: x[1], reverse=True)}
+	
+	# for p in podiums:
+		# print(p,int(podiums[p]*100))
+		
+	# print([e["name"] for e in events])
+		
+	with open('output_data_files/meta_history.csv', mode='w', newline='') as rankings_file:
 		writer = csv.writer(rankings_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
 		for m in months:
 			for faction in months[m]:
-				if faction == "deltas": continue
-				
-				faction_delta = 0
-				if faction in months[m]["deltas"]:
-					faction_delta = months[m]["deltas"][faction]
-					
-				writer.writerow([m, faction, statistics.median(months[m][faction]), len(months[m][faction]), faction_delta])
-
-			
-			
-			
-			
+				writer.writerow([m, faction, statistics.mean(months[m][faction]), len(months[m][faction]), statistics.median(delta_months[m][faction])])
+				# writer.writerow([m, faction, sum(months[m][faction]), len(months[m][faction]), statistics.median(delta_months[m][faction])])
