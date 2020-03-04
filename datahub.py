@@ -16,8 +16,7 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 	if oldest_date_string != None:
 		oldest_date = datetime.strptime(oldest_date_string, '%d %b %Y')
 		
-	if newest_date_string != None:
-		newest_date = datetime.strptime(newest_date_string, '%d %b %Y')
+	edos = {}
 	
 	with open(file, encoding='utf-8') as csvfile:
 		readCSV = csv.reader(csvfile, delimiter=',')
@@ -25,7 +24,6 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 		for row in readCSV:
 			if event_date != None:
 				if oldest_date_string != None and event_date_object < oldest_date: continue
-				if newest_date_string != None and event_date_object > newest_date: continue
 		
 			if row[0] == "NEW_EVENT_TAG":
 				event_name = row[1]
@@ -38,9 +36,9 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 					event_date_object = datetime.strptime(event_date, '%d-%m-%Y')
 				else:
 					event_date_object = datetime.strptime(event_date, '%d %b %Y')
-				
+			
+				edos[event_name] = event_date_object
 				if oldest_date_string != None and event_date_object < oldest_date: continue
-				if newest_date_string != None and event_date_object > newest_date: continue
 				
 				events.append({})
 				events[-1]["name"] = event_name
@@ -60,8 +58,10 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 				##
 				
 				events[-1]["ladder"].append({"player_name":row[0], "faction":row[1]})
+				
+	newest_date = datetime.strptime(newest_date_string, '%d %b %Y')
+	events = [e for e in events if len(e["ladder"]) > 6 and edos[e["name"]] < newest_date and edos[e["name"]] > oldest_date]
 	
-	events = [e for e in events if len(e["ladder"]) > 6]
 	
 	return events
 
@@ -237,10 +237,12 @@ if __name__ == '__main__':
 	update_specs["northern_rankings"]["metabreakers_folder"] = "metabreakers/data/northern_events"
 	update_specs["uk_rankings"]["metabreakers_folder"] = "metabreakers/data/uk_events"
 	
-	update_specs["all_time_data"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/all_time_data", "cutoff_date": "1 Jan 2000" }
+	update_specs["all_uk_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/all_uk_events", "cutoff_date": "1 Jan 2000" }
+	update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "1 Jan 2000" }
 	
 	
-	for rankings in update_specs:
+	# for rankings in update_specs:
+	for rankings in ["recent_events"]:
 		input_folder = update_specs[rankings]["input_folder"]
 		output_folder = update_specs[rankings]["output_folder"]
 		cutoff_date =  update_specs[rankings]["cutoff_date"]
