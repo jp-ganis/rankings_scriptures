@@ -59,7 +59,10 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 				
 				events[-1]["ladder"].append({"player_name":row[0], "faction":row[1]})
 				
+	if newest_date_string == None:
+		newest_date_string = '31 Dec 3031'
 	newest_date = datetime.strptime(newest_date_string, '%d %b %Y')
+
 	events = [e for e in events if len(e["ladder"]) > 6 and edos[e["name"]] < newest_date and edos[e["name"]] > oldest_date]
 	
 	
