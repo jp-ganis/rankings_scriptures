@@ -245,7 +245,7 @@ if __name__ == '__main__':
 	
 	
 	# for rankings in update_specs:
-	for rankings in ["recent_events"]:
+	for rankings in update_specs:
 		input_folder = update_specs[rankings]["input_folder"]
 		output_folder = update_specs[rankings]["output_folder"]
 		cutoff_date =  update_specs[rankings]["cutoff_date"]
