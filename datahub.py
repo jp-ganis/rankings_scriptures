@@ -43,6 +43,7 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 				events.append({})
 				events[-1]["name"] = event_name
 				events[-1]["date"] = event_date
+				events[-1]["std_date"] = event_date_object.strftime("%d %b %Y") 
 				events[-1]["rounds"] = event_rounds
 				events[-1]["ladder"] = []
 				
@@ -87,7 +88,7 @@ def get_gaussian_scores_for_event(event):
 	increment = c / len(event["ladder"])
 	
 	multiplier = 1
-	if int(event["rounds"]) == 3: multiplier = 0.75
+	# if int(event["rounds"]) == 3: multiplier = 0.75
 	
 	for i in range(len(event["ladder"])):
 		pts = scipy.stats.norm(0, 1).cdf((c/2) - (increment * (i + 1)))
@@ -184,7 +185,7 @@ def generate_player_data(events):
 			if player_name not in player_data:
 				player_data[player_name] = {"player_name":player_name, "events":[]}
 				
-			player_data[player_name]["events"].append({"event_name":event["name"], "date":event["date"], "faction":entry["faction"], "gaussian_score":entry["gaussian_score"], \
+			player_data[player_name]["events"].append({"event_name":event["name"], "date":event["std_date"], "faction":entry["faction"], "gaussian_score":entry["gaussian_score"], \
 			"metabreakers_score":entry["metabreakers_score"], "placing": rank, "num_players":len(event["ladder"])})
 	
 	''' scores '''
@@ -211,7 +212,7 @@ def generate_player_data(events):
 		scoring_mbrs_factions = [e["faction"] for e in metabreakers_events]
 		
 		most_played_gauss_faction = max(set(scoring_gauss_factions), key=scoring_gauss_factions.count)
-		most_played_mbrs_faction = metabreakers_events[0]["faction"]
+		most_played_mbrs_faction = max(set(scoring_mbrs_factions), key=scoring_mbrs_factions.count)
 		
 		player_data[player_name]["best_scoring_faction"] = most_played_gauss_faction
 		player_data[player_name]["best_metabreakers_faction"] = most_played_mbrs_faction
@@ -240,8 +241,8 @@ if __name__ == '__main__':
 	update_specs["northern_rankings"]["metabreakers_folder"] = "metabreakers/data/northern_events"
 	update_specs["uk_rankings"]["metabreakers_folder"] = "metabreakers/data/uk_events"
 	
-	update_specs["all_uk_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/all_uk_events", "cutoff_date": "1 Jan 2000" }
-	update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "1 Jan 2000" }
+	# update_specs["all_uk_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/all_uk_events", "cutoff_date": "1 Jan 2000" }
+	# update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "1 Jan 2000" }
 	
 	
 	# for rankings in update_specs:
@@ -256,6 +257,7 @@ if __name__ == '__main__':
 		
 		print("\nLoading events data...")
 		events = load_raw_events_data(input_folder, cutoff_date)
+		events = sorted(events, key=lambda e: datetime.strptime(e["std_date"], "%d %b %Y"), reverse=True)
 		
 		print("\nCalculating gauss scores...")
 		events = [populate_gaussian_scores(e) for e in events]
