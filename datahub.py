@@ -88,7 +88,7 @@ def get_gaussian_scores_for_event(event):
 	increment = c / len(event["ladder"])
 	
 	multiplier = 1
-	# if int(event["rounds"]) == 3: multiplier = 0.75
+	if int(event["rounds"]) == 3: multiplier = 0.75
 	
 	for i in range(len(event["ladder"])):
 		pts = scipy.stats.norm(0, 1).cdf((c/2) - (increment * (i + 1)))
