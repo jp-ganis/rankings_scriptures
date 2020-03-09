@@ -13,33 +13,43 @@ if __name__ == '__main__':
 		
 	x = []
 	y = []
+	
+	faction_means = {f:[] for f in fdata}
 		
 	for event in edata:
-		factions = [e["faction"] for e in event["ladder"] if len(fdata[e["faction"]]["events"]) > 30]
-		
-		if len(factions) == 0: continue
-		
 		date = event["std_date"]
 		date = date.split()
-		date = date[1]+date[2][-2:]
-		print(date)
+		date = date[0]+date[1]+date[2][-2:]
 		
-		fscores = [fdata[f]["mean_gaussian_score"] for f in factions]
-		fmean = statistics.mean(fscores)
-		fmedian = statistics.median(fscores)
+		factions = [e["faction"] for e in event["ladder"]]
 		
-		# plt.scatter(date.timestamp(),fmean,c='r	')
+		event_mean = []
+		
+		for p in event["ladder"]:
+			faction_means[p["faction"]].append(p["gaussian_score"])
+		
+		for f in factions:
+			event_mean.append(statistics.mean(faction_means[f]))
+		
+		fmedian = statistics.median(event_mean)
+		# fmedian = statistics.stdev(fscores)
+		
 		x.append(date)
-		y.append(fmedian)
+		y.append(statistics.mean([statistics.mean(faction_means[f]) for f in faction_means if len(faction_means[f]) > 1]))
 
 	x.reverse()
 	y.reverse()
 	
-	N = 50
+	## change window to include faction recently rather than faction over all time
+	## add vertical lines for book releases
+	
+	N = 10
 	cy = np.convolve(y, np.ones((N,))/N, mode='valid')
 	plt.xticks(rotation=90)
+	
+	
+	ticks = [i for i in range(0,len(x)+100,3)]
+	plt.xticks(ticks)
 
 	plt.plot([x[i] for i,_ in enumerate(cy)],cy)
 	plt.show()
-		
-		
