@@ -96,7 +96,7 @@ def get_all_ladders():
 	base_url = "https://tabletop.to/"
 	event_urls = get_aos_urls()
 	
-	# event_urls = ['warlordsrevenge']
+	# event_urls = ['hammer-of-the-north-2020'] ## used for inputting a single event
 	
 	for event_url in event_urls:
 		if "/" in event_url: continue

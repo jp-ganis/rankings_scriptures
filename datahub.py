@@ -220,6 +220,10 @@ def generate_player_data(events):
 	gauss_ordered = {k: v for k, v in sorted(player_data.items(), key=lambda item: item[1]["gaussian_score"], reverse=True)}	
 	mbrs_ordered = {k: v for k, v in sorted(player_data.items(), key=lambda item: item[1]["metabreakers_score"], reverse=True)}	
 
+	'''count events played'''
+	for player_name in player_data:
+		player_data[player_name]["events_played"] = len(player_data[player_name]["events"])
+
 	idx = 0
 	for player in gauss_ordered:
 		idx += 1
