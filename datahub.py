@@ -63,7 +63,7 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 	if newest_date_string == None:
 		newest_date_string = '31 Dec 3031'
 	newest_date = datetime.strptime(newest_date_string, '%d %b %Y')
-
+	
 	events = [e for e in events if len(e["ladder"]) > 6 and edos[e["name"]] < newest_date and edos[e["name"]] > oldest_date]
 	
 	
@@ -246,7 +246,8 @@ if __name__ == '__main__':
 	update_specs["uk_rankings"]["metabreakers_folder"] = "metabreakers/data/uk_events"
 	
 	update_specs["all_uk_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/all_uk_events", "cutoff_date": "1 Jan 2000" }
-	# update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "1 Jan 2000" }
+	# update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "1 Apr 2019", "earliest_date": "1 Aug 2018" }
+	update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "1 Jan 2018"}
 	
 	
 	# for rankings in update_specs:
@@ -260,7 +261,11 @@ if __name__ == '__main__':
 		print("--------------------------------------------------")
 		
 		print("\nLoading events data...")
-		events = load_raw_events_data(input_folder, cutoff_date)
+		events = None
+		if "earliest_date" in update_specs[rankings]:
+			events = load_raw_events_data(input_folder, oldest_date_string=update_specs[rankings]["earliest_date"], newest_date_string=cutoff_date)
+		else:
+			events = load_raw_events_data(input_folder, cutoff_date)
 		events = sorted(events, key=lambda e: datetime.strptime(e["std_date"], "%d %b %Y"), reverse=True)
 		
 		print("\nCalculating gauss scores...")
