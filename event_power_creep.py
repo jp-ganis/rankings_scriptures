@@ -80,16 +80,29 @@ def get_window_scores(edata):
 	# faction_scores = {f:statistics.mean(faction_scores[f]) for f in faction_scores if len(faction_scores[f]) > 3}
 	faction_scores = {k:v for k,v in sorted(faction_scores.items(), key=lambda i:statistics.mean(i[1]), reverse=True)}
 	
-	best = [f for f in faction_scores][:3]
+	best = [f for f in faction_scores if len(faction_scores[f]) > 3][0]
+	worst = [f for f in faction_scores if len(faction_scores[f]) > 3][-1]
 	
-	# window_mean = statistics.mean(faction_scores.values())
-	# window_sd = statistics.stdev(faction_scores.values())
-	window_mean = sum([len(faction_scores[b])/sum([len(faction_scores[f]) for f in faction_scores]) for b in best])
-	window_sd = 0
+	window_mean = statistics.mean(faction_scores[best])
+	window_sd = statistics.mean(faction_scores[worst])
+	
 	
 	return window_mean,window_sd
 	
+
+def get_player_scores(edata):
+	player_scores = defaultdict(list)
 	
+	for event in edata:
+		for e in event["ladder"]:
+			player_scores[e["player_name"]].append(e["gaussian_score"])
+			
+	player_scores = {k:player_scores[k] for k in player_scores if len(player_scores[k]) > 1}
+	player_scores = {k:statistics.stdev(v) for k,v in sorted(player_scores.items(), key=lambda i:statistics.mean(i[1]), reverse=True)}
+	
+	
+	return statistics.mean(player_scores.values()), 0
+		
 def windows():
 	with open('output_data_files/recent_events/datahub_event_data.json') as json_file:
 		edata = json.load(json_file)
@@ -102,8 +115,7 @@ def windows():
 		for row in reader:
 			release_dict[row[0].title()] = datetime.datetime.strptime(row[1].strip(), '%d %b %Y')
 			
-	N = 14
-	
+	N = 500
 	rolling_indices = [[i for i in range(j,j+N)] for j in range(len(edata)-N)]
 	rolling_indices = []
 	
@@ -125,6 +137,7 @@ def windows():
 		
 	x = []
 	y = []
+	y2 = []
 	
 	window_scores = []
 	for ris in rolling_indices:
@@ -134,24 +147,35 @@ def windows():
 		d2 = datetime.datetime.strptime(edata[ris[-1]]["std_date"], "%d %b %Y")
 		
 		m,s = get_window_scores(es)
+		m,s = get_player_scores(es)
 		window_scores.append(m)
 		
-		x.append(edata[ris[-1]]["std_date"].replace('20',''))
+		x.append(edata[ris[-1]]["std_date"])
 		y.append(m)
+		y2.append(s)
 		
 	x.reverse()
 	y.reverse()
+	y2.reverse()
 	
 	y_mu = statistics.mean(y)
 	y_sd = statistics.stdev(y)
 
-	plt.axhline(y=y_mu+y_sd, color='r', linestyle='-')
-	plt.axhline(y=y_mu-y_sd, color='r', linestyle='-')
+	# plt.axhline(y=y_mu+y_sd, color='r', linestyle='-')
+	# plt.axhline(y=y_mu-y_sd, color='r', linestyle='-')
 
 	plt.xticks(rotation=90)
 	plt.plot(x,y)
+	plt.plot(x,y2)
 	plt.show()
 
+def fotow():
+	with open('output_data_files/recent_events/datahub_event_data.json') as json_file:
+		edata = json.load(json_file)
+	with open('output_data_files/recent_events/datahub_faction_data.json') as json_file:
+		fdata = json.load(json_file)
+		
+	# np.percentile(a, 50)	
+	
 
 if __name__ == '__main__':
-	windows()
