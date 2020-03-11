@@ -63,7 +63,7 @@ if __name__ == '__main__':
 		
 	unit_winrates = defaultdict(list)
 	
-	faction = "Ossiarch Bonereapers"
+	faction = "Slaanesh"
 		
 	for p in data:
 		if not "numWins" in data[p]: continue
@@ -119,7 +119,7 @@ if __name__ == '__main__':
 		drop = []
 		add = []
 			
-		max_sg = 5
+		max_sg = 3
 		suggestions = 0
 		for i,u in enumerate(unit_winrates):
 			if suggestions >= max_sg: continue
