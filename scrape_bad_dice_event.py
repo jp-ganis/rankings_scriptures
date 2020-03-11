@@ -16,6 +16,7 @@ for a in soup.find_all('a', href=True):
 		event_links.append(a['href'])
 		
 event_idx = -1
+names = []
 
 for link in event_links:
 	event_idx += 1
@@ -25,8 +26,10 @@ for link in event_links:
 	
 	event_name = str(event_soup.find('h3').renderContents())
 	event_name = re.search(r'Results - (([\w|-]+\s*)+)', str(event_name)).group(1)
-
-	events_file = open(f'input_data_files/uk_events/{event_name}.csv', 'w')
+	
+	events_file = open(f'input_data_files/uk_events/{event_name + str(names.count(event_name))}.csv', 'w')
+	
+	names.append(event_name)
 	
 	event_date = event_soup.find_all('div')
 	rounds = 5

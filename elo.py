@@ -182,57 +182,84 @@ if __name__ == '__main__':
 		for row in csv_reader:
 			fotow += row
 			
-	new_data = []
-	for i in range(0,len(fotow),4):
-		p1name = fotow[i].title()
-		f1 = fotow[i + 1]
-		
-		p2name = fotow[i + 2].title()
-		f2 = fotow[i + 3]
-		
-		if p1name not in player_ids:
-			max_pids+=1
-			player_ids[p1name] = max_pids
-			id_lookup[max_pids] = p1name
+	for i,f in enumerate(fotow):
+		if i % 2 == 1: continue
+		fotow[i] = f.title()
 			
-		if p2name not in player_ids:
-			max_pids+=1
-			player_ids[p2name] = max_pids
-			id_lookup[max_pids] = p2name
-		
-		p1id = player_ids[p1name]
-		p1f = fids[f1]
-		
-		p2id = player_ids[p2name]
-		p2f = fids[f2]
+			
+	############# do fotow predictions
+	wins = {p:0 for p in fotow if fotow.index(p) % 2 == 0}
+	
+	for i in range(5):
+		new_data = []
+		for i in range(0,len(fotow),4):
+			p1name = fotow[i].title()
+			f1 = fotow[i + 1]
+			
+			p2name = fotow[i + 2].title()
+			f2 = fotow[i + 3]
+			
+			if p1name not in player_ids:
+				max_pids+=1
+				player_ids[p1name] = max_pids
+				id_lookup[max_pids] = p1name
+				
+			if p2name not in player_ids:
+				max_pids+=1
+				player_ids[p2name] = max_pids
+				id_lookup[max_pids] = p2name
+			
+			p1id = player_ids[p1name]
+			p1f = fids[f1]
+			
+			p2id = player_ids[p2name]
+			p2f = fids[f2]
 
-		if p1name not in elos: elos[p1name] = ts.Rating()
-		if p2name not in elos: elos[p2name] = ts.Rating()
+			if p1name not in elos: elos[p1name] = ts.Rating()
+			if p2name not in elos: elos[p2name] = ts.Rating()
+			
+			p1elo = elos[p1name]
+			p2elo = elos[p2name]
+			
+			f1 = fid_lookup[p1f]
+			f2 = fid_lookup[p2f]
+			
+			w = 1
+			l = 1
+			
+			if f1 in m_data and f2 in m_data[f1]["matchups"]:
+				matchup_wl = m_data[f1]["matchups"][f2]
+				w = matchup_wl["Wins"]
+				l = matchup_wl["Losses"]
+			
+			new_data.append([p1id,p1elo.mu,p1elo.sigma,p1f, p2id,p2elo.mu,p2elo.sigma,p2f, w/(w+l), win_probability(p1elo,p2elo)])
 		
-		p1elo = elos[p1name]
-		p2elo = elos[p2name]
 		
-		f1 = fid_lookup[p1f]
-		f2 = fid_lookup[p2f]
+		y_pred = model.predict(new_data)
+		predictions = [round(value) for value in y_pred]
+		yps = model.predict_proba(new_data)
 		
-		w = 1
-		l = 1
+		print()
+		for i,x in enumerate(new_data):
+			p1 = id_lookup[x[0]]
+			p2 = id_lookup[x[4]]
+			# print(f'\t{p1:25} vs {p2:25} ||| {[p1,p2][int(predictions[i])]:25}')## ({yps[i][int(predictions[i])]*100:5.1f}% )')
+			winner = [p1,p2][int(predictions[i])]
+			
+			wins[winner] += 1
 		
-		if f1 in m_data and f2 in m_data[f1]["matchups"]:
-			matchup_wl = m_data[f1]["matchups"][f2]
-			w = matchup_wl["Wins"]
-			l = matchup_wl["Losses"]
+		wins = {k:v for k,v in sorted(wins.items(),key=lambda i: i[1], reverse=True)}
 		
-		new_data.append([p1id,p1elo.mu,p1elo.sigma,p1f, p2id,p2elo.mu,p2elo.sigma,p2f, w/(w+l), win_probability(p1elo,p2elo)])
-	
-	
-	y_pred = model.predict(new_data)
-	predictions = [round(value) for value in y_pred]
-	yps = model.predict_proba(new_data)
-	
-	print()
-	for i,x in enumerate(new_data):
-		p1 = id_lookup[x[0]]
-		p2 = id_lookup[x[4]]
-		print(f'\t{p1:25} vs {p2:25} ||| {[p1,p2][int(predictions[i])]:25}')## ({yps[i][int(predictions[i])]*100:5.1f}% )')
-	print()
+		fotow2 = []
+		
+		for w in wins:
+			fotow2 += [w, fotow[fotow.index(w)+1]]
+		
+		fotow = fotow2
+		
+		for w in wins:
+			print(w)
+		for w in wins:
+			print(wins[w])
+		
+		print()

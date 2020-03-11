@@ -1,0 +1,36 @@
+NEW_EVENT_TAG,Hammer of The North 2020,15-02-2020,3
+Craig Graham,-,3/0/0
+Stu West,-,3/0/0
+Mike Callaghan,-,2/0/1
+Phil McGuinness,-,2/0/1
+Callum Sinclair,-,2/0/1
+Mark Roberts,-,2/0/1
+Scott Smith,-,2/0/1
+Alan Mandelson,-,2/0/1
+Leigh Martin,-,1/0/2
+David Jack,-,1/0/2
+Alastair Maxwell,-,1/0/2
+Tan Kian Yang,-,1/0/2
+Lyndon Sinclair,-,1/0/2
+Calum Todd,-,1/0/2
+Jack Carruthers,-,0/0/3
+Graham Dow,-,0/0/3
+Kraggy,-,0/0/0
+Iain Hunter,-,0/0/0
+John Harper,-,0/0/0
+Craig Graham,Mark Roberts,Craig Graham,Leigh Martin,Craig Graham,Tan Kian Yang
+Stu West,Callum Sinclair,Stu West,Phil McGuinness,Stu West,Scott Smith
+Mike Callaghan,Alastair Maxwell,Callum Sinclair,Mike Callaghan,Mike Callaghan,Jack Carruthers
+Phil McGuinness,Lyndon Sinclair,Stu West,Phil McGuinness,Phil McGuinness,David Jack
+Stu West,Callum Sinclair,Callum Sinclair,Mike Callaghan,Callum Sinclair,Alan Mandelson
+Craig Graham,Mark Roberts,Mark Roberts,Alastair Maxwell,Mark Roberts,Graham Dow
+Scott Smith,Leigh Martin,Scott Smith,David Jack,Stu West,Scott Smith
+Alan Mandelson,Tan Kian Yang,Alan Mandelson,Jack Carruthers,Callum Sinclair,Alan Mandelson
+Scott Smith,Leigh Martin,Craig Graham,Leigh Martin,Leigh Martin,Calum Todd
+David Jack,Graham Dow,Scott Smith,David Jack,Phil McGuinness,David Jack
+Mike Callaghan,Alastair Maxwell,Mark Roberts,Alastair Maxwell,Alastair Maxwell,Lyndon Sinclair
+Alan Mandelson,Tan Kian Yang,Tan Kian Yang,Calum Todd,Craig Graham,Tan Kian Yang
+Phil McGuinness,Lyndon Sinclair,Lyndon Sinclair,Graham Dow,Alastair Maxwell,Lyndon Sinclair
+Calum Todd,Jack Carruthers,Tan Kian Yang,Calum Todd,Leigh Martin,Calum Todd
+Calum Todd,Jack Carruthers,Alan Mandelson,Jack Carruthers,Mike Callaghan,Jack Carruthers
+David Jack,Graham Dow,Lyndon Sinclair,Graham Dow,Mark Roberts,Graham Dow

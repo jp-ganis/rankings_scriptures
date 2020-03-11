@@ -4,6 +4,7 @@ import matplotlib.dates as md
 import numpy as np
 import statistics
 import datetime
+import random
 import json
 import csv
 	
@@ -170,12 +171,45 @@ def windows():
 	plt.show()
 
 def fotow():
-	with open('output_data_files/recent_events/datahub_event_data.json') as json_file:
+	with open('output_data_files/all_uk_events/datahub_event_data.json') as json_file:
 		edata = json.load(json_file)
-	with open('output_data_files/recent_events/datahub_faction_data.json') as json_file:
+		
+	with open('output_data_files/all_uk_events/datahub_faction_data.json') as json_file:
 		fdata = json.load(json_file)
 		
-	# np.percentile(a, 50)	
+	with open('output_data_files/all_uk_events/datahub_player_data.json') as json_file:
+		pdata = json.load(json_file)
+		
+	# fdata = {k:fdata[k] for k in fdata if len(fdata[k]["events"]) > 10}
+		
+	# best = max(fdata, key=lambda f:fdata[f]["mean_gaussian_score"])
+	# print(best, fdata[best]["mean_gaussian_score"])
+	# input()
+	edata.reverse()
+		
+	filth_ratings = defaultdict(float)
+	for event in edata:
+		if len(event["ladder"]) < 20: continue
+		filth_ratings[event["name"]] = statistics.mean([fdata[f]["mean_gaussian_score"] for f in [e["faction"] for e in event["ladder"]]])
+		
+	player_ratings = defaultdict(float)
+	for event in edata:
+		player_ratings[event["name"]] = statistics.mean([pdata[p]["gaussian_score"] for p in [e["player_name"] for e in event["ladder"]]])
+		
+	y = [filth_ratings[f] for f in filth_ratings]
 	
+	fotows = [e["name"] for e in edata if "Old World" in e["name"]][1:]
+	
+	print(fotows)
+	z = [filth_ratings[f] for f in fotows]
+	print(z)
+	
+	ax = plt.gca()
+	ax.set_facecolor('black')
+
+	plt.scatter([0 for _ in y], y,c=y,cmap='inferno',s=5)
+	plt.scatter([0 for _ in z], z, c='white', s=100)
+	plt.show()
 
 if __name__ == '__main__':
+	fotow()
