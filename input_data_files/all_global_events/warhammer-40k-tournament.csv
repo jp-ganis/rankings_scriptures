@@ -1,0 +1,47 @@
+NEW_EVENT_TAG,Warhammer 40k Tournament,30-07-2017,3
+Steven King,-,3/0/0
+David Atwood,-,3/0/0
+Ricky D Williams,-,2/1/0
+John Sigsby,-,2/1/0
+Amir Golpoor,-,2/0/1
+Andrew Schwarz,-,2/0/1
+Josh Korn-Heilner,-,2/0/1
+John Freiler,-,2/0/1
+Harry Townsend,-,2/0/1
+Tom Lane,-,2/0/1
+Anthony Gulotta,-,2/0/1
+Amanda Kopet,-,2/0/1
+Russell Horridge,-,1/1/1
+Alex Moyer,-,1/0/2
+Hopper,-,1/0/2
+Kevin O'Connell,-,1/0/2
+Matt O'Toole,-,1/0/2
+Craig Chmura,-,1/0/2
+Eric C Krofchak,-,1/0/2
+Matt Lilien,-,0/1/2
+Gavin Coles,-,0/1/2
+Tom Wibbelt,-,0/0/3
+Lewis Windle,-,0/0/3
+Steven King,Josh Korn-Heilner,Steven King,Andrew Schwarz,Steven King,Craig Chmura
+David Atwood,Amir Golpoor,David Atwood,Harry Townsend,David Atwood,Hopper
+Ricky D Williams,Anthony Gulotta,John Sigsby,Ricky D Williams,Ricky D Williams,Tom Wibbelt
+John Sigsby,Russell Horridge,John Sigsby,Ricky D Williams,John Sigsby,Lewis Windle
+David Atwood,Amir Golpoor,Amir Golpoor,Tom Lane,Amir Golpoor,Eric C Krofchak
+Andrew Schwarz,Hopper,Steven King,Andrew Schwarz,Andrew Schwarz,John Freiler
+Steven King,Josh Korn-Heilner,Josh Korn-Heilner,Amanda Kopet,Josh Korn-Heilner,Matt OToole
+John Freiler,Alex Moyer,John Freiler,Tom Wibbelt,Andrew Schwarz,John Freiler
+Harry Townsend,Matt OToole,David Atwood,Harry Townsend,Harry Townsend,Alex Moyer
+Tom Lane,Craig Chmura,Amir Golpoor,Tom Lane,Tom Lane,Kevin OConnell
+Ricky D Williams,Anthony Gulotta,Anthony Gulotta,Matt Lilien,Anthony Gulotta,Gavin Coles
+Amanda Kopet,Matt Lilien,Josh Korn-Heilner,Amanda Kopet,Amanda Kopet,BYE
+John Sigsby,Russell Horridge,Russell Horridge,Gavin Coles
+John Freiler,Alex Moyer,Alex Moyer,Kevin OConnell,Harry Townsend,Alex Moyer
+Andrew Schwarz,Hopper,Hopper,Eric C Krofchak,David Atwood,Hopper
+Kevin OConnell,Lewis Windle,Alex Moyer,Kevin OConnell,Tom Lane,Kevin OConnell
+Harry Townsend,Matt OToole,Matt OToole,Lewis Windle,Josh Korn-Heilner,Matt OToole
+Tom Lane,Craig Chmura,Craig Chmura,BYE,Steven King,Craig Chmura
+Eric C Krofchak,Tom Wibbelt,Hopper,Eric C Krofchak,Amir Golpoor,Eric C Krofchak
+Amanda Kopet,Matt Lilien,Anthony Gulotta,Matt Lilien
+Gavin Coles,BYE,Russell Horridge,Gavin Coles,Anthony Gulotta,Gavin Coles
+Eric C Krofchak,Tom Wibbelt,John Freiler,Tom Wibbelt,Ricky D Williams,Tom Wibbelt
+Kevin OConnell,Lewis Windle,Matt OToole,Lewis Windle,John Sigsby,Lewis Windle

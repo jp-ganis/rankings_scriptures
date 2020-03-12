@@ -41,11 +41,20 @@ def faction_matchups(data):
 		
 	print()
 	
-	for f in faction_matchups:
-		if len(faction_matchups[f]) < 10: continue
-		print(f'\t{f[0]:25} {f[1]:25} ||| {statistics.mean(faction_matchups[f])*100:3.1f}%')
-	print()
-	print(len(faction_matchups))
+	import pandas
+	factions = list(set([m[0] for m in faction_matchups if ":" not in m[0] and "-" not in m[0] and len(faction_matchups[m]) > 5]))
+	
+	output_factions = {m:{n:statistics.mean(faction_matchups[(m,n)]) for n in factions if (m,n) in faction_matchups and len(faction_matchups[(m,n)]) > 3} for m in factions}
+	
+	df = pandas.DataFrame(output_factions, output_factions.keys(), output_factions.keys())
+	df.to_excel("output2.xlsx")
+
+	# for f in faction_matchups:
+		# if len(faction_matchups[f]) < 10: continue
+
+		# print(f'\t{f[0]:25} {f[1]:25} ||| {statistics.mean(faction_matchups[f])*100:3.1f}%')
+	# print()
+	# print(len(faction_matchups))
 	
 def process_faction(f):
 	f = f.replace('Allegiance: ','')
@@ -56,11 +65,7 @@ def process_faction(f):
 	
 	return f
 	
-	
-if __name__ == '__main__':
-	with open('input_data_files/AoS_list_data.json',encoding='utf-8') as json_file:
-		data = json.load(json_file)
-		
+def list_suggestions(data):	
 	unit_winrates = defaultdict(list)
 	
 	faction = "Slaanesh"
@@ -138,4 +143,9 @@ if __name__ == '__main__':
 		
 		break
 	
+if __name__ == '__main__':
+	with open('input_data_files/AoS_list_data.json',encoding='utf-8') as json_file:
+		data = json.load(json_file)
+
+	faction_matchups(data)
 		

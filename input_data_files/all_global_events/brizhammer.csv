@@ -1,0 +1,51 @@
+NEW_EVENT_TAG,Brizhammer,28-07-2018,5
+David Kerr,-,5/0/0
+Luke Tyalor,-,4/0/1
+Joshua Maher,-,4/0/1
+Hayden Walker,-,4/0/1
+Paul Jackson,-,4/0/1
+Darren Free,-,3/0/2
+Denys Laurie,-,3/0/2
+Connor Armstrong,-,3/0/2
+Jemma Shepherd,-,3/0/2
+Davey Keegan,-,3/0/2
+Michael Creighton,-,3/0/2
+Matt Gammie,-,2/0/3
+Tyler M,-,2/0/3
+Andrew wright,-,2/0/3
+Cameron McCormack ,-,2/0/3
+James Sharman,-,2/0/3
+Ethan Varfis,-,2/0/3
+Dean Matthews,-,2/0/0
+Clint Mallet,-,2/0/3
+Jesse Gough,-,1/0/4
+Seam Hortin,-,1/0/4
+James Lynch,-,1/0/4
+Ty Mills,-,1/0/4
+Corey Papinniemi,-,1/0/2
+nick bentley,-,0/0/5
+David Kerr,Paul Jackson,David Kerr,Michael Creighton,David Kerr,Connor Armstrong,David Kerr,Joshua Maher,David Kerr,Luke Tyalor
+Luke Tyalor,Denys Laurie,Luke Tyalor,Davey Keegan,Luke Tyalor,Andrew wright,Luke Tyalor,Jesse Gough,David Kerr,Luke Tyalor
+Joshua Maher,Michael Creighton,Joshua Maher,Ethan Varfis,Joshua Maher,Corey Papinniemi,David Kerr,Joshua Maher,Joshua Maher,nick bentley
+Hayden Walker,James Sharman,Hayden Walker,Jemma Shepherd,Hayden Walker,Darren Free,Paul Jackson,Hayden Walker,Hayden Walker,Denys Laurie
+David Kerr,Paul Jackson,Paul Jackson,Connor Armstrong,Paul Jackson,Ethan Varfis,Paul Jackson,Hayden Walker,Paul Jackson,Ty Mills
+Darren Free,Ethan Varfis,Darren Free,Jesse Gough,Hayden Walker,Darren Free,Connor Armstrong,Darren Free,Darren Free,Tyler M
+Luke Tyalor,Denys Laurie,Denys Laurie,Clint Mallet,Denys Laurie,Tyler M,Denys Laurie,Ty Mills,Hayden Walker,Denys Laurie
+Connor Armstrong,Tyler M,Paul Jackson,Connor Armstrong,David Kerr,Connor Armstrong,Connor Armstrong,Darren Free,Connor Armstrong,Cameron McCormack
+Jemma Shepherd,Andrew wright,Hayden Walker,Jemma Shepherd,Jemma Shepherd,Matt Gammie,Clint Mallet,Jemma Shepherd,Jemma Shepherd,Seam Hortin
+Davey Keegan,Clint Mallet,Luke Tyalor,Davey Keegan,Davey Keegan,James Sharman,Davey Keegan,Seam Hortin,Ethan Varfis,Davey Keegan
+Joshua Maher,Michael Creighton,David Kerr,Michael Creighton,Michael Creighton,Clint Mallet,Michael Creighton,Andrew wright,Michael Creighton,Jesse Gough
+Matt Gammie,James Lynch,Tyler M,Matt Gammie,Jemma Shepherd,Matt Gammie,Matt Gammie,nick bentley,Clint Mallet,Matt Gammie
+Connor Armstrong,Tyler M,Tyler M,Matt Gammie,Denys Laurie,Tyler M,Tyler M,James Lynch,Darren Free,Tyler M
+Jemma Shepherd,Andrew wright,Andrew wright,Seam Hortin,Luke Tyalor,Andrew wright,Michael Creighton,Andrew wright,Andrew wright,James Sharman
+Cameron McCormack,Jesse Gough,Dean Matthews,Cameron McCormack,Cameron McCormack,Ty Mills,James Sharman,Cameron McCormack,Connor Armstrong,Cameron McCormack
+Hayden Walker,James Sharman,James Sharman,Ty Mills,Davey Keegan,James Sharman,James Sharman,Cameron McCormack,Andrew wright,James Sharman
+Darren Free,Ethan Varfis,Joshua Maher,Ethan Varfis,Paul Jackson,Ethan Varfis,Ethan Varfis,Corey Papinniemi,Ethan Varfis,Davey Keegan
+Dean Matthews,Seam Hortin,Dean Matthews,Cameron McCormack
+Davey Keegan,Clint Mallet,Denys Laurie,Clint Mallet,Michael Creighton,Clint Mallet,Clint Mallet,Jemma Shepherd,Clint Mallet,Matt Gammie
+Cameron McCormack,Jesse Gough,Darren Free,Jesse Gough,Jesse Gough,nick bentley,Luke Tyalor,Jesse Gough,Michael Creighton,Jesse Gough
+Dean Matthews,Seam Hortin,Andrew wright,Seam Hortin,Seam Hortin,James Lynch,Davey Keegan,Seam Hortin,Jemma Shepherd,Seam Hortin
+Matt Gammie,James Lynch,James Lynch,nick bentley,Seam Hortin,James Lynch,Tyler M,James Lynch,Corey Papinniemi,James Lynch
+Ty Mills,nick bentley,James Sharman,Ty Mills,Cameron McCormack,Ty Mills,Denys Laurie,Ty Mills,Paul Jackson,Ty Mills
+Joshua Maher,Corey Papinniemi,Ethan Varfis,Corey Papinniemi,Corey Papinniemi,James Lynch
+Ty Mills,nick bentley,James Lynch,nick bentley,Jesse Gough,nick bentley,Matt Gammie,nick bentley,Joshua Maher,nick bentley

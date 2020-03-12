@@ -48,7 +48,7 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 				events[-1]["ladder"] = []
 				
 			else:
-				if len(row) > 3: continue
+				if len(row) > 3: break
 				
 				## Known Aliases
 				if row[0] == "James Ganis": row[0] = "Jp Ganis"
@@ -246,8 +246,9 @@ if __name__ == '__main__':
 	update_specs["uk_rankings"]["metabreakers_folder"] = "metabreakers/data/uk_events"
 	
 	update_specs["all_uk_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/all_uk_events", "cutoff_date": "1 Jan 2000" }
-	# update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "1 Apr 2019", "earliest_date": "1 Aug 2018" }
 	update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "16 Dec 2019"}
+	
+	update_specs["all_global_events"] = {"input_folder": "input_data_files/all_global_events", "output_folder": "output_data_files/all_global_events", "cutoff_date": "1 Jan 2000" }
 	
 	
 	# for rankings in update_specs:

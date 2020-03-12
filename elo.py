@@ -186,7 +186,84 @@ if __name__ == '__main__':
 		if i % 2 == 1: continue
 		fotow[i] = f.title()
 			
+	players = {fotow[i]:fotow[i+1] for i in range(0,len(fotow),2)}
+	
+	new_data = []
+	for p in players:
+		for q in players:
+			p1name = p
+			f1 = players[p]
 			
+			p2name = q
+			f2 = players[q]
+			
+			if p1name not in player_ids:
+				max_pids+=1
+				player_ids[p1name] = max_pids
+				id_lookup[max_pids] = p1name
+				
+			if p2name not in player_ids:
+				max_pids+=1
+				player_ids[p2name] = max_pids
+				id_lookup[max_pids] = p2name
+			
+			p1id = player_ids[p1name]
+			p1f = fids[f1]
+			
+			p2id = player_ids[p2name]
+			p2f = fids[f2]
+
+			if p1name not in elos: elos[p1name] = ts.Rating()
+			if p2name not in elos: elos[p2name] = ts.Rating()
+			
+			p1elo = elos[p1name]
+			p2elo = elos[p2name]
+			
+			f1 = fid_lookup[p1f]
+			f2 = fid_lookup[p2f]
+			
+			w = 1
+			l = 1
+			
+			if f1 in m_data and f2 in m_data[f1]["matchups"]:
+				matchup_wl = m_data[f1]["matchups"][f2]
+				w = matchup_wl["Wins"]
+				l = matchup_wl["Losses"]
+			
+			new_data.append([p1id,p1elo.mu,p1elo.sigma,p1f, p2id,p2elo.mu,p2elo.sigma,p2f, w/(w+l), win_probability(p1elo,p2elo)])
+	
+	y_pred = model.predict(new_data)
+	predictions = [round(value) for value in y_pred]
+	yps = model.predict_proba(new_data)
+	
+	for i,x in enumerate(new_data):
+		p1 = id_lookup[x[0]]
+		p2 = id_lookup[x[4]]
+		# print(f'\t{p1:25} vs {p2:25} {yps[i][int(predictions[i])]*100:5.1f}%')
+		
+	output = {p:{q:0 for q in players} for p in players}
+	for i,x in enumerate(new_data):
+		p1 = id_lookup[x[0]]
+		p2 = id_lookup[x[4]]
+		
+		if p1 == p2: continue
+		
+		
+		s = yps[i][int(predictions[i])]*100
+		if predictions[i] == 0: s = 100-s
+		
+		output[p1][p2] = s
+		# print(f'{p1},{p2},{yps[i][int(predictions[i])]*100:.1f}%')
+		
+	import pandas
+	df = pandas.DataFrame(output, players.keys(), players.keys())
+	df.to_excel("output2.xlsx")
+		
+		
+	import sys
+	sys.exit()
+	
+	
 	############# do fotow predictions
 	wins = {p:0 for p in fotow if fotow.index(p) % 2 == 0}
 	

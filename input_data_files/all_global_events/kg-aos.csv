@@ -1,0 +1,37 @@
+NEW_EVENT_TAG,KG AoS,20-05-2017,4
+Jed,Mixed,4/0/0
+Rich Parkes,Tzeentch Arcanites,4/0/0
+Fred C,Mixed,3/0/1
+J,Stormcast Eternals,3/0/1
+Stuart D,Sylvaneth,3/0/1
+Ethan Leach,Gutbusters,2/0/2
+Charlie,-,2/0/2
+Billy,Mixed,2/0/2
+Mark Paddon,Seraphon,2/0/2
+Tim Bishop,Brayherd,2/0/1
+Matt W,Nighthaunt,2/0/1
+Ollie B,-,1/0/3
+Dave Ball,Sylvaneth,1/0/3
+Dave Perks,Sylvaneth,1/0/3
+James McPherson,Skaven Pestilens,1/0/3
+Lewis Fitzgerald,Stormcast Eternals,1/0/3
+Llewelyn,Nighthaunt,1/0/3
+Dave O,Free Peoples,0/0/4
+Jed,Stuart D,Jed,Tim Bishop,Jed,Ethan Leach,Jed,Llewelyn
+Rich Parkes,Charlie,Rich Parkes,Billy,Rich Parkes,James McPherson,Rich Parkes,Matt W
+Fred C,Ollie B,Fred C,Lewis Fitzgerald,Charlie,Fred C,Fred C,James McPherson
+JR,Mark Paddon,JR,Ollie B,Tim Bishop,JR,JR,Dave Ball
+Jed,Stuart D,Stuart D,Charlie,Stuart D,Billy,Stuart D,Lewis Fitzgerald
+Ethan Leach,Dave Ball,Mark Paddon,Ethan Leach,Jed,Ethan Leach,Ethan Leach,Dave O
+Rich Parkes,Charlie,Stuart D,Charlie,Charlie,Fred C,Charlie,Dave Perks
+Billy,James McPherson,Rich Parkes,Billy,Stuart D,Billy,Billy,Ollie B
+JR,Mark Paddon,Mark Paddon,Ethan Leach,Mark Paddon,Llewelyn,Tim Bishop,Mark Paddon
+Jed,Tim Bishop,Tim Bishop,JR,Tim Bishop,Mark Paddon
+Matt W,Dave Ball,Matt W,Dave O,Rich Parkes,Matt W
+Fred C,Ollie B,JR,Ollie B,Ollie B,Lewis Fitzgerald,Billy,Ollie B
+Ethan Leach,Dave Ball,Matt W,Dave Ball,Dave Ball,Dave Perks,JR,Dave Ball
+Dave Perks,Dave O,Llewelyn,Dave Perks,Dave Ball,Dave Perks,Charlie,Dave Perks
+Billy,James McPherson,James McPherson,Dave O,Rich Parkes,James McPherson,Fred C,James McPherson
+Lewis Fitzgerald,Llewelyn,Fred C,Lewis Fitzgerald,Ollie B,Lewis Fitzgerald,Stuart D,Lewis Fitzgerald
+Lewis Fitzgerald,Llewelyn,Llewelyn,Dave Perks,Mark Paddon,Llewelyn,Jed,Llewelyn
+Dave Perks,Dave O,James McPherson,Dave O,Matt W,Dave O,Ethan Leach,Dave O

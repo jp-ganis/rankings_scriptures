@@ -1,0 +1,65 @@
+NEW_EVENT_TAG,Onslaught 2019,07-09-2019,5
+Jp Ganis,-,5/0/0
+John B,-,4/0/1
+Liam Watt,-,4/0/1
+Leigh Martin,-,4/0/1
+John Craig,-,4/0/1
+David Jack,-,4/0/1
+Trev,-,3/0/2
+John Harper,-,3/0/2
+GhostArmJones,-,3/0/2
+Phil McGuinness,-,3/0/2
+Simon Fitzpatrick ,-,3/0/2
+Callum Sinclair,-,3/0/2
+MATTR,-,3/0/2
+Stu West,-,3/0/2
+Jamie McHugh,-,3/0/2
+Kevin Low,-,3/0/2
+Lyndon Sinclair,-,2/1/2
+Andrew Stephen,-,2/0/3
+John Connelly,-,2/0/3
+Craig Graham,-,2/0/3
+Neil Peckett,-,2/0/3
+Sean Mckechnie,-,2/0/3
+Grant Fraser,-,2/0/3
+Stephen Mccormick ,-,2/1/2
+Adam Martin,-,2/0/3
+Christian White,-,1/1/3
+Adam Rawson,-,1/0/4
+Greig Summers,-,1/0/4
+Iain Hunter,-,1/1/3
+Stephen Ramage,-,1/0/4
+Graeme Davidson,-,0/0/5
+Erik Bews,-,0/0/5
+Jp Ganis,John Bayliss,Jp Ganis,John Craig,Jp Ganis,Iain Hunter,Jp Ganis,Stu West,Jp Ganis,Callum Sinclair
+Jp Ganis,John Bayliss,John Bayliss,Leigh Martin,John Bayliss,Liam Watt,John Bayliss,Phil McGuinness,John Bayliss,Greig Summers
+Liam Watt,Simon Fitzpatrick,Liam Watt,Phil McGuinness,John Bayliss,Liam Watt,Liam Watt,GhostArmJones,Liam Watt,Sean Mckechnie
+Leigh Martin,GhostArmJones,John Bayliss,Leigh Martin,Leigh Martin,Simon Fitzpatrick,Leigh Martin,John Connelly,Leigh Martin,Craig Graham
+John Craig,Callum Sinclair,Jp Ganis,John Craig,John Craig,David Jack,John Craig,Jamie McHugh,John Craig,Graeme Davidson
+David Jack,Stu West,David Jack,Christian White,John Craig,David Jack,David Jack,yarrickson,David Jack,Adam Martin
+Trev,John Connelly,GhostArmJones,Trev,Trev,Stephen Mccormick,Trev,John Harper,Jamie McHugh,Trev
+John Harper,Stephen Mccormick,John Harper,Iain Hunter,John Harper,Adam Rawson,Trev,John Harper,Stu West,John Harper
+Leigh Martin,GhostArmJones,GhostArmJones,Trev,GhostArmJones,John Connelly,Liam Watt,GhostArmJones,GhostArmJones,Neil Peckett
+Phil McGuinness,Sean Mckechnie,Liam Watt,Phil McGuinness,Phil McGuinness,Greig Summers,John Bayliss,Phil McGuinness,Phil McGuinness,Grant Fraser
+Liam Watt,Simon Fitzpatrick,Simon Fitzpatrick,Neil Peckett,Leigh Martin,Simon Fitzpatrick,Simon Fitzpatrick,Stephen Ramage,Simon Fitzpatrick,Erik Bews
+John Craig,Callum Sinclair,Callum Sinclair,Adam Martin,Callum Sinclair,Stephen Ramage,Callum Sinclair,Graeme Davidson,Jp Ganis,Callum Sinclair
+MATTR,Neil Peckett,MATTR,Greig Summers,MATTR,Grant Fraser,Andrew Stephen,MATTR,John Connelly,MATTR
+David Jack,Stu West,Stu West,Jamie McHugh,Stu West,yarrickson,Jp Ganis,Stu West,Stu West,John Harper
+Jamie McHugh,Christian White,Stu West,Jamie McHugh,Jamie McHugh,Lyndon Sinclair,John Craig,Jamie McHugh,Jamie McHugh,Trev
+yarrickson,Adam Martin,yarrickson,Graeme Davidson,Stu West,yarrickson,David Jack,yarrickson,yarrickson,Adam Rawson
+Lyndon Sinclair,Iain Hunter,Lyndon Sinclair,Adam Rawson,Jamie McHugh,Lyndon Sinclair,Stephen Mccormick,Lyndon Sinclair
+Andrew Stephen,Greig Summers,Stephen Mccormick,Andrew Stephen,Adam Martin,Andrew Stephen,Andrew Stephen,MATTR,Stephen Ramage,Andrew Stephen
+Trev,John Connelly,John Connelly,Stephen Ramage,GhostArmJones,John Connelly,Leigh Martin,John Connelly,John Connelly,MATTR
+Craig Graham,Stephen Ramage,Sean Mckechnie,Craig Graham,Neil Peckett,Craig Graham,Craig Graham,Grant Fraser,Leigh Martin,Craig Graham
+MATTR,Neil Peckett,Simon Fitzpatrick,Neil Peckett,Neil Peckett,Craig Graham,Neil Peckett,Erik Bews,GhostArmJones,Neil Peckett
+Phil McGuinness,Sean Mckechnie,Sean Mckechnie,Craig Graham,Sean Mckechnie,Erik Bews,Greig Summers,Sean Mckechnie,Liam Watt,Sean Mckechnie
+Grant Fraser,Graeme Davidson,Grant Fraser,Erik Bews,MATTR,Grant Fraser,Craig Graham,Grant Fraser,Phil McGuinness,Grant Fraser
+John Harper,Stephen Mccormick,Stephen Mccormick,Andrew Stephen,Trev,Stephen Mccormick,Stephen Mccormick,Lyndon Sinclair
+yarrickson,Adam Martin,Callum Sinclair,Adam Martin,Adam Martin,Andrew Stephen,Adam Martin,Adam Rawson,David Jack,Adam Martin
+Jamie McHugh,Christian White,David Jack,Christian White,Christian White,Graeme Davidson,Iain Hunter,Christian White
+Adam Rawson,Erik Bews,Lyndon Sinclair,Adam Rawson,John Harper,Adam Rawson,Adam Martin,Adam Rawson,yarrickson,Adam Rawson
+Andrew Stephen,Greig Summers,MATTR,Greig Summers,Phil McGuinness,Greig Summers,Greig Summers,Sean Mckechnie,John Bayliss,Greig Summers
+Lyndon Sinclair,Iain Hunter,John Harper,Iain Hunter,Jp Ganis,Iain Hunter,Iain Hunter,Christian White
+Craig Graham,Stephen Ramage,John Connelly,Stephen Ramage,Callum Sinclair,Stephen Ramage,Simon Fitzpatrick,Stephen Ramage,Stephen Ramage,Andrew Stephen
+Grant Fraser,Graeme Davidson,yarrickson,Graeme Davidson,Christian White,Graeme Davidson,Callum Sinclair,Graeme Davidson,John Craig,Graeme Davidson
+Adam Rawson,Erik Bews,Grant Fraser,Erik Bews,Sean Mckechnie,Erik Bews,Neil Peckett,Erik Bews,Simon Fitzpatrick,Erik Bews
