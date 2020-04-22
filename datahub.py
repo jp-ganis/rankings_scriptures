@@ -1,4 +1,6 @@
+from collections import defaultdict
 from datetime import datetime
+import statistics
 import scipy.stats
 import shutil
 import glob
@@ -166,6 +168,9 @@ def populate_metabreakers_scores(event, faction_data):
 		
 		faction_average = get_player_independent_faction_average(player, faction_data[faction])
 		
+		if faction == "Tomb Kings" and "Death" in faction_data:
+			faction_average = get_player_independent_faction_average(player, faction_data["Death"])
+		
 		if faction_average == None:
 			faction_average = player_score
 		
@@ -236,17 +241,43 @@ def generate_player_data(events):
 		
 	return player_data
 
+def populate_faction_deltas(faction_data, player_data):
+	for faction in faction_data:
+		players = [e["player_name"] for e in faction_data[faction]["events"]]
+		deltas = []
+		
+		for player in players:
+			on_brand = []
+			off_brand = []
+		
+			for e in player_data[player]["events"]:
+				if e["faction"] == faction: on_brand.append(e["gaussian_score"])
+				elif e["faction"] != faction: off_brand.append(e["gaussian_score"])
+			
+			if on_brand == [] or off_brand == []: continue
+			deltas.append(statistics.mean(on_brand) - statistics.mean(off_brand))
+		
+		mean_delta = 0
+		if deltas != []:
+			mean_delta = statistics.mean(deltas)
+		
+		faction_data[faction]["mean_delta"] = mean_delta
+		
+	return faction_data
+			
 	
 if __name__ == '__main__':
 	update_specs = {}
 	update_specs["northern_rankings"] = {"input_folder": "input_data_files/northern_events", "output_folder": "output_data_files/northern_events", "cutoff_date": "1 Jan 2020" }
 	update_specs["uk_rankings"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/uk_events", "cutoff_date": "1 Jan 2019" }
+	update_specs["oce_rankings"] = {"input_folder": "input_data_files/oce_events", "output_folder": "output_data_files/oce_events", "cutoff_date": "1 Jan 2019" }
 	
 	update_specs["northern_rankings"]["metabreakers_folder"] = "metabreakers/data/northern_events"
 	update_specs["uk_rankings"]["metabreakers_folder"] = "metabreakers/data/uk_events"
+	# update_specs["oce_rankings"]["metabreakers_folder"] = "metabreakers/data/uk_events"
 	
 	update_specs["all_uk_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/all_uk_events", "cutoff_date": "1 Jan 2000" }
-	update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "16 Dec 2019"}
+	update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "1 Jun 2019"}
 	
 	update_specs["all_global_events"] = {"input_folder": "input_data_files/all_global_events", "output_folder": "output_data_files/all_global_events", "cutoff_date": "1 Jan 2000" }
 	
@@ -272,14 +303,17 @@ if __name__ == '__main__':
 		print("\nCalculating gauss scores...")
 		events = [populate_gaussian_scores(e) for e in events]
 		
-		print("\nGenerating faction data...")
+		print("\nGenerating faction db...")
 		faction_data = generate_faction_data(events)
 		
 		print("\nCalculating metabreakers scores...")
 		events = [populate_metabreakers_scores(e, faction_data) for e in events]
 			
-		print("\nGenerating player data...")
+		print("\nGenerating player db...")
 		player_data = generate_player_data(events)
+		
+		print("\nPopulating faction deltas...")
+		faction_data = populate_faction_deltas(faction_data, player_data)
 		
 		player_data = {k: v for k, v in sorted(player_data.items(), key=lambda item: item[1]["gaussian_score"], reverse=True)}	
 		

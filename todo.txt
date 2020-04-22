@@ -1,5 +1,16 @@
 TODO
 
+Sentiment Analysis - use existing models to anaylse messages containing factions or unit names, combine multiple messages sent by the same user in a short period
+
+Social network of units - detect synergies by collocations and networked graph of units
+
+Points detection -  feed all statlines:points you can on units into xgb, and train a model to wrok out the value of each statlines
+-- after this, show how powerful mortek guardgetting +1 to their save is, and how that increase their damage by a lot too given how many survive
+
+create dataset of all warscroll cards in text format, RNN to generate hilarious new ones
+
+
+
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 <<<<<<<<<PRIORITY 1>>>>>>>>>>>>>>
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
