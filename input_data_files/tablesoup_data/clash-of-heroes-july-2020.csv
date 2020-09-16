@@ -1,0 +1,49 @@
+NEW_EVENT_TAG,Clash of Heroes July 2020,05-07-2020,5
+Matthew Campbell,UNKNOWN_ARMY,0/0/0
+Richard Hill,UNKNOWN_ARMY,0/0/0
+Chris Welfare,UNKNOWN_ARMY,0/0/0
+Ben De Ridder,UNKNOWN_ARMY,0/0/0
+Austin Cranfield,UNKNOWN_ARMY,0/0/0
+Gabriel Rached,UNKNOWN_ARMY,0/0/0
+Keith Williamson,UNKNOWN_ARMY,0/0/0
+Craig Anderson,UNKNOWN_ARMY,0/0/0
+Jett Griffiths,UNKNOWN_ARMY,0/0/0
+Jacob Williams,UNKNOWN_ARMY,0/0/0
+Kyle Pearson,UNKNOWN_ARMY,0/0/0
+Nick Ward,UNKNOWN_ARMY,0/0/0
+Anthony Magro,UNKNOWN_ARMY,0/0/0
+Jason Bury,UNKNOWN_ARMY,0/0/0
+Joe Baker,UNKNOWN_ARMY,0/0/0
+Kent Hau,UNKNOWN_ARMY,0/0/0
+Daniel Brewer,UNKNOWN_ARMY,0/0/0
+Jeff DeHenau,UNKNOWN_ARMY,0/0/0
+Deke Johnstone ,UNKNOWN_ARMY,0/0/0
+Alex murray,UNKNOWN_ARMY,0/0/0
+Daniel Watson,UNKNOWN_ARMY,0/0/0
+Tero Kanko,UNKNOWN_ARMY,0/0/0
+James Maybury,UNKNOWN_ARMY,0/0/0
+Ben Spinetti,UNKNOWN_ARMY,0/0/0
+Matthew Campbell,Gabriel Rached,Matthew Campbell,Jett Griffiths,Matthew Campbell,Jason Bury
+Richard Hill,Anthony Magro,Richard Hill,Gabriel Rached,Richard Hill,Craig Anderson
+Chris Welfare,Austin Cranfield,Chris Welfare,Ben De Ridder,Chris Welfare,James Maybury
+Ben De Ridder,Jacob Williams,Chris Welfare,Ben De Ridder,Ben De Ridder,Nick Ward
+Chris Welfare,Austin Cranfield,Austin Cranfield,Deke Johnstone,Austin Cranfield,Daniel Brewer
+Matthew Campbell,Gabriel Rached,Richard Hill,Gabriel Rached,Gabriel Rached,Daniel Watson
+Keith Williamson,Deke Johnstone,Keith Williamson,Joe Baker,Keith Williamson,Kent Hau
+Craig Anderson,Alex murray,Craig Anderson,James Maybury,Richard Hill,Craig Anderson
+Jett Griffiths,Kent Hau,Matthew Campbell,Jett Griffiths,Jett Griffiths,Ben Spinetti
+Ben De Ridder,Jacob Williams,Jacob Williams,Kyle Pearson,Jacob Williams,Tero Kanko
+Kyle Pearson,Jason Bury,Jacob Williams,Kyle Pearson,Kyle Pearson,Jeff DeHenau
+Nick Ward,Daniel Watson,Alex murray,Nick Ward,Ben De Ridder,Nick Ward
+Richard Hill,Anthony Magro,Anthony Magro,Jason Bury,Deke Johnstone,Anthony Magro
+Kyle Pearson,Jason Bury,Anthony Magro,Jason Bury,Matthew Campbell,Jason Bury
+Joe Baker,Jeff DeHenau,Keith Williamson,Joe Baker,Joe Baker,Alex murray
+Jett Griffiths,Kent Hau,Kent Hau,Daniel Brewer,Keith Williamson,Kent Hau
+Daniel Brewer,James Maybury,Kent Hau,Daniel Brewer,Austin Cranfield,Daniel Brewer
+Joe Baker,Jeff DeHenau,Jeff DeHenau,Tero Kanko,Kyle Pearson,Jeff DeHenau
+Keith Williamson,Deke Johnstone,Austin Cranfield,Deke Johnstone,Deke Johnstone,Anthony Magro
+Craig Anderson,Alex murray,Alex murray,Nick Ward,Joe Baker,Alex murray
+Nick Ward,Daniel Watson,Daniel Watson,Ben Spinetti,Gabriel Rached,Daniel Watson
+Tero Kanko,Ben Spinetti,Jeff DeHenau,Tero Kanko,Jacob Williams,Tero Kanko
+Daniel Brewer,James Maybury,Craig Anderson,James Maybury,Chris Welfare,James Maybury
+Tero Kanko,Ben Spinetti,Daniel Watson,Ben Spinetti,Jett Griffiths,Ben Spinetti

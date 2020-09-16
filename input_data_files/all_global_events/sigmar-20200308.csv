@@ -1,0 +1,33 @@
+NEW_EVENT_TAG,Sigmar 20200308,08-03-2020,3
+Patrick Nevan,-,3/0/0
+David Cunning,-,3/0/0
+Joel McGrath,-,2/0/1
+Corey Ford,-,2/0/1
+Jason B Brown,-,2/0/1
+Kyle Hoffman,-,2/0/1
+Corey Beilharz,-,2/0/1
+Shaun Talbot,-,2/0/1
+Jason Spinks,-,1/0/2
+Dalton Jake Brown,-,1/0/1
+Kameron Ritchie,-,1/0/2
+Matt Kent,-,1/0/2
+Stephen Binek,-,1/0/2
+Luke Ingram,-,0/0/3
+Aaron McHours,-,0/0/3
+Ben Murray,-,0/0/1
+Patrick Nevan,Corey Beilharz,Patrick Nevan,Matt Kent,Patrick Nevan,Aaron McHours
+David Cunning,Joel McGrath,David Cunning,Dalton Jake Brown,David Cunning,Luke Ingram
+David Cunning,Joel McGrath,Joel McGrath,Jason Spinks,Joel McGrath,Jason B Brown
+Corey Ford,Jason Spinks,Corey Ford,Luke Ingram,Matt Kent,Corey Ford
+Jason B Brown,Matt Kent,Jason B Brown,Kameron Ritchie,Joel McGrath,Jason B Brown
+Kyle Hoffman,Stephen Binek,Kyle Hoffman,BYE,Corey Beilharz,Kyle Hoffman
+Patrick Nevan,Corey Beilharz,Corey Beilharz,Shaun Talbot,Corey Beilharz,Kyle Hoffman
+Shaun Talbot,Luke Ingram,Corey Beilharz,Shaun Talbot,Shaun Talbot,Stephen Binek
+Corey Ford,Jason Spinks,Joel McGrath,Jason Spinks,Jason Spinks,Ben Murray
+David Cunning,Dalton Jake Brown,Dalton Jake Brown,Kameron Ritchie
+Kameron Ritchie,Aaron McHours,Jason B Brown,Kameron Ritchie,Dalton Jake Brown,Kameron Ritchie
+Jason B Brown,Matt Kent,Patrick Nevan,Matt Kent,Matt Kent,Corey Ford
+Kyle Hoffman,Stephen Binek,Stephen Binek,Aaron McHours,Shaun Talbot,Stephen Binek
+Shaun Talbot,Luke Ingram,Corey Ford,Luke Ingram,David Cunning,Luke Ingram
+Kameron Ritchie,Aaron McHours,Stephen Binek,Aaron McHours,Patrick Nevan,Aaron McHours
+Jason Spinks,Ben Murray
