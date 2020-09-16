@@ -41,13 +41,13 @@ def faction_matchups(data):
 		
 	print()
 	
-	import pandas
-	factions = list(set([m[0] for m in faction_matchups if ":" not in m[0] and "-" not in m[0] and len(faction_matchups[m]) > 5]))
+	# import pandas
+	# factions = list(set([m[0] for m in faction_matchups if ":" not in m[0] and "-" not in m[0] and len(faction_matchups[m]) > 5]))
 	
-	output_factions = {m:{n:statistics.mean(faction_matchups[(m,n)]) for n in factions if (m,n) in faction_matchups and len(faction_matchups[(m,n)]) > 3} for m in factions}
+	# output_factions = {m:{n:statistics.mean(faction_matchups[(m,n)]) for n in factions if (m,n) in faction_matchups and len(faction_matchups[(m,n)]) > 3} for m in factions}
 	
-	df = pandas.DataFrame(output_factions, output_factions.keys(), output_factions.keys())
-	df.to_excel("output2.xlsx")
+	# df = pandas.DataFrame(output_factions, output_factions.keys(), output_factions.keys())
+	# df.to_excel("output2.xlsx")
 
 	# for f in faction_matchups:
 		# if len(faction_matchups[f]) < 10: continue

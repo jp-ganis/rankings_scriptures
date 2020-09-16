@@ -1,12 +1,14 @@
 TODO
 
+Sentiment Analysis - use existing models to anaylse messages containing factions or unit names, combine multiple messages sent by the same user in a short period
 
-for automatic warscroll extraction:
+Social network of units - detect synergies by collocations and networked graph of units
 
-	step 1 - extract the pages that contain warscrolls
-	step 2 - train an opencv model to find the base stats for every model
-	step 3 - split text by finding KEYWORDS and searching for the first line string with the model name, e.g. Katakros is a single model
-	step 4 - automatically find unit names frm the points table 
+Points detection -  feed all statlines:points you can on units into xgb, and train a model to wrok out the value of each statlines
+-- after this, show how powerful mortek guardgetting +1 to their save is, and how that increase their damage by a lot too given how many survive
+
+create dataset of all warscroll cards in text format, RNN to generate hilarious new ones
+
 
 
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>

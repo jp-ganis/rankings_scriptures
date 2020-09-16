@@ -1,0 +1,8 @@
+*.png
+input_data_files/battletome_*
+poppler/*
+*.pyc
+*.gexf
+concattedtomes.txt
+metabreakers/*
+metabreakers

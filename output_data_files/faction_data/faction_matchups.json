@@ -1,0 +1,1829 @@
+
+{"Kharadron Overlords": 
+{"faction_name": "Kharadron Overlords", "matchups": 
+{"Daughters Of Khaine": 
+{"Wins": 4, "Losses": 8}, "Disciples Of Tzeentch": 
+{"Wins": 2, "Losses": 6}, "Fyreslayers": 
+{"Wins": 2, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 16}, "Slaves To Darkness": 
+{"Wins": 8, "Losses": 2}, "Ironjawz": 
+{"Wins": 10, "Losses": 6}, "Stormcast Eternals": 
+{"Wins": 10, "Losses": 8}, "Sylvaneth": 
+{"Wins": 8, "Losses": 4}, "Ogor Mawtribes": 
+{"Wins": 0, "Losses": 3}, "Legions of Nagash": 
+{"Wins": 4, "Losses": 4}, "Legion of Sacrament": 
+{"Wins": 2, "Losses": 4}, "Gloomspite Gitz": 
+{"Wins": 4, "Losses": 4}, "Blades of Khorne": 
+{"Wins": 4, "Losses": 8}, "Hosts of Slaanesh": 
+{"Wins": 2, "Losses": 2}, "Nighthaunt": 
+{"Wins": 4, "Losses": 0}, "Skaven Pestilens": 
+{"Wins": 2, "Losses": 0}, "Skaven": 
+{"Wins": 8, "Losses": 8}, "Maggotkin of Nurgle": 
+{"Wins": 4, "Losses": 1}, "Legion of Night": 
+{"Wins": 0, "Losses": 4}, "Legion of Blood": 
+{"Wins": 2, "Losses": 4}, "Kharadron Overlords": 
+{"Wins": 4, "Losses": 4}, "Moonclan Grots": 
+{"Wins": 4, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 8, "Losses": 6}, "Tempest Eye": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Mixed": 
+{"Wins": 0, "Losses": 2}, "Order Serpentis": 
+{"Wins": 0, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 2, "Losses": 2}, "Cities of Sigmar": 
+{"Wins": 0, "Losses": 2}, "Orruks": 
+{"Wins": 0, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Slaanesh": 
+{"Wins": 6, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 0, "Losses": 2}, "Legion of Azgorh": 
+{"Wins": 0, "Losses": 1}}}, "Daughters Of Khaine": 
+{"faction_name": "Daughters Of Khaine", "matchups": 
+{"Kharadron Overlords": 
+{"Wins": 8, "Losses": 4}, "Fyreslayers": 
+{"Wins": 12, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 4, "Losses": 8}, "Mixed": 
+{"Wins": 8, "Losses": 4}, "Brayherd": 
+{"Wins": 2, "Losses": 2}, "Sylvaneth": 
+{"Wins": 14, "Losses": 8}, "Thunderscorn": 
+{"Wins": 0, "Losses": 2}, "Soulblight": 
+{"Wins": 0, "Losses": 2}, "Nighthaunt": 
+{"Wins": 10, "Losses": 0}, "Orruks": 
+{"Wins": 4, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 12, "Losses": 6}, "Idoneth Deepkin": 
+{"Wins": 16, "Losses": 4}, "Stormcast Eternals": 
+{"Wins": 20, "Losses": 10}, "Darkling Covens": 
+{"Wins": 2, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 8, "Losses": 0}, "Gloomspite Gitz": 
+{"Wins": 6, "Losses": 6}, "Skaven": 
+{"Wins": 26, "Losses": 18}, "Disciples Of Tzeentch": 
+{"Wins": 8, "Losses": 6}, "Legion of Grief": 
+{"Wins": 2, "Losses": 4}, "Skaven Pestilens": 
+{"Wins": 0, "Losses": 2}, "Legion of Blood": 
+{"Wins": 6, "Losses": 2}, "Seraphon": 
+{"Wins": 20, "Losses": 4}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 4}, "Flesh Eater Courts": 
+{"Wins": 12, "Losses": 10}, "Legion of Night": 
+{"Wins": 4, "Losses": 4}, "Grand Host of Nagash": 
+{"Wins": 6, "Losses": 2}, "Khorne Bloodbound": 
+{"Wins": 4, "Losses": 2}, "Hosts of Slaanesh": 
+{"Wins": 6, "Losses": 10}, "Warherd": 
+{"Wins": 2, "Losses": 0}, "Ironjawz": 
+{"Wins": 20, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 4, "Losses": 4}, "Blades of Khorne": 
+{"Wins": 10, "Losses": 4}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 0}, "Moonclan Grots": 
+{"Wins": 2, "Losses": 0}, "Clan Skryre": 
+{"Wins": 2, "Losses": 0}, "Daughters Of Khaine": 
+{"Wins": 8, "Losses": 8}, "Order Draconis": 
+{"Wins": 0, "Losses": 2}, "Cities of Sigmar": 
+{"Wins": 0, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 6, "Losses": 0}, "Daemons Of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Death Grand Alliance": 
+{"Wins": 2, "Losses": 0}, "Hallowheart": 
+{"Wins": 2, "Losses": 0}, "Tomb Kings": 
+{"Wins": 4, "Losses": 2}, "Order Serpentis": 
+{"Wins": 2, "Losses": 0}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 0}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 0}, "Bonesplitterz": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 2, "Losses": 0}}}, "Disciples Of Tzeentch": 
+{"faction_name": "Disciples Of Tzeentch", "matchups": 
+{"Kharadron Overlords": 
+{"Wins": 6, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 10, "Losses": 7}, "Disciples Of Tzeentch": 
+{"Wins": 18, "Losses": 18}, "Seraphon": 
+{"Wins": 14, "Losses": 6}, "Skaven": 
+{"Wins": 20, "Losses": 6}, "Flesh Eater Courts": 
+{"Wins": 16, "Losses": 8}, "Fyreslayers": 
+{"Wins": 18, "Losses": 10}, "Ossiarch Bonereapers": 
+{"Wins": 18, "Losses": 8}, "Idoneth Deepkin": 
+{"Wins": 12, "Losses": 10}, "Ironjawz": 
+{"Wins": 24, "Losses": 12}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 0}, "Bonesplitterz": 
+{"Wins": 6, "Losses": 8}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 0}, "Tomb Kings": 
+{"Wins": 4, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 12, "Losses": 12}, "Stormcast Eternals": 
+{"Wins": 26, "Losses": 24}, "Hosts of Slaanesh": 
+{"Wins": 8, "Losses": 18}, "Cities of Sigmar": 
+{"Wins": 14, "Losses": 4}, "Legion of Blood": 
+{"Wins": 6, "Losses": 2}, "Sylvaneth": 
+{"Wins": 10, "Losses": 14}, "Gloomspite Gitz": 
+{"Wins": 22, "Losses": 4}, "Nighthaunt": 
+{"Wins": 8, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 6, "Losses": 8}, "Maggotkin of Nurgle": 
+{"Wins": 6, "Losses": 4}, "Daemons Of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 4, "Losses": 6}, "Free Peoples": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 4}, "Mixed": 
+{"Wins": 0, "Losses": 6}, "Legion of Grief": 
+{"Wins": 0, "Losses": 2}, "Death Grand Alliance": 
+{"Wins": 0, "Losses": 2}, "Greywater Fastness": 
+{"Wins": 0, "Losses": 2}, "Devoted Of Sigmar": 
+{"Wins": 0, "Losses": 2}, "Maneaters": 
+{"Wins": 2, "Losses": 0}, "Hammerhal": 
+{"Wins": 2, "Losses": 0}, "Hallowheart": 
+{"Wins": 2, "Losses": 0}, "Beastclaw Raiders": 
+{"Wins": 0, "Losses": 4}}}, "Fyreslayers": 
+{"faction_name": "Fyreslayers", "matchups": 
+{"Kharadron Overlords": 
+{"Wins": 2, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 12}, "Idoneth Deepkin": 
+{"Wins": 4, "Losses": 16}, "Ossiarch Bonereapers": 
+{"Wins": 4, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 14, "Losses": 16}, "Disciples Of Tzeentch": 
+{"Wins": 10, "Losses": 18}, "Skaven": 
+{"Wins": 24, "Losses": 16}, "Ironjawz": 
+{"Wins": 20, "Losses": 2}, "Tzeentch Arcanites": 
+{"Wins": 4, "Losses": 0}, "Stormcast Eternals": 
+{"Wins": 24, "Losses": 20}, "Hallowheart": 
+{"Wins": 4, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 12, "Losses": 18}, "Cities of Sigmar": 
+{"Wins": 8, "Losses": 4}, "Nighthaunt": 
+{"Wins": 4, "Losses": 4}, "Sylvaneth": 
+{"Wins": 16, "Losses": 8}, "Bonesplitterz": 
+{"Wins": 2, "Losses": 4}, "Legion of Grief": 
+{"Wins": 2, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 4}, "Seraphon": 
+{"Wins": 6, "Losses": 4}, "Mixed": 
+{"Wins": 4, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 14, "Losses": 4}, "Legion of Blood": 
+{"Wins": 4, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 8, "Losses": 4}, "Legion of Sacrament": 
+{"Wins": 8, "Losses": 6}, "Legions of Nagash": 
+{"Wins": 4, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 0, "Losses": 2}, "Fyreslayers": 
+{"Wins": 6, "Losses": 6}, "Greywater Fastness": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 4}, "Free Peoples": 
+{"Wins": 2, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 6, "Losses": 2}, "Death Grand Alliance": 
+{"Wins": 2, "Losses": 0}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 2}, "Order Draconis": 
+{"Wins": 2, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Chaos": 
+{"Wins": 2, "Losses": 0}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 0}}}, "Idoneth Deepkin": 
+{"faction_name": "Idoneth Deepkin", "matchups": 
+{"Ossiarch Bonereapers": 
+{"Wins": 14, "Losses": 8}, "Kharadron Overlords": 
+{"Wins": 16, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 6, "Losses": 6}, "Seraphon": 
+{"Wins": 6, "Losses": 18}, "Fyreslayers": 
+{"Wins": 16, "Losses": 4}, "Tempest Eye": 
+{"Wins": 4, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 36, "Losses": 20}, "Disciples Of Tzeentch": 
+{"Wins": 10, "Losses": 12}, "Ogor Mawtribes": 
+{"Wins": 6, "Losses": 4}, "Nighthaunt": 
+{"Wins": 10, "Losses": 10}, "Ironjawz": 
+{"Wins": 26, "Losses": 8}, "Blades of Khorne": 
+{"Wins": 8, "Losses": 12}, "Gloomspite Gitz": 
+{"Wins": 18, "Losses": 6}, "Grand Host of Nagash": 
+{"Wins": 18, "Losses": 12}, "Bonesplitterz": 
+{"Wins": 5, "Losses": 6}, "Flesh Eater Courts": 
+{"Wins": 16, "Losses": 20}, "Skaven": 
+{"Wins": 30, "Losses": 8}, "Sylvaneth": 
+{"Wins": 20, "Losses": 16}, "Legion of Sacrament": 
+{"Wins": 8, "Losses": 6}, "Daughters Of Khaine": 
+{"Wins": 4, "Losses": 16}, "Maggotkin of Nurgle": 
+{"Wins": 14, "Losses": 4}, "Mixed": 
+{"Wins": 4, "Losses": 0}, "Cities of Sigmar": 
+{"Wins": 8, "Losses": 2}, "Daemons Of Slaanesh": 
+{"Wins": 4, "Losses": 2}, "Free Peoples": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 2}, "Warherd": 
+{"Wins": 2, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 4, "Losses": 12}, "Moonclan Grots": 
+{"Wins": 6, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 4, "Losses": 2}, "Gutbusters": 
+{"Wins": 2, "Losses": 0}, "Legions of Nagash": 
+{"Wins": 0, "Losses": 1}, "Legion of Blood": 
+{"Wins": 0, "Losses": 2}, "Clan Skryre": 
+{"Wins": 2, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 10, "Losses": 4}, "Legion Of Azgorh": 
+{"Wins": 0, "Losses": 4}, "Spiderfang Grots": 
+{"Wins": 2, "Losses": 0}, "Brayherd": 
+{"Wins": 2, "Losses": 0}, "Dispossessed": 
+{"Wins": 2, "Losses": 0}, "Hammerhal": 
+{"Wins": 4, "Losses": 2}, "Devoted Of Sigmar": 
+{"Wins": 2, "Losses": 0}, "The Living City": 
+{"Wins": 4, "Losses": 0}, "StoneKlaw's Gutstompers": 
+{"Wins": 0, "Losses": 2}, "Legion of Grief": 
+{"Wins": 2, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 0}, "Orruks": 
+{"Wins": 2, "Losses": 2}, "Slaves To Darkness": 
+{"Wins": 0, "Losses": 2}}}, "Ossiarch Bonereapers": 
+{"faction_name": "Ossiarch Bonereapers", "matchups": 
+{"Idoneth Deepkin": 
+{"Wins": 8, "Losses": 14}, "Seraphon": 
+{"Wins": 8, "Losses": 4}, "Daughters Of Khaine": 
+{"Wins": 8, "Losses": 4}, "Fyreslayers": 
+{"Wins": 2, "Losses": 4}, "Flesh Eater Courts": 
+{"Wins": 10, "Losses": 6}, "Beasts of Chaos": 
+{"Wins": 8, "Losses": 0}, "Stormcast Eternals": 
+{"Wins": 20, "Losses": 2}, "Skaven": 
+{"Wins": 12, "Losses": 4}, "Orruks": 
+{"Wins": 0, "Losses": 6}, "Hallowheart": 
+{"Wins": 2, "Losses": 4}, "The Living City": 
+{"Wins": 2, "Losses": 0}, "Gloomspite Gitz": 
+{"Wins": 8, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 8, "Losses": 18}, "Slaves To Darkness": 
+{"Wins": 12, "Losses": 4}, "Hosts of Slaanesh": 
+{"Wins": 8, "Losses": 6}, "Ogor Mawtribes": 
+{"Wins": 10, "Losses": 10}, "Ironjawz": 
+{"Wins": 18, "Losses": 8}, "Ossiarch Bonereapers": 
+{"Wins": 10, "Losses": 10}, "Cities of Sigmar": 
+{"Wins": 14, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 4}, "Nighthaunt": 
+{"Wins": 4, "Losses": 0}, "Tempest Eye": 
+{"Wins": 4, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 4, "Losses": 2}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}, "Legions of Nagash": 
+{"Wins": 0, "Losses": 6}, "Legion of Grief": 
+{"Wins": 0, "Losses": 2}, "Legion of Night": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 0, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Legion of Azgorh": 
+{"Wins": 2, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 0}}}, "Ogor Mawtribes": 
+{"faction_name": "Ogor Mawtribes", "matchups": 
+{"Disciples Of Tzeentch": 
+{"Wins": 7, "Losses": 10}, "Blades of Khorne": 
+{"Wins": 10, "Losses": 2}, "Skaven": 
+{"Wins": 2, "Losses": 12}, "Hallowheart": 
+{"Wins": 4, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 4, "Losses": 0}, "Gloomspite Gitz": 
+{"Wins": 6, "Losses": 10}, "Idoneth Deepkin": 
+{"Wins": 4, "Losses": 6}, "Slaves To Darkness": 
+{"Wins": 5, "Losses": 10}, "Ossiarch Bonereapers": 
+{"Wins": 10, "Losses": 10}, "Nighthaunt": 
+{"Wins": 4, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 8, "Losses": 8}, "Stormcast Eternals": 
+{"Wins": 4, "Losses": 10}, "Ironjawz": 
+{"Wins": 18, "Losses": 6}, "Cities of Sigmar": 
+{"Wins": 10, "Losses": 10}, "Kharadron Overlords": 
+{"Wins": 3, "Losses": 0}, "Tomb Kings": 
+{"Wins": 0, "Losses": 2}, "Mixed": 
+{"Wins": 0, "Losses": 2}, "Orruks": 
+{"Wins": 2, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 8, "Losses": 6}, "Hosts of Slaanesh": 
+{"Wins": 2, "Losses": 8}, "Legion of Grief": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 2, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 4, "Losses": 4}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Hammerhal": 
+{"Wins": 2, "Losses": 0}, "Tempest Eye": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Legion of Blood": 
+{"Wins": 2, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Fyreslayers": 
+{"Wins": 0, "Losses": 2}}}, "Seraphon": 
+{"faction_name": "Seraphon", "matchups": 
+{"Disciples Of Tzeentch": 
+{"Wins": 6, "Losses": 14}, "Ossiarch Bonereapers": 
+{"Wins": 4, "Losses": 8}, "Idoneth Deepkin": 
+{"Wins": 18, "Losses": 6}, "Ironjawz": 
+{"Wins": 12, "Losses": 32}, "Stormcast Eternals": 
+{"Wins": 25, "Losses": 28}, "Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 2, "Losses": 2}, "Khorne Bloodbound": 
+{"Wins": 3, "Losses": 4}, "Dispossessed": 
+{"Wins": 2, "Losses": 0}, "Flesh Eater Courts": 
+{"Wins": 16, "Losses": 12}, "Swifthawk Agents": 
+{"Wins": 4, "Losses": 0}, "Skaven": 
+{"Wins": 12, "Losses": 32}, "Sylvaneth": 
+{"Wins": 20, "Losses": 8}, "Mixed": 
+{"Wins": 10, "Losses": 6}, "Beastclaw Raiders": 
+{"Wins": 6, "Losses": 6}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 14, "Losses": 8}, "Bonesplitterz": 
+{"Wins": 6, "Losses": 2}, "Fyreslayers": 
+{"Wins": 4, "Losses": 6}, "Blades of Khorne": 
+{"Wins": 10, "Losses": 10}, "Legion of Blood": 
+{"Wins": 6, "Losses": 4}, "Hosts of Slaanesh": 
+{"Wins": 2, "Losses": 6}, "Legion of Grief": 
+{"Wins": 0, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 6, "Losses": 8}, "Orruks": 
+{"Wins": 2, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 4, "Losses": 4}, "Darkling Covens": 
+{"Wins": 2, "Losses": 0}, "Nighthaunt": 
+{"Wins": 4, "Losses": 4}, "Grand Host of Nagash": 
+{"Wins": 4, "Losses": 14}, "Daemons Of Slaanesh": 
+{"Wins": 4, "Losses": 4}, "Daughters Of Khaine": 
+{"Wins": 4, "Losses": 20}, "Daemons Of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Order Draconis": 
+{"Wins": 0, "Losses": 2}, "Legion of Night": 
+{"Wins": 4, "Losses": 0}, "Moonclan Grots": 
+{"Wins": 2, "Losses": 0}, "Tomb Kings": 
+{"Wins": 0, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 10, "Losses": 4}, "Gutbusters": 
+{"Wins": 2, "Losses": 0}, "Brayherd": 
+{"Wins": 0, "Losses": 2}, "Legion of Azgorh": 
+{"Wins": 0, "Losses": 2}, "Cities of Sigmar": 
+{"Wins": 0, "Losses": 2}, "Wanderers": 
+{"Wins": 2, "Losses": 0}, "Spanky": 
+{"Wins": 0, "Losses": 1}, "Kharadron Overlords": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 2, "Losses": 2}, "The Living City": 
+{"Wins": 0, "Losses": 2}, "Hammerhal": 
+{"Wins": 0, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 0, "Losses": 2}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 3}}}, "Blades of Khorne": 
+{"faction_name": "Blades of Khorne", "matchups": 
+{"Orruks": 
+{"Wins": 6, "Losses": 0}, "Stormcast Eternals": 
+{"Wins": 42, "Losses": 24}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 10}, "Disciples Of Tzeentch": 
+{"Wins": 12, "Losses": 12}, "Flesh Eater Courts": 
+{"Wins": 14, "Losses": 24}, "Ironjawz": 
+{"Wins": 12, "Losses": 24}, "Idoneth Deepkin": 
+{"Wins": 12, "Losses": 8}, "Slaves To Darkness": 
+{"Wins": 4, "Losses": 2}, "Skaven": 
+{"Wins": 18, "Losses": 38}, "Ossiarch Bonereapers": 
+{"Wins": 4, "Losses": 2}, "Nighthaunt": 
+{"Wins": 36, "Losses": 8}, "Cities of Sigmar": 
+{"Wins": 2, "Losses": 0}, "Fyreslayers": 
+{"Wins": 4, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 2, "Losses": 12}, "Mixed": 
+{"Wins": 20, "Losses": 8}, "Bonesplitterz": 
+{"Wins": 6, "Losses": 14}, "Sylvaneth": 
+{"Wins": 34, "Losses": 14}, "Seraphon": 
+{"Wins": 10, "Losses": 10}, "Blades of Khorne": 
+{"Wins": 26, "Losses": 26}, "Gloomspite Gitz": 
+{"Wins": 20, "Losses": 14}, "Legion of Sacrament": 
+{"Wins": 4, "Losses": 10}, "Legion of Blood": 
+{"Wins": 2, "Losses": 6}, "Maggotkin of Nurgle": 
+{"Wins": 6, "Losses": 20}, "Legions of Nagash": 
+{"Wins": 8, "Losses": 4}, "Kharadron Overlords": 
+{"Wins": 8, "Losses": 4}, "Legion of Grief": 
+{"Wins": 4, "Losses": 2}, "Daemons Of Nurgle": 
+{"Wins": 4, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 4, "Losses": 18}, "Tempest Eye": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 4, "Losses": 10}, "Gutbusters": 
+{"Wins": 2, "Losses": 0}, "Moonclan Grots": 
+{"Wins": 0, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 4}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 2}, "Free Peoples": 
+{"Wins": 6, "Losses": 14}, "Greywater Fastness": 
+{"Wins": 2, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 2}, "Brayherd": 
+{"Wins": 0, "Losses": 4}, "Death Grand Alliance": 
+{"Wins": 4, "Losses": 0}, "Legion of Night": 
+{"Wins": 2, "Losses": 0}, "The Living City": 
+{"Wins": 0, "Losses": 4}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 2}, "StoneKlaw's Gutstompers": 
+{"Wins": 2, "Losses": 0}, "Order Draconis": 
+{"Wins": 0, "Losses": 2}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 0}}}, "Orruks": 
+{"faction_name": "Orruks", "matchups": 
+{"Blades of Khorne": 
+{"Wins": 0, "Losses": 6}, "Ossiarch Bonereapers": 
+{"Wins": 6, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 4, "Losses": 0}, "Seraphon": 
+{"Wins": 2, "Losses": 2}, "Skaven": 
+{"Wins": 8, "Losses": 0}, "Orruks": 
+{"Wins": 4, "Losses": 4}, "Flesh Eater Courts": 
+{"Wins": 2, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 2, "Losses": 4}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 2}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 0, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 2, "Losses": 0}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 4, "Losses": 0}}}, "Stormcast Eternals": 
+{"faction_name": "Stormcast Eternals", "matchups": 
+{"Blades of Khorne": 
+{"Wins": 24, "Losses": 42}, "Ossiarch Bonereapers": 
+{"Wins": 2, "Losses": 20}, "Flesh Eater Courts": 
+{"Wins": 28, "Losses": 44}, "Tempest Eye": 
+{"Wins": 4, "Losses": 4}, "Idoneth Deepkin": 
+{"Wins": 20, "Losses": 36}, "Fyreslayers": 
+{"Wins": 20, "Losses": 24}, "Stormcast Eternals": 
+{"Wins": 72, "Losses": 72}, "Tzeentch Arcanites": 
+{"Wins": 10, "Losses": 4}, "Slaves To Darkness": 
+{"Wins": 10, "Losses": 4}, "Skaven": 
+{"Wins": 34, "Losses": 58}, "Mixed": 
+{"Wins": 26, "Losses": 24}, "Nurgle Rotbringers": 
+{"Wins": 2, "Losses": 0}, "Moonclan Grots": 
+{"Wins": 6, "Losses": 8}, "Disciples Of Tzeentch": 
+{"Wins": 24, "Losses": 26}, "Kharadron Overlords": 
+{"Wins": 8, "Losses": 10}, "Ogor Mawtribes": 
+{"Wins": 10, "Losses": 4}, "Ironjawz": 
+{"Wins": 28, "Losses": 48}, "Gloomspite Gitz": 
+{"Wins": 36, "Losses": 26}, "Seraphon": 
+{"Wins": 28, "Losses": 25}, "Cities of Sigmar": 
+{"Wins": 6, "Losses": 6}, "Hosts of Slaanesh": 
+{"Wins": 8, "Losses": 26}, "Dispossessed": 
+{"Wins": 4, "Losses": 0}, "Daemons Of Khorne": 
+{"Wins": 1, "Losses": 0}, "Skaven Pestilens": 
+{"Wins": 0, "Losses": 2}, "Legion Of Azgorh": 
+{"Wins": 0, "Losses": 2}, "Soulblight": 
+{"Wins": 0, "Losses": 2}, "Nighthaunt": 
+{"Wins": 26, "Losses": 18}, "Khorne Bloodbound": 
+{"Wins": 8, "Losses": 8}, "Beastclaw Raiders": 
+{"Wins": 10, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 8, "Losses": 10}, "Sylvaneth": 
+{"Wins": 48, "Losses": 52}, "Legion of Blood": 
+{"Wins": 7, "Losses": 20}, "Grand Host of Nagash": 
+{"Wins": 14, "Losses": 8}, "Daughters Of Khaine": 
+{"Wins": 10, "Losses": 20}, "Legions of Nagash": 
+{"Wins": 0, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 20, "Losses": 16}, "Legion of Night": 
+{"Wins": 0, "Losses": 4}, "Legion of Sacrament": 
+{"Wins": 12, "Losses": 14}, "Free Peoples": 
+{"Wins": 4, "Losses": 0}, "Legion of Grief": 
+{"Wins": 4, "Losses": 8}, "Daemons Of Slaanesh": 
+{"Wins": 3, "Losses": 6}, "Bonesplitterz": 
+{"Wins": 4, "Losses": 10}, "Warherd": 
+{"Wins": 2, "Losses": 2}, "Gutbusters": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 2, "Losses": 0}, "Wanderers": 
+{"Wins": 6, "Losses": 0}, "Brayherd": 
+{"Wins": 6, "Losses": 2}, "Spiderfang Grots": 
+{"Wins": 0, "Losses": 2}, "Devoted Of Sigmar": 
+{"Wins": 2, "Losses": 0}, "Maneaters": 
+{"Wins": 0, "Losses": 2}, "The Living City": 
+{"Wins": 6, "Losses": 0}, "Hallowheart": 
+{"Wins": 4, "Losses": 0}, "Daemons Of Nurgle": 
+{"Wins": 0, "Losses": 4}, "Hammerhal": 
+{"Wins": 2, "Losses": 2}, "Order Draconis": 
+{"Wins": 2, "Losses": 2}, "Order Serpentis": 
+{"Wins": 0, "Losses": 2}, "Orruks": 
+{"Wins": 0, "Losses": 4}, "Legion of Azgorh": 
+{"Wins": 2, "Losses": 0}}}, "Skaven": 
+{"faction_name": "Skaven", "matchups": 
+{"Disciples Of Tzeentch": 
+{"Wins": 6, "Losses": 20}, "Flesh Eater Courts": 
+{"Wins": 28, "Losses": 32}, "Ogor Mawtribes": 
+{"Wins": 12, "Losses": 2}, "Fyreslayers": 
+{"Wins": 16, "Losses": 24}, "Ossiarch Bonereapers": 
+{"Wins": 4, "Losses": 12}, "Tempest Eye": 
+{"Wins": 4, "Losses": 6}, "Legion of Blood": 
+{"Wins": 4, "Losses": 4}, "Gloomspite Gitz": 
+{"Wins": 26, "Losses": 8}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 0}, "Stormcast Eternals": 
+{"Wins": 58, "Losses": 34}, "Ironjawz": 
+{"Wins": 34, "Losses": 24}, "Hallowheart": 
+{"Wins": 0, "Losses": 8}, "Daemons Of Khorne": 
+{"Wins": 0, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 38, "Losses": 18}, "Mixed": 
+{"Wins": 14, "Losses": 8}, "Daemons Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 32, "Losses": 12}, "Thunderscorn": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 28, "Losses": 26}, "Skaven": 
+{"Wins": 48, "Losses": 48}, "Hosts of Slaanesh": 
+{"Wins": 30, "Losses": 24}, "Grand Host of Nagash": 
+{"Wins": 8, "Losses": 8}, "Idoneth Deepkin": 
+{"Wins": 8, "Losses": 30}, "Legion of Grief": 
+{"Wins": 12, "Losses": 8}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 6}, "Everchosen": 
+{"Wins": 4, "Losses": 2}, "Darkling Covens": 
+{"Wins": 2, "Losses": 0}, "Nighthaunt": 
+{"Wins": 24, "Losses": 4}, "Daughters Of Khaine": 
+{"Wins": 18, "Losses": 26}, "Cities of Sigmar": 
+{"Wins": 6, "Losses": 6}, "Daemons Of Nurgle": 
+{"Wins": 4, "Losses": 4}, "Bonesplitterz": 
+{"Wins": 4, "Losses": 6}, "Beastclaw Raiders": 
+{"Wins": 14, "Losses": 0}, "Free Peoples": 
+{"Wins": 4, "Losses": 4}, "Skaven Pestilens": 
+{"Wins": 0, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 6, "Losses": 4}, "Hammerhal": 
+{"Wins": 2, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 10, "Losses": 12}, "Maggotkin of Nurgle": 
+{"Wins": 22, "Losses": 12}, "Kharadron Overlords": 
+{"Wins": 8, "Losses": 8}, "Daemons Of Slaanesh": 
+{"Wins": 6, "Losses": 6}, "Warherd": 
+{"Wins": 2, "Losses": 0}, "Orruks": 
+{"Wins": 0, "Losses": 8}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 4}, "Gutbusters": 
+{"Wins": 2, "Losses": 2}, "Order Draconis": 
+{"Wins": 2, "Losses": 2}, "Wanderers": 
+{"Wins": 2, "Losses": 2}, "Slaves To Darkness": 
+{"Wins": 0, "Losses": 4}, "Greywater Fastness": 
+{"Wins": 2, "Losses": 0}, "Legion of Night": 
+{"Wins": 0, "Losses": 6}, "Spanky": 
+{"Wins": 0, "Losses": 1}, "Tomb Kings": 
+{"Wins": 4, "Losses": 0}, "Anvilguard": 
+{"Wins": 2, "Losses": 0}, "Soulblight": 
+{"Wins": 2, "Losses": 0}}}, "Flesh Eater Courts": 
+{"faction_name": "Flesh Eater Courts", "matchups": 
+{"Disciples Of Tzeentch": 
+{"Wins": 8, "Losses": 16}, "Fyreslayers": 
+{"Wins": 16, "Losses": 14}, "Beasts of Chaos": 
+{"Wins": 8, "Losses": 4}, "Ossiarch Bonereapers": 
+{"Wins": 6, "Losses": 10}, "Skaven": 
+{"Wins": 32, "Losses": 28}, "Stormcast Eternals": 
+{"Wins": 44, "Losses": 28}, "Beastclaw Raiders": 
+{"Wins": 0, "Losses": 10}, "Sylvaneth": 
+{"Wins": 26, "Losses": 18}, "Slaves To Darkness": 
+{"Wins": 3, "Losses": 0}, "Ironjawz": 
+{"Wins": 28, "Losses": 12}, "Hosts of Slaanesh": 
+{"Wins": 12, "Losses": 28}, "Blades of Khorne": 
+{"Wins": 24, "Losses": 14}, "Gloomspite Gitz": 
+{"Wins": 18, "Losses": 12}, "Nighthaunt": 
+{"Wins": 16, "Losses": 12}, "Legions of Nagash": 
+{"Wins": 4, "Losses": 8}, "Seraphon": 
+{"Wins": 12, "Losses": 16}, "Mixed": 
+{"Wins": 14, "Losses": 12}, "Daemons Of Khorne": 
+{"Wins": 3, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 4}, "Bonesplitterz": 
+{"Wins": 6, "Losses": 8}, "Idoneth Deepkin": 
+{"Wins": 20, "Losses": 16}, "Maggotkin of Nurgle": 
+{"Wins": 14, "Losses": 8}, "Darkling Covens": 
+{"Wins": 4, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 6, "Losses": 6}, "Cities of Sigmar": 
+{"Wins": 6, "Losses": 4}, "Legion of Night": 
+{"Wins": 2, "Losses": 0}, "Skaven Pestilens": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 34, "Losses": 34}, "Daughters Of Khaine": 
+{"Wins": 10, "Losses": 12}, "Grand Host of Nagash": 
+{"Wins": 12, "Losses": 8}, "Legion of Blood": 
+{"Wins": 6, "Losses": 0}, "Orruks": 
+{"Wins": 0, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 6, "Losses": 8}, "Tempest Eye": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 6, "Losses": 8}, "Daemons Of Nurgle": 
+{"Wins": 2, "Losses": 4}, "Legion of Grief": 
+{"Wins": 2, "Losses": 6}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Free Peoples": 
+{"Wins": 2, "Losses": 2}, "Tomb Kings": 
+{"Wins": 4, "Losses": 0}, "Anvilguard": 
+{"Wins": 2, "Losses": 0}, "Hallowheart": 
+{"Wins": 2, "Losses": 0}, "Warherd": 
+{"Wins": 2, "Losses": 0}}}, "Beasts of Chaos": 
+{"faction_name": "Beasts of Chaos", "matchups": 
+{"Flesh Eater Courts": 
+{"Wins": 4, "Losses": 8}, "Ossiarch Bonereapers": 
+{"Wins": 0, "Losses": 8}, "Orruks": 
+{"Wins": 2, "Losses": 0}, "Ogor Mawtribes": 
+{"Wins": 0, "Losses": 4}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 2}, "Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 10, "Losses": 8}, "Ironjawz": 
+{"Wins": 2, "Losses": 6}, "Hosts of Slaanesh": 
+{"Wins": 6, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 10, "Losses": 6}, "Seraphon": 
+{"Wins": 8, "Losses": 6}, "Bonesplitterz": 
+{"Wins": 2, "Losses": 2}, "Nighthaunt": 
+{"Wins": 2, "Losses": 6}, "Skaven": 
+{"Wins": 12, "Losses": 10}, "Sylvaneth": 
+{"Wins": 6, "Losses": 10}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 4}, "Fyreslayers": 
+{"Wins": 4, "Losses": 8}, "Daughters Of Khaine": 
+{"Wins": 4, "Losses": 4}, "Legion of Sacrament": 
+{"Wins": 2, "Losses": 4}, "Idoneth Deepkin": 
+{"Wins": 4, "Losses": 10}, "Cities of Sigmar": 
+{"Wins": 2, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 6, "Losses": 4}, "Mixed": 
+{"Wins": 2, "Losses": 2}, "Legion of Grief": 
+{"Wins": 0, "Losses": 4}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 2}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 2}, "Legion of Blood": 
+{"Wins": 0, "Losses": 4}, "Gutbusters": 
+{"Wins": 2, "Losses": 0}, "Legion of Night": 
+{"Wins": 0, "Losses": 2}, "Hammerhal": 
+{"Wins": 0, "Losses": 6}, "Beastclaw Raiders": 
+{"Wins": 0, "Losses": 4}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 0}, "Free Peoples": 
+{"Wins": 2, "Losses": 0}, "Warherd": 
+{"Wins": 0, "Losses": 2}}}, "Tempest Eye": 
+{"faction_name": "Tempest Eye", "matchups": 
+{"Stormcast Eternals": 
+{"Wins": 4, "Losses": 4}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 4}, "Skaven": 
+{"Wins": 6, "Losses": 4}, "Legion of Blood": 
+{"Wins": 2, "Losses": 0}, "Ironjawz": 
+{"Wins": 2, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 0, "Losses": 4}, "Mixed": 
+{"Wins": 0, "Losses": 2}, "Hosts of Slaanesh": 
+{"Wins": 2, "Losses": 0}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 0}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 2}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Sylvaneth": 
+{"Wins": 0, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 4, "Losses": 0}, "Hallowheart": 
+{"Wins": 0, "Losses": 2}, "Hammerhal": 
+{"Wins": 2, "Losses": 0}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 0}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 0}, "Bonesplitterz": 
+{"Wins": 0, "Losses": 2}, "Anvilguard": 
+{"Wins": 2, "Losses": 0}, "Beastclaw Raiders": 
+{"Wins": 0, "Losses": 2}}}, "Legion of Blood": 
+{"faction_name": "Legion of Blood", "matchups": 
+{"Tempest Eye": 
+{"Wins": 0, "Losses": 2}, "Skaven": 
+{"Wins": 4, "Losses": 4}, "The Living City": 
+{"Wins": 2, "Losses": 0}, "Ironjawz": 
+{"Wins": 8, "Losses": 4}, "Disciples Of Tzeentch": 
+{"Wins": 2, "Losses": 6}, "Seraphon": 
+{"Wins": 4, "Losses": 6}, "Stormcast Eternals": 
+{"Wins": 20, "Losses": 7}, "Blades of Khorne": 
+{"Wins": 6, "Losses": 2}, "Slaves To Darkness": 
+{"Wins": 4, "Losses": 0}, "Daemons Of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 2, "Losses": 2}, "Sylvaneth": 
+{"Wins": 10, "Losses": 4}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 6}, "Fyreslayers": 
+{"Wins": 2, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 4, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 6}, "Grand Host of Nagash": 
+{"Wins": 8, "Losses": 4}, "Spiderfang Grots": 
+{"Wins": 2, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 2, "Losses": 0}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 2}, "Greywater Fastness": 
+{"Wins": 0, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 0, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 4, "Losses": 0}, "Hallowheart": 
+{"Wins": 0, "Losses": 2}, "Hammerhal": 
+{"Wins": 2, "Losses": 0}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 0}, "Nighthaunt": 
+{"Wins": 2, "Losses": 2}, "Mixed": 
+{"Wins": 2, "Losses": 0}, "Ogor Mawtribes": 
+{"Wins": 0, "Losses": 2}}}, "Ironjawz": 
+{"faction_name": "Ironjawz", "matchups": 
+{"Tempest Eye": 
+{"Wins": 2, "Losses": 2}, "Legion of Blood": 
+{"Wins": 4, "Losses": 8}, "Fyreslayers": 
+{"Wins": 2, "Losses": 20}, "Skaven": 
+{"Wins": 24, "Losses": 34}, "The Living City": 
+{"Wins": 2, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 12, "Losses": 24}, "Ossiarch Bonereapers": 
+{"Wins": 8, "Losses": 18}, "Flesh Eater Courts": 
+{"Wins": 12, "Losses": 28}, "Cities of Sigmar": 
+{"Wins": 22, "Losses": 10}, "Idoneth Deepkin": 
+{"Wins": 8, "Losses": 26}, "Seraphon": 
+{"Wins": 32, "Losses": 12}, "Blades of Khorne": 
+{"Wins": 24, "Losses": 12}, "Bonesplitterz": 
+{"Wins": 14, "Losses": 11}, "Ironjawz": 
+{"Wins": 36, "Losses": 36}, "Hosts of Slaanesh": 
+{"Wins": 14, "Losses": 26}, "Kharadron Overlords": 
+{"Wins": 6, "Losses": 10}, "Slaves To Darkness": 
+{"Wins": 4, "Losses": 6}, "Ogor Mawtribes": 
+{"Wins": 6, "Losses": 18}, "Stormcast Eternals": 
+{"Wins": 48, "Losses": 28}, "Sylvaneth": 
+{"Wins": 24, "Losses": 12}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 11}, "Gloomspite Gitz": 
+{"Wins": 20, "Losses": 20}, "Nighthaunt": 
+{"Wins": 14, "Losses": 10}, "Mixed": 
+{"Wins": 14, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 4, "Losses": 6}, "Nurgle Rotbringers": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Khorne": 
+{"Wins": 0, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 6, "Losses": 2}, "Legion of Grief": 
+{"Wins": 2, "Losses": 16}, "Everchosen": 
+{"Wins": 2, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 8, "Losses": 6}, "Maggotkin of Nurgle": 
+{"Wins": 18, "Losses": 10}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 6}, "Daemons Of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 10, "Losses": 12}, "Free Peoples": 
+{"Wins": 2, "Losses": 6}, "Skaven Pestilens": 
+{"Wins": 0, "Losses": 2}, "Khorne Bloodbound": 
+{"Wins": 4, "Losses": 0}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 20}, "Craig Carlton": 
+{"Wins": 0, "Losses": 1}, "Moonclan Grots": 
+{"Wins": 0, "Losses": 4}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 0}, "Order Draconis": 
+{"Wins": 2, "Losses": 2}, "Dispossessed": 
+{"Wins": 0, "Losses": 2}, "Wanderers": 
+{"Wins": 2, "Losses": 0}, "Death Grand Alliance": 
+{"Wins": 0, "Losses": 2}, "Legion Of Azgorh": 
+{"Wins": 0, "Losses": 2}, "Anvilguard": 
+{"Wins": 2, "Losses": 0}}}, "Gloomspite Gitz": 
+{"faction_name": "Gloomspite Gitz", "matchups": 
+{"Skaven": 
+{"Wins": 8, "Losses": 26}, "Ogor Mawtribes": 
+{"Wins": 10, "Losses": 6}, "Ossiarch Bonereapers": 
+{"Wins": 2, "Losses": 8}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 6}, "Nighthaunt": 
+{"Wins": 6, "Losses": 16}, "Idoneth Deepkin": 
+{"Wins": 6, "Losses": 18}, "Hosts of Slaanesh": 
+{"Wins": 6, "Losses": 16}, "Stormcast Eternals": 
+{"Wins": 26, "Losses": 36}, "Ironjawz": 
+{"Wins": 20, "Losses": 20}, "Cities of Sigmar": 
+{"Wins": 6, "Losses": 6}, "Flesh Eater Courts": 
+{"Wins": 12, "Losses": 18}, "Bonesplitterz": 
+{"Wins": 4, "Losses": 6}, "Sylvaneth": 
+{"Wins": 10, "Losses": 20}, "Seraphon": 
+{"Wins": 8, "Losses": 14}, "Gloomspite Gitz": 
+{"Wins": 14, "Losses": 14}, "Grand Host of Nagash": 
+{"Wins": 8, "Losses": 6}, "Blades of Khorne": 
+{"Wins": 14, "Losses": 20}, "Mixed": 
+{"Wins": 2, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 4, "Losses": 22}, "Beasts of Chaos": 
+{"Wins": 6, "Losses": 10}, "Maggotkin of Nurgle": 
+{"Wins": 8, "Losses": 8}, "Kharadron Overlords": 
+{"Wins": 4, "Losses": 4}, "Everchosen": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 6, "Losses": 6}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 4}, "Fyreslayers": 
+{"Wins": 4, "Losses": 14}, "Free Peoples": 
+{"Wins": 0, "Losses": 2}, "Legion of Grief": 
+{"Wins": 0, "Losses": 6}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 6}, "Phoenix Temple": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 2, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 4, "Losses": 4}, "Tempest Eye": 
+{"Wins": 0, "Losses": 4}, "Hammerhal": 
+{"Wins": 2, "Losses": 0}, "Hallowheart": 
+{"Wins": 2, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 4}, "Death Grand Alliance": 
+{"Wins": 0, "Losses": 2}, "Orruks": 
+{"Wins": 0, "Losses": 2}, "Legion of Azgorh": 
+{"Wins": 0, "Losses": 2}}}, "Tzeentch Arcanites": 
+{"faction_name": "Tzeentch Arcanites", "matchups": 
+{"Skaven": 
+{"Wins": 0, "Losses": 2}, "Fyreslayers": 
+{"Wins": 0, "Losses": 4}, "Stormcast Eternals": 
+{"Wins": 4, "Losses": 10}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Khorne": 
+{"Wins": 0, "Losses": 4}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 0}, "Tzeentch Arcanites": 
+{"Wins": 1, "Losses": 1}, "Mixed": 
+{"Wins": 15, "Losses": 6}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 0}, "Soulblight": 
+{"Wins": 2, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 0}, "Free Peoples": 
+{"Wins": 2, "Losses": 0}, "Dispossessed": 
+{"Wins": 0, "Losses": 2}, "Brayherd": 
+{"Wins": 2, "Losses": 2}, "Sylvaneth": 
+{"Wins": 8, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Skaven Pestilens": 
+{"Wins": 2, "Losses": 0}, "Nighthaunt": 
+{"Wins": 8, "Losses": 4}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 2}, "Legion of Blood": 
+{"Wins": 0, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 0, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 2, "Losses": 2}, "Moonclan Grots": 
+{"Wins": 2, "Losses": 2}, "Order Draconis": 
+{"Wins": 2, "Losses": 0}, "Swifthawk Agents": 
+{"Wins": 2, "Losses": 0}}}, "The Living City": 
+{"faction_name": "The Living City", "matchups": 
+{"Legion of Blood": 
+{"Wins": 0, "Losses": 2}, "Khorne Bloodbound": 
+{"Wins": 0, "Losses": 4}, "Ironjawz": 
+{"Wins": 2, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 0, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 4}, "Maneaters": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 0, "Losses": 6}, "Blades of Khorne": 
+{"Wins": 4, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 0, "Losses": 4}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Clan Pestilens": 
+{"Wins": 0, "Losses": 2}, "Mixed": 
+{"Wins": 0, "Losses": 2}, "Order Draconis": 
+{"Wins": 2, "Losses": 0}, "Grand Host of Nagash": 
+{"Wins": 0, "Losses": 2}, "Clan Skryre": 
+{"Wins": 0, "Losses": 2}}}, "Hallowheart": 
+{"faction_name": "Hallowheart", "matchups": 
+{"Ossiarch Bonereapers": 
+{"Wins": 4, "Losses": 2}, "Fyreslayers": 
+{"Wins": 0, "Losses": 4}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 4}, "Skaven": 
+{"Wins": 8, "Losses": 0}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 0}, "Nighthaunt": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 0, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Gloomspite Gitz": 
+{"Wins": 2, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 4}, "Legion of Blood": 
+{"Wins": 2, "Losses": 0}, "Tempest Eye": 
+{"Wins": 2, "Losses": 0}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 2}, "Tomb Kings": 
+{"Wins": 2, "Losses": 0}}}, "Slaves To Darkness": 
+{"faction_name": "Slaves To Darkness", "matchups": 
+{"Stormcast Eternals": 
+{"Wins": 4, "Losses": 10}, "Khorne Bloodbound": 
+{"Wins": 4, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 2}, "Hallowheart": 
+{"Wins": 0, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 6, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 4, "Losses": 12}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 8}, "Ogor Mawtribes": 
+{"Wins": 10, "Losses": 5}, "Disciples Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Nighthaunt": 
+{"Wins": 2, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 3}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 4}, "Cities of Sigmar": 
+{"Wins": 0, "Losses": 2}, "Ironjawz": 
+{"Wins": 6, "Losses": 4}, "Slaves To Darkness": 
+{"Wins": 4, "Losses": 4}, "Hosts of Slaanesh": 
+{"Wins": 2, "Losses": 2}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 0}, "Mixed": 
+{"Wins": 0, "Losses": 4}, "Soulblight": 
+{"Wins": 0, "Losses": 2}, "Swifthawk Agents": 
+{"Wins": 2, "Losses": 0}, "Seraphon": 
+{"Wins": 2, "Losses": 2}, "Legion of Blood": 
+{"Wins": 0, "Losses": 4}, "Moonclan Grots": 
+{"Wins": 2, "Losses": 0}, "Grand Host of Nagash": 
+{"Wins": 0, "Losses": 2}, "Spiderfang Grots": 
+{"Wins": 0, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 2, "Losses": 2}, "Skaven": 
+{"Wins": 4, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 6, "Losses": 0}, "Tempest Eye": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 0}}}, "Khorne Bloodbound": 
+{"faction_name": "Khorne Bloodbound", "matchups": 
+{"Slaves To Darkness": 
+{"Wins": 2, "Losses": 4}, "The Living City": 
+{"Wins": 4, "Losses": 0}, "Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 2}, "Seraphon": 
+{"Wins": 4, "Losses": 3}, "Free Peoples": 
+{"Wins": 2, "Losses": 0}, "Mixed": 
+{"Wins": 8, "Losses": 6}, "Daemons Of Khorne": 
+{"Wins": 4, "Losses": 0}, "Daemons Of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 4, "Losses": 2}, "Robert Reimers": 
+{"Wins": 0, "Losses": 1}, "Swifthawk Agents": 
+{"Wins": 2, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 0, "Losses": 2}, "Thunderscorn": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 8, "Losses": 8}, "Soulblight": 
+{"Wins": 2, "Losses": 0}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 2}, "Ironjawz": 
+{"Wins": 0, "Losses": 4}, "Legion of Grief": 
+{"Wins": 0, "Losses": 2}, "Phoenix Temple": 
+{"Wins": 2, "Losses": 0}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 4, "Losses": 2}, "Legion of Night": 
+{"Wins": 2, "Losses": 0}, "Tomb Kings": 
+{"Wins": 0, "Losses": 2}, "Skaven": 
+{"Wins": 4, "Losses": 2}, "Legion of Blood": 
+{"Wins": 2, "Losses": 2}, "Fyreslayers": 
+{"Wins": 2, "Losses": 0}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 2, "Losses": 2}, "Cities of Sigmar": 
+{"Wins": 4, "Losses": 2}, "Nighthaunt": 
+{"Wins": 2, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 0, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 2}, "Hosts of Slaanesh": 
+{"Wins": 2, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 0, "Losses": 2}}}, "Daemons Of Khorne": 
+{"faction_name": "Daemons Of Khorne", "matchups": 
+{"Tzeentch Arcanites": 
+{"Wins": 4, "Losses": 0}, "Skaven": 
+{"Wins": 2, "Losses": 0}, "Mixed": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 0, "Losses": 4}, "Sylvaneth": 
+{"Wins": 0, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 3}, "Thomas Holdsworth": 
+{"Wins": 0, "Losses": 1}, "Stormcast Eternals": 
+{"Wins": 0, "Losses": 1}, "Ironjawz": 
+{"Wins": 2, "Losses": 0}, "Beastclaw Raiders": 
+{"Wins": 4, "Losses": 0}}}, "Mixed": 
+{"faction_name": "Mixed", "matchups": 
+{"Daemons Of Khorne": 
+{"Wins": 0, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 8, "Losses": 6}, "Mixed": 
+{"Wins": 66, "Losses": 66}, "Stormcast Eternals": 
+{"Wins": 24, "Losses": 26}, "Sylvaneth": 
+{"Wins": 30, "Losses": 20}, "Daemons Of Nurgle": 
+{"Wins": 1, "Losses": 2}, "Nurgle Rotbringers": 
+{"Wins": 2, "Losses": 0}, "Tzeentch Arcanites": 
+{"Wins": 6, "Losses": 15}, "Ironjawz": 
+{"Wins": 2, "Losses": 14}, "Khorne Bloodbound": 
+{"Wins": 6, "Losses": 8}, "Free Peoples": 
+{"Wins": 2, "Losses": 0}, "Thomas Holdsworth": 
+{"Wins": 0, "Losses": 1}, "Flesh Eater Courts": 
+{"Wins": 12, "Losses": 14}, "Skaven": 
+{"Wins": 8, "Losses": 14}, "Skaven Pestilens": 
+{"Wins": 4, "Losses": 2}, "Nighthaunt": 
+{"Wins": 12, "Losses": 6}, "Thunderscorn": 
+{"Wins": 2, "Losses": 0}, "Dispossessed": 
+{"Wins": 4, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 4, "Losses": 8}, "Seraphon": 
+{"Wins": 6, "Losses": 10}, "Slaves To Darkness": 
+{"Wins": 4, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 4, "Losses": 12}, "Blades of Khorne": 
+{"Wins": 8, "Losses": 20}, "Gloomspite Gitz": 
+{"Wins": 2, "Losses": 2}, "Fyreslayers": 
+{"Wins": 2, "Losses": 4}, "Grand Host of Nagash": 
+{"Wins": 4, "Losses": 12}, "Legion of Sacrament": 
+{"Wins": 6, "Losses": 0}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 4, "Losses": 8}, "Phoenix Temple": 
+{"Wins": 0, "Losses": 4}, "Legion of Night": 
+{"Wins": 2, "Losses": 2}, "Tempest Eye": 
+{"Wins": 2, "Losses": 0}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 0}, "Brayherd": 
+{"Wins": 4, "Losses": 0}, "Gutbusters": 
+{"Wins": 4, "Losses": 0}, "Order Draconis": 
+{"Wins": 0, "Losses": 4}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 2}, "Greywater Fastness": 
+{"Wins": 4, "Losses": 2}, "Wanderers": 
+{"Wins": 0, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 6, "Losses": 0}, "Tomb Kings": 
+{"Wins": 0, "Losses": 2}, "The Living City": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 0}, "Moonclan Grots": 
+{"Wins": 2, "Losses": 0}, "Anvilguard": 
+{"Wins": 0, "Losses": 2}, "Legion of Blood": 
+{"Wins": 0, "Losses": 2}, "Darkling Covens": 
+{"Wins": 2, "Losses": 0}, "Ironweld Arsonal": 
+{"Wins": 2, "Losses": 2}, "Swifthawk Agents": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Tzeentch": 
+{"Wins": 0, "Losses": 4}, "Daemons Of Chaos": 
+{"Wins": 2, "Losses": 2}}}, "Beastclaw Raiders": 
+{"faction_name": "Beastclaw Raiders", "matchups": 
+{"Mixed": 
+{"Wins": 6, "Losses": 8}, "Sylvaneth": 
+{"Wins": 6, "Losses": 4}, "Flesh Eater Courts": 
+{"Wins": 10, "Losses": 0}, "Moonclan Grots": 
+{"Wins": 2, "Losses": 4}, "Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Khorne": 
+{"Wins": 0, "Losses": 4}, "Seraphon": 
+{"Wins": 6, "Losses": 6}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 10}, "Skaven": 
+{"Wins": 0, "Losses": 14}, "Legion of Night": 
+{"Wins": 2, "Losses": 4}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 0}, "Ironjawz": 
+{"Wins": 0, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 4, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 6}, "Nighthaunt": 
+{"Wins": 2, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 6}, "Free Peoples": 
+{"Wins": 0, "Losses": 2}, "Tomb Kings": 
+{"Wins": 0, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 4, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 2}, "Fyreslayers": 
+{"Wins": 2, "Losses": 2}, "Hallowheart": 
+{"Wins": 2, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 4, "Losses": 0}, "Disciples Of Tzeentch": 
+{"Wins": 4, "Losses": 0}, "Tempest Eye": 
+{"Wins": 2, "Losses": 0}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 2, "Losses": 4}, "Legion of Azgorh": 
+{"Wins": 0, "Losses": 2}}}, "Sylvaneth": 
+{"faction_name": "Sylvaneth", "matchups": 
+{"Beastclaw Raiders": 
+{"Wins": 4, "Losses": 6}, "Mixed": 
+{"Wins": 20, "Losses": 30}, "Flesh Eater Courts": 
+{"Wins": 18, "Losses": 26}, "Moonclan Grots": 
+{"Wins": 4, "Losses": 6}, "Fyreslayers": 
+{"Wins": 8, "Losses": 16}, "Kharadron Overlords": 
+{"Wins": 4, "Losses": 8}, "Ironjawz": 
+{"Wins": 12, "Losses": 24}, "Daemons Of Khorne": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 38, "Losses": 38}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 4}, "Dispossessed": 
+{"Wins": 0, "Losses": 4}, "Free Peoples": 
+{"Wins": 6, "Losses": 8}, "Soulblight": 
+{"Wins": 2, "Losses": 2}, "Nighthaunt": 
+{"Wins": 16, "Losses": 16}, "Nurgle Rotbringers": 
+{"Wins": 0, "Losses": 2}, "Swifthawk Agents": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 8, "Losses": 20}, "Daughters Of Khaine": 
+{"Wins": 8, "Losses": 14}, "Thunderscorn": 
+{"Wins": 0, "Losses": 2}, "Skaven": 
+{"Wins": 26, "Losses": 28}, "Gloomspite Gitz": 
+{"Wins": 20, "Losses": 10}, "Hosts of Slaanesh": 
+{"Wins": 6, "Losses": 18}, "Bonesplitterz": 
+{"Wins": 10, "Losses": 6}, "Blades of Khorne": 
+{"Wins": 14, "Losses": 34}, "Stormcast Eternals": 
+{"Wins": 52, "Losses": 48}, "Idoneth Deepkin": 
+{"Wins": 16, "Losses": 20}, "Disciples Of Tzeentch": 
+{"Wins": 14, "Losses": 10}, "Legion of Sacrament": 
+{"Wins": 4, "Losses": 6}, "Grand Host of Nagash": 
+{"Wins": 6, "Losses": 4}, "Legion of Grief": 
+{"Wins": 4, "Losses": 2}, "Cities of Sigmar": 
+{"Wins": 2, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 18, "Losses": 4}, "Legion of Night": 
+{"Wins": 2, "Losses": 0}, "Skaven Pestilens": 
+{"Wins": 0, "Losses": 2}, "Hammerhal": 
+{"Wins": 0, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 10, "Losses": 6}, "Legion of Blood": 
+{"Wins": 4, "Losses": 10}, "Daemons Of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 8}, "Daemons Of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Tempest Eye": 
+{"Wins": 2, "Losses": 0}, "Legions of Nagash": 
+{"Wins": 0, "Losses": 2}, "Gutbusters": 
+{"Wins": 2, "Losses": 4}, "Ossiarch Bonereapers": 
+{"Wins": 0, "Losses": 2}, "Greywater Fastness": 
+{"Wins": 0, "Losses": 2}, "Wanderers": 
+{"Wins": 2, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 2}, "Death Grand Alliance": 
+{"Wins": 4, "Losses": 2}, "Order Draconis": 
+{"Wins": 0, "Losses": 4}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 2}, "The Living City": 
+{"Wins": 4, "Losses": 0}, "Hallowheart": 
+{"Wins": 4, "Losses": 2}, "Clan Pestilens": 
+{"Wins": 4, "Losses": 0}, "Tomb Kings": 
+{"Wins": 4, "Losses": 0}, "StoneKlaw's Gutstompers": 
+{"Wins": 0, "Losses": 2}, "Orruks": 
+{"Wins": 2, "Losses": 0}}}, "Daemons Of Nurgle": 
+{"faction_name": "Daemons Of Nurgle", "matchups": 
+{"Mixed": 
+{"Wins": 2, "Losses": 1}, "Nurgle Rotbringers": 
+{"Wins": 1, "Losses": 0}, "Nighthaunt": 
+{"Wins": 0, "Losses": 2}, "Skaven": 
+{"Wins": 4, "Losses": 4}, "Ironjawz": 
+{"Wins": 2, "Losses": 0}, "Blades of Khorne": 
+{"Wins": 0, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Fyreslayers": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 2, "Losses": 2}, "Daemons Of Slaanesh": 
+{"Wins": 0, "Losses": 4}, "Order Draconis": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}, "Disciples Of Tzeentch": 
+{"Wins": 2, "Losses": 0}, "Flesh Eater Courts": 
+{"Wins": 4, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 4, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 2}, "Tomb Kings": 
+{"Wins": 0, "Losses": 2}}}, "Nurgle Rotbringers": 
+{"faction_name": "Nurgle Rotbringers", "matchups": 
+{"Stormcast Eternals": 
+{"Wins": 0, "Losses": 2}, "Mixed": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Nurgle": 
+{"Wins": 0, "Losses": 1}, "Ironjawz": 
+{"Wins": 0, "Losses": 2}, "Free Peoples": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}}}, "Moonclan Grots": 
+{"faction_name": "Moonclan Grots", "matchups": 
+{"Beastclaw Raiders": 
+{"Wins": 4, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 8, "Losses": 6}, "Sylvaneth": 
+{"Wins": 6, "Losses": 4}, "Legion Of Azgorh": 
+{"Wins": 0, "Losses": 4}, "Swifthawk Agents": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 0, "Losses": 2}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 4}, "Slaves To Darkness": 
+{"Wins": 0, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 0, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 6}, "Nighthaunt": 
+{"Wins": 4, "Losses": 6}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 0}, "Ironjawz": 
+{"Wins": 4, "Losses": 0}, "Legions of Nagash": 
+{"Wins": 0, "Losses": 4}, "Mixed": 
+{"Wins": 0, "Losses": 2}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 2}}}, "Legions of Nagash": 
+{"faction_name": "Legions of Nagash", "matchups": 
+{"Disciples Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 2, "Losses": 2}, "Ironjawz": 
+{"Wins": 11, "Losses": 2}, "Slaves To Darkness": 
+{"Wins": 0, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 8, "Losses": 4}, "Blades of Khorne": 
+{"Wins": 4, "Losses": 8}, "Skaven": 
+{"Wins": 6, "Losses": 2}, "Kharadron Overlords": 
+{"Wins": 4, "Losses": 4}, "Hosts of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 4, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 0}, "Order Draconis": 
+{"Wins": 0, "Losses": 2}, "Legion of Blood": 
+{"Wins": 0, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 1, "Losses": 0}, "Fyreslayers": 
+{"Wins": 0, "Losses": 4}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}, "Beastclaw Raiders": 
+{"Wins": 0, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 6, "Losses": 0}, "Nighthaunt": 
+{"Wins": 2, "Losses": 2}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 2}, "Seraphon": 
+{"Wins": 3, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 0, "Losses": 2}, "Moonclan Grots": 
+{"Wins": 4, "Losses": 0}}}, "Bonesplitterz": 
+{"faction_name": "Bonesplitterz", "matchups": 
+{"Disciples Of Tzeentch": 
+{"Wins": 8, "Losses": 6}, "Ironjawz": 
+{"Wins": 11, "Losses": 14}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 2}, "Cities of Sigmar": 
+{"Wins": 4, "Losses": 6}, "Gloomspite Gitz": 
+{"Wins": 6, "Losses": 4}, "Hosts of Slaanesh": 
+{"Wins": 4, "Losses": 4}, "Fyreslayers": 
+{"Wins": 4, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 8, "Losses": 6}, "Seraphon": 
+{"Wins": 2, "Losses": 6}, "Idoneth Deepkin": 
+{"Wins": 6, "Losses": 5}, "Sylvaneth": 
+{"Wins": 6, "Losses": 10}, "Blades of Khorne": 
+{"Wins": 14, "Losses": 6}, "Nighthaunt": 
+{"Wins": 14, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 2, "Losses": 4}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 2}, "Skaven": 
+{"Wins": 6, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Everchosen": 
+{"Wins": 0, "Losses": 2}, "Spiderfang Grots": 
+{"Wins": 2, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 10, "Losses": 4}, "Bonesplitterz": 
+{"Wins": 2, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 4, "Losses": 4}, "Legion of Blood": 
+{"Wins": 2, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 0}, "Wanderers": 
+{"Wins": 2, "Losses": 0}, "Brayherd": 
+{"Wins": 2, "Losses": 0}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 0}, "Tempest Eye": 
+{"Wins": 2, "Losses": 0}, "Free Peoples": 
+{"Wins": 0, "Losses": 1}, "Beastclaw Raiders": 
+{"Wins": 4, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 0}}}, "Hosts of Slaanesh": 
+{"faction_name": "Hosts of Slaanesh", "matchups": 
+{"Ossiarch Bonereapers": 
+{"Wins": 6, "Losses": 8}, "Fyreslayers": 
+{"Wins": 18, "Losses": 12}, "Flesh Eater Courts": 
+{"Wins": 28, "Losses": 12}, "Ironjawz": 
+{"Wins": 26, "Losses": 14}, "Disciples Of Tzeentch": 
+{"Wins": 18, "Losses": 8}, "Gloomspite Gitz": 
+{"Wins": 16, "Losses": 6}, "Cities of Sigmar": 
+{"Wins": 4, "Losses": 6}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 4, "Losses": 4}, "Stormcast Eternals": 
+{"Wins": 26, "Losses": 8}, "Skaven": 
+{"Wins": 24, "Losses": 30}, "Mixed": 
+{"Wins": 12, "Losses": 4}, "Sylvaneth": 
+{"Wins": 18, "Losses": 6}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 6}, "Legion of Sacrament": 
+{"Wins": 4, "Losses": 0}, "Seraphon": 
+{"Wins": 6, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 6, "Losses": 8}, "Maggotkin of Nurgle": 
+{"Wins": 8, "Losses": 2}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 2}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 0}, "Blades of Khorne": 
+{"Wins": 18, "Losses": 4}, "Daughters Of Khaine": 
+{"Wins": 10, "Losses": 6}, "Idoneth Deepkin": 
+{"Wins": 12, "Losses": 4}, "Orruks": 
+{"Wins": 4, "Losses": 2}, "Tempest Eye": 
+{"Wins": 0, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 8, "Losses": 2}, "Nighthaunt": 
+{"Wins": 8, "Losses": 6}, "Khorne Bloodbound": 
+{"Wins": 0, "Losses": 2}, "Legion of Grief": 
+{"Wins": 8, "Losses": 0}, "Gutbusters": 
+{"Wins": 2, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 4, "Losses": 4}, "Legion of Night": 
+{"Wins": 0, "Losses": 4}, "Daemons Of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Free Peoples": 
+{"Wins": 8, "Losses": 0}}}, "Cities of Sigmar": 
+{"faction_name": "Cities of Sigmar", "matchups": 
+{"Fyreslayers": 
+{"Wins": 4, "Losses": 8}, "Ironjawz": 
+{"Wins": 10, "Losses": 22}, "Disciples Of Tzeentch": 
+{"Wins": 4, "Losses": 14}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 0}, "Ogor Mawtribes": 
+{"Wins": 10, "Losses": 10}, "Nighthaunt": 
+{"Wins": 8, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 2, "Losses": 14}, "Hosts of Slaanesh": 
+{"Wins": 6, "Losses": 4}, "Bonesplitterz": 
+{"Wins": 6, "Losses": 4}, "Gloomspite Gitz": 
+{"Wins": 6, "Losses": 6}, "Blades of Khorne": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 6, "Losses": 6}, "Skaven": 
+{"Wins": 6, "Losses": 6}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 8}, "Sylvaneth": 
+{"Wins": 4, "Losses": 2}, "Daemons Of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 4, "Losses": 6}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 4}, "Cities of Sigmar": 
+{"Wins": 10, "Losses": 10}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 2}, "Legion of Grief": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 0}}}, "Tomb Kings": 
+{"faction_name": "Tomb Kings", "matchups": 
+{"Disciples Of Tzeentch": 
+{"Wins": 2, "Losses": 4}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 0}, "Nighthaunt": 
+{"Wins": 6, "Losses": 2}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Skaven": 
+{"Wins": 0, "Losses": 4}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 0}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 4}, "Mixed": 
+{"Wins": 2, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 2, "Losses": 0}, "Tomb Kings": 
+{"Wins": 2, "Losses": 2}, "Sylvaneth": 
+{"Wins": 0, "Losses": 4}, "Wanderers": 
+{"Wins": 0, "Losses": 2}, "Brayherd": 
+{"Wins": 2, "Losses": 0}, "Legion of Night": 
+{"Wins": 2, "Losses": 0}, "StoneKlaw's Gutstompers": 
+{"Wins": 0, "Losses": 2}, "Hallowheart": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Nurgle": 
+{"Wins": 2, "Losses": 0}}}, "Nighthaunt": 
+{"faction_name": "Nighthaunt", "matchups": 
+{"Ogor Mawtribes": 
+{"Wins": 2, "Losses": 4}, "Fyreslayers": 
+{"Wins": 4, "Losses": 4}, "Idoneth Deepkin": 
+{"Wins": 10, "Losses": 10}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 16, "Losses": 6}, "Cities of Sigmar": 
+{"Wins": 2, "Losses": 8}, "Tomb Kings": 
+{"Wins": 2, "Losses": 6}, "Blades of Khorne": 
+{"Wins": 8, "Losses": 36}, "Ossiarch Bonereapers": 
+{"Wins": 0, "Losses": 4}, "Ironjawz": 
+{"Wins": 10, "Losses": 14}, "Flesh Eater Courts": 
+{"Wins": 12, "Losses": 16}, "Nighthaunt": 
+{"Wins": 14, "Losses": 14}, "Sylvaneth": 
+{"Wins": 16, "Losses": 16}, "Stormcast Eternals": 
+{"Wins": 18, "Losses": 26}, "Mixed": 
+{"Wins": 6, "Losses": 12}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 10}, "Bonesplitterz": 
+{"Wins": 2, "Losses": 14}, "Disciples Of Tzeentch": 
+{"Wins": 2, "Losses": 8}, "Legion of Sacrament": 
+{"Wins": 4, "Losses": 10}, "Beasts of Chaos": 
+{"Wins": 6, "Losses": 2}, "Skaven": 
+{"Wins": 4, "Losses": 24}, "Kharadron Overlords": 
+{"Wins": 0, "Losses": 4}, "Grand Host of Nagash": 
+{"Wins": 6, "Losses": 2}, "Daemons Of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Seraphon": 
+{"Wins": 4, "Losses": 4}, "Daemons Of Tzeentch": 
+{"Wins": 4, "Losses": 0}, "Phoenix Temple": 
+{"Wins": 2, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 8}, "Moonclan Grots": 
+{"Wins": 6, "Losses": 4}, "Hosts of Slaanesh": 
+{"Wins": 6, "Losses": 8}, "Tzeentch Arcanites": 
+{"Wins": 4, "Losses": 8}, "Free Peoples": 
+{"Wins": 2, "Losses": 0}, "Order Draconis": 
+{"Wins": 2, "Losses": 2}, "Legion of Azgorh": 
+{"Wins": 4, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 2}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 4, "Losses": 2}, "Hallowheart": 
+{"Wins": 2, "Losses": 0}, "Clan Pestilens": 
+{"Wins": 0, "Losses": 4}, "Legion of Night": 
+{"Wins": 4, "Losses": 0}, "Gutbusters": 
+{"Wins": 2, "Losses": 2}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 0}, "Brayherd": 
+{"Wins": 0, "Losses": 2}, "Legion Of Azgorh": 
+{"Wins": 0, "Losses": 2}, "Legion of Blood": 
+{"Wins": 2, "Losses": 2}, "Anvilguard": 
+{"Wins": 0, "Losses": 2}}}, "Daemons Of Slaanesh": 
+{"faction_name": "Daemons Of Slaanesh", "matchups": 
+{"Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 4}, "Ironjawz": 
+{"Wins": 6, "Losses": 2}, "Cities of Sigmar": 
+{"Wins": 2, "Losses": 0}, "Everchosen": 
+{"Wins": 2, "Losses": 0}, "Skaven": 
+{"Wins": 6, "Losses": 6}, "Flesh Eater Courts": 
+{"Wins": 2, "Losses": 2}, "Seraphon": 
+{"Wins": 4, "Losses": 4}, "Legion of Blood": 
+{"Wins": 2, "Losses": 0}, "Stormcast Eternals": 
+{"Wins": 6, "Losses": 3}, "Gloomspite Gitz": 
+{"Wins": 6, "Losses": 2}, "Daemons Of Nurgle": 
+{"Wins": 4, "Losses": 0}, "Daughters Of Khaine": 
+{"Wins": 4, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}, "Fyreslayers": 
+{"Wins": 4, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 4, "Losses": 2}, "Order Draconis": 
+{"Wins": 2, "Losses": 2}, "Hosts of Slaanesh": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 6}, "Nighthaunt": 
+{"Wins": 0, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 0}}}, "Daemons Of Tzeentch": 
+{"faction_name": "Daemons Of Tzeentch", "matchups": 
+{"Seraphon": 
+{"Wins": 2, "Losses": 2}, "Ironjawz": 
+{"Wins": 6, "Losses": 4}, "Skaven": 
+{"Wins": 2, "Losses": 0}, "Legion of Blood": 
+{"Wins": 2, "Losses": 2}, "Nighthaunt": 
+{"Wins": 0, "Losses": 4}, "Fyreslayers": 
+{"Wins": 0, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Gloomspite Gitz": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Spiderfang Grots": 
+{"Wins": 0, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 4}, "Stormcast Eternals": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 0, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 2, "Losses": 0}, "Clan Pestilens": 
+{"Wins": 2, "Losses": 0}, "Mixed": 
+{"Wins": 4, "Losses": 0}, "Ironweld Arsonal": 
+{"Wins": 0, "Losses": 2}}}, "Free Peoples": 
+{"faction_name": "Free Peoples", "matchups": 
+{"Khorne Bloodbound": 
+{"Wins": 0, "Losses": 2}, "Mixed": 
+{"Wins": 0, "Losses": 2}, "Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 8, "Losses": 6}, "Nurgle Rotbringers": 
+{"Wins": 2, "Losses": 0}, "Ironjawz": 
+{"Wins": 6, "Losses": 2}, "Skaven": 
+{"Wins": 4, "Losses": 4}, "Skaven Pestilens": 
+{"Wins": 0, "Losses": 4}, "Stormcast Eternals": 
+{"Wins": 0, "Losses": 4}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 2, "Losses": 0}, "Gutbusters": 
+{"Wins": 0, "Losses": 2}, "Nighthaunt": 
+{"Wins": 0, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 14, "Losses": 6}, "Flesh Eater Courts": 
+{"Wins": 2, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Fyreslayers": 
+{"Wins": 2, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 4}, "Hosts of Slaanesh": 
+{"Wins": 0, "Losses": 8}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 0, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 1, "Losses": 0}, "Legion of Grief": 
+{"Wins": 0, "Losses": 4}}}, "Dispossessed": 
+{"faction_name": "Dispossessed", "matchups": 
+{"Seraphon": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 0, "Losses": 4}, "Sylvaneth": 
+{"Wins": 4, "Losses": 0}, "Mixed": 
+{"Wins": 2, "Losses": 4}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 0}, "Brayherd": 
+{"Wins": 2, "Losses": 0}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 2}, "Gutbusters": 
+{"Wins": 0, "Losses": 2}, "Ironjawz": 
+{"Wins": 2, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 0}}}, "Thomas Holdsworth": 
+{"faction_name": "Thomas Holdsworth", "matchups": 
+{"Mixed": 
+{"Wins": 1, "Losses": 0}, "Daemons Of Khorne": 
+{"Wins": 1, "Losses": 0}}}, "Robert Reimers": 
+{"faction_name": "Robert Reimers", "matchups": 
+{"Khorne Bloodbound": 
+{"Wins": 1, "Losses": 0}}}, "Soulblight": 
+{"faction_name": "Soulblight", "matchups": 
+{"Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 2, "Losses": 2}, "Khorne Bloodbound": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 0}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 0}, "Skaven": 
+{"Wins": 0, "Losses": 2}}}, "Legion Of Azgorh": 
+{"faction_name": "Legion Of Azgorh", "matchups": 
+{"Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 0}, "Flesh Eater Courts": 
+{"Wins": 4, "Losses": 2}, "Moonclan Grots": 
+{"Wins": 4, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 4, "Losses": 0}, "Gutbusters": 
+{"Wins": 0, "Losses": 2}, "Ironjawz": 
+{"Wins": 2, "Losses": 0}, "Brayherd": 
+{"Wins": 2, "Losses": 0}, "Bonesplitterz": 
+{"Wins": 0, "Losses": 2}, "Wanderers": 
+{"Wins": 0, "Losses": 2}, "Nighthaunt": 
+{"Wins": 2, "Losses": 0}, "Blades of Khorne": 
+{"Wins": 0, "Losses": 2}, "Cities of Sigmar": 
+{"Wins": 0, "Losses": 2}, "Fyreslayers": 
+{"Wins": 2, "Losses": 0}, "Ossiarch Bonereapers": 
+{"Wins": 0, "Losses": 2}}}, "Swifthawk Agents": 
+{"faction_name": "Swifthawk Agents", "matchups": 
+{"Khorne Bloodbound": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 0, "Losses": 4}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}, "Thunderscorn": 
+{"Wins": 0, "Losses": 2}, "Slaves To Darkness": 
+{"Wins": 0, "Losses": 2}, "Moonclan Grots": 
+{"Wins": 2, "Losses": 0}, "Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}, "Mixed": 
+{"Wins": 0, "Losses": 2}}}, "Skaven Pestilens": 
+{"faction_name": "Skaven Pestilens", "matchups": 
+{"Mixed": 
+{"Wins": 2, "Losses": 4}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 0}, "Free Peoples": 
+{"Wins": 4, "Losses": 0}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 2}, "Skaven": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 0}, "Phoenix Temple": 
+{"Wins": 2, "Losses": 0}, "Legion of Grief": 
+{"Wins": 0, "Losses": 2}, "Ironjawz": 
+{"Wins": 2, "Losses": 0}, "Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}}}, "Thunderscorn": 
+{"faction_name": "Thunderscorn", "matchups": 
+{"Mixed": 
+{"Wins": 0, "Losses": 2}, "Skaven": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 0}, "Swifthawk Agents": 
+{"Wins": 2, "Losses": 0}}}, "Brayherd": 
+{"faction_name": "Brayherd", "matchups": 
+{"Dispossessed": 
+{"Wins": 0, "Losses": 2}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 2}, "Mixed": 
+{"Wins": 0, "Losses": 4}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 6}, "Spiderfang Grots": 
+{"Wins": 2, "Losses": 0}, "Blades of Khorne": 
+{"Wins": 4, "Losses": 0}, "Legion Of Azgorh": 
+{"Wins": 0, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 0, "Losses": 2}, "Tomb Kings": 
+{"Wins": 0, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 0, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 2, "Losses": 0}, "Nighthaunt": 
+{"Wins": 2, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 2}}}, "Legion of Grief": 
+{"faction_name": "Legion of Grief", "matchups": 
+{"Fyreslayers": 
+{"Wins": 2, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 0, "Losses": 4}, "Ironjawz": 
+{"Wins": 16, "Losses": 2}, "Skaven": 
+{"Wins": 8, "Losses": 12}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 2, "Losses": 4}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 4}, "Gloomspite Gitz": 
+{"Wins": 6, "Losses": 0}, "Legion of Grief": 
+{"Wins": 6, "Losses": 6}, "Daughters Of Khaine": 
+{"Wins": 4, "Losses": 2}, "Skaven Pestilens": 
+{"Wins": 2, "Losses": 0}, "Stormcast Eternals": 
+{"Wins": 8, "Losses": 4}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Ogor Mawtribes": 
+{"Wins": 0, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 6, "Losses": 2}, "Hosts of Slaanesh": 
+{"Wins": 0, "Losses": 8}, "Beasts of Chaos": 
+{"Wins": 4, "Losses": 0}, "Disciples Of Tzeentch": 
+{"Wins": 2, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 6, "Losses": 0}, "Ossiarch Bonereapers": 
+{"Wins": 2, "Losses": 0}, "Cities of Sigmar": 
+{"Wins": 0, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 2}, "Free Peoples": 
+{"Wins": 4, "Losses": 0}}}, "Grand Host of Nagash": 
+{"faction_name": "Grand Host of Nagash", "matchups": 
+{"Idoneth Deepkin": 
+{"Wins": 12, "Losses": 18}, "Gloomspite Gitz": 
+{"Wins": 6, "Losses": 8}, "Legion of Grief": 
+{"Wins": 4, "Losses": 0}, "Skaven": 
+{"Wins": 8, "Losses": 8}, "Blades of Khorne": 
+{"Wins": 12, "Losses": 2}, "Mixed": 
+{"Wins": 12, "Losses": 4}, "Stormcast Eternals": 
+{"Wins": 8, "Losses": 14}, "Hosts of Slaanesh": 
+{"Wins": 8, "Losses": 6}, "Sylvaneth": 
+{"Wins": 4, "Losses": 6}, "Bonesplitterz": 
+{"Wins": 4, "Losses": 2}, "Nighthaunt": 
+{"Wins": 2, "Losses": 6}, "Ironjawz": 
+{"Wins": 12, "Losses": 10}, "Seraphon": 
+{"Wins": 14, "Losses": 4}, "Hammerhal": 
+{"Wins": 2, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 8, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 6}, "Legion of Night": 
+{"Wins": 0, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 8, "Losses": 12}, "Legion of Blood": 
+{"Wins": 4, "Losses": 8}, "Grand Host of Nagash": 
+{"Wins": 8, "Losses": 8}, "Moonclan Grots": 
+{"Wins": 2, "Losses": 0}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 0}, "Order Draconis": 
+{"Wins": 0, "Losses": 2}, "Wanderers": 
+{"Wins": 2, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 0, "Losses": 2}, "Gutbusters": 
+{"Wins": 6, "Losses": 0}, "Devoted Of Sigmar": 
+{"Wins": 4, "Losses": 0}, "The Living City": 
+{"Wins": 2, "Losses": 0}, "Brayherd": 
+{"Wins": 0, "Losses": 2}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Darkling Covens": 
+{"Wins": 2, "Losses": 0}}}, "Legion of Sacrament": 
+{"faction_name": "Legion of Sacrament", "matchups": 
+{"Blades of Khorne": 
+{"Wins": 10, "Losses": 4}, "Hosts of Slaanesh": 
+{"Wins": 0, "Losses": 4}, "Mixed": 
+{"Wins": 0, "Losses": 6}, "Idoneth Deepkin": 
+{"Wins": 6, "Losses": 8}, "Sylvaneth": 
+{"Wins": 6, "Losses": 4}, "Orruks": 
+{"Wins": 0, "Losses": 4}, "Kharadron Overlords": 
+{"Wins": 4, "Losses": 2}, "Ironjawz": 
+{"Wins": 6, "Losses": 8}, "Maggotkin of Nurgle": 
+{"Wins": 4, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 8}, "Flesh Eater Courts": 
+{"Wins": 6, "Losses": 6}, "Nighthaunt": 
+{"Wins": 10, "Losses": 4}, "Stormcast Eternals": 
+{"Wins": 14, "Losses": 12}, "Skaven": 
+{"Wins": 4, "Losses": 6}, "Warherd": 
+{"Wins": 0, "Losses": 2}, "Slaves To Darkness": 
+{"Wins": 0, "Losses": 2}, "Legion of Blood": 
+{"Wins": 0, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 4, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 4, "Losses": 4}, "Seraphon": 
+{"Wins": 4, "Losses": 10}, "Disciples Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Fyreslayers": 
+{"Wins": 6, "Losses": 8}, "Ossiarch Bonereapers": 
+{"Wins": 2, "Losses": 4}, "Legion of Sacrament": 
+{"Wins": 6, "Losses": 6}, "Grand Host of Nagash": 
+{"Wins": 2, "Losses": 0}, "Hammerhal": 
+{"Wins": 4, "Losses": 0}, "The Living City": 
+{"Wins": 2, "Losses": 0}, "Tomb Kings": 
+{"Wins": 0, "Losses": 2}, "Order Serpentis": 
+{"Wins": 2, "Losses": 0}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 0}, "Brayherd": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Tzeentch": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 0}, "Clan Pestilens": 
+{"Wins": 0, "Losses": 2}, "Darkling Covens": 
+{"Wins": 2, "Losses": 0}}}, "Maggotkin of Nurgle": 
+{"faction_name": "Maggotkin of Nurgle", "matchups": 
+{"Gloomspite Gitz": 
+{"Wins": 8, "Losses": 8}, "Daughters Of Khaine": 
+{"Wins": 6, "Losses": 12}, "Blades of Khorne": 
+{"Wins": 20, "Losses": 6}, "Orruks": 
+{"Wins": 0, "Losses": 2}, "Everchosen": 
+{"Wins": 0, "Losses": 4}, "Legion of Sacrament": 
+{"Wins": 2, "Losses": 4}, "Seraphon": 
+{"Wins": 4, "Losses": 4}, "Idoneth Deepkin": 
+{"Wins": 4, "Losses": 14}, "Hosts of Slaanesh": 
+{"Wins": 2, "Losses": 8}, "Ironjawz": 
+{"Wins": 10, "Losses": 18}, "Flesh Eater Courts": 
+{"Wins": 8, "Losses": 14}, "Disciples Of Tzeentch": 
+{"Wins": 4, "Losses": 6}, "Stormcast Eternals": 
+{"Wins": 16, "Losses": 20}, "Sylvaneth": 
+{"Wins": 4, "Losses": 18}, "Daemons Of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 2, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 2, "Losses": 8}, "Skaven": 
+{"Wins": 12, "Losses": 22}, "Beasts of Chaos": 
+{"Wins": 4, "Losses": 0}, "Mixed": 
+{"Wins": 8, "Losses": 4}, "Legion of Blood": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Kharadron Overlords": 
+{"Wins": 1, "Losses": 4}, "Legion of Night": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 2, "Losses": 4}, "Tzeentch Arcanites": 
+{"Wins": 2, "Losses": 0}, "Nighthaunt": 
+{"Wins": 8, "Losses": 2}, "Tempest Eye": 
+{"Wins": 2, "Losses": 2}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 2}, "Cities of Sigmar": 
+{"Wins": 2, "Losses": 2}, "Gutbusters": 
+{"Wins": 0, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 2}, "Spiderfang Grots": 
+{"Wins": 2, "Losses": 0}, "Legion of Grief": 
+{"Wins": 0, "Losses": 6}, "Fyreslayers": 
+{"Wins": 2, "Losses": 6}, "Free Peoples": 
+{"Wins": 4, "Losses": 0}, "Death Grand Alliance": 
+{"Wins": 2, "Losses": 0}, "Dispossessed": 
+{"Wins": 0, "Losses": 2}, "Slaves To Darkness": 
+{"Wins": 0, "Losses": 6}, "Maneaters": 
+{"Wins": 0, "Losses": 2}, "Hallowheart": 
+{"Wins": 0, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 6, "Losses": 0}, "Tomb Kings": 
+{"Wins": 2, "Losses": 2}, "Daemons Of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Brayherd": 
+{"Wins": 2, "Losses": 0}, "Clan Pestilens": 
+{"Wins": 2, "Losses": 0}, "Ossiarch Bonereapers": 
+{"Wins": 0, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 2, "Losses": 0}}}, "Everchosen": 
+{"faction_name": "Everchosen", "matchups": 
+{"Maggotkin of Nurgle": 
+{"Wins": 4, "Losses": 0}, "Ironjawz": 
+{"Wins": 0, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 2, "Losses": 0}, "Skaven": 
+{"Wins": 2, "Losses": 4}, "Daemons Of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 2, "Losses": 0}}}, "Darkling Covens": 
+{"faction_name": "Darkling Covens", "matchups": 
+{"Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 4}, "Skaven": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 0, "Losses": 2}, "Mixed": 
+{"Wins": 0, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 0, "Losses": 2}, "Clan Pestilens": 
+{"Wins": 0, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 0, "Losses": 2}}}, "Legion of Night": 
+{"faction_name": "Legion of Night", "matchups": 
+{"Sylvaneth": 
+{"Wins": 0, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 4, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 4, "Losses": 0}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 2}, "Daughters Of Khaine": 
+{"Wins": 4, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Kharadron Overlords": 
+{"Wins": 4, "Losses": 0}, "Grand Host of Nagash": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 0, "Losses": 4}, "Mixed": 
+{"Wins": 2, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 0, "Losses": 2}, "Skaven": 
+{"Wins": 6, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 4, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 0}, "Nighthaunt": 
+{"Wins": 0, "Losses": 4}, "Tomb Kings": 
+{"Wins": 0, "Losses": 2}, "Ossiarch Bonereapers": 
+{"Wins": 0, "Losses": 2}}}, "Hammerhal": 
+{"faction_name": "Hammerhal", "matchups": 
+{"Skaven": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}, "Grand Host of Nagash": 
+{"Wins": 0, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 2, "Losses": 4}, "Legion of Sacrament": 
+{"Wins": 0, "Losses": 4}, "Gloomspite Gitz": 
+{"Wins": 0, "Losses": 2}, "Legion of Blood": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 2}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Tempest Eye": 
+{"Wins": 0, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 6, "Losses": 0}, "Disciples Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Ogor Mawtribes": 
+{"Wins": 0, "Losses": 2}}}, "Phoenix Temple": 
+{"faction_name": "Phoenix Temple", "matchups": 
+{"Skaven Pestilens": 
+{"Wins": 0, "Losses": 2}, "Nighthaunt": 
+{"Wins": 0, "Losses": 2}, "Gloomspite Gitz": 
+{"Wins": 2, "Losses": 0}, "Khorne Bloodbound": 
+{"Wins": 0, "Losses": 2}, "Mixed": 
+{"Wins": 4, "Losses": 0}, "Legion of Azgorh": 
+{"Wins": 0, "Losses": 2}}}, "Order Draconis": 
+{"faction_name": "Order Draconis", "matchups": 
+{"Seraphon": 
+{"Wins": 2, "Losses": 0}, "Legions of Nagash": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Nighthaunt": 
+{"Wins": 2, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 2, "Losses": 0}, "Mixed": 
+{"Wins": 4, "Losses": 0}, "Daughters Of Khaine": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Slaanesh": 
+{"Wins": 2, "Losses": 2}, "Skaven": 
+{"Wins": 2, "Losses": 2}, "Ironjawz": 
+{"Wins": 2, "Losses": 2}, "Sylvaneth": 
+{"Wins": 4, "Losses": 0}, "The Living City": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 2}, "Fyreslayers": 
+{"Wins": 0, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 0}, "Tzeentch Arcanites": 
+{"Wins": 0, "Losses": 2}}}, "Warherd": 
+{"faction_name": "Warherd", "matchups": 
+{"Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 2}, "Skaven": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 2, "Losses": 0}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 2}, "Beasts of Chaos": 
+{"Wins": 2, "Losses": 0}}}, "Spiderfang Grots": 
+{"faction_name": "Spiderfang Grots", "matchups": 
+{"Legion of Blood": 
+{"Wins": 0, "Losses": 2}, "Bonesplitterz": 
+{"Wins": 2, "Losses": 2}, "Slaves To Darkness": 
+{"Wins": 2, "Losses": 0}, "Daemons Of Tzeentch": 
+{"Wins": 2, "Losses": 0}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 2}, "Brayherd": 
+{"Wins": 0, "Losses": 2}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 0}}}, "UNKNOWN_ARMY": 
+{"faction_name": "UNKNOWN_ARMY", "matchups": 
+{"UNKNOWN_ARMY": 
+{"Wins": 97, "Losses": 97}}}, "Gutbusters": 
+{"faction_name": "Gutbusters", "matchups": 
+{"Skaven": 
+{"Wins": 2, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 0, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 0}, "Mixed": 
+{"Wins": 0, "Losses": 4}, "Sylvaneth": 
+{"Wins": 4, "Losses": 2}, "Seraphon": 
+{"Wins": 0, "Losses": 2}, "Free Peoples": 
+{"Wins": 2, "Losses": 0}, "Hosts of Slaanesh": 
+{"Wins": 0, "Losses": 2}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 0}, "Grand Host of Nagash": 
+{"Wins": 0, "Losses": 6}, "Dispossessed": 
+{"Wins": 2, "Losses": 0}, "Beasts of Chaos": 
+{"Wins": 0, "Losses": 2}, "Nighthaunt": 
+{"Wins": 2, "Losses": 2}, "Clan Skryre": 
+{"Wins": 0, "Losses": 2}}}, "Craig Carlton": 
+{"faction_name": "Craig Carlton", "matchups": 
+{"Ironjawz": 
+{"Wins": 1, "Losses": 0}}}, "Legion of Azgorh": 
+{"faction_name": "Legion of Azgorh", "matchups": 
+{"Nighthaunt": 
+{"Wins": 0, "Losses": 4}, "Seraphon": 
+{"Wins": 2, "Losses": 0}, "Phoenix Temple": 
+{"Wins": 2, "Losses": 0}, "Ossiarch Bonereapers": 
+{"Wins": 0, "Losses": 2}, "Kharadron Overlords": 
+{"Wins": 1, "Losses": 0}, "Stormcast Eternals": 
+{"Wins": 0, "Losses": 2}, "Beastclaw Raiders": 
+{"Wins": 2, "Losses": 0}, "Gloomspite Gitz": 
+{"Wins": 2, "Losses": 0}}}, "Clan Skryre": 
+{"faction_name": "Clan Skryre", "matchups": 
+{"Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 2}, "Clan Pestilens": 
+{"Wins": 0, "Losses": 2}, "The Living City": 
+{"Wins": 2, "Losses": 0}, "Gutbusters": 
+{"Wins": 2, "Losses": 0}}}, "Greywater Fastness": 
+{"faction_name": "Greywater Fastness", "matchups": 
+{"Fyreslayers": 
+{"Wins": 0, "Losses": 2}, "Blades of Khorne": 
+{"Wins": 2, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}, "Mixed": 
+{"Wins": 2, "Losses": 4}, "Legion of Blood": 
+{"Wins": 2, "Losses": 0}, "Skaven": 
+{"Wins": 0, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 2, "Losses": 0}}}, "Wanderers": 
+{"faction_name": "Wanderers", "matchups": 
+{"Grand Host of Nagash": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 0, "Losses": 2}, "Mixed": 
+{"Wins": 2, "Losses": 0}, "Stormcast Eternals": 
+{"Wins": 0, "Losses": 6}, "Skaven": 
+{"Wins": 2, "Losses": 2}, "Ironjawz": 
+{"Wins": 0, "Losses": 2}, "Seraphon": 
+{"Wins": 0, "Losses": 2}, "Legion Of Azgorh": 
+{"Wins": 2, "Losses": 0}, "Tomb Kings": 
+{"Wins": 2, "Losses": 0}, "Bonesplitterz": 
+{"Wins": 0, "Losses": 2}}}, "Death Grand Alliance": 
+{"faction_name": "Death Grand Alliance", "matchups": 
+{"Blades of Khorne": 
+{"Wins": 0, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 4}, "Disciples Of Tzeentch": 
+{"Wins": 2, "Losses": 0}, "Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Fyreslayers": 
+{"Wins": 0, "Losses": 2}, "Ironjawz": 
+{"Wins": 2, "Losses": 0}, "Gloomspite Gitz": 
+{"Wins": 2, "Losses": 0}}}, "Devoted Of Sigmar": 
+{"faction_name": "Devoted Of Sigmar", "matchups": 
+{"Stormcast Eternals": 
+{"Wins": 0, "Losses": 2}, "Grand Host of Nagash": 
+{"Wins": 0, "Losses": 4}, "Idoneth Deepkin": 
+{"Wins": 0, "Losses": 2}, "Disciples Of Tzeentch": 
+{"Wins": 2, "Losses": 0}}}, "Maneaters": 
+{"faction_name": "Maneaters", "matchups": 
+{"Disciples Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 0}, "Maggotkin of Nurgle": 
+{"Wins": 2, "Losses": 0}, "The Living City": 
+{"Wins": 2, "Losses": 0}}}, "Spanky": 
+{"faction_name": "Spanky", "matchups": 
+{"Seraphon": 
+{"Wins": 1, "Losses": 0}, "Skaven": 
+{"Wins": 1, "Losses": 0}}}, "Order Serpentis": 
+{"faction_name": "Order Serpentis", "matchups": 
+{"Daughters Of Khaine": 
+{"Wins": 0, "Losses": 2}, "Legion of Sacrament": 
+{"Wins": 0, "Losses": 2}, "Stormcast Eternals": 
+{"Wins": 2, "Losses": 0}, "Kharadron Overlords": 
+{"Wins": 2, "Losses": 0}, "StoneKlaw's Gutstompers": 
+{"Wins": 2, "Losses": 0}}}, "Clan Pestilens": 
+{"faction_name": "Clan Pestilens", "matchups": 
+{"Nighthaunt": 
+{"Wins": 4, "Losses": 0}, "Clan Skryre": 
+{"Wins": 2, "Losses": 0}, "The Living City": 
+{"Wins": 2, "Losses": 0}, "Sylvaneth": 
+{"Wins": 0, "Losses": 4}, "Maggotkin of Nurgle": 
+{"Wins": 0, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 0, "Losses": 2}, "Darkling Covens": 
+{"Wins": 2, "Losses": 0}, "Legion of Sacrament": 
+{"Wins": 2, "Losses": 0}}}, "StoneKlaw's Gutstompers": 
+{"faction_name": "StoneKlaw's Gutstompers", "matchups": 
+{"Idoneth Deepkin": 
+{"Wins": 2, "Losses": 0}, "Order Serpentis": 
+{"Wins": 0, "Losses": 2}, "Tomb Kings": 
+{"Wins": 2, "Losses": 0}, "Blades of Khorne": 
+{"Wins": 0, "Losses": 2}, "Sylvaneth": 
+{"Wins": 2, "Losses": 0}}}, "Anvilguard": 
+{"faction_name": "Anvilguard", "matchups": 
+{"Skaven": 
+{"Wins": 0, "Losses": 2}, "Ironjawz": 
+{"Wins": 0, "Losses": 2}, "Tempest Eye": 
+{"Wins": 0, "Losses": 2}, "Flesh Eater Courts": 
+{"Wins": 0, "Losses": 2}, "Nighthaunt": 
+{"Wins": 2, "Losses": 0}, "Mixed": 
+{"Wins": 2, "Losses": 0}}}, "Ironweld Arsonal": 
+{"faction_name": "Ironweld Arsonal", "matchups": 
+{"Mixed": 
+{"Wins": 2, "Losses": 2}, "Daemons Of Tzeentch": 
+{"Wins": 2, "Losses": 0}}}, "Daemons Of Chaos": 
+{"faction_name": "Daemons Of Chaos", "matchups": 
+{"Fyreslayers": 
+{"Wins": 0, "Losses": 2}, "Mixed": 
+{"Wins": 2, "Losses": 2}}}}
