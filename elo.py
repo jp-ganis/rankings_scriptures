@@ -14,7 +14,6 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-
 def win_probability(player_rating, opponent_rating):
     delta_mu = player_rating.mu - opponent_rating.mu
     denom = sqrt(2 * (BETA * BETA) + pow(player_rating.sigma, 2) + pow(opponent_rating.sigma, 2))
@@ -32,9 +31,6 @@ if __name__ == '__main__':
 		
 	with open("output_data_files/all_uk_events/datahub_faction_data.json", newline='', encoding='utf-8') as json_file:
 		f_data = json.load(json_file)
-		
-	with open("output_data_files/faction_data/faction_matchups.json", newline='', encoding='utf-8') as json_file:
-		m_data = json.load(json_file)
 		
 	name_subs = {"James Ganis":"Jp Ganis", "Chris Caves Jnr":"Chris Caves Jr"}	
 	data_rows = []
@@ -69,7 +65,6 @@ if __name__ == '__main__':
 					
 					pfaction[row[0]] = fids[row[1]]
 				
-			
 			for row in new_rows:
 				if len(row) > 5:
 					if len(row) % 2 != 0: continue
@@ -119,7 +114,20 @@ if __name__ == '__main__':
 		
 	print(len(data_rows))
 
-			
+	elos = {k:v for k,v in sorted(elos.items(), key=lambda i:i[1].mu, reverse=True)}
+
+	n = 0
+	for e in elos:
+		if e not in player_data: continue
+		if len(player_data[e]["events"]) < 3: continue
+		n+=1
+		print(f'{n:20}\t{e:35}\t{int(elos[e].mu*100)}')
+
+	import sys
+	sys.exit()
+	#for e in elos:
+		#print(f'{e:35} {elos[e]:25}')
+
 	for i,d in enumerate(data_rows):
 		p1id = d[0]
 		p1f = d[1]
@@ -143,11 +151,6 @@ if __name__ == '__main__':
 		
 		w = 1
 		l = 1
-		
-		if f1 in m_data and f2 in m_data[f1]["matchups"]:
-			matchup_wl = m_data[f1]["matchups"][f2]
-			w = matchup_wl["Wins"]
-			l = matchup_wl["Losses"]
 		
 		data_rows[i] = [p1id,p1elo.mu,p1elo.sigma,p1f, p2id,p2elo.mu,p2elo.sigma,p2f, w/(w+l), win_probability(p1elo,p2elo), p1win]
 		
@@ -181,10 +184,11 @@ if __name__ == '__main__':
 		csv_reader = csv.reader(csv_file, delimiter=',')
 		for row in csv_reader:
 			fotow += row
-			
+
 	for i,f in enumerate(fotow):
 		if i % 2 == 1: continue
 		fotow[i] = f.title()
+	print(fotow)
 			
 	players = {fotow[i]:fotow[i+1] for i in range(0,len(fotow),2)}
 	
@@ -225,13 +229,9 @@ if __name__ == '__main__':
 			w = 1
 			l = 1
 			
-			if f1 in m_data and f2 in m_data[f1]["matchups"]:
-				matchup_wl = m_data[f1]["matchups"][f2]
-				w = matchup_wl["Wins"]
-				l = matchup_wl["Losses"]
-			
 			new_data.append([p1id,p1elo.mu,p1elo.sigma,p1f, p2id,p2elo.mu,p2elo.sigma,p2f, w/(w+l), win_probability(p1elo,p2elo)])
 	
+	new_data = np.array(new_data)
 	y_pred = model.predict(new_data)
 	predictions = [round(value) for value in y_pred]
 	yps = model.predict_proba(new_data)
@@ -248,20 +248,19 @@ if __name__ == '__main__':
 		
 		if p1 == p2: continue
 		
-		
 		s = yps[i][int(predictions[i])]*100
 		if predictions[i] == 0: s = 100-s
 		
 		output[p1][p2] = s
 		# print(f'{p1},{p2},{yps[i][int(predictions[i])]*100:.1f}%')
 		
-	import pandas
-	df = pandas.DataFrame(output, players.keys(), players.keys())
-	df.to_excel("output2.xlsx")
+	#import pandas
+	#df = pandas.DataFrame(output, players.keys(), players.keys())
+	#df.to_excel("output2.xlsx")
 		
 		
 	import sys
-	sys.exit()
+	#sys.exit()
 	
 	
 	############# do fotow predictions
@@ -304,14 +303,10 @@ if __name__ == '__main__':
 			w = 1
 			l = 1
 			
-			if f1 in m_data and f2 in m_data[f1]["matchups"]:
-				matchup_wl = m_data[f1]["matchups"][f2]
-				w = matchup_wl["Wins"]
-				l = matchup_wl["Losses"]
-			
 			new_data.append([p1id,p1elo.mu,p1elo.sigma,p1f, p2id,p2elo.mu,p2elo.sigma,p2f, w/(w+l), win_probability(p1elo,p2elo)])
 		
 		
+		new_data = np.array(new_data)
 		y_pred = model.predict(new_data)
 		predictions = [round(value) for value in y_pred]
 		yps = model.predict_proba(new_data)
@@ -320,7 +315,7 @@ if __name__ == '__main__':
 		for i,x in enumerate(new_data):
 			p1 = id_lookup[x[0]]
 			p2 = id_lookup[x[4]]
-			# print(f'\t{p1:25} vs {p2:25} ||| {[p1,p2][int(predictions[i])]:25}')## ({yps[i][int(predictions[i])]*100:5.1f}% )')
+			print(f'\t{p1:25} vs {p2:25} ||| {[p1,p2][int(predictions[i])]:25} ({yps[i][int(predictions[i])]*100:5.1f}% )')
 			winner = [p1,p2][int(predictions[i])]
 			
 			wins[winner] += 1

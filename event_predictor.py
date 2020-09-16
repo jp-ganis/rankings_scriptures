@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
 	elos = {}
 
-	with open("output_data_files/all_time_data/datahub_player_data.json", newline='', encoding='utf-8') as json_file:
+	with open("output_data_files/all_uk_events/datahub_player_data.json", newline='', encoding='utf-8') as json_file:
 		player_data = json.load(json_file)
 		
 	name_subs = {"James Ganis":"Jp Ganis", "Chris Caves Jnr":"Chris Caves Jr"}	

@@ -1,39 +1,101 @@
 NEW_EVENT_TAG,Battle of Copenhagen 2020,15-02-2020,5
-Adam Sääf,-,0/0/0
-Alex Groskopf,-,0/0/0
-Alexander Hansen,-,0/0/0
-Anders Knudsen,-,0/0/0
-Casper Karlsmose,-,0/0/0
-Christoffer Karlsmose,-,0/0/0
-Dennis Bengtsson ,-,0/0/0
-Felix Björnberg,-,0/0/0
-Henrik Seehuusen,-,0/0/0
-Jannick Teige,-,0/0/0
-Jesper melander,-,0/0/0
-Jimmi Jacobsen,-,0/0/0
-Jonathan Anholm,-,0/0/0
-Kasper agdal,-,0/0/0
-Kristoffer Pahl,-,0/0/0
-Lena Jensen,-,0/0/0
-Liara Pamnell,-,0/0/0
-Mads Møller Christiansen,-,0/0/0
-Mikkel Flindt,-,0/0/0
-Mikkel Schultz,-,0/0/0
-Morten Borre Hansen,-,0/0/0
-Morten Holst Zachariasen,-,0/0/0
-Morten Poulsen,-,0/0/0
-Morten Wifstrand,-,0/0/0
-Morten Winkel,-,0/0/0
-Nicklas Brynje,-,0/0/0
-Niclas Hansson,-,0/0/0
-Rasmus Mortensen,-,0/0/0
-Rasmus Nielsen,-,0/0/0
-Rasmus Purkhus,-,0/0/0
-Richardt Olsen,-,0/0/0
-Rune Holse,-,0/0/0
-Simon Eliasson,-,0/0/0
-Stephen Lüdeking,-,0/0/0
-Theis Thulin,-,0/0/0
-Thomas Ackermann,-,0/0/0
-Thomas Henriksen,-,0/0/0
-Timm Nyegaard,-,0/0/0
+Jesper melander,-,5/0/0
+Dennis Bengtsson ,-,5/0/0
+Adam Sääf,-,4/0/1
+Aleksandar Zekovski,-,4/0/1
+Anders Knudsen,-,4/0/1
+Kasper agdal,-,4/0/1
+Liara Pamnell,-,4/0/1
+Richardt Olsen,-,4/0/1
+Timm Nyegaard,-,3/0/2
+Jonathan Anholm,-,3/0/2
+Andy Schou,-,3/0/2
+Alexander Hansen,-,3/0/2
+Casper Karlsmose,-,3/0/2
+Thomas Henriksen,-,3/0/2
+Flemming Johansen,-,3/0/2
+Niels Skov,-,3/0/2
+Rune Holse,-,3/0/2
+Mikkel Flindt,-,3/0/2
+Regin Olsen,-,3/0/2
+Kristoffer Pahl,-,3/0/2
+Mads Møller Christiansen,-,3/0/2
+Mikkel Kjerumgaard,-,3/0/2
+Felix Björnberg,-,3/0/2
+Alex Groskopf,-,2/0/2
+Jimmi Jacobsen,-,3/0/1
+Mads Therkildsen,-,2/0/3
+Niclas Hansson,-,2/0/3
+Rasmus Purkhus,-,2/0/3
+Jannick Teige,-,2/0/3
+Morten Winkel,-,2/0/3
+Morten Poulsen,-,2/0/3
+Simon Eliasson,-,2/0/3
+Stephen Lüdeking,-,2/0/3
+Oliver Wang Hansen,-,2/0/3
+Christoffer Karlsmose,-,2/0/3
+Henrik Seehuusen,-,2/0/3
+Theis Thulin,-,2/0/3
+Morten Borre Hansen,-,2/0/3
+Morten Wifstrand,-,1/0/4
+Morten Holst Zachariasen,-,1/0/4
+Lena Jensen,-,1/0/4
+Rasmus Nielsen,-,1/0/4
+Rasmus Mortensen,-,1/0/4
+Rasmus Larsen,-,1/0/4
+Stefan Holm ,-,1/0/4
+Thomas Ackermann,-,1/0/2
+Tomas Larsen,-,1/0/2
+Nicklas Brynje,-,1/0/4
+Danny Diemer,-,1/0/2
+Tobias Bertelsen,-,0/0/5
+Jesper melander,Aleksandar Zekovski,Jesper melander,Anders Knudsen,Jesper melander,Alexander Hansen,Jesper melander,Rune Holse,Jesper melander,Thomas Ackermann
+Dennis Bengtsson,Jonathan Anholm,Dennis Bengtsson,Kasper agdal,Dennis Bengtsson,Jimmi Jacobsen,Dennis Bengtsson,Alex Groskopf,Dennis Bengtsson,Stephen Lüdeking
+Adam Sääf,Alexander Hansen,Adam Sääf,Morten Winkel,Anders Knudsen,Adam Sääf,Adam Sääf,Thomas Henriksen,Adam Sääf,Oliver Wang Hansen
+Jesper melander,Aleksandar Zekovski,Aleksandar Zekovski,Richardt Olsen,Aleksandar Zekovski,Mads Therkildsen,Aleksandar Zekovski,Mikkel Kjerumgaard,Aleksandar Zekovski,Henrik Seehuusen
+Anders Knudsen,Andy Schou,Jesper melander,Anders Knudsen,Anders Knudsen,Adam Sääf,Anders Knudsen,Niclas Hansson,Anders Knudsen,Danny Diemer
+Kasper agdal,Mikkel Flindt,Dennis Bengtsson,Kasper agdal,Kasper agdal,Regin Olsen,Kasper agdal,Christoffer Karlsmose,Kasper agdal,Jonathan Anholm
+Liara Pamnell,Felix Björnberg,Liara Pamnell,Casper Karlsmose,Liara Pamnell,Mikkel Kjerumgaard,Liara Pamnell,Tomas Larsen,Rune Holse,Liara Pamnell
+Richardt Olsen,Rune Holse,Aleksandar Zekovski,Richardt Olsen,Richardt Olsen,Felix Björnberg,Richardt Olsen,Morten Winkel,Richardt Olsen,Stefan Holm
+Timm Nyegaard,Jannick Teige,Jonathan Anholm,Timm Nyegaard,Timm Nyegaard,Morten Holst Zachariasen,Mads Møller Christiansen,Timm Nyegaard,Timm Nyegaard,Morten Poulsen
+Dennis Bengtsson,Jonathan Anholm,Jonathan Anholm,Timm Nyegaard,Jonathan Anholm,Mads Møller Christiansen,Jonathan Anholm,Morten Wifstrand,Kasper agdal,Jonathan Anholm
+Anders Knudsen,Andy Schou,Andy Schou,Flemming Johansen,Andy Schou,Kristoffer Pahl,Andy Schou,Niels Skov,Regin Olsen,Andy Schou
+Adam Sääf,Alexander Hansen,Alexander Hansen,Simon Eliasson,Jesper melander,Alexander Hansen,Alexander Hansen,Kristoffer Pahl,Alexander Hansen,Rasmus Nielsen
+Casper Karlsmose,Simon Eliasson,Liara Pamnell,Casper Karlsmose,Casper Karlsmose,Theis Thulin,Jimmi Jacobsen,Casper Karlsmose,Casper Karlsmose,Morten Wifstrand
+Thomas Henriksen,Morten Winkel,Thomas Henriksen,Stefan Holm,Rune Holse,Thomas Henriksen,Adam Sääf,Thomas Henriksen,Thomas Henriksen,Rasmus Mortensen
+Flemming Johansen,Christoffer Karlsmose,Andy Schou,Flemming Johansen,Flemming Johansen,Thomas Ackermann,Flemming Johansen,Oliver Wang Hansen,Morten Winkel,Flemming Johansen
+Niels Skov,Niclas Hansson,Niels Skov,Morten Poulsen,Niels Skov,Tobias Bertelsen,Andy Schou,Niels Skov,Felix Björnberg,Niels Skov
+Richardt Olsen,Rune Holse,Rune Holse,Niclas Hansson,Rune Holse,Thomas Henriksen,Jesper melander,Rune Holse,Rune Holse,Liara Pamnell
+Kasper agdal,Mikkel Flindt,Mikkel Flindt,Henrik Seehuusen,Mikkel Flindt,Morten Poulsen,Felix Björnberg,Mikkel Flindt,Mikkel Flindt,Morten Borre Hansen
+Regin Olsen,Henrik Seehuusen,Christoffer Karlsmose,Regin Olsen,Kasper agdal,Regin Olsen,Regin Olsen,Morten Holst Zachariasen,Regin Olsen,Andy Schou
+Kristoffer Pahl,Mads Therkildsen,Kristoffer Pahl,Rasmus Nielsen,Andy Schou,Kristoffer Pahl,Alexander Hansen,Kristoffer Pahl,Kristoffer Pahl,Rasmus Larsen
+Mads Møller Christiansen,Morten Borre Hansen,Jimmi Jacobsen,Mads Møller Christiansen,Jonathan Anholm,Mads Møller Christiansen,Mads Møller Christiansen,Timm Nyegaard,Mads Møller Christiansen,Rasmus Purkhus
+Mikkel Kjerumgaard,Theis Thulin,Mikkel Kjerumgaard,Morten Wifstrand,Liara Pamnell,Mikkel Kjerumgaard,Aleksandar Zekovski,Mikkel Kjerumgaard,Mikkel Kjerumgaard,Lena Jensen
+Liara Pamnell,Felix Björnberg,Felix Björnberg,Mads Therkildsen,Richardt Olsen,Felix Björnberg,Felix Björnberg,Mikkel Flindt,Felix Björnberg,Niels Skov
+Alex Groskopf,Morten Wifstrand,Morten Winkel,Alex Groskopf,Dennis Bengtsson,Alex Groskopf,Alex Groskopf,Tobias Bertelsen
+Jimmi Jacobsen,Mads Møller Christiansen,Dennis Bengtsson,Jimmi Jacobsen,Jimmi Jacobsen,Casper Karlsmose,Jimmi Jacobsen,Christoffer Karlsmose
+Kristoffer Pahl,Mads Therkildsen,Felix Björnberg,Mads Therkildsen,Aleksandar Zekovski,Mads Therkildsen,Mads Therkildsen,Jannick Teige,Mads Therkildsen,Theis Thulin
+Niels Skov,Niclas Hansson,Rune Holse,Niclas Hansson,Niclas Hansson,Stefan Holm,Anders Knudsen,Niclas Hansson,Niclas Hansson,Tomas Larsen
+Rasmus Purkhus,Morten Holst Zachariasen,Rasmus Purkhus,Lena Jensen,Morten Wifstrand,Rasmus Purkhus,Morten Poulsen,Rasmus Purkhus,Mads Møller Christiansen,Rasmus Purkhus
+Timm Nyegaard,Jannick Teige,Jannick Teige,Morten Holst Zachariasen,Simon Eliasson,Jannick Teige,Mads Therkildsen,Jannick Teige,Jannick Teige,Nicklas Brynje
+Thomas Henriksen,Morten Winkel,Adam Sääf,Morten Winkel,Morten Winkel,Alex Groskopf,Richardt Olsen,Morten Winkel,Morten Winkel,Flemming Johansen
+Morten Poulsen,Rasmus Nielsen,Niels Skov,Morten Poulsen,Mikkel Flindt,Morten Poulsen,Morten Poulsen,Rasmus Purkhus,Timm Nyegaard,Morten Poulsen
+Casper Karlsmose,Simon Eliasson,Alexander Hansen,Simon Eliasson,Simon Eliasson,Jannick Teige,Simon Eliasson,Morten Borre Hansen,Morten Holst Zachariasen,Simon Eliasson
+Stephen Lüdeking,Rasmus Mortensen,Morten Borre Hansen,Stephen Lüdeking,Henrik Seehuusen,Stephen Lüdeking,Stephen Lüdeking,Lena Jensen,Dennis Bengtsson,Stephen Lüdeking
+Oliver Wang Hansen,Stefan Holm,Theis Thulin,Oliver Wang Hansen,Oliver Wang Hansen,Rasmus Larsen,Flemming Johansen,Oliver Wang Hansen,Adam Sääf,Oliver Wang Hansen
+Flemming Johansen,Christoffer Karlsmose,Christoffer Karlsmose,Regin Olsen,Christoffer Karlsmose,Danny Diemer,Kasper agdal,Christoffer Karlsmose,Jimmi Jacobsen,Christoffer Karlsmose
+Regin Olsen,Henrik Seehuusen,Mikkel Flindt,Henrik Seehuusen,Henrik Seehuusen,Stephen Lüdeking,Henrik Seehuusen,Tobias Bertelsen,Aleksandar Zekovski,Henrik Seehuusen
+Mikkel Kjerumgaard,Theis Thulin,Theis Thulin,Oliver Wang Hansen,Casper Karlsmose,Theis Thulin,Theis Thulin,Rasmus Mortensen,Mads Therkildsen,Theis Thulin
+Mads Møller Christiansen,Morten Borre Hansen,Morten Borre Hansen,Stephen Lüdeking,Morten Borre Hansen,Lena Jensen,Simon Eliasson,Morten Borre Hansen,Mikkel Flindt,Morten Borre Hansen
+Alex Groskopf,Morten Wifstrand,Mikkel Kjerumgaard,Morten Wifstrand,Morten Wifstrand,Rasmus Purkhus,Jonathan Anholm,Morten Wifstrand,Casper Karlsmose,Morten Wifstrand
+Rasmus Purkhus,Morten Holst Zachariasen,Jannick Teige,Morten Holst Zachariasen,Timm Nyegaard,Morten Holst Zachariasen,Regin Olsen,Morten Holst Zachariasen,Morten Holst Zachariasen,Simon Eliasson
+Lena Jensen,Nicklas Brynje,Rasmus Purkhus,Lena Jensen,Morten Borre Hansen,Lena Jensen,Stephen Lüdeking,Lena Jensen,Mikkel Kjerumgaard,Lena Jensen
+Morten Poulsen,Rasmus Nielsen,Kristoffer Pahl,Rasmus Nielsen,Rasmus Nielsen,Rasmus Mortensen,Danny Diemer,Rasmus Nielsen,Alexander Hansen,Rasmus Nielsen
+Stephen Lüdeking,Rasmus Mortensen,Rasmus Mortensen,Tobias Bertelsen,Rasmus Nielsen,Rasmus Mortensen,Theis Thulin,Rasmus Mortensen,Thomas Henriksen,Rasmus Mortensen
+Rasmus Larsen,Tobias Bertelsen,Nicklas Brynje,Rasmus Larsen,Oliver Wang Hansen,Rasmus Larsen,Thomas Ackermann,Rasmus Larsen,Kristoffer Pahl,Rasmus Larsen
+Oliver Wang Hansen,Stefan Holm,Thomas Henriksen,Stefan Holm,Niclas Hansson,Stefan Holm,Stefan Holm,Nicklas Brynje,Richardt Olsen,Stefan Holm
+Flemming Johansen,Thomas Ackermann,Thomas Ackermann,Rasmus Larsen,Jesper melander,Thomas Ackermann
+Tomas Larsen,Nicklas Brynje,Liara Pamnell,Tomas Larsen,Niclas Hansson,Tomas Larsen
+Lena Jensen,Nicklas Brynje,Nicklas Brynje,Rasmus Larsen,Tomas Larsen,Nicklas Brynje,Stefan Holm,Nicklas Brynje,Jannick Teige,Nicklas Brynje
+Christoffer Karlsmose,Danny Diemer,Danny Diemer,Rasmus Nielsen,Anders Knudsen,Danny Diemer
+Rasmus Larsen,Tobias Bertelsen,Rasmus Mortensen,Tobias Bertelsen,Niels Skov,Tobias Bertelsen,Henrik Seehuusen,Tobias Bertelsen,Alex Groskopf,Tobias Bertelsen

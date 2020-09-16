@@ -1,5 +1,14 @@
 TODO
 
+
+for automatic warscroll extraction:
+
+	step 1 - extract the pages that contain warscrolls
+	step 2 - train an opencv model to find the base stats for every model
+	step 3 - split text by finding KEYWORDS and searching for the first line string with the model name, e.g. Katakros is a single model
+	step 4 - automatically find unit names frm the points table 
+
+
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
 <<<<<<<<<PRIORITY 1>>>>>>>>>>>>>>
 <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>

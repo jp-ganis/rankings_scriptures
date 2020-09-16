@@ -1,19 +1,33 @@
-NEW_EVENT_TAG,AoS Path to Glory,31-01-2020,1
-Alejo Ciria,Anvilguard,1/0/0
-Eduardo Royo Moros,Gloomspite Gitz,0/0/1
-Alex,Stormcast Eternals,0/0/0
-Martin Salas,Nighthaunt,0/0/0
-Aran,Slaves To Darkness,0/0/0
-Gabi,Nurgle Rotbringers,0/0/0
-Ivan Diez,Sylvaneth,0/0/0
-Ruben Lasheras,Blades of Khorne,0/0/0
-rulasooo,Ogor Mawtribes,0/0/0
-Ashkran,Disciples Of Tzeentch,0/0/0
-Dani,Orruks,0/0/0
-Ragnar,Fyreslayers,0/0/0
-Loki,Skaven,0/0/0
-Gabi Rat,Skaven Pestilens,0/0/0
-Fernando C,Hosts of Slaanesh,0/0/0
-Dekens,Kharadron Overlords,0/0/0
+NEW_EVENT_TAG,AoS Path to Glory,31-01-2020,5
+Ashkran,UNKNOWN_ARMY,0/0/0
+Dekens,UNKNOWN_ARMY,0/0/0
+rulasooo,UNKNOWN_ARMY,0/0/0
+Gabi Rat,UNKNOWN_ARMY,0/0/0
+Alejo Ciria,UNKNOWN_ARMY,0/0/0
+Gabi,UNKNOWN_ARMY,0/0/0
+Dani,UNKNOWN_ARMY,0/0/0
+Ruben Lasheras,UNKNOWN_ARMY,0/0/0
+Alex,UNKNOWN_ARMY,0/0/0
+Martin Salas,UNKNOWN_ARMY,0/0/0
+Fernando C,UNKNOWN_ARMY,0/0/0
+Aran,UNKNOWN_ARMY,0/0/0
+Ragnar,UNKNOWN_ARMY,0/0/0
+Loki,UNKNOWN_ARMY,0/0/0
+Ivan Diez,UNKNOWN_ARMY,0/0/0
+Eduardo Royo Moros,UNKNOWN_ARMY,0/0/0
+Ashkran,Dekens,Ashkran,Loki
+Ashkran,Dekens,Dekens,Alex
+rulasooo,Gabi Rat
+Gabi Rat,Ragnar,rulasooo,Gabi Rat
 Alejo Ciria,Eduardo Royo Moros
+Gabi,Ragnar
+Dani,Ivan Diez
+Ruben Lasheras,Fernando C
+Alex,Fernando C,Dekens,Alex
+Martin Salas,Aran
+Alex,Fernando C,Ruben Lasheras,Fernando C
+Martin Salas,Aran
+Gabi Rat,Ragnar,Gabi,Ragnar
+Ashkran,Loki
+Dani,Ivan Diez
 Alejo Ciria,Eduardo Royo Moros
