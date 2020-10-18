@@ -307,14 +307,17 @@ def get_named_tiers(db, date):
 			
 	return ftiers
 	
-def simulate_filth_proportions(db, earliest, latest, num_players, rounds):
+def simulate_filth_proportions(db, earliest, latest, num_players, rounds, wins=None):
 	earliest = dp.parse(earliest)
 	latest = dp.parse(latest)
 	
 	statement = f'SELECT DISTINCT player, faction, position, num_players, sim_wins, event_name, date, rounds FROM ladder_position WHERE rounds>={rounds} AND date > "{earliest}" AND date < "{latest}"'
 	rows = list(db.query(statement))
 	
-	appearances = {w: {i:[] for i in range(rounds)} for w in range(rounds+1)}
+	if wins != None:
+		appearances = {w: {i:[] for i in range(rounds)} for w in [wins]}
+	else:
+		appearances = {w: {i:[] for i in range(rounds)} for w in range(rounds+1)}
 	
 	wl_patterns = {3:[],4:[],5:[],6:[]}
 	
@@ -330,7 +333,7 @@ def simulate_filth_proportions(db, earliest, latest, num_players, rounds):
 							wl_patterns[6].append([i1,i2,i3,i4,i5,i6])
 						
 	
-	for pattern in wl_patterns[rounds]:
+	for pattern in [p for p in wl_patterns[rounds] if sum(p) in appearances]:
 		player_wins = 0
 		for g in range(rounds):
 			player_losses = g - player_wins
@@ -352,13 +355,6 @@ def simulate_filth_proportions(db, earliest, latest, num_players, rounds):
 			for f in counts:
 				print(f'\t{f:35} {counts[f]*100:.1f}%')
 			
-			input()
-				
-			
-			
-		print()
-		
-			
 	
 	
 
@@ -370,7 +366,7 @@ if __name__ == '__main__':
 	# populate_ladder_table(db)
 	# populate_tier_table(db)
 	
-	simulate_filth_proportions(db, "1 Jan 2020", "1 Nov 2020", 30, 5)
+	simulate_filth_proportions(db, "1 Jan 2020", "1 Nov 2020", 220, 5, 3)
 	
 	
 	
