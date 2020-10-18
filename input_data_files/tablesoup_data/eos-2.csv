@@ -1,73 +1,37 @@
-NEW_EVENT_TAG,EOS 2,28-04-2019,5
-Andy Bryan,UNKNOWN_ARMY,0/0/0
-Chris McConville,UNKNOWN_ARMY,0/0/0
-Sam Bolton,UNKNOWN_ARMY,0/0/0
-Adam Rawson,UNKNOWN_ARMY,0/0/0
-Luke Garside,UNKNOWN_ARMY,0/0/0
-Alex Jones,UNKNOWN_ARMY,0/0/0
-Alex Tooth,UNKNOWN_ARMY,0/0/0
-Robert Hull,UNKNOWN_ARMY,0/0/0
-Paul Bowden,UNKNOWN_ARMY,0/0/0
-Chris Vect,UNKNOWN_ARMY,0/0/0
-Sam Watson,UNKNOWN_ARMY,0/0/0
-Simon Thmpson,UNKNOWN_ARMY,0/0/0
-Man God,UNKNOWN_ARMY,0/0/0
-Ben Kronin,UNKNOWN_ARMY,0/0/0
-Chris Banks,UNKNOWN_ARMY,0/0/0
-Matthew Sandiford,UNKNOWN_ARMY,0/0/0
-Adam Riley,UNKNOWN_ARMY,0/0/0
-Aiden Clieve,UNKNOWN_ARMY,0/0/0
-Joe Doherty,UNKNOWN_ARMY,0/0/0
-CY Dudley,UNKNOWN_ARMY,0/0/0
-Adam Aiden,UNKNOWN_ARMY,0/0/0
-Steve Norris,UNKNOWN_ARMY,0/0/0
-DanielPhipps-Walker,UNKNOWN_ARMY,0/0/0
-Aaron Walters,UNKNOWN_ARMY,0/0/0
-Mark Pinnington,UNKNOWN_ARMY,0/0/0
-Jane Slater,UNKNOWN_ARMY,0/0/0
-Andrew Lonsdale,UNKNOWN_ARMY,0/0/0
-Sean Ormrod,UNKNOWN_ARMY,0/0/0
-Edward Folks,UNKNOWN_ARMY,0/0/0
-Richard Chambers,UNKNOWN_ARMY,0/0/0
-Keith Winqvist,UNKNOWN_ARMY,0/0/0
-Tom Bailey,UNKNOWN_ARMY,0/0/0
-Daniel Elkinson,UNKNOWN_ARMY,0/0/0
-Ben Carter,UNKNOWN_ARMY,0/0/0
-Andrew Snow,UNKNOWN_ARMY,0/0/0
-Hugh Wilson,UNKNOWN_ARMY,0/0/0
-Andy Bryan,Alex Tooth,Andy Bryan,Robert Hull,Andy Bryan,Aaron Walters
-Chris McConville,Chris Vect,Chris McConville,DanielPhipps-Walker,Chris McConville,Paul Bowden
-Sam Bolton,Sam Watson,Sam Bolton,Luke Garside,Sam Bolton,Ben Carter
-Adam Rawson,Adam Riley,Adam Rawson,Chris Banks,Adam Rawson,Tom Bailey
-Luke Garside,Steve Norris,Sam Bolton,Luke Garside,Luke Garside,Edward Folks
-Alex Jones,Matthew Sandiford,Alex Jones,Adam Aiden,Chris Banks,Alex Jones
-Andy Bryan,Alex Tooth,Alex Tooth,Simon Thmpson,Alex Tooth,Sean Ormrod
-Robert Hull,Andrew Lonsdale,Andy Bryan,Robert Hull,Robert Hull,Ben Kronin
-Paul Bowden,Aaron Walters,Paul Bowden,Jane Slater,Chris McConville,Paul Bowden
-Chris McConville,Chris Vect,Chris Vect,Man God,Chris Vect,Andrew Snow
-Sam Bolton,Sam Watson,Sam Watson,Andrew Lonsdale,Sam Watson,Jane Slater
-Simon Thmpson,Sean Ormrod,Alex Tooth,Simon Thmpson,Simon Thmpson,Mark Pinnington
-Man God,DanielPhipps-Walker,Chris Vect,Man God,Man God,Richard Chambers
-Ben Kronin,Mark Pinnington,Ben Kronin,Hugh Wilson,Robert Hull,Ben Kronin
-Chris Banks,Tom Bailey,Adam Rawson,Chris Banks,Chris Banks,Alex Jones
-Alex Jones,Matthew Sandiford,Matthew Sandiford,Aiden Clieve,Matthew Sandiford,Adam Aiden
-Adam Rawson,Adam Riley,Adam Riley,Keith Winqvist,Adam Riley,Steve Norris
-Aiden Clieve,Keith Winqvist,Matthew Sandiford,Aiden Clieve,Aiden Clieve,CY Dudley
-Joe Doherty,CY Dudley,Joe Doherty,Ben Carter,DanielPhipps-Walker,Joe Doherty
-Joe Doherty,CY Dudley,CY Dudley,Tom Bailey,Aiden Clieve,CY Dudley
-Adam Aiden,Daniel Elkinson,Alex Jones,Adam Aiden,Matthew Sandiford,Adam Aiden
-Luke Garside,Steve Norris,Steve Norris,Daniel Elkinson,Adam Riley,Steve Norris
-Man God,DanielPhipps-Walker,Chris McConville,DanielPhipps-Walker,DanielPhipps-Walker,Joe Doherty
-Paul Bowden,Aaron Walters,Aaron Walters,Edward Folks,Andy Bryan,Aaron Walters
-Ben Kronin,Mark Pinnington,Mark Pinnington,Richard Chambers,Simon Thmpson,Mark Pinnington
-Jane Slater,Ben Carter,Paul Bowden,Jane Slater,Sam Watson,Jane Slater
-Robert Hull,Andrew Lonsdale,Sam Watson,Andrew Lonsdale,Andrew Lonsdale,Hugh Wilson
-Simon Thmpson,Sean Ormrod,Sean Ormrod,Andrew Snow,Alex Tooth,Sean Ormrod
-Edward Folks,Andrew Snow,Aaron Walters,Edward Folks,Luke Garside,Edward Folks
-Richard Chambers,Hugh Wilson,Mark Pinnington,Richard Chambers,Man God,Richard Chambers
-Aiden Clieve,Keith Winqvist,Adam Riley,Keith Winqvist,Keith Winqvist,Daniel Elkinson
-Chris Banks,Tom Bailey,CY Dudley,Tom Bailey,Adam Rawson,Tom Bailey
-Adam Aiden,Daniel Elkinson,Steve Norris,Daniel Elkinson,Keith Winqvist,Daniel Elkinson
-Jane Slater,Ben Carter,Joe Doherty,Ben Carter,Sam Bolton,Ben Carter
-Edward Folks,Andrew Snow,Sean Ormrod,Andrew Snow,Chris Vect,Andrew Snow
-Richard Chambers,Hugh Wilson,Ben Kronin,Hugh Wilson,Andrew Lonsdale,Hugh Wilson
+NEW_EVENT_TAG,EOS 2,28-04-2019,3
+Andy Bryan,-,3/0/0
+Chris McConville,-,3/0/0
+Sam Bolton,-,3/0/0
+Adam Rawson,-,3/0/0
+Luke Garside,-,2/0/1
+Alex Jones,-,2/0/1
+Alex Tooth,-,2/0/1
+Robert Hull,-,2/0/1
+Paul Bowden,-,2/0/1
+Chris Vect,-,2/0/1
+Sam Watson,-,2/0/1
+Simon Thmpson,-,2/0/1
+Man God,-,2/0/1
+Ben Kronin,-,2/0/1
+Chris Banks,-,2/0/1
+Matthew Sandiford,-,2/0/1
+Adam Riley,-,2/0/1
+Aiden Clieve,-,2/0/1
+Joe Doherty,-,2/0/1
+CY Dudley,-,1/0/2
+Adam Aiden,-,1/0/2
+Steve Norris,-,1/0/2
+DanielPhipps-Walker,-,1/0/2
+Aaron Walters,-,1/0/2
+Mark Pinnington,-,1/0/2
+Jane Slater,-,1/0/2
+Andrew Lonsdale,-,1/0/2
+Sean Ormrod,-,1/0/2
+Edward Folks,-,1/0/2
+Richard Chambers,-,1/0/2
+Keith Winqvist,-,1/0/2
+Tom Bailey,-,0/0/3
+Daniel Elkinson,-,0/0/3
+Ben Carter,-,0/0/3
+Andrew Snow,-,0/0/3
+Hugh Wilson,-,0/0/3

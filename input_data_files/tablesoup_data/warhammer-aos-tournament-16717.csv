@@ -1,42 +1,22 @@
-NEW_EVENT_TAG,Warhammer AOS Tournament 16/7/17,16-07-2017,5
-Scott Norwood,UNKNOWN_ARMY,0/0/0
-Ashley McEwan,UNKNOWN_ARMY,0/0/0
-Joel Hennesy,UNKNOWN_ARMY,0/0/0
-Deke Johnstone,UNKNOWN_ARMY,0/0/0
-Shaun Ratcliffe,UNKNOWN_ARMY,0/0/0
-Peter Pretyman,UNKNOWN_ARMY,0/0/0
-Fued one,UNKNOWN_ARMY,0/0/0
-Dan Brewer,UNKNOWN_ARMY,0/0/0
-Zac Wilson,UNKNOWN_ARMY,0/0/0
-Ethan McDonald,UNKNOWN_ARMY,0/0/0
-Thomas Holdsworth,UNKNOWN_ARMY,0/0/0
-Anthony Magro,UNKNOWN_ARMY,0/0/0
-Craig Anderson,UNKNOWN_ARMY,0/0/0
-Michael Pene,UNKNOWN_ARMY,0/0/0
-Peter Scherri,UNKNOWN_ARMY,0/0/0
-Lucas Jones,UNKNOWN_ARMY,0/0/0
-Robert Karlen,UNKNOWN_ARMY,0/0/0
-Neil Ranger,UNKNOWN_ARMY,0/0/0
-Daniel Worthington,UNKNOWN_ARMY,0/0/0
-Jared Fuchs,UNKNOWN_ARMY,0/0/0
-Sean Hampstead,UNKNOWN_ARMY,0/0/0
-Scott Norwood,Shaun Ratcliffe,Scott Norwood,Ethan McDonald,Scott Norwood,Zac Wilson
-Ashley McEwan,Deke Johnstone,Ashley McEwan,Michael Pene,Ashley McEwan,Dan Brewer
-Joel Hennesy,Thomas Holdsworth,Joel Hennesy,Lucas Jones,Joel Hennesy,Anthony Magro
-Ashley McEwan,Deke Johnstone,Deke Johnstone,Jared Fuchs,Deke Johnstone,Craig Anderson
-Scott Norwood,Shaun Ratcliffe,Shaun Ratcliffe,Peter Scherri,Shaun Ratcliffe,Daniel Worthington
-Peter Pretyman,Daniel Worthington,Peter Pretyman,Jared Fuchs,Peter Scherri,Peter Pretyman
-Fued one,Michael Pene,Fued one,Anthony Magro,Ethan McDonald,Fued one
-Dan Brewer,Peter Scherri,Dan Brewer,Jared Fuchs,Ashley McEwan,Dan Brewer
-Zac Wilson,Daniel Worthington,Zac Wilson,Neil Ranger,Scott Norwood,Zac Wilson
-Ethan McDonald,Craig Anderson,Scott Norwood,Ethan McDonald,Ethan McDonald,Fued one
-Joel Hennesy,Thomas Holdsworth,Thomas Holdsworth,Robert Karlen,Craig Anderson,Thomas Holdsworth
-Anthony Magro,Lucas Jones,Fued one,Anthony Magro,Joel Hennesy,Anthony Magro
-Ethan McDonald,Craig Anderson,Deke Johnstone,Craig Anderson,Craig Anderson,Thomas Holdsworth
-Fued one,Michael Pene,Ashley McEwan,Michael Pene,Michael Pene,Neil Ranger
-Dan Brewer,Peter Scherri,Shaun Ratcliffe,Peter Scherri,Peter Scherri,Peter Pretyman
-Anthony Magro,Lucas Jones,Joel Hennesy,Lucas Jones,Lucas Jones,Robert Karlen
-Robert Karlen,Neil Ranger,Thomas Holdsworth,Robert Karlen,Lucas Jones,Robert Karlen
-Robert Karlen,Neil Ranger,Zac Wilson,Neil Ranger,Michael Pene,Neil Ranger
-Peter Pretyman,Daniel Worthington,Zac Wilson,Daniel Worthington,Shaun Ratcliffe,Daniel Worthington
-Peter Pretyman,Jared Fuchs,Deke Johnstone,Jared Fuchs,Dan Brewer,Jared Fuchs
+NEW_EVENT_TAG,Warhammer AOS Tournament 16/7/17,16-07-2017,3
+Scott Norwood,Mixed,3/0/0
+Ashley McEwan,Tzeentch Arcanites,3/0/0
+Joel Hennesy,Fyreslayers,3/0/0
+Deke Johnstone,Mixed,2/0/1
+Shaun Ratcliffe,Tzeentch Arcanites,2/0/1
+Peter Pretyman,Mixed,2/0/1
+Fued one,Daemons Of Tzeentch,2/0/1
+Dan Brewer,Mixed,2/0/1
+Zac Wilson,Seraphon,2/0/1
+Ethan McDonald,Ironweld Arsonal,2/0/1
+Thomas Holdsworth,Daemons Of Chaos,1/0/2
+Anthony Magro,Mixed,1/0/2
+Craig Anderson,Mixed,1/0/2
+Michael Pene,Mixed,1/0/2
+Peter Scherri,Mixed,1/0/2
+Lucas Jones,Mixed,1/0/2
+Robert Karlen,Mixed,1/0/2
+Neil Ranger,Beastclaw Raiders,0/0/3
+Daniel Worthington,Swifthawk Agents,0/0/3
+Jared Fuchs,Mixed,0/0/3
+Sean Hampstead,Sylvaneth,0/0/0

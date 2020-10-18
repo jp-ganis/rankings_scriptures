@@ -1,49 +1,25 @@
-NEW_EVENT_TAG,AOS July,15-07-2018,5
-Anthony Magro,UNKNOWN_ARMY,0/0/0
-Nathan princi,UNKNOWN_ARMY,0/0/0
-Chris tot,UNKNOWN_ARMY,0/0/0
-Nishan Aratoon,UNKNOWN_ARMY,0/0/0
-Fued one,UNKNOWN_ARMY,0/0/0
-Deke J,UNKNOWN_ARMY,0/0/0
-Damian Newsome,UNKNOWN_ARMY,0/0/0
-Ethan McDonald,UNKNOWN_ARMY,0/0/0
-Keith Williamson,UNKNOWN_ARMY,0/0/0
-Scott Hunt,UNKNOWN_ARMY,0/0/0
-Bryce Woodley,UNKNOWN_ARMY,0/0/0
-Daniel Picard,UNKNOWN_ARMY,0/0/0
-Scott Norwood,UNKNOWN_ARMY,0/0/0
-Mitchell Hynes,UNKNOWN_ARMY,0/0/0
-Liam Burnett-Blue,UNKNOWN_ARMY,0/0/0
-Ken Van't schip,UNKNOWN_ARMY,0/0/0
-Tim Gunderson,UNKNOWN_ARMY,0/0/0
-Peter Pretyman,UNKNOWN_ARMY,0/0/0
-Paul Grixti,UNKNOWN_ARMY,0/0/0
-Rob Kern,UNKNOWN_ARMY,0/0/0
-Brody B,UNKNOWN_ARMY,0/0/0
-Edward Happer,UNKNOWN_ARMY,0/0/0
-Bradley Baker,UNKNOWN_ARMY,0/0/0
-Thomas Holdsworth,UNKNOWN_ARMY,0/0/0
-Anthony Magro,Daniel Picard,Anthony Magro,Rob Kern,Anthony Magro,Thomas Holdsworth
-Nathan princi,Keith Williamson,Nathan princi,Ethan McDonald,Nathan princi,Deke J
-Chris tot,Nishan Aratoon,Chris tot,Liam Burnett-Blue,Chris tot,Paul Grixti
-Chris tot,Nishan Aratoon,Nishan Aratoon,Peter Pretyman,Nishan Aratoon,Bradley Baker
-Fued one,Mitchell Hynes,Fued one,Edward Happer,Peter Pretyman,Fued one
-Deke J,Liam Burnett-Blue,Deke J,Thomas Holdsworth,Nathan princi,Deke J
-Damian Newsome,Rob Kern,Damian Newsome,Tim Gunderson,Keith Williamson,Damian Newsome
-Ethan McDonald,Brody B,Nathan princi,Ethan McDonald,Ethan McDonald,Bryce Woodley
-Nathan princi,Keith Williamson,Keith Williamson,Ken Vant schip,Keith Williamson,Damian Newsome
-Scott Hunt,Peter Pretyman,Scott Hunt,Bradley Baker,Liam Burnett-Blue,Scott Hunt
-Bryce Woodley,Ken Vant schip,Bryce Woodley,Paul Grixti,Ethan McDonald,Bryce Woodley
-Anthony Magro,Daniel Picard,Daniel Picard,Brody B,Daniel Picard,Scott Norwood
-Scott Norwood,Thomas Holdsworth,Mitchell Hynes,Scott Norwood,Daniel Picard,Scott Norwood
-Fued one,Mitchell Hynes,Mitchell Hynes,Scott Norwood,Brody B,Mitchell Hynes
-Deke J,Liam Burnett-Blue,Chris tot,Liam Burnett-Blue,Liam Burnett-Blue,Scott Hunt
-Bryce Woodley,Ken Vant schip,Keith Williamson,Ken Vant schip,Ken Vant schip,Edward Happer
-Tim Gunderson,Bradley Baker,Damian Newsome,Tim Gunderson,Rob Kern,Tim Gunderson
-Scott Hunt,Peter Pretyman,Nishan Aratoon,Peter Pretyman,Peter Pretyman,Fued one
-Paul Grixti,Edward Happer,Bryce Woodley,Paul Grixti,Chris tot,Paul Grixti
-Damian Newsome,Rob Kern,Anthony Magro,Rob Kern,Rob Kern,Tim Gunderson
-Ethan McDonald,Brody B,Daniel Picard,Brody B,Brody B,Mitchell Hynes
-Paul Grixti,Edward Happer,Fued one,Edward Happer,Ken Vant schip,Edward Happer
-Tim Gunderson,Bradley Baker,Scott Hunt,Bradley Baker,Nishan Aratoon,Bradley Baker
-Scott Norwood,Thomas Holdsworth,Deke J,Thomas Holdsworth,Anthony Magro,Thomas Holdsworth
+NEW_EVENT_TAG,AOS July,15-07-2018,3
+Anthony Magro,Mixed,3/0/0
+Nathan princi,Khorne Bloodbound,3/0/0
+Chris tot,Thunderscorn,3/0/0
+Nishan Aratoon,Sylvaneth,2/0/1
+Fued one,Legion Of Azgorh,2/0/1
+Deke J,Soulblight,2/0/1
+Damian Newsome,Beastclaw Raiders,2/0/1
+Ethan McDonald,Stormcast Eternals,2/0/1
+Keith Williamson,Daemons Of Khorne,2/0/1
+Scott Hunt,Nighthaunt,2/0/1
+Bryce Woodley,Slaves To Darkness,2/0/1
+Daniel Picard,Stormcast Eternals,2/0/1
+Scott Norwood,Seraphon,1/0/2
+Mitchell Hynes,Flesh Eater Courts,1/0/2
+Liam Burnett-Blue,Daughters Of Khaine,1/0/2
+Ken Van't schip,Mixed,1/0/2
+Tim Gunderson,Stormcast Eternals,1/0/2
+Peter Pretyman,Flesh Eater Courts,1/0/2
+Paul Grixti,Swifthawk Agents,1/0/2
+Rob Kern,Mixed,1/0/2
+Brody B,Stormcast Eternals,1/0/2
+Edward Happer,Moonclan Grots,0/0/3
+Bradley Baker,Flesh Eater Courts,0/0/3
+Thomas Holdsworth,Slaves To Darkness,0/0/3

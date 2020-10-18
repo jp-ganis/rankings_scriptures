@@ -1,49 +1,25 @@
 NEW_EVENT_TAG,BSK Age Of Sigmar,02-11-2019,5
-Jonas Rådemar,UNKNOWN_ARMY,0/0/0
-Jonas Fredriksson,UNKNOWN_ARMY,0/0/0
-Erik Sala,UNKNOWN_ARMY,0/0/0
-Simon Andersson,UNKNOWN_ARMY,0/0/0
-Fredrik Andersson,UNKNOWN_ARMY,0/0/0
-Sebastian Hedberg,UNKNOWN_ARMY,0/0/0
-Karl Ivanovic ,UNKNOWN_ARMY,0/0/0
-Rasmus Nilsen,UNKNOWN_ARMY,0/0/0
-David Grimmer,UNKNOWN_ARMY,0/0/0
-Daniel Terdell,UNKNOWN_ARMY,0/0/0
-Jonathan Snygg,UNKNOWN_ARMY,0/0/0
-Oscar Johannesson,UNKNOWN_ARMY,0/0/0
-Mathias Ortlieb,UNKNOWN_ARMY,0/0/0
-Jonas Nero,UNKNOWN_ARMY,0/0/0
-Björn Francke,UNKNOWN_ARMY,0/0/0
-Jan Olsson,UNKNOWN_ARMY,0/0/0
-Ulf Törnqvist,UNKNOWN_ARMY,0/0/0
-Michael Björeling,UNKNOWN_ARMY,0/0/0
-Johan Lindsten,UNKNOWN_ARMY,0/0/0
-Rickard Nilsson,UNKNOWN_ARMY,0/0/0
-Tim Skoglund,UNKNOWN_ARMY,0/0/0
-Andreas Malmström,UNKNOWN_ARMY,0/0/0
-Pontus Pantzar,UNKNOWN_ARMY,0/0/0
-Andreas johansson borås,UNKNOWN_ARMY,0/0/0
-Jonas Rådemar,Erik Sala,Jonas Rådemar,Rasmus Nilsen,Jonas Rådemar,Daniel Terdell,Jonas Rådemar,Ulf Törnqvist,Jonas Rådemar,Michael Björeling
-Jonas Fredriksson,Ulf Törnqvist,Jonas Fredriksson,Jonathan Snygg,Rasmus Nilsen,Jonas Fredriksson,Jonas Fredriksson,Sebastian Hedberg,Jonas Fredriksson,Fredrik Andersson
-Jonas Rådemar,Erik Sala,Erik Sala,Karl Ivanovic,Erik Sala,Jonathan Snygg,Erik Sala,Jonas Nero,Erik Sala,Pontus Pantzar
-Simon Andersson,Rasmus Nilsen,Simon Andersson,Jan Olsson,Simon Andersson,Sebastian Hedberg,Simon Andersson,Andreas johansson,Ulf Törnqvist,Simon Andersson
-Fredrik Andersson,Daniel Terdell,Fredrik Andersson,David Grimmer,Fredrik Andersson,Oscar Johannesson,Fredrik Andersson,Andreas Malmström,Jonas Fredriksson,Fredrik Andersson
-Sebastian Hedberg,Jonas Nero,Sebastian Hedberg,Tim Skoglund,Simon Andersson,Sebastian Hedberg,Jonas Fredriksson,Sebastian Hedberg,Sebastian Hedberg,Andreas Malmström
-Karl Ivanovic,Michael Björeling,Erik Sala,Karl Ivanovic,Karl Ivanovic,Tim Skoglund,Daniel Terdell,Karl Ivanovic,Karl Ivanovic,Andreas johansson
-Simon Andersson,Rasmus Nilsen,Jonas Rådemar,Rasmus Nilsen,Rasmus Nilsen,Jonas Fredriksson,Rasmus Nilsen,Tim Skoglund,Rasmus Nilsen,Björn Francke
-David Grimmer,Jan Olsson,Fredrik Andersson,David Grimmer,David Grimmer,Ulf Törnqvist,David Grimmer,Björn Francke,Jonas Nero,David Grimmer
-Fredrik Andersson,Daniel Terdell,Daniel Terdell,Jonas Nero,Jonas Rådemar,Daniel Terdell,Daniel Terdell,Karl Ivanovic,Daniel Terdell,Johan Lindsten
-Jonathan Snygg,Rickard Nilsson,Jonas Fredriksson,Jonathan Snygg,Erik Sala,Jonathan Snygg,Jonathan Snygg,Oscar Johannesson,Jonathan Snygg,Jan Olsson
-Oscar Johannesson,Johan Lindsten,Oscar Johannesson,Andreas Malmström,Fredrik Andersson,Oscar Johannesson,Jonathan Snygg,Oscar Johannesson,Oscar Johannesson,Mathias Ortlieb
-Mathias Ortlieb,Tim Skoglund,Ulf Törnqvist,Mathias Ortlieb,Mathias Ortlieb,Pontus Pantzar,Jan Olsson,Mathias Ortlieb,Oscar Johannesson,Mathias Ortlieb
-Sebastian Hedberg,Jonas Nero,Daniel Terdell,Jonas Nero,Jonas Nero,Michael Björeling,Erik Sala,Jonas Nero,Jonas Nero,David Grimmer
-Björn Francke,Pontus Pantzar,Michael Björeling,Björn Francke,Björn Francke,Andreas johansson,David Grimmer,Björn Francke,Rasmus Nilsen,Björn Francke
-David Grimmer,Jan Olsson,Simon Andersson,Jan Olsson,Jan Olsson,Johan Lindsten,Jan Olsson,Mathias Ortlieb,Jonathan Snygg,Jan Olsson
-Jonas Fredriksson,Ulf Törnqvist,Ulf Törnqvist,Mathias Ortlieb,David Grimmer,Ulf Törnqvist,Jonas Rådemar,Ulf Törnqvist,Ulf Törnqvist,Simon Andersson
-Karl Ivanovic,Michael Björeling,Michael Björeling,Björn Francke,Jonas Nero,Michael Björeling,Michael Björeling,Rickard Nilsson,Jonas Rådemar,Michael Björeling
-Oscar Johannesson,Johan Lindsten,Rickard Nilsson,Johan Lindsten,Jan Olsson,Johan Lindsten,Johan Lindsten,Pontus Pantzar,Daniel Terdell,Johan Lindsten
-Jonathan Snygg,Rickard Nilsson,Rickard Nilsson,Johan Lindsten,Rickard Nilsson,Andreas Malmström,Michael Björeling,Rickard Nilsson,Tim Skoglund,Rickard Nilsson
-Mathias Ortlieb,Tim Skoglund,Sebastian Hedberg,Tim Skoglund,Karl Ivanovic,Tim Skoglund,Rasmus Nilsen,Tim Skoglund,Tim Skoglund,Rickard Nilsson
-Andreas Malmström,Andreas johansson,Oscar Johannesson,Andreas Malmström,Rickard Nilsson,Andreas Malmström,Fredrik Andersson,Andreas Malmström,Sebastian Hedberg,Andreas Malmström
-Björn Francke,Pontus Pantzar,Pontus Pantzar,Andreas johansson,Mathias Ortlieb,Pontus Pantzar,Johan Lindsten,Pontus Pantzar,Erik Sala,Pontus Pantzar
-Andreas Malmström,Andreas johansson,Pontus Pantzar,Andreas johansson,Björn Francke,Andreas johansson,Simon Andersson,Andreas johansson,Karl Ivanovic,Andreas johansson
+Jonas Rådemar,Hosts of Slaanesh,5/0/0
+Jonas Fredriksson,Skaven,4/0/1
+Erik Sala,Flesh Eater Courts,4/0/1
+Simon Andersson,Gloomspite Gitz,4/0/1
+Fredrik Andersson,Blades of Khorne,4/0/1
+Sebastian Hedberg,Daughters Of Khaine,3/0/2
+Karl Ivanovic,Disciples Of Tzeentch,3/0/2
+Rasmus Nilsen,Legions of Nagash,3/0/2
+David Grimmer,Nighthaunt,3/0/2
+Daniel Terdell,Sylvaneth,3/0/2
+Jonathan Snygg,Stormcast Eternals,3/0/2
+Oscar Johannesson,Skaven,3/0/2
+Mathias Ortlieb,Gloomspite Gitz,2/0/3
+Jonas Nero,Disciples Of Tzeentch,2/0/3
+Björn Francke,Stormcast Eternals,2/0/3
+Jan Olsson,Grand Host of Nagash,2/0/3
+Ulf Törnqvist,Stormcast Eternals,2/0/3
+Michael Björeling,Maggotkin of Nurgle,2/0/3
+Johan Lindsten,Legion of Grief,1/1/3
+Rickard Nilsson,Blades of Khorne,1/1/3
+Tim Skoglund,Gloomspite Gitz,1/0/4
+Andreas Malmström,Stormcast Eternals,1/0/4
+Pontus Pantzar,Ironjawz,1/0/4
+Andreas johansson borås,Blades of Khorne,0/0/5

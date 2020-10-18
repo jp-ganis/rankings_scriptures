@@ -1,41 +1,21 @@
 NEW_EVENT_TAG,Brizhammer III,01-06-2019,5
-David Kerr,UNKNOWN_ARMY,0/0/0
-Gary Den Otter,UNKNOWN_ARMY,0/0/0
-tyler mcdonald,UNKNOWN_ARMY,0/0/0
-Corey Papinniemi,UNKNOWN_ARMY,0/0/0
-Deano matthews,UNKNOWN_ARMY,0/0/0
-Gary Houschildt,UNKNOWN_ARMY,0/0/0
-Patrick Carter,UNKNOWN_ARMY,0/0/0
-Trent Denison ,UNKNOWN_ARMY,0/0/0
-Michael Creighton,UNKNOWN_ARMY,0/0/0
-Matt Gammie,UNKNOWN_ARMY,0/0/0
-Sean Hortin,UNKNOWN_ARMY,0/0/0
-nick bentley,UNKNOWN_ARMY,0/0/0
-Darren Free,UNKNOWN_ARMY,0/0/0
-Joshua Maher,UNKNOWN_ARMY,0/0/0
-Liam Lucas,UNKNOWN_ARMY,0/0/0
-allan bachmann,UNKNOWN_ARMY,0/0/0
-Chris Stratford,UNKNOWN_ARMY,0/0/0
-Nick Cambridge,UNKNOWN_ARMY,0/0/0
-Cal Scotland,UNKNOWN_ARMY,0/0/0
-Conna Armstrong,UNKNOWN_ARMY,0/0/0
-David Kerr,tyler mcdonald,David Kerr,Matt Gammie,David Kerr,allan bachmann,Corey Papinniemi,David Kerr,David Kerr,Joshua Maher
-Gary Den Otter,Deano matthews,Gary Den Otter,Trent Denison,Gary Den Otter,Patrick Carter,Gary Den Otter,Joshua Maher,Corey Papinniemi,Gary Den Otter
-David Kerr,tyler mcdonald,tyler mcdonald,Corey Papinniemi,tyler mcdonald,Deano matthews,tyler mcdonald,Cal Scotland,tyler mcdonald,Conna Armstrong
-Corey Papinniemi,Matt Gammie,tyler mcdonald,Corey Papinniemi,Corey Papinniemi,Trent Denison,Corey Papinniemi,David Kerr,Corey Papinniemi,Gary Den Otter
-Gary Den Otter,Deano matthews,Deano matthews,Darren Free,tyler mcdonald,Deano matthews,Deano matthews,nick bentley,Deano matthews,Nick Cambridge
-Gary Houschildt,Sean Hortin,Gary Houschildt,allan bachmann,Matt Gammie,Gary Houschildt,Gary Houschildt,Chris Stratford,Patrick Carter,Gary Houschildt
-Patrick Carter,nick bentley,Patrick Carter,Liam Lucas,Gary Den Otter,Patrick Carter,Matt Gammie,Patrick Carter,Patrick Carter,Gary Houschildt
-Trent Denison,allan bachmann,Gary Den Otter,Trent Denison,Corey Papinniemi,Trent Denison,Trent Denison,Michael Creighton,Trent Denison,Darren Free
-Michael Creighton,Darren Free,Sean Hortin,Michael Creighton,Michael Creighton,Liam Lucas,Trent Denison,Michael Creighton,Michael Creighton,Chris Stratford
-Corey Papinniemi,Matt Gammie,David Kerr,Matt Gammie,Matt Gammie,Gary Houschildt,Matt Gammie,Patrick Carter,Matt Gammie,allan bachmann
-Gary Houschildt,Sean Hortin,Sean Hortin,Michael Creighton,Sean Hortin,Cal Scotland,Sean Hortin,Nick Cambridge,nick bentley,Sean Hortin
-Patrick Carter,nick bentley,nick bentley,Joshua Maher,Darren Free,nick bentley,Deano matthews,nick bentley,nick bentley,Sean Hortin
-Michael Creighton,Darren Free,Deano matthews,Darren Free,Darren Free,nick bentley,Darren Free,Liam Lucas,Trent Denison,Darren Free
-Joshua Maher,Nick Cambridge,nick bentley,Joshua Maher,Joshua Maher,Conna Armstrong,Gary Den Otter,Joshua Maher,David Kerr,Joshua Maher
-Liam Lucas,Conna Armstrong,Patrick Carter,Liam Lucas,Michael Creighton,Liam Lucas,Darren Free,Liam Lucas,Cal Scotland,Liam Lucas
-Trent Denison,allan bachmann,Gary Houschildt,allan bachmann,David Kerr,allan bachmann,allan bachmann,Conna Armstrong,Matt Gammie,allan bachmann
-Chris Stratford,Nick Cambridge,Gary Houschildt,Chris Stratford,Michael Creighton,Chris Stratford
-Joshua Maher,Nick Cambridge,Nick Cambridge,Conna Armstrong,Chris Stratford,Nick Cambridge,Sean Hortin,Nick Cambridge,Deano matthews,Nick Cambridge
-Sean Hortin,Cal Scotland,tyler mcdonald,Cal Scotland,Cal Scotland,Liam Lucas
-Liam Lucas,Conna Armstrong,Nick Cambridge,Conna Armstrong,Joshua Maher,Conna Armstrong,allan bachmann,Conna Armstrong,tyler mcdonald,Conna Armstrong
+David Kerr,Gloomspite Gitz,4/0/1
+Gary Den Otter,Daughters Of Khaine,4/0/1
+tyler mcdonald,Blades of Khorne,4/0/1
+Corey Papinniemi,Maggotkin of Nurgle,4/0/1
+Deano matthews,Orruks,3/0/2
+Gary Houschildt,Legions of Nagash,3/0/2
+Patrick Carter,Kharadron Overlords,3/0/2
+Trent Denison,Ironjawz,3/0/2
+Michael Creighton,Everchosen,3/0/2
+Matt Gammie,Blades of Khorne,3/0/2
+Sean Hortin,Ironjawz,3/0/2
+nick bentley,Legion of Sacrament,2/0/3
+Darren Free,Maggotkin of Nurgle,2/0/3
+Joshua Maher,Maggotkin of Nurgle,2/0/3
+Liam Lucas,Gloomspite Gitz,1/0/4
+allan bachmann,Flesh Eater Courts,1/0/4
+Chris Stratford,Skaven,1/0/2
+Nick Cambridge,Seraphon,1/0/4
+Cal Scotland,Nighthaunt,1/0/2
+Conna Armstrong,Gloomspite Gitz,0/0/5

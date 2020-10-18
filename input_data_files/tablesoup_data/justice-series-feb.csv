@@ -1,37 +1,19 @@
-NEW_EVENT_TAG,Justice Series Feb,09-02-2019,5
-James Tinsdale,UNKNOWN_ARMY,0/0/0
-Jp Stevens,UNKNOWN_ARMY,0/0/0
-Kevin Gillett,UNKNOWN_ARMY,0/0/0
-Ian Ralph,UNKNOWN_ARMY,0/0/0
-Adrian Downey,UNKNOWN_ARMY,0/0/0
-Tom Fildes,UNKNOWN_ARMY,0/0/0
-Jack westaway,UNKNOWN_ARMY,0/0/0
-Andy Lampkin,UNKNOWN_ARMY,0/0/0
-Aaron Schofield,UNKNOWN_ARMY,0/0/0
-Michael Bennett,UNKNOWN_ARMY,0/0/0
-Hulsie,UNKNOWN_ARMY,0/0/0
-Sam Watson,UNKNOWN_ARMY,0/0/0
-Tom Lees,UNKNOWN_ARMY,0/0/0
-Jamescritchley,UNKNOWN_ARMY,0/0/0
-Eric Song,UNKNOWN_ARMY,0/0/0
-Aidan Clieve ,UNKNOWN_ARMY,0/0/0
-Craig Carlton,UNKNOWN_ARMY,0/0/0
-Luke Power,UNKNOWN_ARMY,0/0/0
-James Tinsdale,Andy Lampkin,James Tinsdale,Aidan Clieve,James Tinsdale,Jamescritchley
-Jp Stevens,Kevin Gillett,Jp Stevens,Aaron Schofield,Jp Stevens,Aidan Clieve
-Jp Stevens,Kevin Gillett,Kevin Gillett,Sam Watson,Kevin Gillett,Michael Bennett
-Ian Ralph,Jack westaway,Andy Lampkin,Ian Ralph,Ian Ralph,Luke Power
-Adrian Downey,Aidan Clieve,Adrian Downey,Tom Lees,Aaron Schofield,Adrian Downey
-Tom Fildes,Eric Song,Tom Fildes,Craig Carlton,Andy Lampkin,Tom Fildes
-Ian Ralph,Jack westaway,Jack westaway,Hulsie,Jack westaway,BYE
-James Tinsdale,Andy Lampkin,Andy Lampkin,Ian Ralph,Andy Lampkin,Tom Fildes
-Aaron Schofield,Hulsie,Jp Stevens,Aaron Schofield,Aaron Schofield,Adrian Downey
-Michael Bennett,Sam Watson,Michael Bennett,Luke Power,Kevin Gillett,Michael Bennett
-Aaron Schofield,Hulsie,Jack westaway,Hulsie,Hulsie,Eric Song
-Michael Bennett,Sam Watson,Kevin Gillett,Sam Watson,Sam Watson,Craig Carlton
-Tom Lees,Craig Carlton,Adrian Downey,Tom Lees
-Jamescritchley,Luke Power,Eric Song,Jamescritchley,James Tinsdale,Jamescritchley
-Tom Fildes,Eric Song,Eric Song,Jamescritchley,Hulsie,Eric Song
-Adrian Downey,Aidan Clieve,James Tinsdale,Aidan Clieve,Jp Stevens,Aidan Clieve
-Tom Lees,Craig Carlton,Tom Fildes,Craig Carlton,Sam Watson,Craig Carlton
-Jamescritchley,Luke Power,Michael Bennett,Luke Power,Ian Ralph,Luke Power
+NEW_EVENT_TAG,Justice Series Feb,09-02-2019,3
+James Tinsdale,Idoneth Deepkin,3/0/0
+Jp Stevens,Idoneth Deepkin,3/0/0
+Kevin Gillett,Maggotkin of Nurgle,2/0/1
+Ian Ralph,Stormcast Eternals,2/0/1
+Adrian Downey,Legions of Nagash,2/0/1
+Tom Fildes,Kharadron Overlords,2/0/1
+Jack westaway,Daemons Of Tzeentch,2/0/1
+Andy Lampkin,Moonclan Grots,2/0/1
+Aaron Schofield,Fyreslayers,2/0/1
+Michael Bennett,Blades of Khorne,2/0/1
+Hulsie,Ironjawz,1/0/2
+Sam Watson,Legions of Nagash,1/0/2
+Tom Lees,Idoneth Deepkin,1/0/1
+Jamescritchley,Moonclan Grots,1/0/2
+Eric Song,Stormcast Eternals,1/0/2
+Aidan Clieve,Maggotkin of Nurgle,0/0/3
+Craig Carlton,Ironjawz,0/0/3
+Luke Power,Sylvaneth,0/0/3

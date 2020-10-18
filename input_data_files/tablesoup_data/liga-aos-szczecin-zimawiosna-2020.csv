@@ -1,45 +1,23 @@
-NEW_EVENT_TAG,Liga AoS Szczecin zima-wiosna 2020,17-02-2020,5
-Mariusz Winnicki,-,5/0/0
-Jakub Golec,-,4/1/0
-Mateusz Eljasz,-,3/1/1
-Knrd Szmnski,-,4/0/1
-Kamil Kowalski,-,3/1/1
-Michal Cybulski,-,2/2/1
-Grzesiek Kowalczuk,-,2/1/2
-Michał Taraska,-,2/1/2
-Piotr Nowak,-,1/3/1
-Jer Ham,-,2/2/1
-Marcin Marciniak,-,2/0/3
-Tomasz Nowocień,-,1/3/1
-Grzegorz Szulc,-,1/2/2
-Miłosz Słupecki,-,2/0/1
-Rudy WSK,-,2/0/3
-Marcin Sobanda,-,1/1/3
-Seb Bes,-,1/0/4
-Krzysiek Słoń,-,1/1/3
-Patryk Komosa,-,1/0/4
+NEW_EVENT_TAG,Liga AoS Szczecin zima-wiosna 2020,17-02-2020,7
+Michal Cybulski,-,5/1/1
+Mariusz Winnicki,-,5/1/1
+Jakub Golec,-,4/2/0
+Mateusz Eljasz,-,4/1/1
+Kamil Kowalski,-,4/0/2
+Marcin Marciniak,-,4/0/3
+Knrd Szmnski,-,4/0/2
+Rudy WSK,-,4/0/3
+Miłosz Słupecki,-,3/1/1
+Jer Ham,-,2/3/2
+Grzesiek Kowalczuk,-,2/1/4
+Michał Taraska,-,2/1/3
+Tomasz Nowocień,-,1/4/1
+Piotr Nowak,-,1/3/2
+Marcin Sobanda,-,1/1/5
+Krzysiek Słoń,-,2/1/4
+Grzegorz Szulc,-,1/3/2
+Seb Bes,-,2/0/4
+Krzysztof Dębiński,-,1/2/4
+Patryk Komosa,-,1/0/5
 Piotr Romaniuk,-,1/1/1
-Krzysztof Dębiński,-,0/2/3
 Jędrzej Polaczek,-,0/0/3
-Mariusz Winnicki,Mateusz Eljasz,Mariusz Winnicki,Kamil Kowalski,Mariusz Winnicki,Grzesiek Kowalczuk,Mariusz Winnicki,Piotr Romaniuk,Mariusz Winnicki,Marcin Sobanda
-Jakub Golec,Rudy WSK,Jakub Golec,Michal Cybulski,Jakub Golec,Knrd Szmnski,Tomasz Nowocień,Jakub Golec,Jakub Golec,Marcin Marciniak
-Mariusz Winnicki,Mateusz Eljasz,Mateusz Eljasz,Marcin Marciniak,Michal Cybulski,Mateusz Eljasz,Mateusz Eljasz,BYE,Mateusz Eljasz,Piotr Nowak
-Knrd Szmnski,Rudy WSK,Knrd Szmnski,Marcin Marciniak,Jakub Golec,Knrd Szmnski,Knrd Szmnski,Krzysztof Dębiński,Knrd Szmnski,Krzysiek Słoń
-Michal Cybulski,Kamil Kowalski,Mariusz Winnicki,Kamil Kowalski,Kamil Kowalski,Rudy WSK,Kamil Kowalski,Grzegorz Szulc,Kamil Kowalski,Jer Ham
-Michal Cybulski,Kamil Kowalski,Jakub Golec,Michal Cybulski,Michal Cybulski,Mateusz Eljasz,Michal Cybulski,Grzesiek Kowalczuk,Michal Cybulski,Jędrzej Polaczek
-Grzesiek Kowalczuk,Tomasz Nowocień,Grzesiek Kowalczuk,Michał Taraska,Mariusz Winnicki,Grzesiek Kowalczuk,Michal Cybulski,Grzesiek Kowalczuk,Grzesiek Kowalczuk,Patryk Komosa
-Michał Taraska,Marcin Sobanda,Grzesiek Kowalczuk,Michał Taraska,Michał Taraska,Seb Bes,Marcin Marciniak,Michał Taraska,Tomasz Nowocień,Michał Taraska
-Piotr Nowak,Patryk Komosa,Marcin Sobanda,Piotr Nowak,Jer Ham,Piotr Nowak,Mateusz Eljasz,Piotr Nowak
-Jer Ham,Miłosz Słupecki,Tomasz Nowocień,Jer Ham,Jer Ham,Piotr Nowak,Jer Ham,Seb Bes,Kamil Kowalski,Jer Ham
-Knrd Szmnski,Marcin Marciniak,Mateusz Eljasz,Marcin Marciniak,Marcin Marciniak,Marcin Sobanda,Marcin Marciniak,Michał Taraska,Jakub Golec,Marcin Marciniak
-Grzesiek Kowalczuk,Tomasz Nowocień,Tomasz Nowocień,Jer Ham,Piotr Romaniuk,Tomasz Nowocień,Tomasz Nowocień,Jakub Golec,Tomasz Nowocień,Michał Taraska
-Grzegorz Szulc,Seb Bes,Miłosz Słupecki,Grzegorz Szulc,Grzegorz Szulc,Krzysztof Dębiński,Kamil Kowalski,Grzegorz Szulc
-Jer Ham,Miłosz Słupecki,Miłosz Słupecki,Grzegorz Szulc,Miłosz Słupecki,Krzysiek Słoń
-Jakub Golec,Rudy WSK,Knrd Szmnski,Rudy WSK,Kamil Kowalski,Rudy WSK,Rudy WSK,Krzysztof Dębiński,Rudy WSK,Krzysiek Słoń
-Michał Taraska,Marcin Sobanda,Marcin Sobanda,Piotr Nowak,Marcin Marciniak,Marcin Sobanda,Marcin Sobanda,Patryk Komosa,Mariusz Winnicki,Marcin Sobanda
-Grzegorz Szulc,Seb Bes,Seb Bes,Krzysztof Dębiński,Michał Taraska,Seb Bes,Jer Ham,Seb Bes,Piotr Romaniuk,Seb Bes
-Krzysiek Słoń,Krzysztof Dębiński,Krzysiek Słoń,Patryk Komosa,Miłosz Słupecki,Krzysiek Słoń,Rudy WSK,Krzysiek Słoń,Knrd Szmnski,Krzysiek Słoń
-Piotr Nowak,Patryk Komosa,Krzysiek Słoń,Patryk Komosa,Patryk Komosa,Jędrzej Polaczek,Marcin Sobanda,Patryk Komosa,Grzesiek Kowalczuk,Patryk Komosa
-Piotr Romaniuk,Tomasz Nowocień,Mariusz Winnicki,Piotr Romaniuk,Piotr Romaniuk,Seb Bes
-Krzysiek Słoń,Krzysztof Dębiński,Seb Bes,Krzysztof Dębiński,Grzegorz Szulc,Krzysztof Dębiński,Rudy WSK,Krzysztof Dębiński,Knrd Szmnski,Krzysztof Dębiński
-Patryk Komosa,Jędrzej Polaczek,BYE,Jędrzej Polaczek,Michal Cybulski,Jędrzej Polaczek

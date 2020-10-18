@@ -1,33 +1,17 @@
 NEW_EVENT_TAG,Warhammer Age of Sigmar: Northern Masters 2018,01-12-2018,5
-Nathan Watson,UNKNOWN_ARMY,0/0/0
-Leigh Martin,UNKNOWN_ARMY,0/0/0
-Adam Turner,UNKNOWN_ARMY,0/0/0
-Mike Callaghan,UNKNOWN_ARMY,0/0/0
-Krzysiek Witkowski ,UNKNOWN_ARMY,0/0/0
-Jp Ganis,UNKNOWN_ARMY,0/0/0
-Liam Watt,UNKNOWN_ARMY,0/0/0
-Paul Whitehead ,UNKNOWN_ARMY,0/0/0
-Duffy,UNKNOWN_ARMY,0/0/0
-David Nemeth (Loke),UNKNOWN_ARMY,0/0/0
-John B,UNKNOWN_ARMY,0/0/0
-John Craig,UNKNOWN_ARMY,0/0/0
-Stu West,UNKNOWN_ARMY,0/0/0
-Adam Rawson,UNKNOWN_ARMY,0/0/0
-Martin Swaffield,UNKNOWN_ARMY,0/0/0
-Lyndon Sinclair,UNKNOWN_ARMY,0/0/0
-Nathan Watson,Krzysiek Witkowski,Nathan Watson,Adam Turner,Nathan Watson,Mike Callaghan,Nathan Watson,Liam Watt,Nathan Watson,Martin Swaffield
-Leigh Martin,Jp Ganis,Leigh Martin,Martin Swaffield,Leigh Martin,Stu West,Mike Callaghan,Leigh Martin,Leigh Martin,Lyndon Sinclair
-Adam Turner,Mike Callaghan,Nathan Watson,Adam Turner,Adam Turner,Jp Ganis,Adam Turner,Stu West,Adam Turner,Adam Rawson
-Adam Turner,Mike Callaghan,Mike Callaghan,Adam Rawson,Nathan Watson,Mike Callaghan,Mike Callaghan,Leigh Martin,Mike Callaghan,John Craig
-Nathan Watson,Krzysiek Witkowski,Krzysiek Witkowski,Liam Watt,Krzysiek Witkowski,Graham Duffy,Jp Ganis,Krzysiek Witkowski,Krzysiek Witkowski,Paul Whitehead
-Leigh Martin,Jp Ganis,Jp Ganis,Paul Whitehead,Adam Turner,Jp Ganis,Jp Ganis,Krzysiek Witkowski,Jp Ganis,David Nemeth
-Liam Watt,John Bayliss,Krzysiek Witkowski,Liam Watt,Liam Watt,Adam Rawson,Nathan Watson,Liam Watt,Liam Watt,Graham Duffy
-Paul Whitehead,Graham Duffy,Jp Ganis,Paul Whitehead,Paul Whitehead,John Bayliss,Paul Whitehead,Lyndon Sinclair,Krzysiek Witkowski,Paul Whitehead
-Paul Whitehead,Graham Duffy,Graham Duffy,David Nemeth (Loke),Krzysiek Witkowski,Graham Duffy,Graham Duffy,John Craig,Liam Watt,Graham Duffy
-David Nemeth (Loke),Martin Swaffield,Graham Duffy,David Nemeth (Loke),David Nemeth (Loke),John Craig,John Bayliss,David Nemeth (Loke),Jp Ganis,David Nemeth
-Liam Watt,John Bayliss,John Bayliss,Lyndon Sinclair,Paul Whitehead,John Bayliss,John Bayliss,David Nemeth (Loke),Stu West,John Bayliss
-John Craig,Lyndon Sinclair,John Craig,Stu West,David Nemeth (Loke),John Craig,Graham Duffy,John Craig,Mike Callaghan,John Craig
-Stu West,Adam Rawson,John Craig,Stu West,Leigh Martin,Stu West,Adam Turner,Stu West,Stu West,John Bayliss
-Stu West,Adam Rawson,Mike Callaghan,Adam Rawson,Liam Watt,Adam Rawson,Adam Rawson,Martin Swaffield,Adam Turner,Adam Rawson
-David Nemeth (Loke),Martin Swaffield,Leigh Martin,Martin Swaffield,Martin Swaffield,Lyndon Sinclair,Adam Rawson,Martin Swaffield,Nathan Watson,Martin Swaffield
-John Craig,Lyndon Sinclair,John Bayliss,Lyndon Sinclair,Martin Swaffield,Lyndon Sinclair,Paul Whitehead,Lyndon Sinclair,Leigh Martin,Lyndon Sinclair
+Nathan Watson,Idoneth Deepkin,5/0/0
+Leigh Martin,Daughters Of Khaine,4/0/1
+Adam Turner,Stormcast Eternals,4/0/1
+Mike Callaghan,Stormcast Eternals,3/0/2
+Krzysiek Witkowski,Sylvaneth,3/0/2
+Jp Ganis,Legion of Sacrament,3/0/2
+Liam Watt,Legion of Sacrament,3/0/2
+Paul Whitehead,Order Draconis,3/0/2
+Duffy,Maggotkin of Nurgle,2/0/3
+David Nemeth (Loke),Blades of Khorne,2/0/3
+John B,Blades of Khorne,2/0/3
+John Craig,Daughters Of Khaine,2/0/3
+Stu West,Mixed,2/0/3
+Adam Rawson,Sylvaneth,1/0/4
+Martin Swaffield,Nighthaunt,1/0/4
+Lyndon Sinclair,Beastclaw Raiders,0/0/5

@@ -1,47 +1,24 @@
 NEW_EVENT_TAG,RISING SUN GT AOS 2019,14-09-2019,5
-Ethelite,UNKNOWN_ARMY,0/0/0
-Thomas Bell,UNKNOWN_ARMY,0/0/0
-Junnichiro Shiba,UNKNOWN_ARMY,0/0/0
-Antonio,UNKNOWN_ARMY,0/0/0
-James Bunting,UNKNOWN_ARMY,0/0/0
-Gilles Daquin,UNKNOWN_ARMY,0/0/0
-Daniel Myles,UNKNOWN_ARMY,0/0/0
-Ant Warren,UNKNOWN_ARMY,0/0/0
-Haga Takashi,UNKNOWN_ARMY,0/0/0
-Pham Anh Quoc,UNKNOWN_ARMY,0/0/0
-Yusuke Adachi,UNKNOWN_ARMY,0/0/0
-Katsumi Takahashi,UNKNOWN_ARMY,0/0/0
-Patrick Sampson,UNKNOWN_ARMY,0/0/0
-Mizuki Kawakita,UNKNOWN_ARMY,0/0/0
-Andy Collins,UNKNOWN_ARMY,0/0/0
-Daiki Takahashi,UNKNOWN_ARMY,0/0/0
-Pepo,UNKNOWN_ARMY,0/0/0
-Yoshihiro Wakita,UNKNOWN_ARMY,0/0/0
-Spanky,UNKNOWN_ARMY,0/0/0
-Shinji Nohara,UNKNOWN_ARMY,0/0/0
-Kyosuke Imura,UNKNOWN_ARMY,0/0/0
-Hikari Takahashi,UNKNOWN_ARMY,0/0/0
-Harrison Kendall,UNKNOWN_ARMY,0/0/0
-Ethelite,Junnichiro Shiba,Ethelite,Daniel Myles,Ethelite,Haga Takashi,Ethelite,Shinji Nohara,Ethelite,Ant Warren
-Thomas Bell,Daniel Myles,Thomas Bell,Ant Warren,Thomas Bell,Patrick Sampson,Thomas Bell,Pham Anh Quoc,Gilles Daquin,Thomas Bell
-Ethelite,Junnichiro Shiba,Junnichiro Shiba,Haga Takashi,Junnichiro Shiba,Yusuke Adachi,Junnichiro Shiba,Kyosuke Imura,Junnichiro Shiba,James Bunting
-Antonio,Gilles Daquin,Antonio,Yoshihiro Wakita,Antonio,Mizuki Kawakita,Haga Takashi,Antonio,Antonio,Pham Anh Quoc
-James Bunting,Mizuki Kawakita,James Bunting,Yusuke Adachi,Pepo,James Bunting,James Bunting,Katsumi Takahashi,Junnichiro Shiba,James Bunting
-Antonio,Gilles Daquin,Gilles Daquin,Pepo,Daniel Myles,Gilles Daquin,Gilles Daquin,Spanky,Gilles Daquin,Thomas Bell
-Thomas Bell,Daniel Myles,Ethelite,Daniel Myles,Daniel Myles,Gilles Daquin,Daniel Myles,Mizuki Kawakita,Daniel Myles,Harrison Kendall
-Ant Warren,Pepo,Thomas Bell,Ant Warren,Ant Warren,Shinji Nohara,Ant Warren,Hikari Takahashi,Ethelite,Ant Warren
-Haga Takashi,Katsumi Takahashi,Junnichiro Shiba,Haga Takashi,Ethelite,Haga Takashi,Haga Takashi,Antonio,Haga Takashi,Pepo
-Pham Anh Quoc,Patrick Sampson,Pham Anh Quoc,Shinji Nohara,Pham Anh Quoc,Hikari Takahashi,Thomas Bell,Pham Anh Quoc,Antonio,Pham Anh Quoc
-Yusuke Adachi,Shinji Nohara,James Bunting,Yusuke Adachi,Junnichiro Shiba,Yusuke Adachi,Yusuke Adachi,Yoshihiro Wakita,Kyosuke Imura,Yusuke Adachi
-Haga Takashi,Katsumi Takahashi,Katsumi Takahashi,Andy Collins,Katsumi Takahashi,Kyosuke Imura,James Bunting,Katsumi Takahashi,Yoshihiro Wakita,Katsumi Takahashi
-Pham Anh Quoc,Patrick Sampson,Patrick Sampson,Kyosuke Imura,Thomas Bell,Patrick Sampson,Patrick Sampson,Andy Collins,Mizuki Kawakita,Patrick Sampson
-James Bunting,Mizuki Kawakita,Mizuki Kawakita,Spanky,Antonio,Mizuki Kawakita,Daniel Myles,Mizuki Kawakita,Mizuki Kawakita,Patrick Sampson
-Andy Collins,Yoshihiro Wakita,Katsumi Takahashi,Andy Collins,Andy Collins,Harrison Kendall,Patrick Sampson,Andy Collins,Shinji Nohara,Andy Collins
-Daiki Takahashi,Spanky,Daiki Takahashi,Hikari Takahashi
-Ant Warren,Pepo,Gilles Daquin,Pepo,Pepo,James Bunting,Pepo,Harrison Kendall,Haga Takashi,Pepo
-Andy Collins,Yoshihiro Wakita,Antonio,Yoshihiro Wakita,Yoshihiro Wakita,Spanky,Yusuke Adachi,Yoshihiro Wakita,Yoshihiro Wakita,Katsumi Takahashi
-Daiki Takahashi,Spanky,Mizuki Kawakita,Spanky,Yoshihiro Wakita,Spanky,Gilles Daquin,Spanky,Spanky,Hikari Takahashi
-Yusuke Adachi,Shinji Nohara,Pham Anh Quoc,Shinji Nohara,Ant Warren,Shinji Nohara,Ethelite,Shinji Nohara,Shinji Nohara,Andy Collins
-Hikari Takahashi,Kyosuke Imura,Patrick Sampson,Kyosuke Imura,Katsumi Takahashi,Kyosuke Imura,Junnichiro Shiba,Kyosuke Imura,Kyosuke Imura,Yusuke Adachi
-Hikari Takahashi,Kyosuke Imura,Daiki Takahashi,Hikari Takahashi,Pham Anh Quoc,Hikari Takahashi,Ant Warren,Hikari Takahashi,Spanky,Hikari Takahashi
-Andy Collins,Harrison Kendall,Pepo,Harrison Kendall,Daniel Myles,Harrison Kendall
+Ethelite,Hosts of Slaanesh,5/0/0
+Thomas Bell,Ironjawz,4/0/1
+Junnichiro Shiba,Grand Host of Nagash,4/0/1
+Antonio,Nighthaunt,4/0/1
+James Bunting,Stormcast Eternals,3/0/2
+Gilles Daquin,Blades of Khorne,3/0/2
+Daniel Myles,Legion of Sacrament,3/0/2
+Ant Warren,Maggotkin of Nurgle,3/0/2
+Haga Takashi,Blades of Khorne,3/0/2
+Pham Anh Quoc,Sylvaneth,3/0/2
+Yusuke Adachi,Seraphon,2/0/3
+Katsumi Takahashi,Flesh Eater Courts,2/0/3
+Patrick Sampson,Sylvaneth,2/0/3
+Mizuki Kawakita,Skaven,2/0/3
+Andy Collins,Maggotkin of Nurgle,2/0/3
+Daiki Takahashi,Ironjawz,2/0/0
+Pepo,Stormcast Eternals,2/0/3
+Yoshihiro Wakita,Beastclaw Raiders,2/0/3
+Spanky,Seraphon,1/0/4
+Shinji Nohara,Idoneth Deepkin,1/0/4
+Kyosuke Imura,Stormcast Eternals,1/0/4
+Hikari Takahashi,Skaven,1/0/4
+Harrison Kendall,Nighthaunt,0/0/3

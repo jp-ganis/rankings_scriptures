@@ -1,33 +1,17 @@
-NEW_EVENT_TAG,AOS DECEMBER,16-12-2018,5
-Scott Norwood,UNKNOWN_ARMY,0/0/0
-Kieran Askins,UNKNOWN_ARMY,0/0/0
-Keith Williamson,UNKNOWN_ARMY,0/0/0
-nick ward,UNKNOWN_ARMY,0/0/0
-Nishan Aratoon,UNKNOWN_ARMY,0/0/0
-Ken Van't schip,UNKNOWN_ARMY,0/0/0
-Nathan Princi,UNKNOWN_ARMY,0/0/0
-Thomas Holdsworth,UNKNOWN_ARMY,0/0/0
-Samuel James O'Neill,UNKNOWN_ARMY,0/0/0
-Ashley McEwan,UNKNOWN_ARMY,0/0/0
-Jeff Nicholson,UNKNOWN_ARMY,0/0/0
-Deke J,UNKNOWN_ARMY,0/0/0
-Jesseurso,UNKNOWN_ARMY,0/0/0
-Brody B,UNKNOWN_ARMY,0/0/0
-Alex Aa,UNKNOWN_ARMY,0/0/0
-Ben Spinetti,UNKNOWN_ARMY,0/0/0
-Scott Norwood,Thomas Holdsworth,Scott Norwood,nick ward,Scott Norwood,Brody B
-Kieran Askins,Nathan Princi,Kieran Askins,Ken Vant schip,Kieran Askins,Ashley McEwan
-Keith Williamson,Samuel James ONeill,Nathan Princi,Keith Williamson,Keith Williamson,Alex Aa
-nick ward,Jeff Nicholson,Scott Norwood,nick ward,nick ward,Ben Spinetti
-Nishan Aratoon,Deke J,Nishan Aratoon,Ben Spinetti,Nathan Princi,Nishan Aratoon
-Ken Vant schip,Brody B,Kieran Askins,Ken Vant schip,Ken Vant schip,Jeff Nicholson
-Kieran Askins,Nathan Princi,Nathan Princi,Keith Williamson,Nathan Princi,Nishan Aratoon
-Scott Norwood,Thomas Holdsworth,Thomas Holdsworth,Samuel James ONeill,Thomas Holdsworth,Deke J
-Keith Williamson,Samuel James ONeill,Thomas Holdsworth,Samuel James ONeill,Samuel James ONeill,Jesseurso
-Ashley McEwan,Alex Aa,Jeff Nicholson,Ashley McEwan,Kieran Askins,Ashley McEwan
-nick ward,Jeff Nicholson,Jeff Nicholson,Ashley McEwan,Ken Vant schip,Jeff Nicholson
-Nishan Aratoon,Deke J,Deke J,Jesseurso,Thomas Holdsworth,Deke J
-Jesseurso,Ben Spinetti,Deke J,Jesseurso,Samuel James ONeill,Jesseurso
-Ken Vant schip,Brody B,Brody B,Alex Aa,Scott Norwood,Brody B
-Ashley McEwan,Alex Aa,Brody B,Alex Aa,Keith Williamson,Alex Aa
-Jesseurso,Ben Spinetti,Nishan Aratoon,Ben Spinetti,nick ward,Ben Spinetti
+NEW_EVENT_TAG,AOS DECEMBER,16-12-2018,3
+Scott Norwood,-,3/0/0
+Kieran Askins,-,3/0/0
+Keith Williamson,-,2/0/1
+nick ward,-,2/0/1
+Nishan Aratoon,-,2/0/1
+Ken Van't schip,-,2/0/1
+Nathan Princi,-,2/0/1
+Thomas Holdsworth,-,2/0/1
+Samuel James O'Neill,-,1/0/2
+Ashley McEwan,-,1/0/2
+Jeff Nicholson,-,1/0/2
+Deke J,-,1/0/2
+Jesseurso,-,1/0/2
+Brody B,-,1/0/2
+Alex Aa,-,0/0/3
+Ben Spinetti,-,0/0/3

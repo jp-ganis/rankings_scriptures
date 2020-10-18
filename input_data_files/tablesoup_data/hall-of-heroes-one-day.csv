@@ -1,33 +1,17 @@
-NEW_EVENT_TAG,Hall of Heroes - one day,07-07-2019,5
-Ben Spaghetti,UNKNOWN_ARMY,0/0/0
-Deke Johnstone ,UNKNOWN_ARMY,0/0/0
-Keith Williamson,UNKNOWN_ARMY,0/0/0
-Nick Ward,UNKNOWN_ARMY,0/0/0
-Nathan Princi,UNKNOWN_ARMY,0/0/0
-Gabriel Rached,UNKNOWN_ARMY,0/0/0
-Hayden Potter,UNKNOWN_ARMY,0/0/0
-Jett Griffiths,UNKNOWN_ARMY,0/0/0
-Ashley McEwan,UNKNOWN_ARMY,0/0/0
-Lachlan Cannard,UNKNOWN_ARMY,0/0/0
-Richard Hill,UNKNOWN_ARMY,0/0/0
-Phillip Hardy,UNKNOWN_ARMY,0/0/0
-Ben Wright,UNKNOWN_ARMY,0/0/0
-Rhys Richardson,UNKNOWN_ARMY,0/0/0
-Mitchell Hynes,UNKNOWN_ARMY,0/0/0
-Craig Anderson,UNKNOWN_ARMY,0/0/0
-Ben Spaghetti,Jett Griffiths,Ben Spaghetti,Richard Hill,Ben Spaghetti,Nick Ward
-Deke Johnstone,Nathan Princi,Deke Johnstone,Gabriel Rached,Deke Johnstone,Craig Anderson
-Keith Williamson,Rhys Richardson,Keith Williamson,Phillip Hardy,Ashley McEwan,Keith Williamson
-Nick Ward,Ashley McEwan,Nick Ward,Craig Anderson,Ben Spaghetti,Nick Ward
-Deke Johnstone,Nathan Princi,Nathan Princi,Lachlan Cannard,Nathan Princi,Mitchell Hynes
-Gabriel Rached,Ben Wright,Deke Johnstone,Gabriel Rached,Gabriel Rached,Rhys Richardson
-Hayden Potter,Lachlan Cannard,Hayden Potter,Mitchell Hynes,Jett Griffiths,Hayden Potter
-Ben Spaghetti,Jett Griffiths,Jett Griffiths,Ashley McEwan,Jett Griffiths,Hayden Potter
-Nick Ward,Ashley McEwan,Jett Griffiths,Ashley McEwan,Ashley McEwan,Keith Williamson
-Hayden Potter,Lachlan Cannard,Nathan Princi,Lachlan Cannard,Lachlan Cannard,Phillip Hardy
-Richard Hill,Mitchell Hynes,Ben Wright,Richard Hill,Ben Spaghetti,Richard Hill
-Phillip Hardy,Craig Anderson,Keith Williamson,Phillip Hardy,Lachlan Cannard,Phillip Hardy
-Gabriel Rached,Ben Wright,Ben Wright,Richard Hill,Rhys Richardson,Ben Wright
-Keith Williamson,Rhys Richardson,Rhys Richardson,Ben Wright,Gabriel Rached,Rhys Richardson
-Richard Hill,Mitchell Hynes,Hayden Potter,Mitchell Hynes,Nathan Princi,Mitchell Hynes
-Phillip Hardy,Craig Anderson,Nick Ward,Craig Anderson,Deke Johnstone,Craig Anderson
+NEW_EVENT_TAG,Hall of Heroes - one day,07-07-2019,3
+Ben Spaghetti,-,3/0/0
+Deke Johnstone,-,3/0/0
+Keith Williamson,-,2/0/1
+Nick Ward,-,2/0/1
+Nathan Princi,-,2/0/1
+Gabriel Rached,-,2/0/1
+Hayden Potter,-,2/0/1
+Jett Griffiths,-,2/0/1
+Ashley McEwan,-,1/0/2
+Lachlan Cannard,-,1/0/2
+Richard Hill,-,1/0/2
+Phillip Hardy,-,1/0/2
+Ben Wright,-,1/0/2
+Rhys Richardson,-,1/0/2
+Mitchell Hynes,-,0/0/3
+Craig Anderson,-,0/0/3

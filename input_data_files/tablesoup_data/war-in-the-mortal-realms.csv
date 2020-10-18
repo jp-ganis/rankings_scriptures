@@ -1,49 +1,25 @@
-NEW_EVENT_TAG,War in the Mortal Realms,26-01-2019,5
-LeoR,UNKNOWN_ARMY,0/0/0
-TL Low,UNKNOWN_ARMY,0/0/0
-Dan George,UNKNOWN_ARMY,0/0/0
-Maxime Julian,UNKNOWN_ARMY,0/0/0
-Chris Hibbins,UNKNOWN_ARMY,0/0/0
-James Grant,UNKNOWN_ARMY,0/0/0
-Adam Cunis,UNKNOWN_ARMY,0/0/0
-Alex Kew,UNKNOWN_ARMY,0/0/0
-John Burgess,UNKNOWN_ARMY,0/0/0
-Conor McNama,UNKNOWN_ARMY,0/0/0
-Hugh Halligan,UNKNOWN_ARMY,0/0/0
-marc wilson,UNKNOWN_ARMY,0/0/0
-Owen Jackson,UNKNOWN_ARMY,0/0/0
-Neil Samuels,UNKNOWN_ARMY,0/0/0
-Simon Fro,UNKNOWN_ARMY,0/0/0
-Tom Lambert,UNKNOWN_ARMY,0/0/0
-Nicholas Ruesink-Brown,UNKNOWN_ARMY,0/0/0
-Obaid Bin-Nasir ,UNKNOWN_ARMY,0/0/0
-Dave Carter,UNKNOWN_ARMY,0/0/0
-Ian Tong,UNKNOWN_ARMY,0/0/0
-Will Johnson,UNKNOWN_ARMY,0/0/0
-Tom Gilboy,UNKNOWN_ARMY,0/0/0
-Angus Brain,UNKNOWN_ARMY,0/0/0
-Michael wills,UNKNOWN_ARMY,0/0/0
-LeoR,James Grant,LeoR,John Burgess,LeoR,Chris Hibbins
-Teck Loy Low,HadrielCaine,Teck Loy Low,Alex Kew,Teck Loy Low,Nicholas Ruesink
-Dan George,Hugh Halligan,Dan George,Maxime Julian,Dan George,marc wilson
-Maxime Julian,Owen Jackson,Dan George,Maxime Julian,Maxime Julian,Conor McNama
-Chris Hibbins,Simon Fro,Chris Hibbins,Obaid Bin-Nasir,LeoR,Chris Hibbins
-LeoR,James Grant,James Grant,Ian Tong,James Grant,Tom Gilboy
-Teck Loy Low,HadrielCaine,HadrielCaine,Tom Lambert,HadrielCaine,Michael wills
-Alex Kew,Dave Carter,Teck Loy Low,Alex Kew,Alex Kew,Angus Brain
-John Burgess,Ian Tong,LeoR,John Burgess,John Burgess,Neil Samuels
-Conor McNama,Tom Lambert,Conor McNama,Nicholas Ruesink-Brown,Maxime Julian,Conor McNama
-Dan George,Hugh Halligan,Hugh Halligan,Owen Jackson,Hugh Halligan,Obaid Bin
-marc wilson,Will Johnson,marc wilson,Neil Samuels,Dan George,marc wilson
-Maxime Julian,Owen Jackson,Hugh Halligan,Owen Jackson,Owen Jackson,Simon Fro
-Neil Samuels,Tom Gilboy,marc wilson,Neil Samuels,John Burgess,Neil Samuels
-Chris Hibbins,Simon Fro,Simon Fro,Angus Brain,Owen Jackson,Simon Fro
-Conor McNama,Tom Lambert,HadrielCaine,Tom Lambert,Tom Lambert,Will Johnson
-Nicholas Ruesink-Brown,Angus Brain,Conor McNama,Nicholas Ruesink-Brown,Teck Loy Low,Nicholas Ruesink
-Obaid Bin-Nasir,Michael wills,Chris Hibbins,Obaid Bin-Nasir,Hugh Halligan,Obaid Bin
-Alex Kew,Dave Carter,Dave Carter,Michael wills,Ian Tong,Dave Carter
-John Burgess,Ian Tong,James Grant,Ian Tong,Ian Tong,Dave Carter
-marc wilson,Will Johnson,Will Johnson,Tom Gilboy,Tom Lambert,Will Johnson
-Neil Samuels,Tom Gilboy,Will Johnson,Tom Gilboy,James Grant,Tom Gilboy
-Nicholas Ruesink-Brown,Angus Brain,Simon Fro,Angus Brain,Alex Kew,Angus Brain
-Obaid Bin-Nasir,Michael wills,Dave Carter,Michael wills,HadrielCaine,Michael wills
+NEW_EVENT_TAG,War in the Mortal Realms,26-01-2019,3
+LeoR,Ironjawz,3/0/0
+TL Low,Legion of Sacrament,3/0/0
+Dan George,Hosts of Slaanesh,3/0/0
+Maxime Julian,Mixed,2/0/1
+Chris Hibbins,Maggotkin of Nurgle,2/0/1
+James Grant,Stormcast Eternals,2/0/1
+Adam Cunis,Order Draconis,2/0/1
+Alex Kew,Stormcast Eternals,2/0/1
+John Burgess,Blades of Khorne,2/0/1
+Conor McNama,Tzeentch Arcanites,2/0/1
+Hugh Halligan,Free Peoples,2/0/1
+marc wilson,Skaven,2/0/1
+Owen Jackson,Sylvaneth,1/0/2
+Neil Samuels,Hosts of Slaanesh,1/0/2
+Simon Fro,Bonesplitterz,1/0/2
+Tom Lambert,Grand Host of Nagash,1/0/2
+Nicholas Ruesink-Brown,Moonclan Grots,1/0/2
+Obaid Bin-Nasir,Stormcast Eternals,1/0/2
+Dave Carter,Tzeentch Arcanites,1/0/2
+Ian Tong,Nighthaunt,1/0/2
+Will Johnson,Blades of Khorne,1/0/2
+Tom Gilboy,Mixed,0/0/3
+Angus Brain,Beastclaw Raiders,0/0/3
+Michael wills,Order Draconis,0/0/3

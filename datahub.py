@@ -1,5 +1,7 @@
 from collections import defaultdict
 from datetime import datetime
+import db_check_aliases
+import achievement_hub
 import statistics
 import scipy.stats
 import shutil
@@ -57,7 +59,8 @@ def load_events_csv_file(file, oldest_date_string=None, newest_date_string=None)
 				elif row[0] == "Liam Watts": row[0] = "Liam Watt"
 				elif row[0] == "Rich Hudspith": row[0] = "Richard Hudspith"
 				
-				row[1] = row[1].replace('Of', 'of')
+				row[0] = db_check_aliases.predefined_aliases(row[0])
+				row[1] = db_check_aliases.predefined_faction_aliases(row[1])
 				##
 				
 				events[-1]["ladder"].append({"player_name":row[0], "faction":row[1]})
@@ -264,12 +267,11 @@ def populate_faction_deltas(faction_data, player_data):
 		faction_data[faction]["mean_delta"] = mean_delta
 		
 	return faction_data
-			
-	
+		
 if __name__ == '__main__':
 	update_specs = {}
-	update_specs["northern_rankings"] = {"input_folder": "input_data_files/northern_events", "output_folder": "output_data_files/northern_events", "cutoff_date": "1 Jan 2020" }
-	update_specs["uk_rankings"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/uk_events", "cutoff_date": "1 Jan 2019" }
+	update_specs["northern_rankings"] = {"input_folder": "input_data_files/northern_events", "output_folder": "output_data_files/northern_events", "cutoff_date": "1 Jan 2000" }
+	update_specs["uk_rankings"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/uk_events", "cutoff_date": "1 Jan 2000" }
 	update_specs["oce_rankings"] = {"input_folder": "input_data_files/oce_events", "output_folder": "output_data_files/oce_events", "cutoff_date": "1 Jan 2019" }
 	
 	update_specs["northern_rankings"]["metabreakers_folder"] = "metabreakers/data/northern_events"
@@ -280,7 +282,6 @@ if __name__ == '__main__':
 	update_specs["recent_events"] = {"input_folder": "input_data_files/uk_events", "output_folder": "output_data_files/recent_events", "cutoff_date": "1 Jun 2019"}
 	
 	update_specs["all_global_events"] = {"input_folder": "input_data_files/all_global_events", "output_folder": "output_data_files/all_global_events", "cutoff_date": "1 Jan 2000" }
-	
 	
 	# for rankings in update_specs:
 	for rankings in update_specs:
@@ -315,7 +316,7 @@ if __name__ == '__main__':
 		print("\nPopulating faction deltas...")
 		faction_data = populate_faction_deltas(faction_data, player_data)
 		
-		player_data = {k: v for k, v in sorted(player_data.items(), key=lambda item: item[1]["gaussian_score"], reverse=True)}	
+		player_data = {k: v for k, v in sorted(player_data.items(), key=lambda item: item[1]["gaussian_score"], reverse=True)}
 		
 		''' Output json files'''
 		with open(f'{output_folder}/datahub_player_data.json', 'w') as json_file:

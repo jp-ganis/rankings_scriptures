@@ -1,65 +1,33 @@
 NEW_EVENT_TAG,Brizhammer IV,30-08-2019,5
-Luke McFadden,UNKNOWN_ARMY,0/0/0
-Corey Papinniemi,UNKNOWN_ARMY,0/0/0
-Dan Corkran,UNKNOWN_ARMY,0/0/0
-Hayden Walker,UNKNOWN_ARMY,0/0/0
-Ryan Hooper,UNKNOWN_ARMY,0/0/0
-Nick Cambridge,UNKNOWN_ARMY,0/0/0
-Paul Jackson,UNKNOWN_ARMY,0/0/0
-Ken Sattler,UNKNOWN_ARMY,0/0/0
-Matt Hibble,UNKNOWN_ARMY,0/0/0
-Sean Horton,UNKNOWN_ARMY,0/0/0
-Joshua Maher,UNKNOWN_ARMY,0/0/0
-James Sharman,UNKNOWN_ARMY,0/0/0
-Jye Callanan,UNKNOWN_ARMY,0/0/0
-Jemma Shepherd,UNKNOWN_ARMY,0/0/0
-Matt Gammie,UNKNOWN_ARMY,0/0/0
-Jack Solomons,UNKNOWN_ARMY,0/0/0
-Tim Macdivitt,UNKNOWN_ARMY,0/0/0
-Tyler MacDonald,UNKNOWN_ARMY,0/0/0
-Anthony Magro,UNKNOWN_ARMY,0/0/0
-Matt Davis,UNKNOWN_ARMY,0/0/0
-Chris Willcox,UNKNOWN_ARMY,0/0/0
-Elisabeth Lockhart,UNKNOWN_ARMY,0/0/0
-Nick Bentley,UNKNOWN_ARMY,0/0/0
-Connor Armstrong ,UNKNOWN_ARMY,0/0/0
-Jess Thompson,UNKNOWN_ARMY,0/0/0
-Brodie Mortimer,UNKNOWN_ARMY,0/0/0
-Wes Graham,UNKNOWN_ARMY,0/0/0
-Jarrod Hamilton McLaren,UNKNOWN_ARMY,0/0/0
-Deano matthews,UNKNOWN_ARMY,0/0/0
-Davey Keegan,UNKNOWN_ARMY,0/0/0
-David Kerr,UNKNOWN_ARMY,0/0/0
-Cameron McCormack ,UNKNOWN_ARMY,0/0/0
-Luke McFadden,Corey Papinniemi,Luke McFadden,Nick Cambridge,Luke McFadden,Paul Jackson,Luke McFadden,Deano matthews,Luke McFadden,Connor Armstrong
-Luke McFadden,Corey Papinniemi,Corey Papinniemi,Ryan Hooper,Corey Papinniemi,Jack Solomons,Corey Papinniemi,Tyler MacDonald,Corey Papinniemi,Hayden Walker
-Dan Corkran,James Sharman,Dan Corkran,Jack Solomons,Ryan Hooper,Dan Corkran,Dan Corkran,Nick Bentley,Dan Corkran,Matt Hibble
-Hayden Walker,Ken Sattler,Hayden Walker,Jye Callanan,Hayden Walker,Elisabeth Lockhart,Hayden Walker,Cameron McCormack,Corey Papinniemi,Hayden Walker
-Ryan Hooper,Paul Jackson,Corey Papinniemi,Ryan Hooper,Ryan Hooper,Dan Corkran,Ryan Hooper,Wes Graham,Ryan Hooper,Matt Davis
-Nick Cambridge,Jack Solomons,Luke McFadden,Nick Cambridge,Nick Cambridge,David Kerr,Nick Cambridge,Joshua Maher,Nick Cambridge,Anthony Magro
-Ryan Hooper,Paul Jackson,Paul Jackson,Sean Horton,Luke McFadden,Paul Jackson,Paul Jackson,James Sharman,Paul Jackson,Ken Sattler
-Hayden Walker,Ken Sattler,Ken Sattler,David Kerr,Ken Sattler,Tim Macdivitt,Ken Sattler,Brodie Mortimer,Paul Jackson,Ken Sattler
-Matt Hibble,Tyler MacDonald,Matt Hibble,Wes Graham,James Sharman,Matt Hibble,Matt Hibble,Matt Davis,Dan Corkran,Matt Hibble
-Sean Horton,Matt Gammie,Paul Jackson,Sean Horton,Sean Horton,Wes Graham,Sean Horton,Jess Thompson,Jemma Shepherd,Sean Horton
-Joshua Maher,Connor Armstrong,James Sharman,Joshua Maher,Joshua Maher,Jarrod Hamilton McLaren,Nick Cambridge,Joshua Maher,Joshua Maher,Tim Macdivitt
-Dan Corkran,James Sharman,James Sharman,Joshua Maher,James Sharman,Matt Hibble,Paul Jackson,James Sharman,James Sharman,Brodie Mortimer
-Jye Callanan,Matt Davis,Hayden Walker,Jye Callanan,Jye Callanan,Tyler MacDonald,Jack Solomons,Jye Callanan,Jye Callanan,Matt Gammie
-Jemma Shepherd,David Kerr,Jemma Shepherd,Deano matthews,Jemma Shepherd,Sean Horton
-Sean Horton,Matt Gammie,Matt Gammie,Jarrod Hamilton McLaren,Nick Bentley,Matt Gammie,Matt Gammie,Chris Willcox,Jye Callanan,Matt Gammie
-Nick Cambridge,Jack Solomons,Dan Corkran,Jack Solomons,Corey Papinniemi,Jack Solomons,Jack Solomons,Jye Callanan,Jack Solomons,Cameron McCormack
-Tim Macdivitt,Brodie Mortimer,Tyler MacDonald,Tim Macdivitt,Ken Sattler,Tim Macdivitt,Tim Macdivitt,Anthony Magro,Joshua Maher,Tim Macdivitt
-Matt Hibble,Tyler MacDonald,Tyler MacDonald,Tim Macdivitt,Jye Callanan,Tyler MacDonald,Corey Papinniemi,Tyler MacDonald,Tyler MacDonald,Jarrod Hamilton McLaren
-Anthony Magro,Wes Graham,Matt Davis,Anthony Magro,Anthony Magro,Connor Armstrong,Tim Macdivitt,Anthony Magro,Nick Cambridge,Anthony Magro
-Jye Callanan,Matt Davis,Matt Davis,Anthony Magro,Matt Davis,Jess Thompson,Matt Hibble,Matt Davis,Ryan Hooper,Matt Davis
-Chris Willcox,Jarrod Hamilton McLaren,Connor Armstrong,Chris Willcox,Chris Willcox,Cameron McCormack,Matt Gammie,Chris Willcox,Nick Bentley,Chris Willcox
-Elisabeth Lockhart,David Kerr,Hayden Walker,Elisabeth Lockhart,Elisabeth Lockhart,Davey Keegan
-Nick Bentley,Matt Gammie,Dan Corkran,Nick Bentley,Nick Bentley,Chris Willcox
-Joshua Maher,Connor Armstrong,Connor Armstrong,Chris Willcox,Anthony Magro,Connor Armstrong,Jarrod Hamilton McLaren,Connor Armstrong,Luke McFadden,Connor Armstrong
-Jess Thompson,David Kerr,Brodie Mortimer,Jess Thompson,Matt Davis,Jess Thompson,Sean Horton,Jess Thompson,Deano matthews,Jess Thompson
-Tim Macdivitt,Brodie Mortimer,Brodie Mortimer,Jess Thompson,Davey Keegan,Brodie Mortimer,Ken Sattler,Brodie Mortimer,James Sharman,Brodie Mortimer
-Anthony Magro,Wes Graham,Matt Hibble,Wes Graham,Sean Horton,Wes Graham,Ryan Hooper,Wes Graham,Wes Graham,Davey Keegan
-Chris Willcox,Jarrod Hamilton McLaren,Matt Gammie,Jarrod Hamilton McLaren,Joshua Maher,Jarrod Hamilton McLaren,Jarrod Hamilton McLaren,Connor Armstrong,Tyler MacDonald,Jarrod Hamilton McLaren
-Jemma Shepherd,Deano matthews,Luke McFadden,Deano matthews,Deano matthews,Jess Thompson
-Davey Keegan,Brodie Mortimer,Elisabeth Lockhart,Davey Keegan,Wes Graham,Davey Keegan
-Jess Thompson,David Kerr,Ken Sattler,David Kerr,Elisabeth Lockhart,David Kerr,Jemma Shepherd,David Kerr,Nick Cambridge,David Kerr
-Chris Willcox,Cameron McCormack,Hayden Walker,Cameron McCormack,Jack Solomons,Cameron McCormack
+Luke McFadden,Idoneth Deepkin,5/0/0
+Corey Papinniemi,Skaven,4/0/1
+Dan Corkran,Disciples Of Tzeentch,4/0/1
+Hayden Walker,Hosts of Slaanesh,4/0/1
+Ryan Hooper,Hosts of Slaanesh,4/0/1
+Nick Cambridge,Daughters Of Khaine,4/0/1
+Paul Jackson,Maggotkin of Nurgle,3/0/2
+Ken Sattler,Flesh Eater Courts,3/0/2
+Matt Hibble,Sylvaneth,3/0/2
+Sean Horton,Ironjawz,3/0/2
+Joshua Maher,Legion of Sacrament,3/0/2
+James Sharman,Flesh Eater Courts,3/0/2
+Jye Callanan,Grand Host of Nagash,3/0/2
+Jemma Shepherd,Flesh Eater Courts,3/0/0
+Matt Gammie,Bonesplitterz,2/0/3
+Jack Solomons,Stormcast Eternals,2/0/3
+Tim Macdivitt,Nighthaunt,2/0/3
+Tyler MacDonald,Blades of Khorne,2/0/3
+Anthony Magro,Gloomspite Gitz,2/0/3
+Matt Davis,Sylvaneth,2/0/3
+Chris Willcox,Beasts of Chaos,2/0/3
+Elisabeth Lockhart,Skaven,2/0/1
+Nick Bentley,Nighthaunt,2/0/1
+Connor Armstrong,Dispossessed,1/0/4
+Jess Thompson,Seraphon,1/0/4
+Brodie Mortimer,Ironjawz,1/0/4
+Wes Graham,Kharadron Overlords,1/0/4
+Jarrod Hamilton McLaren,Nighthaunt,1/0/4
+Deano matthews,Mixed,1/0/2
+Davey Keegan,Nighthaunt,1/0/2
+David Kerr,Darkling Covens,0/0/5
+Cameron McCormack,Blades of Khorne,0/0/3

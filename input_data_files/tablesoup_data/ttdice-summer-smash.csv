@@ -1,33 +1,17 @@
-NEW_EVENT_TAG,TTDice Summer Smash,31-03-2019,5
-Michael Clarke,UNKNOWN_ARMY,0/0/0
-Benjamin Robert,UNKNOWN_ARMY,0/0/0
-Ion Zisu,UNKNOWN_ARMY,0/0/0
-Wade Mcdonald,UNKNOWN_ARMY,0/0/0
-Nathan Thompson,UNKNOWN_ARMY,0/0/0
-William Knight,UNKNOWN_ARMY,0/0/0
-Mark Yelverton,UNKNOWN_ARMY,0/0/0
-Mark Hanna,UNKNOWN_ARMY,0/0/0
-James Laird,UNKNOWN_ARMY,0/0/0
-Jared Mallegrom,UNKNOWN_ARMY,0/0/0
-Dan Brown,UNKNOWN_ARMY,0/0/0
-Ryan chamley,UNKNOWN_ARMY,0/0/0
-Fletcher Oldaker,UNKNOWN_ARMY,0/0/0
-Thomas Smart,UNKNOWN_ARMY,0/0/0
-Kingsley Muir,UNKNOWN_ARMY,0/0/0
-Roy Borg,UNKNOWN_ARMY,0/0/0
-Michael Clarke,Wade Mcdonald,Michael Clarke,Thomas Smart,Michael Clarke,Jared Mallegrom
-Benjamin Robert,William Knight,Benjamin Robert,Mark Hanna,Benjamin Robert,Nathan Thompson
-Ion Zisu,Jared Mallegrom,Wade Mcdonald,Ion Zisu,Ion Zisu,Roy Borg
-Michael Clarke,Wade Mcdonald,Wade Mcdonald,Ion Zisu,Wade Mcdonald,Fletcher Oldaker
-Nathan Thompson,Thomas Smart,Nathan Thompson,Kingsley Muir,Benjamin Robert,Nathan Thompson
-Benjamin Robert,William Knight,William Knight,Mark Yelverton,William Knight,Ryan chamley
-Mark Yelverton,James Laird,William Knight,Mark Yelverton,Mark Yelverton,Dan Brown
-Mark Hanna,Ryan chamley,Benjamin Robert,Mark Hanna,Mark Hanna,James Laird
-Mark Yelverton,James Laird,James Laird,Dan Brown,Mark Hanna,James Laird
-Ion Zisu,Jared Mallegrom,Jared Mallegrom,Fletcher Oldaker,Michael Clarke,Jared Mallegrom
-Dan Brown,Roy Borg,James Laird,Dan Brown,Mark Yelverton,Dan Brown
-Mark Hanna,Ryan chamley,Ryan chamley,Roy Borg,William Knight,Ryan chamley
-Fletcher Oldaker,Kingsley Muir,Jared Mallegrom,Fletcher Oldaker,Wade Mcdonald,Fletcher Oldaker
-Nathan Thompson,Thomas Smart,Michael Clarke,Thomas Smart,Thomas Smart,Kingsley Muir
-Fletcher Oldaker,Kingsley Muir,Nathan Thompson,Kingsley Muir,Thomas Smart,Kingsley Muir
-Dan Brown,Roy Borg,Ryan chamley,Roy Borg,Ion Zisu,Roy Borg
+NEW_EVENT_TAG,TTDice Summer Smash,31-03-2019,3
+Michael Clarke,-,3/0/0
+Benjamin Robert,-,3/0/0
+Ion Zisu,-,2/0/1
+Wade Mcdonald,-,2/0/1
+Nathan Thompson,-,2/0/1
+William Knight,-,2/0/1
+Mark Yelverton,-,2/0/1
+Mark Hanna,-,2/0/1
+James Laird,-,1/0/2
+Jared Mallegrom,-,1/0/2
+Dan Brown,-,1/0/2
+Ryan chamley,-,1/0/2
+Fletcher Oldaker,-,1/0/2
+Thomas Smart,-,1/0/2
+Kingsley Muir,-,0/0/3
+Roy Borg,-,0/0/3

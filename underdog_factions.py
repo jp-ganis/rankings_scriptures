@@ -106,10 +106,57 @@ def faction_determined_wins(matchup_data):
 	print(s,sx,s/sx)
 	print(len(seen))
 
+def big_faction_difference(matchup_data):
+	pelos = bpw.get_player_elos()
+	felos = bfw.get_faction_elos()
+	
+	print()
+	print()
+	print('-'*100)
+	print()
 
+	r=[]
+
+	for m in matchup_data:
+		p1,f1,p2,f2,windex = m
+		if f1 not in felos or f2 not in felos: continue 
+		
+		wp = [(p1,f1),(p2,f2)][windex]
+		lp = [(p1,f1),(p2,f2)][not windex]
+
+		wf = wp[1]
+		lf = lp[1]
+		wp = wp[0]
+		lp = lp[0]
+		
+		if abs(felos[wf].mu - felos[lf].mu) > felos[wf].mu * 0.4:
+			if felos[wf].mu > felos[lf].mu: r.append(1)
+			else:
+				r.append(0)
+				print(wf,lf)
+			
+	print(sum(r)/len(r))
+		
+		
 if __name__ == '__main__':
 	with open("output_data_files/tabletop_matchup_data.json", newline='', encoding='utf-8') as json_file:
 		matchup_data = json.load(json_file)
+		
+	with open("output_data_files/northern_events/datahub_player_data.json", newline='', encoding='utf-8') as json_file:
+		pdata = json.load(json_file)
+		
+	pelos = bpw.get_player_elos()
+	pelos = {k:v for k,v in sorted(pelos.items(), key=lambda i: i[1].mu, reverse=True)}
+	
+	
+	print('-'*100)
+	i=0
+	for p in pelos:
+		if p not in pdata and "Duca" not in p and "Andy" not in p: continue
+		# if len(pdata[p]["events"]) < 2: continue
+		i+=1
+		print(f'{i:5} {p:35} {int(pelos[p].mu)**2*5}')
 
-	get_underdog_factions(matchup_data)
-	faction_determined_wins(matchup_data)
+	# get_underdog_factions(matchup_data)
+	# faction_determined_wins(matchup_data)
+	# big_faction_difference(matchup_data)

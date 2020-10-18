@@ -1,45 +1,23 @@
 NEW_EVENT_TAG,Australian Age of Sigmar Masters,01-12-2018,5
-David Kerr,UNKNOWN_ARMY,0/0/0
-Matt Campbell,UNKNOWN_ARMY,0/0/0
-ChrisWelfare,UNKNOWN_ARMY,0/0/0
-Pat Nevan,UNKNOWN_ARMY,0/0/0
-Chris Tot,UNKNOWN_ARMY,0/0/0
-Scott Norwood,UNKNOWN_ARMY,0/0/0
-Michael Creighton,UNKNOWN_ARMY,0/0/0
-Dalton Copeland,UNKNOWN_ARMY,0/0/0
-Tim MacDivitt,UNKNOWN_ARMY,0/0/0
-Joel McGrath,UNKNOWN_ARMY,0/0/0
-Liam Burnett-Blue,UNKNOWN_ARMY,0/0/0
-Adam Burt,UNKNOWN_ARMY,0/0/0
-Ashley McEwan,UNKNOWN_ARMY,0/0/0
-Jemma Shepherd,UNKNOWN_ARMY,0/0/0
-Jesse Perkins,UNKNOWN_ARMY,0/0/0
-Thomas Holdsworth,UNKNOWN_ARMY,0/0/0
-Ethan McDonald,UNKNOWN_ARMY,0/0/0
-Rob Reimers,UNKNOWN_ARMY,0/0/0
-Luke Taylor ,UNKNOWN_ARMY,0/0/0
-Joshua Maher,UNKNOWN_ARMY,0/0/0
-Hayden Walker,UNKNOWN_ARMY,0/0/0
-Corey Ford,UNKNOWN_ARMY,0/0/0
-David Kerr,ChrisWelfare,David Kerr,Michael Creighton,David Kerr,Matt Campbell,David Kerr,Joel McGrath,David Kerr,Corey Ford
-Matt Campbell,Michael Creighton,Matt Campbell,Ethan McDonald,David Kerr,Matt Campbell,Matt Campbell,Chris Tot,Matt Campbell,Joshua Maher
-David Kerr,ChrisWelfare,ChrisWelfare,Ashley McEwan,ChrisWelfare,Hayden Walker,ChrisWelfare,Tim MacDivitt,ChrisWelfare,Jesse Perkins
-Pat Nevan,Liam Burnett-Blue,Pat Nevan,Hayden Walker,Pat Nevan,Rob Reimers,Pat Nevan,Corey Ford,Tim MacDivitt,Pat Nevan
-Chris Tot,Ashley McEwan,Adam Burt,Chris Tot,Chris Tot,Joel McGrath,Matt Campbell,Chris Tot,Chris Tot,Thomas Holdsworth
-Scott Norwood,Jesse Perkins,Scott Norwood,Jemma Shepherd,Ashley McEwan,Scott Norwood,Scott Norwood,Luke Taylor,Michael Creighton,Scott Norwood
-Matt Campbell,Michael Creighton,David Kerr,Michael Creighton,Michael Creighton,Ethan McDonald,Michael Creighton,Liam Burnett-Blue,Michael Creighton,Scott Norwood
-Dalton Copeland,Luke Taylor,Dalton Copeland,Corey Ford,Adam Burt,Dalton Copeland,Hayden Walker,Dalton Copeland,Dalton Copeland,Rob Reimers
-Tim MacDivitt,Ethan McDonald,Liam Burnett-Blue,Tim MacDivitt,Tim MacDivitt,Jesse Perkins,ChrisWelfare,Tim MacDivitt,Tim MacDivitt,Pat Nevan
-Joel McGrath,Adam Burt,Joel McGrath,Luke Taylor,Chris Tot,Joel McGrath,David Kerr,Joel McGrath,Joel McGrath,Ashley McEwan
-Pat Nevan,Liam Burnett-Blue,Liam Burnett-Blue,Tim MacDivitt,Liam Burnett-Blue,Jemma Shepherd,Michael Creighton,Liam Burnett-Blue,Liam Burnett-Blue,Hayden Walker
-Joel McGrath,Adam Burt,Adam Burt,Chris Tot,Adam Burt,Dalton Copeland,Adam Burt,Joshua Maher,Jemma Shepherd,Adam Burt
-Chris Tot,Ashley McEwan,ChrisWelfare,Ashley McEwan,Ashley McEwan,Scott Norwood,Ashley McEwan,Rob Reimers,Joel McGrath,Ashley McEwan
-Jemma Shepherd,Hayden Walker,Scott Norwood,Jemma Shepherd,Liam Burnett-Blue,Jemma Shepherd,Ethan McDonald,Jemma Shepherd,Jemma Shepherd,Adam Burt
-Scott Norwood,Jesse Perkins,Jesse Perkins,Joshua Maher,Tim MacDivitt,Jesse Perkins,Jesse Perkins,Thomas Holdsworth,ChrisWelfare,Jesse Perkins
-Thomas Holdsworth,Corey Ford,Thomas Holdsworth,Rob Reimers,Joshua Maher,Thomas Holdsworth,Jesse Perkins,Thomas Holdsworth,Chris Tot,Thomas Holdsworth
-Tim MacDivitt,Ethan McDonald,Matt Campbell,Ethan McDonald,Michael Creighton,Ethan McDonald,Ethan McDonald,Jemma Shepherd,Ethan McDonald,Luke Taylor
-Rob Reimers,Joshua Maher,Thomas Holdsworth,Rob Reimers,Pat Nevan,Rob Reimers,Ashley McEwan,Rob Reimers,Dalton Copeland,Rob Reimers
-Dalton Copeland,Luke Taylor,Joel McGrath,Luke Taylor,Luke Taylor,Corey Ford,Scott Norwood,Luke Taylor,Ethan McDonald,Luke Taylor
-Rob Reimers,Joshua Maher,Jesse Perkins,Joshua Maher,Joshua Maher,Thomas Holdsworth,Adam Burt,Joshua Maher,Matt Campbell,Joshua Maher
-Jemma Shepherd,Hayden Walker,Pat Nevan,Hayden Walker,ChrisWelfare,Hayden Walker,Hayden Walker,Dalton Copeland,Liam Burnett-Blue,Hayden Walker
-Thomas Holdsworth,Corey Ford,Dalton Copeland,Corey Ford,Luke Taylor,Corey Ford,Pat Nevan,Corey Ford,David Kerr,Corey Ford
+David Kerr,-,5/0/0
+Matt Campbell,-,4/0/1
+ChrisWelfare,-,4/0/1
+Pat Nevan,-,4/0/1
+Chris Tot,-,3/0/2
+Scott Norwood,-,3/0/2
+Michael Creighton,-,3/0/2
+Dalton Copeland,-,3/0/2
+Tim MacDivitt,-,3/0/2
+Joel McGrath,-,3/0/2
+Liam Burnett-Blue,-,3/0/2
+Adam Burt,-,3/0/2
+Ashley McEwan,-,2/0/3
+Jemma Shepherd,-,2/0/3
+Jesse Perkins,-,2/0/3
+Thomas Holdsworth,-,2/0/3
+Ethan McDonald,-,2/0/3
+Rob Reimers,-,1/0/4
+Luke Taylor,-,1/0/4
+Joshua Maher,-,1/0/4
+Hayden Walker,-,1/0/4
+Corey Ford,-,0/0/5

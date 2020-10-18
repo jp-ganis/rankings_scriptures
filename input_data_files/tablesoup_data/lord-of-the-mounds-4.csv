@@ -1,33 +1,17 @@
 NEW_EVENT_TAG,Lord of the Mounds 4,29-02-2020,5
-Andreas Raland,UNKNOWN_ARMY,0/0/0
-Sebastian Hedberg,UNKNOWN_ARMY,0/0/0
-Pontus Krontoft,UNKNOWN_ARMY,0/0/0
-Aron Törnqvist,UNKNOWN_ARMY,0/0/0
-Simon Selberg,UNKNOWN_ARMY,0/0/0
-Björn Malmborg,UNKNOWN_ARMY,0/0/0
-Abdullah Al-Hayali (Abbe),UNKNOWN_ARMY,0/0/0
-Linus Sjöström (thankee),UNKNOWN_ARMY,0/0/0
-Jesper melander,UNKNOWN_ARMY,0/0/0
-Jakob Oskarsson,UNKNOWN_ARMY,0/0/0
-Alex Öhlund,UNKNOWN_ARMY,0/0/0
-Martin Nilsson,UNKNOWN_ARMY,0/0/0
-Tomas Vifell ,UNKNOWN_ARMY,0/0/0
-Niklas jansson,UNKNOWN_ARMY,0/0/0
-Lillen Svensson,UNKNOWN_ARMY,0/0/0
-Niklas Trångteg Öhman ,UNKNOWN_ARMY,0/0/0
-Andreas Raland,Björn Malmborg,Andreas Raland,Sebastian Hedberg,Andreas Raland,Pontus Krontoft,Andreas Raland,Aron Törnqvist,Andreas Raland,Tomas Vifell
-Sebastian Hedberg,Aron Törnqvist,Sebastian Hedberg,Abdullah Al-Hayali (Abbe),Andreas Raland,Sebastian Hedberg,Sebastian Hedberg,Jesper melander,Sebastian Hedberg,Niklas jansson
-Pontus Krontoft,Jakob Oskarsson,Pontus Krontoft,Simon Selberg,Andreas Raland,Pontus Krontoft,Pontus Krontoft,Lillen Svensson,Pontus Krontoft,Linus Sjöström
-Sebastian Hedberg,Aron Törnqvist,Aron Törnqvist,Jesper melander,Aron Törnqvist,Abdullah Al-Hayali (Abbe),Andreas Raland,Aron Törnqvist,Aron Törnqvist,Alex Öhlund
-Simon Selberg,Alex Öhlund,Pontus Krontoft,Simon Selberg,Simon Selberg,Tomas Vifell,Simon Selberg,Martin Nilsson,Björn Malmborg,Simon Selberg
-Andreas Raland,Björn Malmborg,Björn Malmborg,Alex Öhlund,Björn Malmborg,Lillen Svensson,Jesper melander,Björn Malmborg,Björn Malmborg,Simon Selberg
-Abdullah Al-Hayali (Abbe),Niklas jansson,Sebastian Hedberg,Abdullah Al-Hayali (Abbe),Abdullah Al-Hayali (Abbe),Martin Nilsson,Aron Törnqvist,Abdullah Al-Hayali (Abbe),Abdullah Al-Hayali (Abbe),Niklas Trångteg Öhman
-Linus Sjöström (thankee),Jesper melander,Linus Sjöström (thankee),Lillen Svensson,Linus Sjöström (thankee),Niklas Trångteg Öhman,Alex Öhlund,Linus Sjöström (thankee),Pontus Krontoft,Linus Sjöström
-Linus Sjöström (thankee),Jesper melander,Aron Törnqvist,Jesper melander,Sebastian Hedberg,Jesper melander,Jesper melander,Björn Malmborg,Jesper melander,Martin Nilsson
-Pontus Krontoft,Jakob Oskarsson,Jakob Oskarsson,Tomas Vifell,Alex Öhlund,Jakob Oskarsson,Jakob Oskarsson,Niklas Trångteg Öhman,Lillen Svensson,Jakob Oskarsson
-Simon Selberg,Alex Öhlund,Björn Malmborg,Alex Öhlund,Alex Öhlund,Jakob Oskarsson,Alex Öhlund,Linus Sjöström (thankee),Aron Törnqvist,Alex Öhlund
-Martin Nilsson,Lillen Svensson,Martin Nilsson,Niklas jansson,Abdullah Al-Hayali (Abbe),Martin Nilsson,Simon Selberg,Martin Nilsson,Jesper melander,Martin Nilsson
-Tomas Vifell,Niklas Trångteg Öhman,Jakob Oskarsson,Tomas Vifell,Simon Selberg,Tomas Vifell,Tomas Vifell,Niklas jansson,Andreas Raland,Tomas Vifell
-Abdullah Al-Hayali (Abbe),Niklas jansson,Martin Nilsson,Niklas jansson,Niklas jansson,Niklas Trångteg Öhman,Tomas Vifell,Niklas jansson,Sebastian Hedberg,Niklas jansson
-Martin Nilsson,Lillen Svensson,Linus Sjöström (thankee),Lillen Svensson,Björn Malmborg,Lillen Svensson,Pontus Krontoft,Lillen Svensson,Lillen Svensson,Jakob Oskarsson
-Tomas Vifell,Niklas Trångteg Öhman,Niklas jansson,Niklas Trångteg Öhman,Linus Sjöström (thankee),Niklas Trångteg Öhman,Jakob Oskarsson,Niklas Trångteg Öhman,Abdullah Al-Hayali (Abbe),Niklas Trångteg Öhman
+Andreas Raland,Disciples Of Tzeentch,5/0/0
+Sebastian Hedberg,Slaves To Darkness,4/0/1
+Pontus Krontoft,Slaves To Darkness,4/0/1
+Aron Törnqvist,Maggotkin of Nurgle,3/0/2
+Simon Selberg,Stormcast Eternals,3/0/2
+Björn Malmborg,Ogor Mawtribes,3/0/2
+Abdullah Al-Hayali (Abbe),Gloomspite Gitz,3/0/2
+Linus Sjöström (thankee),Cities of Sigmar,3/0/2
+Jesper melander,Legion of Grief,2/0/3
+Jakob Oskarsson,Idoneth Deepkin,2/0/3
+Alex Öhlund,Slaves To Darkness,2/0/3
+Martin Nilsson,Orruks,2/0/3
+Tomas Vifell,Blades of Khorne,2/0/3
+Niklas jansson,Slaves To Darkness,1/0/4
+Lillen Svensson,Idoneth Deepkin,1/0/4
+Niklas Trångteg Öhman,Nighthaunt,0/0/5

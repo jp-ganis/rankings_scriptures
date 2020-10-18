@@ -42,7 +42,7 @@ def generate_matchup_file():
 	
 	max_pids = len(player_data)
 
-	cutoff_dates = [dp.parse('08-Jul-2020'), dp.parse('31-Dec-2025')]
+	cutoff_dates = [dp.parse('08-Jul-2000'), dp.parse('31-Dec-2025')]
 	if len(sys.argv) > 1: 
 		cutoff_dates = [dp.parse(sys.argv[1]), dp.parse(sys.argv[2])]
  

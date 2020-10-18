@@ -1,37 +1,19 @@
-NEW_EVENT_TAG,Imps ghb 2019,30-06-2019,5
-lindon wedgewood,UNKNOWN_ARMY,0/0/0
-Matthew pardeo,UNKNOWN_ARMY,0/0/0
-Joe jackson,UNKNOWN_ARMY,0/0/0
-Lee Bromley,UNKNOWN_ARMY,0/0/0
-Jonny Statham,UNKNOWN_ARMY,0/0/0
-Omar Valero,UNKNOWN_ARMY,0/0/0
-Dan Buchanan,UNKNOWN_ARMY,0/0/0
-greg chamberlain,UNKNOWN_ARMY,0/0/0
-Declan,UNKNOWN_ARMY,0/0/0
-sean ingham,UNKNOWN_ARMY,0/0/0
-Toby Meadows,UNKNOWN_ARMY,0/0/0
-Ross mason,UNKNOWN_ARMY,0/0/0
-sam sowersby,UNKNOWN_ARMY,0/0/0
-Louis Meadows,UNKNOWN_ARMY,0/0/0
-matt shepperton,UNKNOWN_ARMY,0/0/0
-Tom Morris,UNKNOWN_ARMY,0/0/0
-mike herbet,UNKNOWN_ARMY,0/0/0
-simon clifford,UNKNOWN_ARMY,0/0/0
-lindon wedgewood,greg chamberlain,lindon wedgewood,mike herbet
-Matthew pardeo,sam sowersby,Matthew pardeo,matt shepperton
-Joe jackson,Omar Valero,Joe jackson,Toby Meadows
-Lee Bromley,Jonny Statham,Lee Bromley,Declan
-Lee Bromley,Jonny Statham,Jonny Statham,Ross mason
-Joe jackson,Omar Valero,Omar Valero,sean ingham
-Dan Buchanan,Louis Meadows,sam sowersby,Dan Buchanan
-lindon wedgewood,greg chamberlain,greg chamberlain,simon clifford
-Declan,matt shepperton,Lee Bromley,Declan
-sean ingham,simon clifford,Omar Valero,sean ingham
-Toby Meadows,mike herbet,Joe jackson,Toby Meadows
-Ross mason,Tom Morris,Jonny Statham,Ross mason
-Matthew pardeo,sam sowersby,sam sowersby,Dan Buchanan
-Dan Buchanan,Louis Meadows,Louis Meadows,Tom Morris
-Declan,matt shepperton,Matthew pardeo,matt shepperton
-Ross mason,Tom Morris,Louis Meadows,Tom Morris
-Toby Meadows,mike herbet,lindon wedgewood,mike herbet
-sean ingham,simon clifford,greg chamberlain,simon clifford
+NEW_EVENT_TAG,Imps ghb 2019,30-06-2019,2
+lindon wedgewood,-,2/0/0
+Matthew pardeo,-,2/0/0
+Joe jackson,-,2/0/0
+Lee Bromley,-,2/0/0
+Jonny Statham,-,1/0/1
+Omar Valero,-,1/0/1
+Dan Buchanan,-,1/0/1
+greg chamberlain,-,1/0/1
+Declan,-,1/0/1
+sean ingham,-,1/0/1
+Toby Meadows,-,1/0/1
+Ross mason,-,1/0/1
+sam sowersby,-,1/0/1
+Louis Meadows,-,1/0/1
+matt shepperton,-,0/0/2
+Tom Morris,-,0/0/2
+mike herbet,-,0/0/2
+simon clifford,-,0/0/2

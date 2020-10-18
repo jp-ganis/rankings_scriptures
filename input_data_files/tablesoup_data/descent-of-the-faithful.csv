@@ -1,11 +1,11 @@
 NEW_EVENT_TAG,Descent Of The Faithful,25-01-2020,5
 Eric Hoerger,-,4/1/0
 Jack Mayland,-,4/0/1
-Aaron Walters ,-,4/0/1
+Aaron Walters,-,4/0/1
 Daniel Scott,-,4/0/1
 Mikey T,-,4/0/1
 Jamie White,-,4/0/1
-Daniel Biddle ,-,3/1/1
+Daniel Biddle,-,3/1/1
 NickPilgrim,-,3/0/2
 David Allan,-,3/0/2
 Michael Wilding,-,3/0/2
@@ -22,44 +22,12 @@ Jason Hodgkinson,-,2/0/3
 Jason Stanyer,-,2/0/3
 Gaz Ravenscroft,-,2/0/3
 Ceri  Robson,-,2/0/3
-Lee Downes ,-,3/0/2
+Lee Downes,-,3/0/2
 Alex Tooth,-,2/0/3
 Matt Crowther,-,2/0/3
 Tim Unwin,-,1/0/4
 Mark Pinnington,-,1/0/4
 Peter Thomas-Mcewen,-,1/0/4
 Matt Cooke,-,1/0/4
-Alex SG Johnson ,-,0/1/4
+Alex SG Johnson,-,0/1/4
 HarryHoldsworth,-,0/0/5
-Eric Hoerger,Daniel Scott,Eric Hoerger,Andy Bryan,Daniel Biddle,Eric Hoerger,Eric Hoerger,Jack Mayland,Eric Hoerger,Anthony Poole
-Jack Mayland,Daniel Biddle,Jack Mayland,NickPilgrim,Jack Mayland,HarryHoldsworth,Eric Hoerger,Jack Mayland,Jack Mayland,Anthony Boulton
-Aaron Walters,Anthony Boulton,Aaron Walters,Jason Hodgkinson,Aaron Walters,Peter Thomas-Mcewen,Daniel Scott,Aaron Walters,Aaron Walters,Matt Crowther
-Eric Hoerger,Daniel Scott,Daniel Scott,Jamie White,Daniel Scott,David Allan,Daniel Scott,Aaron Walters,Daniel Scott,Michael Wilding
-Mikey T,Alex Tooth,Mikey T,James Beeden,Mikey T,Kyle aspinall,David Allan,Mikey T,Mikey T,Rhys Bradshaw
-Jamie White,David Allan,Daniel Scott,Jamie White,Jamie White,Andy Bryan,Jamie White,Gareth Cosby,Jamie White,Tim Unwin
-Jack Mayland,Daniel Biddle,Daniel Biddle,James Beeden,Daniel Biddle,Eric Hoerger,Daniel Biddle,Jason Hodgkinson,Daniel Biddle,Matt Cooke
-NickPilgrim,Andy Bryan,Jack Mayland,NickPilgrim,NickPilgrim,Lee Downes,Alex Tooth,NickPilgrim,NickPilgrim,Mark Pinnington
-Jamie White,David Allan,David Allan,Andy Brown,Daniel Scott,David Allan,David Allan,Mikey T,David Allan,Kyle aspinall
-Michael Wilding,Jason Hodgkinson,Anthony Boulton,Michael Wilding,Michael Wilding,Gareth Cosby,Michael Wilding,Tim Unwin,Daniel Scott,Michael Wilding
-Andy Brown,Gaz Ravenscroft,David Allan,Andy Brown,Andy Brown,Ceri  Robson,Andy Bryan,Andy Brown,Andy Brown,Steven henderson
-Aaron Walters,Anthony Boulton,Anthony Boulton,Michael Wilding,Anthony Boulton,Rhys Bradshaw,Anthony Boulton,Steven henderson,Jack Mayland,Anthony Boulton
-Anthony Poole,Rhys Bradshaw,Anthony Poole,Ceri  Robson,Anthony Poole,Matt Crowther,Kyle aspinall,Anthony Poole,Eric Hoerger,Anthony Poole
-Kyle aspinall,Jason Stanyer,Kyle aspinall,Gareth Cosby,Mikey T,Kyle aspinall,Kyle aspinall,Anthony Poole,David Allan,Kyle aspinall
-Steven henderson,Alex Tooth,Steven henderson,HarryHoldsworth,Steven henderson,Matt Cooke,Anthony Boulton,Steven henderson,Andy Brown,Steven henderson
-Mikey T,James Beeden,Daniel Biddle,James Beeden,James Beeden,Alex Tooth,James Beeden,Matt Cooke
-NickPilgrim,Andy Bryan,Eric Hoerger,Andy Bryan,Jamie White,Andy Bryan,Andy Bryan,Andy Brown,Andy Bryan,Gaz Ravenscroft
-Gareth Cosby,Matt Cooke,Kyle aspinall,Gareth Cosby,Michael Wilding,Gareth Cosby,Jamie White,Gareth Cosby,Gareth Cosby,Peter Thomas
-Anthony Poole,Rhys Bradshaw,Rhys Bradshaw,Lee Downes,Anthony Boulton,Rhys Bradshaw,Rhys Bradshaw,Jason Stanyer,Mikey T,Rhys Bradshaw
-Michael Wilding,Jason Hodgkinson,Aaron Walters,Jason Hodgkinson,Jason Hodgkinson,Gaz Ravenscroft,Daniel Biddle,Jason Hodgkinson,Jason Hodgkinson,Ceri  Robson
-Kyle aspinall,Jason Stanyer,Jason Stanyer,Peter Thomas-Mcewen,Jason Stanyer,Alex SG Johnson,Rhys Bradshaw,Jason Stanyer,Lee Downes,Jason Stanyer
-Andy Brown,Gaz Ravenscroft,Gaz Ravenscroft,Tim Unwin,Jason Hodgkinson,Gaz Ravenscroft,Gaz Ravenscroft,HarryHoldsworth,Andy Bryan,Gaz Ravenscroft
-Ceri  Robson,Peter Thomas-Mcewen,Anthony Poole,Ceri  Robson,Andy Brown,Ceri  Robson,Ceri  Robson,Matt Crowther,Jason Hodgkinson,Ceri  Robson
-Lee Downes,Tim Unwin,Rhys Bradshaw,Lee Downes,NickPilgrim,Lee Downes,Lee Downes,Alex SG Johnson,Lee Downes,Jason Stanyer
-Mikey T,Alex Tooth,Steven henderson,Alex Tooth,James Beeden,Alex Tooth,Alex Tooth,NickPilgrim,Alex Tooth,HarryHoldsworth
-Matt Crowther,HarryHoldsworth,Matt Crowther,Mark Pinnington,Anthony Poole,Matt Crowther,Ceri  Robson,Matt Crowther,Aaron Walters,Matt Crowther
-Lee Downes,Tim Unwin,Gaz Ravenscroft,Tim Unwin,Tim Unwin,Mark Pinnington,Michael Wilding,Tim Unwin,Jamie White,Tim Unwin
-Mark Pinnington,Alex SG Johnson,Matt Crowther,Mark Pinnington,Tim Unwin,Mark Pinnington,Peter Thomas-Mcewen,Mark Pinnington,NickPilgrim,Mark Pinnington
-Ceri  Robson,Peter Thomas-Mcewen,Jason Stanyer,Peter Thomas-Mcewen,Aaron Walters,Peter Thomas-Mcewen,Peter Thomas-Mcewen,Mark Pinnington,Gareth Cosby,Peter Thomas
-Gareth Cosby,Matt Cooke,Matt Cooke,Alex SG Johnson,Steven henderson,Matt Cooke,James Beeden,Matt Cooke,Daniel Biddle,Matt Cooke
-Mark Pinnington,Alex SG Johnson,Matt Cooke,Alex SG Johnson,Jason Stanyer,Alex SG Johnson,Lee Downes,Alex SG Johnson
-Matt Crowther,HarryHoldsworth,Steven henderson,HarryHoldsworth,Jack Mayland,HarryHoldsworth,Gaz Ravenscroft,HarryHoldsworth,Alex Tooth,HarryHoldsworth

@@ -3,7 +3,7 @@ Nathan Watson,Ogor Mawtribes,5/0/0
 Jp Ganis,Disciples Of Tzeentch,4/0/1
 Leigh Martin,Disciples Of Tzeentch,4/0/1
 John B,Disciples Of Tzeentch,4/0/1
-Simon Fitzpatrick ,Hosts of Slaanesh,4/0/1
+Simon Fitzpatrick,Hosts of Slaanesh,4/0/1
 Rich Hudspith,Sylvaneth,4/0/1
 David Jack,Ossiarch Bonereapers,4/0/1
 James Chalmers,Disciples Of Tzeentch,4/0/1
@@ -21,7 +21,7 @@ Dan Ryan,Hallowheart,3/0/2
 John Craig,Maggotkin of Nurgle,3/0/2
 MATTR,Fyreslayers,2/0/3
 Kevin Low,Daughters Of Khaine,2/0/3
-Paul Di Duca ,Idoneth Deepkin,2/0/3
+Paul Di Duca,Idoneth Deepkin,2/0/3
 Jamie McHugh,Stormcast Eternals,2/0/3
 Alan Mandelson,Beasts of Chaos,2/0/3
 Aiden mckenna,Ogor Mawtribes,2/0/3
@@ -43,47 +43,3 @@ Gary Pollock,Blades of Khorne,1/0/4
 Mark Kittle,Ogor Mawtribes,1/0/4
 Adam Rawson,Skaven,1/0/4
 Sam Pett,Skaven,0/0/5
-Nathan Watson,Jp Ganis,Nathan Watson,Simon Fitzpatrick,Nathan Watson,Leigh Martin,Nathan Watson,Iain Hunter,Nathan Watson,Mark Kittle
-Nathan Watson,Jp Ganis,Jp Ganis,David Jack,Jp Ganis,John B,Jp Ganis,Andrew Stephen,Jp Ganis,Will Pollock
-Leigh Martin,James Chalmers,Leigh Martin,MATTR,Nathan Watson,Leigh Martin,Leigh Martin,Rich Hudspith,Leigh Martin,Jamie McHugh
-John B,Liam Watt,John B,Matt Harrison,Jp Ganis,John B,John B,Paul Di Duca,John B,Garry Marshall
-Simon Fitzpatrick,Stu West,Nathan Watson,Simon Fitzpatrick,Simon Fitzpatrick,Mike Callaghan,Simon Fitzpatrick,Adam Turner,Simon Fitzpatrick,Martin Swaffield
-Rich Hudspith,Callum Sinclair,Rich Hudspith,David Nemeth (Loke),Rich Hudspith,Adam Martin,Leigh Martin,Rich Hudspith,Rich Hudspith,Alan Mandelson
-David Jack,Mike Callaghan,Jp Ganis,David Jack,David Jack,Stu West,David Jack,Kevin Low,David Jack,Jack Carruthers
-Leigh Martin,James Chalmers,James Chalmers,Dan Ryan,James Chalmers,Aiden mckenna,James Chalmers,Craig Graham,James Chalmers,MATTR
-Adam Turner,Dan Ryan,Adam Turner,Craig Graham,Adam Turner,Alastair Maxwell,Simon Fitzpatrick,Adam Turner,Adam Turner,Matt Harrison
-David Jack,Mike Callaghan,Mike Callaghan,John Craig,Simon Fitzpatrick,Mike Callaghan,Mike Callaghan,Callum Sinclair,Mike Callaghan,Sean Mckechnie
-Alastair Maxwell,Kevin Low,Alastair Maxwell,Iain Hunter,Adam Turner,Alastair Maxwell,Dan Ryan,Alastair Maxwell,Alastair Maxwell,Johnny Forde
-Matt Harrison,Jamie McHugh,John B,Matt Harrison,Matt Harrison,Iain Hunter,Matt Harrison,Martin Swaffield,Adam Turner,Matt Harrison
-David Nemeth (Loke),MATTR,Rich Hudspith,David Nemeth (Loke),David Nemeth (Loke),Andrew Stephen,David Nemeth (Loke),Adam Rawson,Liam Watt,David Nemeth
-John B,Liam Watt,Liam Watt,Paul Di Duca,Dan Ryan,Liam Watt,Liam Watt,Grant Fraser,Liam Watt,David Nemeth
-Martin Swaffield,Paul Di Duca,Martin Swaffield,Lyndon Sinclair,Martin Swaffield,Mark Storrar,Matt Harrison,Martin Swaffield,Simon Fitzpatrick,Martin Swaffield
-Craig Graham,Jack Carruthers,Adam Turner,Craig Graham,Craig Graham,Johnny Forde,James Chalmers,Craig Graham,Craig Graham,Mark Storrar
-Adam Martin,Aiden mckenna,Adam Martin,Adam Rawson,Rich Hudspith,Adam Martin,Stu West,Adam Martin,Adam Martin,Gary Pollock
-Simon Fitzpatrick,Stu West,Stu West,Kevin Low,David Jack,Stu West,Stu West,Adam Martin,Stu West,Adam Rawson
-Adam Turner,Dan Ryan,James Chalmers,Dan Ryan,Dan Ryan,Liam Watt,Dan Ryan,Alastair Maxwell,Dan Ryan,Aiden mckenna
-John Craig,Will Pollock,Mike Callaghan,John Craig,John Craig,Jamie McHugh,John Craig,Gary Pollock,Callum Sinclair,John Craig
-David Nemeth (Loke),MATTR,Leigh Martin,MATTR,MATTR,Grant Fraser,MATTR,Mark Storrar,James Chalmers,MATTR
-Alastair Maxwell,Kevin Low,Stu West,Kevin Low,Kevin Low,Sean Mckechnie,David Jack,Kevin Low,Kevin Low,Erik Bews
-Martin Swaffield,Paul Di Duca,Liam Watt,Paul Di Duca,Paul Di Duca,Garry Marshall,John B,Paul Di Duca,Paul Di Duca,Sam Pett
-Matt Harrison,Jamie McHugh,Jamie McHugh,Grant Fraser,John Craig,Jamie McHugh,Jamie McHugh,Alan Mandelson,Leigh Martin,Jamie McHugh
-Alan Mandelson,Mark Roberts,Alan Mandelson,Sam Pett,Erik Bews,Alan Mandelson,Jamie McHugh,Alan Mandelson,Rich Hudspith,Alan Mandelson
-Adam Martin,Aiden mckenna,Aiden mckenna,Mark Roberts,James Chalmers,Aiden mckenna,Aiden mckenna,Johnny Forde,Dan Ryan,Aiden mckenna
-Johnny Forde,Garry Marshall,Johnny Forde,Mark Storrar,Craig Graham,Johnny Forde,Aiden mckenna,Johnny Forde,Alastair Maxwell,Johnny Forde
-Kat Fekete,Mark Kittle,Kat Fekete,Gary Pollock,Jack Carruthers,Kat Fekete,Will Pollock,Kat Fekete,Andrew Stephen,Kat Fekete
-Rich Hudspith,Callum Sinclair,Callum Sinclair,Will Pollock,Callum Sinclair,Mark Kittle,Mike Callaghan,Callum Sinclair,Callum Sinclair,John Craig
-Lyndon Sinclair,Sean Mckechnie,Martin Swaffield,Lyndon Sinclair,Will Pollock,Lyndon Sinclair,Lyndon Sinclair,Jack Carruthers,Iain Hunter,Lyndon Sinclair
-Andrew Stephen,Erik Bews,Erik Bews,Sean Mckechnie,Erik Bews,Alan Mandelson,Mark Kittle,Erik Bews,Kevin Low,Erik Bews
-John Craig,Will Pollock,Callum Sinclair,Will Pollock,Will Pollock,Lyndon Sinclair,Will Pollock,Kat Fekete,Jp Ganis,Will Pollock
-Andrew Stephen,Erik Bews,Andrew Stephen,Mark Kittle,David Nemeth (Loke),Andrew Stephen,Jp Ganis,Andrew Stephen,Andrew Stephen,Kat Fekete
-Craig Graham,Jack Carruthers,Jack Carruthers,Garry Marshall,Jack Carruthers,Kat Fekete,Lyndon Sinclair,Jack Carruthers,David Jack,Jack Carruthers
-Mark Storrar,Adam Rawson,Johnny Forde,Mark Storrar,Martin Swaffield,Mark Storrar,MATTR,Mark Storrar,Craig Graham,Mark Storrar
-Iain Hunter,Grant Fraser,Alastair Maxwell,Iain Hunter,Matt Harrison,Iain Hunter,Nathan Watson,Iain Hunter,Iain Hunter,Lyndon Sinclair
-Alan Mandelson,Mark Roberts,Aiden mckenna,Mark Roberts,Mark Roberts,Gary Pollock,Sean Mckechnie,Mark Roberts,Grant Fraser,Mark Roberts
-Iain Hunter,Grant Fraser,Jamie McHugh,Grant Fraser,MATTR,Grant Fraser,Liam Watt,Grant Fraser,Grant Fraser,Mark Roberts
-Lyndon Sinclair,Sean Mckechnie,Erik Bews,Sean Mckechnie,Kevin Low,Sean Mckechnie,Sean Mckechnie,Mark Roberts,Mike Callaghan,Sean Mckechnie
-Johnny Forde,Garry Marshall,Jack Carruthers,Garry Marshall,Paul Di Duca,Garry Marshall,Garry Marshall,Sam Pett,John B,Garry Marshall
-Gary Pollock,Sam Pett,Kat Fekete,Gary Pollock,Mark Roberts,Gary Pollock,John Craig,Gary Pollock,Adam Martin,Gary Pollock
-Kat Fekete,Mark Kittle,Andrew Stephen,Mark Kittle,Callum Sinclair,Mark Kittle,Mark Kittle,Erik Bews,Nathan Watson,Mark Kittle
-Mark Storrar,Adam Rawson,Adam Martin,Adam Rawson,Adam Rawson,Sam Pett,David Nemeth (Loke),Adam Rawson,Stu West,Adam Rawson
-Gary Pollock,Sam Pett,Alan Mandelson,Sam Pett,Adam Rawson,Sam Pett,Garry Marshall,Sam Pett,Paul Di Duca,Sam Pett

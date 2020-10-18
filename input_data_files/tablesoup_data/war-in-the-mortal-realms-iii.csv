@@ -1,49 +1,25 @@
-NEW_EVENT_TAG,War in the Mortal Realms III,16-03-2019,5
-Benjamin Savva,UNKNOWN_ARMY,0/0/0
-Adam Cunis,UNKNOWN_ARMY,0/0/0
-Owen Jackson,UNKNOWN_ARMY,0/0/0
-Karl Breakspear,UNKNOWN_ARMY,0/0/0
-Matthew Gouldesbrough,UNKNOWN_ARMY,0/0/0
-Phil Andreev,UNKNOWN_ARMY,0/0/0
-Jake Powis,UNKNOWN_ARMY,0/0/0
-Michael wills,UNKNOWN_ARMY,0/0/0
-Lee Whitely ,UNKNOWN_ARMY,0/0/0
-Andy Green,UNKNOWN_ARMY,0/0/0
-Simon Fro,UNKNOWN_ARMY,0/0/0
-John Burgess,UNKNOWN_ARMY,0/0/0
-Alasdair Hutchinson,UNKNOWN_ARMY,0/0/0
-James Grant,UNKNOWN_ARMY,0/0/0
-Ian Tong,UNKNOWN_ARMY,0/0/0
-Ben Gomm,UNKNOWN_ARMY,0/0/0
-Dave carter,UNKNOWN_ARMY,0/0/0
-Alex Ley,UNKNOWN_ARMY,0/0/0
-Ming Leu,UNKNOWN_ARMY,0/0/0
-Matthew walker,UNKNOWN_ARMY,0/0/0
-Tom Gilboy,UNKNOWN_ARMY,0/0/0
-Sebastian Del Monte,UNKNOWN_ARMY,0/0/0
-Murillo Titon de Souza,UNKNOWN_ARMY,0/0/0
-Hugh Wyeth,UNKNOWN_ARMY,0/0/0
-Benjamin Savva,Lee Whitely,Benjamin Savva,Karl Breakspear,Benjamin Savva,Dave carter
-HadrielCaine,Matthew Gouldesbrough,HadrielCaine,Alasdair Hutchinson,HadrielCaine,James Grant
-Owen Jackson,Andy Green,Owen Jackson,John Burgess,Owen Jackson,Jake Powis
-Karl Breakspear,Ian Tong,Benjamin Savva,Karl Breakspear,Karl Breakspear,Phil Andreev
-HadrielCaine,Matthew Gouldesbrough,Matthew Gouldesbrough,Alex Ley,Matthew Gouldesbrough,Ben Gomm
-Phil Andreev,Alex Ley,Phil Andreev,Ben Gomm,Karl Breakspear,Phil Andreev
-Jake Powis,Dave carter,Jake Powis,Murillo Titon de Souza,Owen Jackson,Jake Powis
-Michael wills,Ming Leu,Michael wills,Sebastian Del Monte,John Burgess,Michael wills
-Benjamin Savva,Lee Whitely,Lee Whitely,Ming Leu,Lee Whitely,Sebastian Del Monte
-Owen Jackson,Andy Green,Andy Green,Simon Fro,Andy Green,Tom Gilboy
-Simon Fro,Alasdair Hutchinson,Andy Green,Simon Fro,Simon Fro,Ian Tong
-John Burgess,Tom Gilboy,Owen Jackson,John Burgess,John Burgess,Michael wills
-Simon Fro,Alasdair Hutchinson,HadrielCaine,Alasdair Hutchinson,Alasdair Hutchinson,Hugh Wyeth
-James Grant,Murillo Titon de Souza,Tom Gilboy,James Grant,HadrielCaine,James Grant
-Karl Breakspear,Ian Tong,Ian Tong,Matthew walker,Simon Fro,Ian Tong
-Ben Gomm,Sebastian Del Monte,Phil Andreev,Ben Gomm,Matthew Gouldesbrough,Ben Gomm
-Jake Powis,Dave carter,Dave carter,Hugh Wyeth,Benjamin Savva,Dave carter
-Phil Andreev,Alex Ley,Matthew Gouldesbrough,Alex Ley,Alex Ley,Matthew walker
-Michael wills,Ming Leu,Lee Whitely,Ming Leu,Ming Leu,Murillo Titon de Souza
-Matthew walker,Hugh Wyeth,Ian Tong,Matthew walker,Alex Ley,Matthew walker
-John Burgess,Tom Gilboy,Tom Gilboy,James Grant,Andy Green,Tom Gilboy
-Ben Gomm,Sebastian Del Monte,Michael wills,Sebastian Del Monte,Lee Whitely,Sebastian Del Monte
-James Grant,Murillo Titon de Souza,Jake Powis,Murillo Titon de Souza,Ming Leu,Murillo Titon de Souza
-Matthew walker,Hugh Wyeth,Dave carter,Hugh Wyeth,Alasdair Hutchinson,Hugh Wyeth
+NEW_EVENT_TAG,War in the Mortal Realms III,16-03-2019,3
+Benjamin Savva,Nighthaunt,3/0/0
+Adam Cunis,Mixed,3/0/0
+Owen Jackson,Sylvaneth,3/0/0
+Karl Breakspear,Nighthaunt,2/0/1
+Matthew Gouldesbrough,Legion of Blood,2/0/1
+Phil Andreev,Tzeentch Arcanites,2/0/1
+Jake Powis,Sylvaneth,2/0/1
+Michael wills,Legions of Nagash,2/0/1
+Lee Whitely,Blades of Khorne,2/0/1
+Andy Green,Stormcast Eternals,2/0/1
+Simon Fro,Mixed,2/0/1
+John Burgess,Blades of Khorne,2/0/1
+Alasdair Hutchinson,Moonclan Grots,1/0/2
+James Grant,Stormcast Eternals,1/0/2
+Ian Tong,Flesh Eater Courts,1/0/2
+Ben Gomm,Nighthaunt,1/0/2
+Dave carter,Nighthaunt,1/0/2
+Alex Ley,Sylvaneth,1/0/2
+Ming Leu,Moonclan Grots,1/0/2
+Matthew walker,Idoneth Deepkin,1/0/2
+Tom Gilboy,Mixed,1/0/2
+Sebastian Del Monte,Moonclan Grots,0/0/3
+Murillo Titon de Souza,Tzeentch Arcanites,0/0/3
+Hugh Wyeth,Stormcast Eternals,0/0/3

@@ -1,33 +1,17 @@
-NEW_EVENT_TAG,AOS April,15-04-2018,5
-Ethan McDonald,UNKNOWN_ARMY,0/0/0
-Matt Campbell,UNKNOWN_ARMY,0/0/0
-Dan Brewer,UNKNOWN_ARMY,0/0/0
-Nishan Aratoon,UNKNOWN_ARMY,0/0/0
-Chris tot,UNKNOWN_ARMY,0/0/0
-Zac Wilson,UNKNOWN_ARMY,0/0/0
-Ben Spinetti,UNKNOWN_ARMY,0/0/0
-Ashley McEwan,UNKNOWN_ARMY,0/0/0
-Scott Norwood,UNKNOWN_ARMY,0/0/0
-Zac Li,UNKNOWN_ARMY,0/0/0
-Nathan princi,UNKNOWN_ARMY,0/0/0
-Jack Hendry,UNKNOWN_ARMY,0/0/0
-Brody B,UNKNOWN_ARMY,0/0/0
-Pancake (Tom),UNKNOWN_ARMY,0/0/0
-Anthony Magro,UNKNOWN_ARMY,0/0/0
-Peter Pretyman,UNKNOWN_ARMY,0/0/0
-Ethan McDonald,Chris tot,Ethan McDonald,Ben Spinetti,Ethan McDonald,Zac Li
-Matt Campbell,Ashley McEwan,Matt Campbell,Jack Hendry,Matt Campbell,Scott Norwood
-Dan Brewer,Brody B,Chris tot,Dan Brewer,Dan Brewer,Zac Wilson
-Nishan Aratoon,Jack Hendry,Ashley McEwan,Nishan Aratoon,Nishan Aratoon,Tom Branford
-Ethan McDonald,Chris tot,Chris tot,Dan Brewer,Chris tot,Nathan princi
-Zac Wilson,Tom Branford,Zac Wilson,Anthony Magro,Dan Brewer,Zac Wilson
-Ben Spinetti,Scott Norwood,Ethan McDonald,Ben Spinetti,Ben Spinetti,Peter Pretyman
-Matt Campbell,Ashley McEwan,Ashley McEwan,Nishan Aratoon,Ashley McEwan,Anthony Magro
-Ben Spinetti,Scott Norwood,Scott Norwood,Peter Pretyman,Matt Campbell,Scott Norwood
-Zac Li,Peter Pretyman,Tom Branford,Zac Li,Ethan McDonald,Zac Li
-Nathan princi,Anthony Magro,Brody B,Nathan princi,Chris tot,Nathan princi
-Nishan Aratoon,Jack Hendry,Matt Campbell,Jack Hendry,Jack Hendry,Brody B
-Dan Brewer,Brody B,Brody B,Nathan princi,Jack Hendry,Brody B
-Zac Wilson,Tom Branford,Tom Branford,Zac Li,Nishan Aratoon,Tom Branford
-Nathan princi,Anthony Magro,Zac Wilson,Anthony Magro,Ashley McEwan,Anthony Magro
-Zac Li,Peter Pretyman,Scott Norwood,Peter Pretyman,Ben Spinetti,Peter Pretyman
+NEW_EVENT_TAG,AOS April,15-04-2018,3
+Ethan McDonald,Mixed,3/0/0
+Matt Campbell,Daemons Of Khorne,3/0/0
+Dan Brewer,Skaven,2/0/1
+Nishan Aratoon,Sylvaneth,2/0/1
+Chris tot,Thunderscorn,2/0/1
+Zac Wilson,Seraphon,2/0/1
+Ben Spinetti,Dispossessed,2/0/1
+Ashley McEwan,Ironjawz,2/0/1
+Scott Norwood,Tzeentch Arcanites,1/0/2
+Zac Li,Daughters Of Khaine,1/0/2
+Nathan princi,Khorne Bloodbound,1/0/2
+Jack Hendry,Beastclaw Raiders,1/0/2
+Brody B,Seraphon,1/0/2
+Pancake (Tom),Sylvaneth,1/0/2
+Anthony Magro,Mixed,0/0/3
+Peter Pretyman,Brayherd,0/0/3
