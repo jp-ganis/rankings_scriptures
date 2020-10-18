@@ -6,3 +6,8 @@ poppler/*
 concattedtomes.txt
 metabreakers/*
 metabreakers
+nocors*
+nocors-data-dir/*
+input_data_files/tablesoup_data/END*
+__ignore*
+ALLELOS.txt
