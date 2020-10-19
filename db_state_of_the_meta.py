@@ -538,6 +538,23 @@ def populate_3month_tiers(db):
 	if 'tiers' in db.tables: db['tiers'].drop()
 	db['tiers'].insert_many(inserts)
 		
+def fec_matchups(db):
+	statement = f'SELECT DISTINCT winner_faction, loser_faction, winner_name, loser_name FROM game join event ON game.event_id = event.id WHERE (loser_faction="Flesh Eater Courts" or winner_faction="Flesh Eater Courts") AND date > "2020-01-01"'
+	rows = db.query(statement)
+	
+	matchups = defaultdict(list)
+	
+	for row in rows:
+		if "Flesh" in row['winner_faction']: matchups[row['loser_faction']].append(1)
+		else: matchups[row['winner_faction']].append(0)
+		
+	matchups = {k:v for k,v in sorted(matchups.items(), key=lambda i: sum(i[1])/len(i[1]), reverse=True) if "Flesh" not in k}
+		
+	print()
+	for m in matchups:
+		if len(matchups[m]) < 10: continue
+		print(f'\t{m:35} {int(sum(matchups[m])/len(matchups[m])*100)}%\t\t{sum(matchups[m]):3}-{len(matchups[m]) - sum(matchups[m])}')
+	print()
 		
 	
 	
@@ -547,7 +564,7 @@ if __name__ == '__main__':
 	
 	# populate_ladder_table(db)
 	# populate_tier_table(db)
-	populate_3month_tiers(db)
+	# populate_3month_tiers(db)
 	
 	# simulate_filth_proportions(db, "1 Jul 2020", "1 Nov 2020", 220, 5, 0)
 	
@@ -558,3 +575,5 @@ if __name__ == '__main__':
 		# print(f, loca_tier[f])
 	
 	# get_tier_list_for_date(db, "1 Jun 2020")
+	
+	fec_matchups(db)

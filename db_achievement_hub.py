@@ -437,7 +437,7 @@ def thin_achievements_file(achievements):
 	for player in achievements:
 		for achi_id in achievements[player]:
 			if achi_id == "total_score": continue
-			achievements[player][achi_id] = {k: achievements[player][achi_id][k] for k in ["id", "complete", "event_and_date"]}
+			achievements[player][achi_id] = {k: achievements[player][achi_id][k] for k in ["id", "complete", "event_and_date", "points"]}
 			
 	return achievements
 			
