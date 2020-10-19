@@ -12,7 +12,7 @@ import json
 import glob
 import csv
 
-def get_gaussian_scores_for_finish(position, num_players, rounds):
+def get_gaussian_score_for_finish(position, num_players, rounds):
 	scores = []
 	
 	pts_scaler = 100
@@ -123,20 +123,64 @@ def populate_tier_table(db):
 	statement = f'SELECT DISTINCT player, faction, position, num_players, event_name, date, rounds FROM ladder_position ORDER BY date'
 	all_positions = list(db.query(statement))
 	
-	scores = defaultdict(list)
+	factions = {}
 	inserts = []
 	
-	for counter,lp in enumerate(all_positions):
+	for counter,lp in enumerate(all_positions[-5000:]):
 		print(counter,len(all_positions), end='\r')
 		rounds = int(lp['rounds'])
 		if rounds < 5: continue
 		
-		s = get_gaussian_scores_for_finish(lp['position'], lp['num_players'], rounds)
+		f = lp['faction']
+		date = dp.parse(lp['date'])
 		
-		scores[lp['faction']].append(s)
-		window_mean = statistics.mean( scores[lp['faction']][-10:] )
+		if date > datetime.datetime.now(): continue
 		
-		inserts.append(dict( faction=lp['faction'], score=window_mean, count=len(scores[lp['faction']]), date=lp['date'] ))
+		if f not in factions:
+			factions[f] = dict(scores=[], tier='a', tier_score=0)
+		
+		factions[f]["scores"].append( dict(value=get_gaussian_score_for_finish(lp['position'], lp['num_players'], rounds), date=date ))
+		factions[f]["tier_score"] = statistics.mean( [v['value'] for v in factions[f]["scores"][-10:]] )
+		
+		if len(factions[f]["scores"]) > 10:
+			td = date - factions[f]["scores"][-10]['date']
+			
+			if td > datetime.timedelta(days=60):
+				continue
+		
+		current_mean = statistics.mean( [factions[g]["tier_score"] for g in factions] )
+		
+		if len([factions[g]["tier_score"] for g in factions]) > 1:
+			current_sd = statistics.stdev( [factions[g]["tier_score"] for g in factions] )
+		else:
+			current_sd = 10
+		
+		current_max = max( [factions[g]["tier_score"] for g in factions] )
+		current_min = min( [factions[g]["tier_score"] for g in factions] )
+		
+		ts = factions[f]['tier_score']
+		
+		## top down
+		if ts > current_max - current_sd*0.5:
+			tier = 's'
+		elif ts > current_mean + current_sd*0.5:
+			tier = 'a'
+		elif ts > current_mean:
+			tier = 'b'
+		## bottom up
+		elif ts < current_min + current_sd*0.5:
+			tier = 'e'
+		elif ts < current_mean - current_sd*0.5:
+			tier = 'd'
+		elif ts < current_mean:
+			tier = 'c'
+		
+		factions[f]['tier'] = tier
+		
+		inserts.append(dict( faction=f, tier=tier, score=ts, date=date+datetime.timedelta(days=3) ))
+		
+	for f in factions:
+		print(f'{f:35} {factions[f]["tier"]}')
 		
 	if 'tiers' in db.tables: db['tiers'].drop()
 	db['tiers'].insert_many(inserts)
@@ -268,33 +312,45 @@ def get_tier_list_for_factions(db, factions=None, date=datetime.datetime.now()):
 	
 	return s
 
-def get_named_tiers(db, date):
+def get_named_tiers(db, date, factions=None):
 	tier_scores = get_tier_list_for_factions(db, date=date)
+	
+	if factions != None:
+		for faction in factions:
+			tier_scores[faction] = get_score_for_date(db, faction, date)
 
 	mean = statistics.mean( list(tier_scores.values()) )
 	std = statistics.stdev( list(tier_scores.values()) )
 	smax = max(tier_scores.values())
 	smin = min(tier_scores.values())
 	
-	tiers = {t:[] for t in ['s','a','b','c']}
+	tiers = {t:[] for t in 'sabcde'}
 	ftiers = {f:None for f in tier_scores}
 	
 	for f in tier_scores:
 		s = tier_scores[f]
 		
-		if s >= smax - std:
+		## top
+		if s >= smax - std*0.5:
 			tiers['s'].append(f)
 			ftiers[f] = 's'
-		elif s >= mean:
+		elif s >= mean + std*0.5:
 			tiers['a'].append(f)
 			ftiers[f] = 'a'
-		elif s < smin + std:
-			tiers['c'].append(f)
-			ftiers[f] = 'c'
-		elif s < mean:
+		elif s >= mean:
 			tiers['b'].append(f)
 			ftiers[f] = 'b'
-	
+		
+		## bottom
+		elif s < smin + std*0.5:
+			tiers['e'].append(f)
+			ftiers[f] = 'e'
+		elif s < mean - std*0.5:
+			tiers['d'].append(f)
+			ftiers[f] = 'd'
+		elif s < mean:
+			tiers['c'].append(f)
+			ftiers[f] = 'c'
 	
 	print()
 	for t in tiers:
@@ -303,9 +359,10 @@ def get_named_tiers(db, date):
 		
 		for f in tiers[t]:
 			print(f'\t\t{f:25} {int(tier_scores[f])}')
-	print()
 			
-	return ftiers
+	# print()
+	
+	return ftiers, tiers
 	
 def simulate_filth_proportions(db, earliest, latest, num_players, rounds, wins=None):
 	earliest = dp.parse(earliest)
@@ -344,6 +401,17 @@ def simulate_filth_proportions(db, earliest, latest, num_players, rounds, wins=N
 			player_wins += pattern[g]
 		
 	print(len(rows))
+	
+	all_factions = []
+	
+	for w in appearances:
+		for i in appearances[w]:
+			all_factions += [r['faction'] for r in appearances[w][i]]
+				
+	
+	all_factions = list(set(all_factions))
+	_, tiers = get_named_tiers(db, latest)
+	
 	for w in appearances:
 		for i in appearances[w]:
 			print(f'Num Wins: {w}\tRound: {i+1}\tPossible Opponents: {len(appearances[w][i])}')
@@ -354,10 +422,124 @@ def simulate_filth_proportions(db, earliest, latest, num_players, rounds, wins=N
 			
 			for f in counts:
 				print(f'\t{f:35} {counts[f]*100:.1f}%')
-			
-	
-	
 
+def quadrants(db, earliest, latest):
+	earliest = dp.parse(earliest)
+	latest = dp.parse(latest)
+	
+	statement = f'SELECT DISTINCT player, faction, position, num_players, sim_wins, event_name, date, rounds FROM ladder_position WHERE date > "{earliest}" AND date < "{latest}"'
+	rows = list(db.query(statement))
+	
+	wins = defaultdict(list)
+	counts = defaultdict(int)
+	
+	for r in rows:
+		wins[r['faction']].append(r['sim_wins'])
+		counts[r['faction']] += 1
+		
+	m_wins = statistics.mean([ statistics.mean(wins[f]) for f in wins ])
+	m_count = statistics.mean([counts[f] for f in wins])
+	
+	qs = {}
+	for f in wins:
+		x = statistics.mean(wins[f]) - m_wins
+		y = counts[f]-m_count 
+		
+		quadrant = 1
+		
+		if x > 0 and y > 0: quadrant = 1
+		if x > 0 and y < 0: quadrant = 2
+		if x < 0 and y < 0: quadrant = 3
+		if x < 0 and y > 0: quadrant = 4
+		
+		qs[f] = quadrant
+	
+	qs = {k:v for k,v in sorted(qs.items(),key=lambda i:i[1])}
+		
+	for f in qs:
+		q = qs[f]
+		
+		if q == 1:
+			print(f'Powerful and Popular & {f}\\\\')
+		if q == 2:
+			print(f'Powerful and Unpopular & {f}\\\\')
+		if q == 4:
+			print(f'Weak and Popular & {f}\\\\')
+		if q == 3:
+			print(f'Weak and Unopular & {f}\\\\')
+		
+def populate_3month_tiers(db):
+	date = dp.parse('1-Jan-2016')
+	window = datetime.timedelta(days=93)
+	
+	inserts = []
+	prevtier = defaultdict(str)
+	
+	min_games = 10
+	
+	statement = 'SELECT DISTINCT faction FROM ladder_position'
+	all_factions = db.query(statement)
+	all_factions = [f['faction'] for f in all_factions]
+	
+	while date < datetime.datetime.now():
+		print(date)
+		statement = f'SELECT DISTINCT player, faction, position, num_players, event_name, date, rounds FROM ladder_position WHERE date > "{date}" AND date < "{date+window}"'
+		rows = db.query(statement)
+		
+		fscores = defaultdict(list)
+		
+		for r in rows:
+			f = r['faction']
+			fscores[f].append(get_gaussian_score_for_finish(r['position'], r['num_players'], r['rounds']))	
+			
+		if len(fscores) < 2: continue
+		
+		means = [statistics.mean( fscores[g] ) for g in fscores if len(fscores[g]) > min_games]
+		
+		if len(means) > 1:			
+			current_mean = statistics.mean( means )
+			current_sd = statistics.stdev( means )
+			
+			current_max = max( means )
+			current_min = min( means )
+			
+		day_date = date
+		while day_date < date + window:
+			if day_date+window > datetime.datetime.now(): break
+				
+			for f in all_factions:
+				if len(fscores[f]) < min_games or len(means) < 1:
+					tier = prevtier[f]
+				else:				
+					ts = statistics.mean( fscores[f] )
+					
+					## top down
+					if ts > current_max - current_sd*0.5:
+						tier = 's'
+					elif ts > current_mean + current_sd*0.5:
+						tier = 'a'
+					elif ts > current_mean:
+						tier = 'b'
+					## bottom up
+					elif ts < current_min + current_sd*0.5:
+						tier = 'e'
+					elif ts < current_mean - current_sd*0.5:
+						tier = 'd'
+					elif ts < current_mean:
+						tier = 'c'
+				
+					prevtier[f] = tier
+				
+				inserts.append(dict( faction=f, tier=tier, date=day_date, count=len(fscores[f])))
+			day_date += datetime.timedelta(days=1)
+	
+		date += window
+		
+	if 'tiers' in db.tables: db['tiers'].drop()
+	db['tiers'].insert_many(inserts)
+		
+		
+	
 	
 if __name__ == '__main__':	
 	db = dataset.connect("sqlite:///__tinydb.db")
@@ -365,9 +547,14 @@ if __name__ == '__main__':
 	
 	# populate_ladder_table(db)
 	# populate_tier_table(db)
+	populate_3month_tiers(db)
 	
-	simulate_filth_proportions(db, "1 Jan 2020", "1 Nov 2020", 220, 5, 3)
+	# simulate_filth_proportions(db, "1 Jul 2020", "1 Nov 2020", 220, 5, 0)
 	
+	# quadrants(db, '1 Jan 2020', '1 Nov 2020')
 	
+	# loca_tier,_ = get_named_tiers(db, '1 Nov 2020', ["Nighthaunt"])
+	# for f in loca_tier:
+		# print(f, loca_tier[f])
 	
 	# get_tier_list_for_date(db, "1 Jun 2020")

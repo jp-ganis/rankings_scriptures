@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
 import dateutil.parser as dp
 from shutil import copyfile
-import check_aliases
+import db_state_of_the_meta
+import db_check_aliases
 import Levenshtein
 import requests
 import dataset
@@ -26,7 +27,7 @@ def get_aos_urls():
 				if "Age of Sigmar" in m:
 					json_data = json.loads(m)
 					
-					if json_data['attendee_count'] < 16: continue
+					if json_data['attendee_count'] < 6: continue
 					
 					event_urls.append(json_data['custom_url'])
 	return event_urls
@@ -128,8 +129,8 @@ def get_smart_tto_data(db):
 				names = [e.strip() for e in first_split if e != None and "Round" not in e and "def." not in e and "tied with" not in e and e.strip() != '']
 
 				for n in range(0, len(names), 2):
-					w_player = check_aliases.predefined_aliases(names[n])
-					l_player = check_aliases.predefined_aliases(names[n+1])
+					w_player = db_check_aliases.predefined_aliases(names[n])
+					l_player = db_check_aliases.predefined_aliases(names[n+1])
 					
 					if w_player not in player_faction_data:
 						w_player = min([(x, Levenshtein.distance(x, w_player)) for x in player_faction_data],key=lambda i:i[1])[0]
@@ -137,8 +138,8 @@ def get_smart_tto_data(db):
 					if l_player not in player_faction_data:
 						l_player = min([(x, Levenshtein.distance(x, l_player)) for x in player_faction_data],key=lambda i:i[1])[0]
 					
-					w_faction = check_aliases.predefined_faction_aliases( player_faction_data[w_player] )
-					l_faction = check_aliases.predefined_aliases( player_faction_data[l_player] )
+					w_faction = db_check_aliases.predefined_faction_aliases( player_faction_data[w_player] )
+					l_faction = db_check_aliases.predefined_aliases( player_faction_data[l_player] )
 
 					w_kp = 0
 					l_kp = 0

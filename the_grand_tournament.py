@@ -61,7 +61,7 @@ def attack(unit_a, unit_b):
 		ds[n] /= iters
 							
 	# print(f'{unit_a["unit name"]:35} {int(ds[0]):10}\tvs\t{unit_b["unit name"]:35} {int(ds[1]):10}')	
-	return ds[0] > ds[1]
+	return ds[0] > ds[1], ds[0]
 	
 def all_v_all(data):
 	wins = {d["unit name"]:0 for d in data if d["unit name"] != gotrek}
@@ -175,22 +175,23 @@ if __name__ == '__main__':
 	ddict = {d["unit name"]: d for d in data}
 	
 	import re
+	failures = []
 	with open('scrollodrome.txt', encoding='utf-8') as file:	
 		for l in file.readlines():
-			m = re.findall(r'Player Name: (.*)<b', l)
-			n = re.findall(r'Achievement ID: (.*)<', l)
-			o = re.findall(r'EVENT_NAME=([\w|\s]+)\, ', l)
+			try:
+				m = re.findall(r'Player Name: (.*)<b', l)
+				n = re.findall(r'Achievement ID: (.*)</div', l)
+				o = re.findall(r'EVENT_NAME=<<(.*)>en>', l)
+				date = re.findall(r'EVENT_DATE=<<(.*)>ey>', l)
+				
+				print(f'complete_achievement( a["{m[0]}"]["{n[0]}"], "{o[0]}", "{date[0]}" )')
+			except Exception as e:
+				print(len(failures))
+				failures.append(f'{type(e)} {e} {l}')
+				
+		print()
+		for f in failures:
+			print(f)
 			
-			if len(o) < 1: ost = "Some Event Somewhere"
-			else: ost = o[0]
-			
-			date = "06-06-2019"
-			
-			for g in [m,n,o]:
-				try:
-					print(f'{g[60]:45}', end=' || ')
-				except:
-					continue
-			print(f'complete_achievement( a["{m[0]}"]["{n[0]}"], "{ost}", "{date}" )')
 		
 		

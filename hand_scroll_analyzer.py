@@ -23,6 +23,7 @@ def per_unit_analysis(X, Y, lookup):
 	pts = {}
 
 	for i in range(len(X)):
+		print(i,len(X),end='\r')
 		X_test = np.array([X[i]])
 		y_test = np.array([Y[i]])
 		
@@ -368,12 +369,21 @@ if __name__ == '__main__':
 	
 	factions = ["beasts", "cities", "daughters", "flesh-eater", "fyreslayer", "gitz", "deepkin", "kharadron", "khorne", "legions", "lumineth", "nighthaunt", "nurgle", "mawtribes", "orruk", "ossiarch", "seraphon", "skaven", "slaanesh", "slaves to darkness", "stormcast", "sylvaneth"]
 		
+		
 	xfaction = []
 	if "x" in sys.argv:
 		xfaction = [sys.argv[1]]
 		
 	X, Y, lookup, fnames, excl_X, excl_Y = create_data_rows(data, xfaction)
 	
+	pts = per_unit_analysis(X,Y,lookup)
+	for p in pts:
+		pts[p].append(data_dict[p]["points"])
+		pts[p].append(data_dict[p]["keywords"])
+	
+	with open(f'output_data_files/listbot_unit_points.json', 'w') as json_file:
+		json.dump(pts, json_file)
+		
 	if "fc" in sys.argv:
 		
 		damages = {}

@@ -1,5 +1,6 @@
 from collections import defaultdict
 import dateutil.parser as dp
+import db_state_of_the_meta
 import listbot_data_dicts
 import spot_achievements
 import db_check_aliases
@@ -7,6 +8,7 @@ import event_landscape
 import gaussian_fitter
 import dataset
 import os.path
+import random
 import json
 import glob
 
@@ -85,6 +87,7 @@ def initialize_achievement_data(db):
 		wfactions["Cities Of Sigmar"] = dict(id="from_now_on_we_will_travel_in_tubes", title="From Now On We Will Travel In Tubes!")
 		wfactions["Bonesplitterz"] = dict(id="oh_you_brought_a_monster", title="Oh, you brought a monster?")
 		wfactions["Sylvaneth"] = dict(id="branching_out", title="Branching Out")
+		##########
 		
 		for f in factions:
 			a[p][factions[f]] = {"id":factions[f], "category":"matchups", "points":10}
@@ -93,9 +96,13 @@ def initialize_achievement_data(db):
 			a[p][wfactions[f]["id"]] = {"id":wfactions[f]["id"], "title":wfactions[f]["title"], "description": f'Win a game as {f}', "category":"matchups", "points":10}
 			wfactions[f] = wfactions[f]["id"]
 			
-
 		## faction_tiers
 		a[p]["at_all_costs"] = {"id":"at_all_costs", "category": "faction_tiers", "points":10}
+		
+		a[p]["above_average"] = {"id":"above_average", "title":"Above Average", "description": "Play an A tier army at an Age of Sigmar Event", "category":"faction_tiers", "points":10}
+		a[p]["below_budget"] = {"id":"below_budget", "title":"Below Budget", "description": "Play a B tier army at an Age of Sigmar Event", "category":"faction_tiers", "points":10}
+		a[p]["can_cope"] = {"id":"can_cope", "title":"Can Cope", "description": "Play a C tier army at an Age of Sigmar Event", "category":"faction_tiers", "points":10}
+		
 		a[p]["challenge_mode"] = {"id":"challenge_mode", "category": "faction_tiers", "points":10}
 		
 		## general
@@ -186,7 +193,8 @@ def populate_achievement_data(achievements, db, defeat_achis, victory_achis):
 	asf_armies = ["Slaanesh", "Idoneth Deepkin", "Fyreslayers", "Courts"]
 	event_counts = defaultdict(int)
 
-	for p in achievements:
+	for ccounter,p in enumerate(achievements):
+		print(f'{ccounter}/{len(achievements)} players processed...',end='\r')
 		if "\"" in p: continue
 		count_6n = set({})
 		
@@ -339,18 +347,19 @@ def populate_achievement_data(achievements, db, defeat_achis, victory_achis):
 				
 		
 	## faction tiers
+	print("Loading ladder data...")
 	with open("output_data_files/recent_events/datahub_event_data.json", newline='', encoding='utf-8') as json_file:
 		edata = json.load(json_file)
 	edata.reverse()
 	edata = event_landscape.populate_event_tier_lists(edata)
 		
-	for e in edata:
+	print()
+	print("Processing ladder data...")
+	for ccounter,e in enumerate(edata):
+		print(f'{ccounter}/{len(edata)} events processed...',end='\r')
 		date = dp.parse(e["std_date"])
 		event = e["name"]
 		a_date = f'{event} - {date.strftime("%B %Y")}'
-		
-		tl = {k:v for k,v in sorted(e["tier_list"].items(),key=lambda i:i[1],reverse=True)}
-		if len(tl) < 20: continue
 		
 		for n,p in enumerate(e["ladder"]):
 			name = db_check_aliases.predefined_aliases(p["player_name"])
@@ -362,19 +371,36 @@ def populate_achievement_data(achievements, db, defeat_achis, victory_achis):
 				achievements[name][victory_achis[fff]]["event_and_date"] = a_date
 			
 			##faction_tiers
-			if p["faction"] in tl:	
-				for n,t in enumerate(tl):
-					if t in ["-", "UNKNOWN_ARMY"]: continue
-					if t == p["faction"] and n < 3:
-						achievements[name]["at_all_costs"]["event_and_date"] = a_date
+			pf = p['faction']
+			if pf not in ["-", "Unknown_Army", "Mixed"]:
+				statement = f'SELECT DISTINCT tier FROM tiers WHERE faction="{pf}" AND date < date("{date}", "+1 day") AND date > date("{date}", "-1 day")'
+				rows = list(db.query(statement))
+				
+				if len(rows) == 0: continue
+				pft = rows[0]['tier']
+				
+				f_date = f'{event} - {pf} - {date.strftime("%B %Y")}'
+				
+				if pft == "s":
+					achievements[name]["at_all_costs"]["event_and_date"] = f_date
+					
+				elif pft == "a":
+					achievements[name]["above_average"]["event_and_date"] = f_date
+				elif pft == "b":
+					achievements[name]["below_budget"]["event_and_date"] = f_date
+				elif pft == "c":
+					achievements[name]["can_cope"]["event_and_date"] = f_date
+					
+				elif pft in 'def':
+					achievements[name]["challenge_mode"]["event_and_date"] = f_date
 
-					if t == p["faction"] and n > len(tl) - 3:
-						achievements[name]["challenge_mode"]["event_and_date"] = a_date
-
+	print()
 	return achievements
 		
 def update_achievement_complete_status(achievements):
-	for p in achievements:
+	for ccounter,p in enumerate(achievements):
+		print(f'{ccounter}/{len(achievements)} players processed...',end='\r')
+		
 		achievements[p]["total_score"] = 0
 		for a in achievements[p]:
 			if a == "total_score": continue
@@ -386,7 +412,7 @@ def update_achievement_complete_status(achievements):
 				achievements[p]["total_score"] += achievements[p][a]["points"]
 				
 			
-			
+	print()	
 	return achievements
 	
 def setup_photoshop_variables(achievements):
@@ -405,19 +431,54 @@ def setup_photoshop_variables(achievements):
 			
 			if image_exists: continue
 			print("photo needed for", id)
-			file.write(f'\"{a["description"]}\",photoshop_icons/{id}.png,{a["points"]},\"{a["title"]}\"\n')
+			file.write(f'\"{a["description"]}\",C:/Users/James/Desktop/rankings_scriptures/photoshop_icons/{id}.png,{a["points"]},\"{a["title"]}\"\n')
+
+def thin_achievements_file(achievements):
+	for player in achievements:
+		for achi_id in achievements[player]:
+			if achi_id == "total_score": continue
+			achievements[player][achi_id] = {k: achievements[player][achi_id][k] for k in ["id", "complete", "event_and_date"]}
+			
+	return achievements
+			
+
+#### When Adding a New Achievement:
+## add definition to initialize_achievement_data
+## add completion code to populate_achievement_data
+## run this file
+## download an image and put it in photoshop_icons/, where you can use the script to resize it to 40x40
+## use photoshop variables file to create photoshop icon
+## run add_incomplete*.py to create grayscale image
 
 if __name__ == '__main__':
 	db = dataset.connect("sqlite:///__tinydb.db")
 	
+	print()
+	print("Initializing achievement data...")
 	a, factions, wfactions = initialize_achievement_data(db)
+	
+	print()
+	print("Finding completed achievements...")
 	a = populate_achievement_data(a, db, factions, wfactions)
+	
+	print()
+	print("Updating achievement completion status...")
 	a = update_achievement_complete_status(a)
 	
+	print()
+	print("Setting up photoshop variables...")
 	setup_photoshop_variables(a)
 	
+	print()
+	print("Applying spot achievements...")
 	a = spot_achievements.update_achievements_table(a);
 	
+	print()
+	print("Thinning the insane table setup...")
+	a = thin_achievements_file(a)
+	
+	print()
+	print("Sorting by score...")
 	a = {k:v for k,v in sorted(a.items(), key=lambda i: i[1]["total_score"], reverse=True)}
 	
 	confirm = input("overwrite metabreakers data file? y/n ")
